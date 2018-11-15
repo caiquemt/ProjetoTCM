@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaSplash));
             this.pbSplash = new System.Windows.Forms.ProgressBar();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.lbCarregamento = new System.Windows.Forms.Label();
+            this.lbCarregando = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lblCarregar = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -44,8 +47,10 @@
             this.pbSplash.Location = new System.Drawing.Point(152, 232);
             this.pbSplash.Name = "pbSplash";
             this.pbSplash.Size = new System.Drawing.Size(422, 27);
+            this.pbSplash.Step = 30;
+            this.pbSplash.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.pbSplash.TabIndex = 0;
-            this.pbSplash.Click += new System.EventHandler(this.progressBar1_Click);
+            this.pbSplash.Click += new System.EventHandler(this.pbSplash_Click);
             // 
             // pictureBox1
             // 
@@ -63,8 +68,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumTurquoise;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblCarregar);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.lbCarregamento);
+            this.panel1.Controls.Add(this.lbCarregando);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pbSplash);
             this.panel1.Location = new System.Drawing.Point(2, 3);
@@ -83,16 +89,30 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Bem vindo(a) ao ClinDoc!";
             // 
-            // lbCarregamento
+            // lbCarregando
             // 
-            this.lbCarregamento.AutoSize = true;
-            this.lbCarregamento.Font = new System.Drawing.Font("Monotype Corsiva", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCarregamento.Location = new System.Drawing.Point(312, 262);
-            this.lbCarregamento.Name = "lbCarregamento";
-            this.lbCarregamento.Size = new System.Drawing.Size(79, 17);
-            this.lbCarregamento.TabIndex = 2;
-            this.lbCarregamento.Text = "carregando ...";
-            this.lbCarregamento.Click += new System.EventHandler(this.label1_Click);
+            this.lbCarregando.AutoSize = true;
+            this.lbCarregando.Font = new System.Drawing.Font("Monotype Corsiva", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCarregando.Location = new System.Drawing.Point(312, 262);
+            this.lbCarregando.Name = "lbCarregando";
+            this.lbCarregando.Size = new System.Drawing.Size(82, 17);
+            this.lbCarregando.TabIndex = 2;
+            this.lbCarregando.Text = "Carregando ...";
+            this.lbCarregando.Click += new System.EventHandler(this.lblCarregando_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // lblCarregar
+            // 
+            this.lblCarregar.AutoSize = true;
+            this.lblCarregar.Font = new System.Drawing.Font("Monotype Corsiva", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCarregar.Location = new System.Drawing.Point(149, 262);
+            this.lblCarregar.Name = "lblCarregar";
+            this.lblCarregar.Size = new System.Drawing.Size(25, 17);
+            this.lblCarregar.TabIndex = 4;
+            this.lblCarregar.Text = "0%";
             // 
             // telaSplash
             // 
@@ -118,8 +138,10 @@
         private System.Windows.Forms.ProgressBar pbSplash;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lbCarregamento;
+        private System.Windows.Forms.Label lbCarregando;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lblCarregar;
     }
 }
 

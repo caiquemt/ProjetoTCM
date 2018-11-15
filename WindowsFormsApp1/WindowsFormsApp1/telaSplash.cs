@@ -29,15 +29,16 @@ namespace WindowsFormsApp1
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+            timer1.Start();
 
         }
 
-        private void progressBar1_Click(object sender, EventArgs e)
+        private void pbSplash_Click(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void lblCarregando_Click(object sender, EventArgs e)
         {
 
         }
@@ -50,6 +51,19 @@ namespace WindowsFormsApp1
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            pbSplash.Increment(1);
+            lblCarregar.Text = pbSplash.Value.ToString() + "%";
+
+            if(pbSplash.Value == 99)
+            {
+                this.Hide();
+                telaMenu Menu = new telaMenu();
+                Menu.Show();
+            }
         }
     }
 }

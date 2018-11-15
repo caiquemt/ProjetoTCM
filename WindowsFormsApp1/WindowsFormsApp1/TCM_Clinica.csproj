@@ -47,12 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="telaCadastroDeProduto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="telaCadastroDeProduto.Designer.cs">
-      <DependentUpon>telaCadastroDeProduto.cs</DependentUpon>
-    </Compile>
     <Compile Include="telaCadastroDoFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,9 +121,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="telaCadastroDeProduto.resx">
-      <DependentUpon>telaCadastroDeProduto.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="telaCadastroDoFuncionario.resx">
       <DependentUpon>telaCadastroDoFuncionario.cs</DependentUpon>
     </EmbeddedResource>

@@ -358,11 +358,11 @@
             // 
             this.lbDataNascimento.AutoSize = true;
             this.lbDataNascimento.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lbDataNascimento.Location = new System.Drawing.Point(3, 91);
+            this.lbDataNascimento.Location = new System.Drawing.Point(3, 88);
             this.lbDataNascimento.Name = "lbDataNascimento";
-            this.lbDataNascimento.Size = new System.Drawing.Size(156, 19);
+            this.lbDataNascimento.Size = new System.Drawing.Size(157, 19);
             this.lbDataNascimento.TabIndex = 2;
-            this.lbDataNascimento.Text = "Data de nascimento";
+            this.lbDataNascimento.Text = "Data de Nascimento";
             // 
             // lbLogrado
             // 
