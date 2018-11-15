@@ -123,6 +123,7 @@
             this.btnSalvarCadastro.TabIndex = 8;
             this.btnSalvarCadastro.Text = "Salvar";
             this.btnSalvarCadastro.UseVisualStyleBackColor = true;
+            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
             // 
             // txtDataCadastro
             // 

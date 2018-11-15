@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.dominio;
 
 namespace WindowsFormsApp1
 {
@@ -89,6 +90,12 @@ namespace WindowsFormsApp1
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSalvarCadastro_Click(object sender, EventArgs e)
+        {
+            Funcionario funcionario = new Funcionario();
+            funcionario.exibirValores();
         }
     }
 }

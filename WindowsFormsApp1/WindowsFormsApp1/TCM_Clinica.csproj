@@ -47,114 +47,130 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="telaCadastroDoFuncionario.cs">
+    <Compile Include="controlador\controladorConsulta.cs" />
+    <Compile Include="controlador\controladorEstoque.cs" />
+    <Compile Include="controlador\controladorFuncionario.cs" />
+    <Compile Include="controlador\controladorMedico.cs" />
+    <Compile Include="controlador\controladorPaciente.cs" />
+    <Compile Include="dominio\Consulta.cs" />
+    <Compile Include="dominio\Estoque.cs" />
+    <Compile Include="dominio\Funcionario.cs" />
+    <Compile Include="dominio\Medico.cs" />
+    <Compile Include="dominio\Paciente.cs" />
+    <Compile Include="fecharAbrirMenus.cs" />
+    <Compile Include="repositorio\repositorioConsulta.cs" />
+    <Compile Include="repositorio\repositorioEstoque.cs" />
+    <Compile Include="repositorio\repositorioFuncionario.cs" />
+    <Compile Include="repositorio\repositorioMedico.cs" />
+    <Compile Include="repositorio\repositorioPaciente.cs" />
+    <Compile Include="telas\telaCadastroDoFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaCadastroDoFuncionario.Designer.cs">
+    <Compile Include="telas\telaCadastroDoFuncionario.Designer.cs">
       <DependentUpon>telaCadastroDoFuncionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaAgenda.cs">
+    <Compile Include="telas\telaAgenda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaAgenda.Designer.cs">
+    <Compile Include="telas\telaAgenda.Designer.cs">
       <DependentUpon>telaAgenda.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaConsulta.cs">
+    <Compile Include="telas\telaConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaConsulta.Designer.cs">
+    <Compile Include="telas\telaConsulta.Designer.cs">
       <DependentUpon>telaConsulta.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaMenu.cs">
+    <Compile Include="telas\telaMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaMenu.Designer.cs">
+    <Compile Include="telas\telaMenu.Designer.cs">
       <DependentUpon>telaMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaMédico.cs">
+    <Compile Include="telas\telaMédico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaMédico.Designer.cs">
+    <Compile Include="telas\telaMédico.Designer.cs">
       <DependentUpon>telaMédico.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaPaciente.cs">
+    <Compile Include="telas\telaPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaPaciente.Designer.cs">
+    <Compile Include="telas\telaPaciente.Designer.cs">
       <DependentUpon>telaPaciente.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaServiço.cs">
+    <Compile Include="telas\telaServiço.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaServiço.Designer.cs">
+    <Compile Include="telas\telaServiço.Designer.cs">
       <DependentUpon>telaServiço.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaEstoque.cs">
+    <Compile Include="telas\telaEstoque.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaEstoque.Designer.cs">
+    <Compile Include="telas\telaEstoque.Designer.cs">
       <DependentUpon>telaEstoque.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaPagamento.cs">
+    <Compile Include="telas\telaPagamento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaPagamento.Designer.cs">
+    <Compile Include="telas\telaPagamento.Designer.cs">
       <DependentUpon>telaPagamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaSubMenuProntuario.cs">
+    <Compile Include="telas\telaSubMenuProntuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaSubMenuProntuario.Designer.cs">
+    <Compile Include="telas\telaSubMenuProntuario.Designer.cs">
       <DependentUpon>telaSubMenuProntuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaSplash.cs">
+    <Compile Include="telas\telaSplash.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaSplash.Designer.cs">
+    <Compile Include="telas\telaSplash.Designer.cs">
       <DependentUpon>telaSplash.cs</DependentUpon>
     </Compile>
-    <Compile Include="telaLogin.cs">
+    <Compile Include="telas\telaLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telaLogin.Designer.cs">
+    <Compile Include="telas\telaLogin.Designer.cs">
       <DependentUpon>telaLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="telaCadastroDoFuncionario.resx">
+    <EmbeddedResource Include="telas\telaCadastroDoFuncionario.resx">
       <DependentUpon>telaCadastroDoFuncionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaAgenda.resx">
+    <EmbeddedResource Include="telas\telaAgenda.resx">
       <DependentUpon>telaAgenda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaConsulta.resx">
+    <EmbeddedResource Include="telas\telaConsulta.resx">
       <DependentUpon>telaConsulta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaMenu.resx">
+    <EmbeddedResource Include="telas\telaMenu.resx">
       <DependentUpon>telaMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaMédico.resx">
+    <EmbeddedResource Include="telas\telaMédico.resx">
       <DependentUpon>telaMédico.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaPaciente.resx">
+    <EmbeddedResource Include="telas\telaPaciente.resx">
       <DependentUpon>telaPaciente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaServiço.resx">
+    <EmbeddedResource Include="telas\telaServiço.resx">
       <DependentUpon>telaServiço.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaEstoque.resx">
+    <EmbeddedResource Include="telas\telaEstoque.resx">
       <DependentUpon>telaEstoque.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaLogin.resx">
+    <EmbeddedResource Include="telas\telaLogin.resx">
       <DependentUpon>telaLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaPagamento.resx">
+    <EmbeddedResource Include="telas\telaPagamento.resx">
       <DependentUpon>telaPagamento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaSubMenuProntuario.resx">
+    <EmbeddedResource Include="telas\telaSubMenuProntuario.resx">
       <DependentUpon>telaSubMenuProntuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telaSplash.resx">
+    <EmbeddedResource Include="telas\telaSplash.resx">
       <DependentUpon>telaSplash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -182,6 +198,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bancodados\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
