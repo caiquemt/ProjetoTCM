@@ -47,22 +47,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="conexao.cs" />
     <Compile Include="controlador\controladorConsulta.cs" />
     <Compile Include="controlador\controladorEstoque.cs" />
+    <Compile Include="controlador\controladorExame.cs" />
     <Compile Include="controlador\controladorFuncionario.cs" />
     <Compile Include="controlador\controladorMedico.cs" />
     <Compile Include="controlador\controladorPaciente.cs" />
+    <Compile Include="controlador\controladorPagamento.cs" />
+    <Compile Include="controlador\controladorServico.cs" />
     <Compile Include="dominio\Consulta.cs" />
     <Compile Include="dominio\Estoque.cs" />
+    <Compile Include="dominio\Exame.cs" />
     <Compile Include="dominio\Funcionario.cs" />
     <Compile Include="dominio\Medico.cs" />
     <Compile Include="dominio\Paciente.cs" />
+    <Compile Include="dominio\Pagamento.cs" />
+    <Compile Include="dominio\Servico.cs" />
     <Compile Include="fecharAbrirMenus.cs" />
     <Compile Include="repositorio\repositorioConsulta.cs" />
     <Compile Include="repositorio\repositorioEstoque.cs" />
+    <Compile Include="repositorio\repositorioExame.cs" />
     <Compile Include="repositorio\repositorioFuncionario.cs" />
     <Compile Include="repositorio\repositorioMedico.cs" />
     <Compile Include="repositorio\repositorioPaciente.cs" />
+    <Compile Include="repositorio\repositorioPagamento.cs" />
+    <Compile Include="repositorio\repositorioServico.cs" />
     <Compile Include="telas\telaCadastroDoFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
