@@ -30,7 +30,7 @@ namespace WindowsFormsApp1.controlador
         public void apagarFuncionario(Funcionario funcionario)
         {
             repositoriofuncionario.deleteFuncionario(funcionario);
-            MessageBox.Show("Funcionario excluído com sucesso!");
+            MessageBox.Show("Funcionário excluído com sucesso!");
         }
         
     }
