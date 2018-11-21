@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaAgenda));
             this.rbuNome = new System.Windows.Forms.RadioButton();
             this.rbuCPF = new System.Windows.Forms.RadioButton();
-            this.rbuMedico = new System.Windows.Forms.RadioButton();
+            this.rbuPagamento = new System.Windows.Forms.RadioButton();
             this.txtPesquisaNome = new System.Windows.Forms.TextBox();
             this.lblConsultasHoje = new System.Windows.Forms.Label();
             this.barraSuperior = new System.Windows.Forms.Panel();
@@ -41,7 +41,7 @@
             this.btnEstoqueFuncionario = new System.Windows.Forms.Button();
             this.btnProntuario = new System.Windows.Forms.Button();
             this.btnAgenda = new System.Windows.Forms.Button();
-            this.btnMedico = new System.Windows.Forms.Button();
+            this.btnPagamento = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.barraSuperior.SuspendLayout();
             this.SuspendLayout();
@@ -72,18 +72,18 @@
             this.rbuCPF.UseVisualStyleBackColor = true;
             this.rbuCPF.UseWaitCursor = true;
             // 
-            // rbuMedico
+            // rbuPagamento
             // 
-            this.rbuMedico.AutoSize = true;
-            this.rbuMedico.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold);
-            this.rbuMedico.Location = new System.Drawing.Point(187, 94);
-            this.rbuMedico.Name = "rbuMedico";
-            this.rbuMedico.Size = new System.Drawing.Size(96, 28);
-            this.rbuMedico.TabIndex = 12;
-            this.rbuMedico.TabStop = true;
-            this.rbuMedico.Text = "Médico";
-            this.rbuMedico.UseVisualStyleBackColor = true;
-            this.rbuMedico.UseWaitCursor = true;
+            this.rbuPagamento.AutoSize = true;
+            this.rbuPagamento.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold);
+            this.rbuPagamento.Location = new System.Drawing.Point(187, 94);
+            this.rbuPagamento.Name = "rbuPagamento";
+            this.rbuPagamento.Size = new System.Drawing.Size(96, 28);
+            this.rbuPagamento.TabIndex = 12;
+            this.rbuPagamento.TabStop = true;
+            this.rbuPagamento.Text = "Médico";
+            this.rbuPagamento.UseVisualStyleBackColor = true;
+            this.rbuPagamento.UseWaitCursor = true;
             // 
             // txtPesquisaNome
             // 
@@ -123,7 +123,7 @@
             this.barraSuperior.Controls.Add(this.btnEstoqueFuncionario);
             this.barraSuperior.Controls.Add(this.btnProntuario);
             this.barraSuperior.Controls.Add(this.btnAgenda);
-            this.barraSuperior.Controls.Add(this.btnMedico);
+            this.barraSuperior.Controls.Add(this.btnPagamento);
             this.barraSuperior.Controls.Add(this.button5);
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barraSuperior.Location = new System.Drawing.Point(-1, -2);
@@ -228,21 +228,21 @@
             this.btnAgenda.UseVisualStyleBackColor = false;
             this.btnAgenda.UseWaitCursor = true;
             // 
-            // btnMedico
+            // btnPagamento
             // 
-            this.btnMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnMedico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMedico.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
-            this.btnMedico.Location = new System.Drawing.Point(100, 0);
-            this.btnMedico.Name = "btnMedico";
-            this.btnMedico.Size = new System.Drawing.Size(101, 80);
-            this.btnMedico.TabIndex = 17;
-            this.btnMedico.Text = "Médico";
-            this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnMedico.UseVisualStyleBackColor = false;
-            this.btnMedico.UseWaitCursor = true;
+            this.btnPagamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPagamento.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
+            this.btnPagamento.Location = new System.Drawing.Point(100, 0);
+            this.btnPagamento.Name = "btnPagamento";
+            this.btnPagamento.Size = new System.Drawing.Size(101, 80);
+            this.btnPagamento.TabIndex = 17;
+            this.btnPagamento.Text = "Médico";
+            this.btnPagamento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPagamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnPagamento.UseVisualStyleBackColor = false;
+            this.btnPagamento.UseWaitCursor = true;
             // 
             // button5
             // 
@@ -269,7 +269,7 @@
             this.Controls.Add(this.barraSuperior);
             this.Controls.Add(this.lblConsultasHoje);
             this.Controls.Add(this.txtPesquisaNome);
-            this.Controls.Add(this.rbuMedico);
+            this.Controls.Add(this.rbuPagamento);
             this.Controls.Add(this.rbuCPF);
             this.Controls.Add(this.rbuNome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -286,7 +286,7 @@
         #endregion
         private System.Windows.Forms.RadioButton rbuNome;
         private System.Windows.Forms.RadioButton rbuCPF;
-        private System.Windows.Forms.RadioButton rbuMedico;
+        private System.Windows.Forms.RadioButton rbuPagamento;
         private System.Windows.Forms.TextBox txtPesquisaNome;
         private System.Windows.Forms.Label lblConsultasHoje;
         private System.Windows.Forms.Panel barraSuperior;
@@ -296,7 +296,7 @@
         private System.Windows.Forms.Button btnEstoqueFuncionario;
         private System.Windows.Forms.Button btnProntuario;
         private System.Windows.Forms.Button btnAgenda;
-        private System.Windows.Forms.Button btnMedico;
+        private System.Windows.Forms.Button btnPagamento;
         private System.Windows.Forms.Button button5;
     }
 }

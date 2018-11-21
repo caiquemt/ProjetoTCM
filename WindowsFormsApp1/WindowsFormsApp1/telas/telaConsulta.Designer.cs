@@ -36,11 +36,11 @@
             this.btnEstoqueFuncionario = new System.Windows.Forms.Button();
             this.btnProntuario = new System.Windows.Forms.Button();
             this.btnAgenda = new System.Windows.Forms.Button();
-            this.btnMedico = new System.Windows.Forms.Button();
+            this.btnPagamento = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblPacienteConsulta = new System.Windows.Forms.Label();
-            this.lblMedicoConsulta = new System.Windows.Forms.Label();
+            this.lblPagamentoConsulta = new System.Windows.Forms.Label();
             this.lblEspecialidadeConsulta = new System.Windows.Forms.Label();
             this.lblDataConsulta = new System.Windows.Forms.Label();
             this.lblHoraConsulta = new System.Windows.Forms.Label();
@@ -69,7 +69,7 @@
             this.barraSuperior.Controls.Add(this.btnEstoqueFuncionario);
             this.barraSuperior.Controls.Add(this.btnProntuario);
             this.barraSuperior.Controls.Add(this.btnAgenda);
-            this.barraSuperior.Controls.Add(this.btnMedico);
+            this.barraSuperior.Controls.Add(this.btnPagamento);
             this.barraSuperior.Controls.Add(this.button5);
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barraSuperior.Location = new System.Drawing.Point(0, 0);
@@ -167,20 +167,20 @@
             this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAgenda.UseVisualStyleBackColor = false;
             // 
-            // btnMedico
+            // btnPagamento
             // 
-            this.btnMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnMedico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMedico.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
-            this.btnMedico.Location = new System.Drawing.Point(77, -1);
-            this.btnMedico.Name = "btnMedico";
-            this.btnMedico.Size = new System.Drawing.Size(81, 70);
-            this.btnMedico.TabIndex = 17;
-            this.btnMedico.Text = "Médico";
-            this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnMedico.UseVisualStyleBackColor = false;
+            this.btnPagamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPagamento.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
+            this.btnPagamento.Location = new System.Drawing.Point(77, -1);
+            this.btnPagamento.Name = "btnPagamento";
+            this.btnPagamento.Size = new System.Drawing.Size(81, 70);
+            this.btnPagamento.TabIndex = 17;
+            this.btnPagamento.Text = "Médico";
+            this.btnPagamento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPagamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnPagamento.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
@@ -213,7 +213,7 @@
             this.panel1.Controls.Add(this.lblHoraConsulta);
             this.panel1.Controls.Add(this.lblDataConsulta);
             this.panel1.Controls.Add(this.lblEspecialidadeConsulta);
-            this.panel1.Controls.Add(this.lblMedicoConsulta);
+            this.panel1.Controls.Add(this.lblPagamentoConsulta);
             this.panel1.Controls.Add(this.lblPacienteConsulta);
             this.panel1.Location = new System.Drawing.Point(23, 94);
             this.panel1.Name = "panel1";
@@ -230,15 +230,15 @@
             this.lblPacienteConsulta.TabIndex = 0;
             this.lblPacienteConsulta.Text = "Paciente:";
             // 
-            // lblMedicoConsulta
+            // lblPagamentoConsulta
             // 
-            this.lblMedicoConsulta.AutoSize = true;
-            this.lblMedicoConsulta.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMedicoConsulta.Location = new System.Drawing.Point(17, 81);
-            this.lblMedicoConsulta.Name = "lblMedicoConsulta";
-            this.lblMedicoConsulta.Size = new System.Drawing.Size(70, 19);
-            this.lblMedicoConsulta.TabIndex = 1;
-            this.lblMedicoConsulta.Text = "Médico:";
+            this.lblPagamentoConsulta.AutoSize = true;
+            this.lblPagamentoConsulta.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPagamentoConsulta.Location = new System.Drawing.Point(17, 81);
+            this.lblPagamentoConsulta.Name = "lblPagamentoConsulta";
+            this.lblPagamentoConsulta.Size = new System.Drawing.Size(70, 19);
+            this.lblPagamentoConsulta.TabIndex = 1;
+            this.lblPagamentoConsulta.Text = "Médico:";
             // 
             // lblEspecialidadeConsulta
             // 
@@ -384,7 +384,7 @@
         private System.Windows.Forms.Button btnEstoqueFuncionario;
         private System.Windows.Forms.Button btnProntuario;
         private System.Windows.Forms.Button btnAgenda;
-        private System.Windows.Forms.Button btnMedico;
+        private System.Windows.Forms.Button btnPagamento;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBox8;
@@ -401,7 +401,7 @@
         private System.Windows.Forms.Label lblHoraConsulta;
         private System.Windows.Forms.Label lblDataConsulta;
         private System.Windows.Forms.Label lblEspecialidadeConsulta;
-        private System.Windows.Forms.Label lblMedicoConsulta;
+        private System.Windows.Forms.Label lblPagamentoConsulta;
         private System.Windows.Forms.Label lblPacienteConsulta;
     }
 }

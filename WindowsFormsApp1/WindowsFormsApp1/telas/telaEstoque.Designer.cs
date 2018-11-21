@@ -36,7 +36,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnPagamento = new System.Windows.Forms.Button();
-            this.btnMedico = new System.Windows.Forms.Button();
+            this.btnPagamento = new System.Windows.Forms.Button();
             this.btnPaciente = new System.Windows.Forms.Button();
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnPesquisa = new System.Windows.Forms.Button();
@@ -83,7 +83,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.btnPagamento);
-            this.panel1.Controls.Add(this.btnMedico);
+            this.panel1.Controls.Add(this.btnPagamento);
             this.panel1.Controls.Add(this.btnPaciente);
             this.panel1.Controls.Add(this.btnAgenda);
             this.panel1.Controls.Add(this.btnPesquisa);
@@ -113,21 +113,21 @@
             this.btnPagamento.UseWaitCursor = true;
             this.btnPagamento.Click += new System.EventHandler(this.btnPagamento_Click);
             // 
-            // btnMedico
+            // btnPagamento
             // 
-            this.btnMedico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMedico.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
-            this.btnMedico.Location = new System.Drawing.Point(81, -1);
-            this.btnMedico.Margin = new System.Windows.Forms.Padding(0);
-            this.btnMedico.Name = "btnMedico";
-            this.btnMedico.Size = new System.Drawing.Size(81, 70);
-            this.btnMedico.TabIndex = 8;
-            this.btnMedico.Text = "Médico";
-            this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnMedico.UseVisualStyleBackColor = true;
-            this.btnMedico.UseWaitCursor = true;
+            this.btnPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPagamento.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
+            this.btnPagamento.Location = new System.Drawing.Point(81, -1);
+            this.btnPagamento.Margin = new System.Windows.Forms.Padding(0);
+            this.btnPagamento.Name = "btnPagamento";
+            this.btnPagamento.Size = new System.Drawing.Size(81, 70);
+            this.btnPagamento.TabIndex = 8;
+            this.btnPagamento.Text = "Médico";
+            this.btnPagamento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPagamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnPagamento.UseVisualStyleBackColor = true;
+            this.btnPagamento.UseWaitCursor = true;
             // 
             // btnPaciente
             // 
@@ -252,7 +252,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnPagamento;
-        private System.Windows.Forms.Button btnMedico;
+        private System.Windows.Forms.Button btnPagamento;
         private System.Windows.Forms.Button btnPaciente;
         private System.Windows.Forms.Button btnAgenda;
         private System.Windows.Forms.Button btnPesquisa;

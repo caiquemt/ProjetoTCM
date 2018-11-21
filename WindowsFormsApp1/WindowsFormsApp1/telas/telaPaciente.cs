@@ -15,6 +15,11 @@ namespace WindowsFormsApp1
         public telaPaciente()
         {
             InitializeComponent();
+            panel3.AutoScroll = false;
+            panel3.HorizontalScroll.Enabled = false;
+            panel3.HorizontalScroll.Visible = false;
+            panel3.HorizontalScroll.Maximum = 0;
+            panel3.AutoScroll = true;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
