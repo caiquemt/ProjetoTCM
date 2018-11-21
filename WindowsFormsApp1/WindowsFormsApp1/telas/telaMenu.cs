@@ -17,60 +17,14 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void btnMedico_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            // this.Hide();
-            // telaMedico Menu = new telaMedico();
-            // Menu.Show();
+
         }
 
         private void btnPesquisa_Click(object sender, EventArgs e)
         {
-            // this.Hide();
-            // telaPesquisa Menu = new telaPesquisa();
-            // Menu.Show();
-        }
 
-        private void btnPaciente_Click(object sender, EventArgs e)
-        {
-            // this.Hide();
-            // telaPaciente Menu = new telaPaciente();
-            // Menu.Show();
-        }
-
-        private void btnAgenda_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            telaAgenda Menu = new telaAgenda();
-            Menu.Show();
-        }
-
-        private void btnProntuario_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            telaSubMenuProntuario Menu = new telaSubMenuProntuario();
-            Menu.Show();
-        }
-
-        private void btnPagamento_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            telaPagamento Menu = new telaPagamento();
-            Menu.Show();
-        }
-
-        private void btnEstoque_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            telaEstoque Menu = new telaEstoque();
-            Menu.Show();
-        }
-
-        private void btnFuncionario_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            telaCadastroDoFuncionario Menu = new telaCadastroDoFuncionario();
-            Menu.Show();
         }
     }
 }

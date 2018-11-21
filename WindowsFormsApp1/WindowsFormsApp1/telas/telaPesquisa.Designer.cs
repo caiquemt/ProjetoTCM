@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class telaSubMenuProntuario
+    partial class telaPesquisa
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaSubMenuProntuario));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.barraSuperior = new System.Windows.Forms.Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaPesquisa));
+            this.panel1 = new System.Windows.Forms.Panel();
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
@@ -43,65 +40,42 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.barraSuperior.SuspendLayout();
+            this.lblPesquisar = new System.Windows.Forms.Label();
+            this.lblPesquisar1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblPesquisaPor = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblNomePesquisa = new System.Windows.Forms.Label();
+            this.lblMatriculaPesquisa = new System.Windows.Forms.Label();
+            this.lblExpedientePesquisa = new System.Windows.Forms.Label();
+            this.lblFixoPesquisa = new System.Windows.Forms.Label();
+            this.lblCelularPesquisa = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // panel1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(405, 135);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(170, 170);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(498, 135);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(378, 41);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Submenu Proprietario";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(682, 135);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(170, 170);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 22;
-            this.pictureBox3.TabStop = false;
-            // 
-            // barraSuperior
-            // 
-            this.barraSuperior.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.barraSuperior.Controls.Add(this.btnSairCadastro);
-            this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
-            this.barraSuperior.Controls.Add(this.btnPacienteConsulta);
-            this.barraSuperior.Controls.Add(this.button11);
-            this.barraSuperior.Controls.Add(this.btnPagamento);
-            this.barraSuperior.Controls.Add(this.btnEstoqueFuncionario);
-            this.barraSuperior.Controls.Add(this.btnProntuario);
-            this.barraSuperior.Controls.Add(this.btnAgenda);
-            this.barraSuperior.Controls.Add(this.btnMedico);
-            this.barraSuperior.Controls.Add(this.button5);
-            this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barraSuperior.Location = new System.Drawing.Point(0, 0);
-            this.barraSuperior.Name = "barraSuperior";
-            this.barraSuperior.Size = new System.Drawing.Size(1349, 81);
-            this.barraSuperior.TabIndex = 23;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnSairCadastro);
+            this.panel1.Controls.Add(this.btnVoltarCadastro);
+            this.panel1.Controls.Add(this.btnPacienteConsulta);
+            this.panel1.Controls.Add(this.button11);
+            this.panel1.Controls.Add(this.btnPagamento);
+            this.panel1.Controls.Add(this.btnEstoqueFuncionario);
+            this.panel1.Controls.Add(this.btnProntuario);
+            this.panel1.Controls.Add(this.btnAgenda);
+            this.panel1.Controls.Add(this.btnMedico);
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1371, 81);
+            this.panel1.TabIndex = 27;
             // 
             // btnSairCadastro
             // 
@@ -109,7 +83,7 @@
             this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
-            this.btnSairCadastro.Location = new System.Drawing.Point(1256, -2);
+            this.btnSairCadastro.Location = new System.Drawing.Point(1278, -2);
             this.btnSairCadastro.Name = "btnSairCadastro";
             this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
             this.btnSairCadastro.TabIndex = 26;
@@ -127,7 +101,7 @@
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
             this.btnVoltarCadastro.Location = new System.Drawing.Point(1161, -2);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
-            this.btnVoltarCadastro.Size = new System.Drawing.Size(89, 81);
+            this.btnVoltarCadastro.Size = new System.Drawing.Size(111, 81);
             this.btnVoltarCadastro.TabIndex = 27;
             this.btnVoltarCadastro.Text = "Voltar";
             this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -254,34 +228,162 @@
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // panel1
+            // lblPesquisar
             // 
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(48, 221);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1248, 454);
-            this.panel1.TabIndex = 24;
+            this.lblPesquisar.AutoSize = true;
+            this.lblPesquisar.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPesquisar.Location = new System.Drawing.Point(553, 137);
+            this.lblPesquisar.Name = "lblPesquisar";
+            this.lblPesquisar.Size = new System.Drawing.Size(181, 41);
+            this.lblPesquisar.TabIndex = 28;
+            this.lblPesquisar.Text = "Pesquisar";
             // 
-            // telaSubMenuProntuario
+            // lblPesquisar1
+            // 
+            this.lblPesquisar1.AutoSize = true;
+            this.lblPesquisar1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPesquisar1.Location = new System.Drawing.Point(46, 257);
+            this.lblPesquisar1.Name = "lblPesquisar1";
+            this.lblPesquisar1.Size = new System.Drawing.Size(156, 32);
+            this.lblPesquisar1.TabIndex = 29;
+            this.lblPesquisar1.Text = "Pesquisar:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 14F);
+            this.textBox1.Location = new System.Drawing.Point(202, 260);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(316, 29);
+            this.textBox1.TabIndex = 30;
+            // 
+            // lblPesquisaPor
+            // 
+            this.lblPesquisaPor.AutoSize = true;
+            this.lblPesquisaPor.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPesquisaPor.Location = new System.Drawing.Point(554, 257);
+            this.lblPesquisaPor.Name = "lblPesquisaPor";
+            this.lblPesquisaPor.Size = new System.Drawing.Size(198, 32);
+            this.lblPesquisaPor.TabIndex = 31;
+            this.lblPesquisaPor.Text = "Pesquisa por:";
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.InsetDouble;
+            this.tableLayoutPanel1.ColumnCount = 6;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 213F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 198F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 229F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 151F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 328F));
+            this.tableLayoutPanel1.Controls.Add(this.lblNomePesquisa, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblExpedientePesquisa, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblFixoPesquisa, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblCelularPesquisa, 4, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label9, 5, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblMatriculaPesquisa, 1, 0);
+            this.tableLayoutPanel1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(49, 309);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 9;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 61F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1270, 348);
+            this.tableLayoutPanel1.TabIndex = 32;
+            // 
+            // lblNomePesquisa
+            // 
+            this.lblNomePesquisa.AutoSize = true;
+            this.lblNomePesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomePesquisa.Location = new System.Drawing.Point(6, 3);
+            this.lblNomePesquisa.Name = "lblNomePesquisa";
+            this.lblNomePesquisa.Size = new System.Drawing.Size(63, 20);
+            this.lblNomePesquisa.TabIndex = 30;
+            this.lblNomePesquisa.Text = "Nome";
+            this.lblNomePesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblMatriculaPesquisa
+            // 
+            this.lblMatriculaPesquisa.AutoSize = true;
+            this.lblMatriculaPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMatriculaPesquisa.Location = new System.Drawing.Point(222, 3);
+            this.lblMatriculaPesquisa.Name = "lblMatriculaPesquisa";
+            this.lblMatriculaPesquisa.Size = new System.Drawing.Size(96, 20);
+            this.lblMatriculaPesquisa.TabIndex = 31;
+            this.lblMatriculaPesquisa.Text = "Matricula";
+            this.lblMatriculaPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblExpedientePesquisa
+            // 
+            this.lblExpedientePesquisa.AutoSize = true;
+            this.lblExpedientePesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExpedientePesquisa.Location = new System.Drawing.Point(423, 3);
+            this.lblExpedientePesquisa.Name = "lblExpedientePesquisa";
+            this.lblExpedientePesquisa.Size = new System.Drawing.Size(217, 20);
+            this.lblExpedientePesquisa.TabIndex = 32;
+            this.lblExpedientePesquisa.Text = "Horário do Expediente";
+            this.lblExpedientePesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblFixoPesquisa
+            // 
+            this.lblFixoPesquisa.AutoSize = true;
+            this.lblFixoPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFixoPesquisa.Location = new System.Drawing.Point(655, 3);
+            this.lblFixoPesquisa.Name = "lblFixoPesquisa";
+            this.lblFixoPesquisa.Size = new System.Drawing.Size(135, 20);
+            this.lblFixoPesquisa.TabIndex = 33;
+            this.lblFixoPesquisa.Text = "Telefone Fixo";
+            this.lblFixoPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblCelularPesquisa
+            // 
+            this.lblCelularPesquisa.AutoSize = true;
+            this.lblCelularPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCelularPesquisa.Location = new System.Drawing.Point(809, 3);
+            this.lblCelularPesquisa.Name = "lblCelularPesquisa";
+            this.lblCelularPesquisa.Size = new System.Drawing.Size(76, 20);
+            this.lblCelularPesquisa.TabIndex = 34;
+            this.lblCelularPesquisa.Text = "Celular";
+            this.lblCelularPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(945, 3);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(67, 20);
+            this.label9.TabIndex = 35;
+            this.label9.Text = "E-mail";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // telaPesquisa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Controls.Add(this.barraSuperior);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1370, 729);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.lblPesquisaPor);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblPesquisar1);
+            this.Controls.Add(this.lblPesquisar);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "telaSubMenuProntuario";
+            this.Name = "telaPesquisa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
-            this.Text = "submenuProntuario";
+            this.Text = "telaPesquisa";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.submenuProntuario_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.barraSuperior.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,10 +391,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Panel barraSuperior;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnSairCadastro;
         private System.Windows.Forms.Button btnVoltarCadastro;
         private System.Windows.Forms.Button btnPacienteConsulta;
@@ -303,6 +402,16 @@
         private System.Windows.Forms.Button btnAgenda;
         private System.Windows.Forms.Button btnMedico;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblPesquisar;
+        private System.Windows.Forms.Label lblPesquisar1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblPesquisaPor;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label lblNomePesquisa;
+        private System.Windows.Forms.Label lblMatriculaPesquisa;
+        private System.Windows.Forms.Label lblExpedientePesquisa;
+        private System.Windows.Forms.Label lblFixoPesquisa;
+        private System.Windows.Forms.Label lblCelularPesquisa;
+        private System.Windows.Forms.Label label9;
     }
 }

@@ -41,5 +41,15 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

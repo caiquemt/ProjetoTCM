@@ -118,6 +118,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSairCadastro.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAdhxAAHYcQFzn84mAAAB80lE
+        QVRYR+3Xuy4EYRjG8RUkTpUonJXugKBwAU69iopCVBqJ25C4B41DjWhEQqEUicQ5QenQEPyfzXyb8eV7
+        Z2Z3B40n+YXM7Oz77Ow3s7sFsoRHfObkATPInHu4gz+gJzjHBS7LdAs9xzHakCnx9nKCBfSjC70Z9WAI
+        d7iKtmWKX0CesIFxNCJrNPQ6UlUB5xlbmEQT0pJ7AccVGUMdrIQK1Ed/zYQGWs6gdWElXkBroh0r6IaZ
+        0CCLVnrSqVW5w0gHVEJX0z5GEExokCWtQC00WGqgx+oYHauzMocGfIs/JIlfQOtBr7oP2i561aLTrsvy
+        Bu74V6yhE6XEB6TxC2j4AXTda1+cTr2Gv8F/nj0Moxh/ZxK/gP7XttBj0+gtWURwpyXPAjpD8wjutPgF
+        Kn0LdjCAYvydSfwC5S7CF6xCV0kp8QFp/AJ+ki5DnZFZ5HoZ+rFuRLsYRDChQZa0Atrn34qXoWJmQoMs
+        5RRwj0v68ComNMhSSYHUhAZZ/gv8eQHdVHRz0QrXgDhty+1LqeUdboB7pY62aZ8ed4RWZMop/EGWpAKO
+        fhNMIHNGsQl9WQgNjUt6C0SfCXrlug2XlWZMYRv6wAgNl7RFWHVcEX0FDxX58QIuKqIfI36RXyvgoiJa
+        UG6N/HoBlxZMYx05FigUvgC0U9uplTipggAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnVoltarCadastro.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAYAAAABtRhCAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAXh6AAF4egFkf2kgAAAA7UlE
+        QVRIS9XXuw4BURDG8SN4GIlSJUg04lJ7CIVLeBIFEo+FQuEWGo0GPf8pJtlstnNmEl/ya7b5srvnnJ0N
+        /5IyBmggJxcsU8UGH5xRglmkbAspEw9UYJIadtCyN2YoIHrkXe2hZS9IWRHRU8cB6TKTO2siXTaFSVkL
+        RyTLJjApa0OWvEtZFyeky0wWSA9XaNkTY5jcWVbZCG5lQ+QRPX1coGXihjUWWEaywhzhjmSZNf9C90cq
+        cV00GtdtoXHd+JoOsg5tk6NN43p4a1w/TxrXD7DGdcTQuA5RGtcxUeM6CGtcR32N68/MDwnhC4AyxkWd
+        CT5wAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="btnPacienteConsulta.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO

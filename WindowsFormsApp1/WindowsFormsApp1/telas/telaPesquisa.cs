@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class telaPaciente : Form
+    public partial class telaPesquisa : Form
     {
-        public telaPaciente()
+        public telaPesquisa()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
