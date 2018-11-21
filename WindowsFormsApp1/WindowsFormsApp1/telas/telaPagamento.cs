@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class telaPagamento : Form
     {
+        fecharAbrirMenus fecharform = new fecharAbrirMenus();
+
         public telaPagamento()
         {
             InitializeComponent();
@@ -25,6 +27,11 @@ namespace WindowsFormsApp1
         private void lblFichaPaciente_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSairCadastro_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
         }
     }
 }

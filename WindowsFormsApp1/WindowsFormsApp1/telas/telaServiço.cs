@@ -13,6 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class telaServiço : Form
     {
+        fecharAbrirMenus fecharform = new fecharAbrirMenus();
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -122,6 +123,11 @@ namespace WindowsFormsApp1
         private void btnPacienteSubMenu_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSairCadastro_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
         }
     }
 }

@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class telaPaciente : Form
     {
+        fecharAbrirMenus fecharform = new fecharAbrirMenus();
+
         public telaPaciente()
         {
             InitializeComponent();
@@ -20,6 +22,11 @@ namespace WindowsFormsApp1
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSairPrograma1_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
         }
     }
 }

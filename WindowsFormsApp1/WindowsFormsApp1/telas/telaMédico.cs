@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class telaMédico : Form
     {
+        fecharAbrirMenus fecharform = new fecharAbrirMenus();
+
         public telaMédico()
         {
             InitializeComponent();
@@ -35,6 +37,11 @@ namespace WindowsFormsApp1
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnSairPrograma_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
         }
     }
 }

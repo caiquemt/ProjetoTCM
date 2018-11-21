@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class telaEstoque : Form
     {
+        fecharAbrirMenus fecharform = new fecharAbrirMenus();
+
         public telaEstoque()
         {
             InitializeComponent();
@@ -30,6 +32,11 @@ namespace WindowsFormsApp1
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btnSairCadastro_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
         }
     }
 }

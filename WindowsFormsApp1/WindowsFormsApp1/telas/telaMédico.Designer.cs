@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaMédico));
-            this.btnInativar = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.txtDataEncerramento = new System.Windows.Forms.TextBox();
@@ -77,7 +77,7 @@
             this.lblCidadeMed = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.barraSuperior = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSairPrograma = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -93,17 +93,17 @@
             this.barraSuperior.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnInativar
+            // btnSair
             // 
-            this.btnInativar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnInativar.Location = new System.Drawing.Point(648, 451);
-            this.btnInativar.Name = "btnInativar";
-            this.btnInativar.Size = new System.Drawing.Size(668, 195);
-            this.btnInativar.TabIndex = 48;
-            this.btnInativar.Text = "Inativar";
-            this.btnInativar.UseVisualStyleBackColor = true;
+            this.btnSair.Location = new System.Drawing.Point(648, 451);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(668, 195);
+            this.btnSair.TabIndex = 48;
+            this.btnSair.Text = "Inativar";
+            this.btnSair.UseVisualStyleBackColor = true;
             // 
             // btnExcluir
             // 
@@ -598,7 +598,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.barraSuperior.Controls.Add(this.button1);
+            this.barraSuperior.Controls.Add(this.btnSairPrograma);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
             this.barraSuperior.Controls.Add(this.btnPacienteConsulta);
             this.barraSuperior.Controls.Add(this.button11);
@@ -614,20 +614,21 @@
             this.barraSuperior.Size = new System.Drawing.Size(1366, 81);
             this.barraSuperior.TabIndex = 61;
             // 
-            // button1
+            // btnSairPrograma
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(1273, -2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 81);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "Sair";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSairPrograma.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSairPrograma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSairPrograma.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSairPrograma.Image = ((System.Drawing.Image)(resources.GetObject("btnSairPrograma.Image")));
+            this.btnSairPrograma.Location = new System.Drawing.Point(1273, -2);
+            this.btnSairPrograma.Name = "btnSairPrograma";
+            this.btnSairPrograma.Size = new System.Drawing.Size(92, 81);
+            this.btnSairPrograma.TabIndex = 26;
+            this.btnSairPrograma.Text = "Sair";
+            this.btnSairPrograma.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSairPrograma.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnSairPrograma.UseVisualStyleBackColor = true;
+            this.btnSairPrograma.Click += new System.EventHandler(this.btnSairPrograma_Click);
             // 
             // btnVoltarCadastro
             // 
@@ -772,7 +773,7 @@
             this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.barraSuperior);
-            this.Controls.Add(this.btnInativar);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.txtDataEncerramento);
@@ -802,7 +803,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btnInativar;
+        private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.TextBox txtDataEncerramento;
@@ -850,7 +851,7 @@
         private System.Windows.Forms.Label lblCidadeMed;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel barraSuperior;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSairPrograma;
         private System.Windows.Forms.Button btnVoltarCadastro;
         private System.Windows.Forms.Button btnPacienteConsulta;
         private System.Windows.Forms.Button button11;

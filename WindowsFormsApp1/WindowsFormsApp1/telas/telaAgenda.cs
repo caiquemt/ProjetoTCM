@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class telaAgenda : Form
     {
+        fecharAbrirMenus fecharform = new fecharAbrirMenus();
+
         public telaAgenda()
         {
             InitializeComponent();
@@ -40,6 +42,11 @@ namespace WindowsFormsApp1
         private void telaAgenda_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSairCadastro_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
         }
     }
 }

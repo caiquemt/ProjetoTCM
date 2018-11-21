@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class telaConsulta : Form
     {
+        fecharAbrirMenus fecharform = new fecharAbrirMenus();
+
         public telaConsulta()
         {
             InitializeComponent();
@@ -50,6 +52,11 @@ namespace WindowsFormsApp1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSairCadastro_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
         }
     }
 }

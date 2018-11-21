@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class telaCadastroDoFuncionario : Form
     {
+        fecharAbrirMenus fecharform = new fecharAbrirMenus();
+
         public telaCadastroDoFuncionario()
         {
             InitializeComponent();
@@ -89,6 +91,11 @@ namespace WindowsFormsApp1
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSairCadastro_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
         }
     }
 }

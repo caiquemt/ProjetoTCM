@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class telaSubMenuProntuario : Form
     {
+        fecharAbrirMenus fecharform = new fecharAbrirMenus();
+
         public telaSubMenuProntuario()
         {
             InitializeComponent();
@@ -44,6 +46,11 @@ namespace WindowsFormsApp1
         private void button8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSairCadastro_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
         }
     }
 }

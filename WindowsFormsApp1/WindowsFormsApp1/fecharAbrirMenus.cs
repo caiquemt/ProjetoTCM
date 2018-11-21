@@ -3,14 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    class fecharAbrirMenus
+    public class fecharAbrirMenus
     {
+        public fecharAbrirMenus()
+        {
+
+        }
+
+
         public void AbrirPaciente()
         {
 
+        }
+
+        public void FecharTela(Form form)
+        {
+            form.Dispose();
         }
     }
 }

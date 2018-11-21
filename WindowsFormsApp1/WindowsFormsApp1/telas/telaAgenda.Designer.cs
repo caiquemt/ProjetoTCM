@@ -35,6 +35,8 @@
             this.txtPesquisaNome = new System.Windows.Forms.TextBox();
             this.lblConsultasHoje = new System.Windows.Forms.Label();
             this.barraSuperior = new System.Windows.Forms.Panel();
+            this.btnSairCadastro = new System.Windows.Forms.Button();
+            this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.btnPagamento = new System.Windows.Forms.Button();
@@ -43,8 +45,6 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.btnSairCadastro = new System.Windows.Forms.Button();
-            this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.barraSuperior.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,6 +135,40 @@
             this.barraSuperior.Size = new System.Drawing.Size(1330, 81);
             this.barraSuperior.TabIndex = 23;
             this.barraSuperior.UseWaitCursor = true;
+            // 
+            // btnSairCadastro
+            // 
+            this.btnSairCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
+            this.btnSairCadastro.Location = new System.Drawing.Point(1237, -1);
+            this.btnSairCadastro.Name = "btnSairCadastro";
+            this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
+            this.btnSairCadastro.TabIndex = 24;
+            this.btnSairCadastro.Text = "Sair";
+            this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnSairCadastro.UseVisualStyleBackColor = true;
+            this.btnSairCadastro.UseWaitCursor = true;
+            this.btnSairCadastro.Click += new System.EventHandler(this.btnSairCadastro_Click);
+            // 
+            // btnVoltarCadastro
+            // 
+            this.btnVoltarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1141, -1);
+            this.btnVoltarCadastro.Name = "btnVoltarCadastro";
+            this.btnVoltarCadastro.Size = new System.Drawing.Size(90, 81);
+            this.btnVoltarCadastro.TabIndex = 25;
+            this.btnVoltarCadastro.Text = "Voltar";
+            this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnVoltarCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnVoltarCadastro.UseVisualStyleBackColor = true;
+            this.btnVoltarCadastro.UseWaitCursor = true;
             // 
             // btnPacienteConsulta
             // 
@@ -263,37 +297,6 @@
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.UseWaitCursor = true;
-            // 
-            // btnSairCadastro
-            // 
-            this.btnSairCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
-            this.btnSairCadastro.Location = new System.Drawing.Point(1237, -1);
-            this.btnSairCadastro.Name = "btnSairCadastro";
-            this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
-            this.btnSairCadastro.TabIndex = 24;
-            this.btnSairCadastro.Text = "Sair";
-            this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnSairCadastro.UseVisualStyleBackColor = true;
-            // 
-            // btnVoltarCadastro
-            // 
-            this.btnVoltarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1141, -1);
-            this.btnVoltarCadastro.Name = "btnVoltarCadastro";
-            this.btnVoltarCadastro.Size = new System.Drawing.Size(90, 81);
-            this.btnVoltarCadastro.TabIndex = 25;
-            this.btnVoltarCadastro.Text = "Voltar";
-            this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnVoltarCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnVoltarCadastro.UseVisualStyleBackColor = true;
             // 
             // telaAgenda
             // 

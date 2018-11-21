@@ -117,6 +117,7 @@
             this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSairCadastro.UseVisualStyleBackColor = true;
+            this.btnSairCadastro.Click += new System.EventHandler(this.btnSairCadastro_Click);
             // 
             // btnVoltarCadastro
             // 
