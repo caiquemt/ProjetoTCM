@@ -53,6 +53,7 @@
     <Compile Include="abrir_fechar_menus\AbrirMedico.cs" />
     <Compile Include="abrir_fechar_menus\AbrirPaciente.cs" />
     <Compile Include="abrir_fechar_menus\AbrirPagamento.cs" />
+    <Compile Include="abrir_fechar_menus\AbrirPesquisa.cs" />
     <Compile Include="abrir_fechar_menus\AbrirProntuário.cs" />
     <Compile Include="abrir_fechar_menus\AbrirServico.cs" />
     <Compile Include="conexao.cs" />

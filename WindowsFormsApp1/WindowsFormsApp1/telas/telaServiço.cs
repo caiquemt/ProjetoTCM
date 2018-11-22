@@ -19,6 +19,10 @@ namespace WindowsFormsApp1
         AbrirMedico abrirmed = new AbrirMedico();
         AbrirFuncionario abrirfunc = new AbrirFuncionario();
         AbrirPagamento abrirpag = new AbrirPagamento();
+        AbrirServico abrirserv = new AbrirServico();
+        AbrirProntuario abrirpront = new AbrirProntuario();
+        AbrirPesquisa abrirpesq = new AbrirPesquisa();
+        AbrirEstoque abrirest = new AbrirEstoque();
         AbrirAgenda abriragen = new AbrirAgenda();
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]

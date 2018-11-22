@@ -20,6 +20,9 @@ namespace WindowsFormsApp1
         AbrirPagamento abrirpag = new AbrirPagamento();
         AbrirServico abrirserv = new AbrirServico();
         AbrirProntuario abrirpront = new AbrirProntuario();
+        AbrirPesquisa abrirpesq = new AbrirPesquisa();
+        AbrirEstoque abrirest = new AbrirEstoque();
+        AbrirAgenda abriragen = new AbrirAgenda();
 
 
         public telaAgenda()
@@ -29,17 +32,17 @@ namespace WindowsFormsApp1
 
         private void btnPagamento_Click(object sender, EventArgs e)
         {
-
+            abrirpag.AbrirCadPagamento(this);
         }
 
         private void btnProntuario_Click(object sender, EventArgs e)
         {
-
+            abrirpront.AbrirCadProntuario(this);
         }
 
         private void btnMedico_Click(object sender, EventArgs e)
         {
-
+            abrirmed.AbrirCadMedico(this);
         }
 
         private void lblConsultasHoje_Click(object sender, EventArgs e)
@@ -69,12 +72,12 @@ namespace WindowsFormsApp1
 
         private void btnAgenda_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnProntuario_Click_1(object sender, EventArgs e)
         {
-
+            abrirpront.AbrirCadProntuario(this);
         }
 
         private void btnEstoqueFuncionario_Click(object sender, EventArgs e)
@@ -94,7 +97,7 @@ namespace WindowsFormsApp1
 
         private void btnPesquisa_Click(object sender, EventArgs e)
         {
-            
+            abrirpesq.AbrirCadPEsquisa(this);
         }
     }
 }
