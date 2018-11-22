@@ -13,6 +13,7 @@ namespace WindowsFormsApp1
     public partial class telaEstoque : Form
     {
         fecharAbrirMenus fecharform = new fecharAbrirMenus();
+        AbrirPaciente abripac = new AbrirPaciente();
 
         public telaEstoque()
         {
@@ -37,6 +38,11 @@ namespace WindowsFormsApp1
         private void btnSairCadastro_Click(object sender, EventArgs e)
         {
             fecharform.FecharTela(this);
+        }
+
+        private void btnPacienteConsulta_Click(object sender, EventArgs e)
+        {
+            abripac.AbrirCadPaciente(this);
         }
     }
 }

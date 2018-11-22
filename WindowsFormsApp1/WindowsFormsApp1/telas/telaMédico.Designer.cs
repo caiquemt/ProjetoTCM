@@ -660,6 +660,7 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
+            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click);
             // 
             // button11
             // 
@@ -750,6 +751,7 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
+            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click);
             // 
             // button5
             // 

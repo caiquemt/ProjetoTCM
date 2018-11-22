@@ -185,6 +185,7 @@
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
             this.btnPacienteConsulta.UseWaitCursor = true;
+            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click);
             // 
             // button11
             // 
@@ -281,6 +282,7 @@
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
             this.btnMedico.UseWaitCursor = true;
+            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click_1);
             // 
             // button5
             // 

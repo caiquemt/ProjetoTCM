@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="abrir_fechar_menus\AbrirMedico.cs" />
+    <Compile Include="abrir_fechar_menus\AbrirPaciente.cs" />
     <Compile Include="conexao.cs" />
     <Compile Include="controlador\controladorConsulta.cs" />
     <Compile Include="controlador\controladorEstoque.cs" />
@@ -64,7 +66,7 @@
     <Compile Include="dominio\Paciente.cs" />
     <Compile Include="dominio\Pagamento.cs" />
     <Compile Include="dominio\Servico.cs" />
-    <Compile Include="fecharAbrirMenus.cs" />
+    <Compile Include="abrir_fechar_menus\fecharAbrirMenus.cs" />
     <Compile Include="repositorio\repositorioConsulta.cs" />
     <Compile Include="repositorio\repositorioEstoque.cs" />
     <Compile Include="repositorio\repositorioExame.cs" />

@@ -163,6 +163,7 @@
             this.btnPaciente.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPaciente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPaciente.UseVisualStyleBackColor = false;
+            this.btnPaciente.Click += new System.EventHandler(this.btnPaciente_Click);
             // 
             // telaMenu
             // 

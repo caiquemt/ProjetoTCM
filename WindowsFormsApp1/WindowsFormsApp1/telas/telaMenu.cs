@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.abrir_fechar_menus;
 
 namespace WindowsFormsApp1
 {
     public partial class telaMenu : Form
     {
+        AbrirPaciente abripac = new AbrirPaciente();
+
         public telaMenu()
         {
             InitializeComponent();
@@ -25,6 +28,11 @@ namespace WindowsFormsApp1
         private void btnPesquisa_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnPaciente_Click(object sender, EventArgs e)
+        {
+            abripac.AbrirCadPaciente(this);
         }
     }
 }

@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.abrir_fechar_menus;
 
 namespace WindowsFormsApp1
 {
     public partial class telaMédico : Form
     {
         fecharAbrirMenus fecharform = new fecharAbrirMenus();
+        AbrirPaciente abripac = new AbrirPaciente();
 
         public telaMédico()
         {
@@ -42,6 +44,16 @@ namespace WindowsFormsApp1
         private void btnSairPrograma_Click(object sender, EventArgs e)
         {
             fecharform.FecharTela(this);
+        }
+
+        private void btnPacienteConsulta_Click(object sender, EventArgs e)
+        {
+            abripac.AbrirCadPaciente(this);
+        }
+
+        private void btnMedico_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

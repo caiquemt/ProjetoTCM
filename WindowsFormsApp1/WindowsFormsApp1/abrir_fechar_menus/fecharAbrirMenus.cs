@@ -15,11 +15,6 @@ namespace WindowsFormsApp1
         }
 
 
-        public void AbrirPaciente()
-        {
-
-        }
-
         public void FecharTela(Form form)
         {
             form.Dispose();
