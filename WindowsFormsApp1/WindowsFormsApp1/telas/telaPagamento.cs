@@ -15,6 +15,10 @@ namespace WindowsFormsApp1
     {
         fecharAbrirMenus fecharform = new fecharAbrirMenus();
         AbrirPaciente abripac = new AbrirPaciente();
+        AbrirMedico abrirmed = new AbrirMedico();
+        AbrirFuncionario abrirfunc = new AbrirFuncionario();
+        AbrirServico abrirserv = new AbrirServico();
+        AbrirAgenda abriragen = new AbrirAgenda();
 
         public telaPagamento()
         {

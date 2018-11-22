@@ -12,6 +12,14 @@ namespace WindowsFormsApp1
 {
     public partial class telaCadastrarProduto : Form
     {
+        fecharAbrirMenus fecharform = new fecharAbrirMenus();
+        AbrirPaciente abripac = new AbrirPaciente();
+        AbrirMedico abrirmed = new AbrirMedico();
+        AbrirFuncionario abrirfunc = new AbrirFuncionario();
+        AbrirPagamento abrirpag = new AbrirPagamento();
+        AbrirServico abrirserv = new AbrirServico();
+        AbrirAgenda abriragen = new AbrirAgenda();
+
         public telaCadastrarProduto()
         {
             InitializeComponent();

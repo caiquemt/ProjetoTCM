@@ -16,6 +16,10 @@ namespace WindowsFormsApp1
     {
         fecharAbrirMenus fecharform = new fecharAbrirMenus();
         AbrirPaciente abripac = new AbrirPaciente();
+        AbrirMedico abrirmed = new AbrirMedico();
+        AbrirFuncionario abrirfunc = new AbrirFuncionario();
+        AbrirPagamento abrirpag = new AbrirPagamento();
+        AbrirAgenda abriragen = new AbrirAgenda();
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn

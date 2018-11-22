@@ -14,7 +14,11 @@ namespace WindowsFormsApp1
     public partial class telaPaciente : Form
     {
         fecharAbrirMenus fecharform = new fecharAbrirMenus();
-        AbrirPaciente telapaciente = new AbrirPaciente();
+        AbrirMedico abrirmed = new AbrirMedico();
+        AbrirFuncionario abrirfunc = new AbrirFuncionario();
+        AbrirPagamento abrirpag = new AbrirPagamento();
+        AbrirServico abrirserv = new AbrirServico();
+        AbrirAgenda abriragen = new AbrirAgenda();
 
         public telaPaciente()
         {
