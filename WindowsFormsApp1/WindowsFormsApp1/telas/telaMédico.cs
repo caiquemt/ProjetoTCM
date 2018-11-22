@@ -57,13 +57,13 @@ namespace WindowsFormsApp1
 
         private void btnMedico_Click(object sender, EventArgs e)
         {
-
+            abrirmed.AbrirCadMedico(this);
         }
 
        
-        internal void AbrirCadMedico(telaCadastroDoFuncionario telaCadastroDoFuncionario)
+        /*internal void AbrirCadMedico(telaCadastroDoFuncionario telaCadastroDoFuncionario)
         {
             throw new NotImplementedException();
-        }
+        }*/
     }
 }

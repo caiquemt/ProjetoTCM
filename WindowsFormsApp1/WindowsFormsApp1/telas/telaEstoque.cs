@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
 
         private void btnPagamento_Click(object sender, EventArgs e)
         {
-
+            abrirpag.AbrirPagamento(this);
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -53,7 +53,7 @@ namespace WindowsFormsApp1
 
         private void btnMedico_Click(object sender, EventArgs e)
         {
-
+            abrirmed.AbrirCadMedico(this);
         }
     }
 }

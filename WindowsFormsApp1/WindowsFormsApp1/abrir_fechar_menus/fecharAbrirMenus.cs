@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
 
         public void FecharTela(Form form)
         {
-            form.Dispose();
+            form.Close();
         }
     }
 }
