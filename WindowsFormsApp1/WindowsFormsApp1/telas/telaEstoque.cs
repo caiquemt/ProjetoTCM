@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.abrir_fechar_menus;
 
 namespace WindowsFormsApp1
 {
@@ -43,6 +44,11 @@ namespace WindowsFormsApp1
         private void btnPacienteConsulta_Click(object sender, EventArgs e)
         {
             abripac.AbrirCadPaciente(this);
+        }
+
+        private void btnMedico_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

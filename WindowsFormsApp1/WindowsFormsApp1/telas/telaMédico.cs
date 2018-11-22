@@ -55,5 +55,11 @@ namespace WindowsFormsApp1
         {
 
         }
+
+       
+        internal void AbrirCadMedico(telaCadastroDoFuncionario telaCadastroDoFuncionario)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

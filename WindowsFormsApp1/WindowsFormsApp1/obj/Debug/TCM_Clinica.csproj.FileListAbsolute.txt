@@ -79,4 +79,3 @@ C:\Users\2binfo\Desktop\Projeto\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj
 C:\Users\2binfo\Desktop\Projeto\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TCM_Clinica.csproj.CoreCompileInputs.cache
 C:\Users\2binfo\Desktop\Projeto\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\2binfo\Desktop\Projeto\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
-C:\Users\2binfo\Desktop\Projeto\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TCM_Clinica.csprojAssemblyReference.cache
