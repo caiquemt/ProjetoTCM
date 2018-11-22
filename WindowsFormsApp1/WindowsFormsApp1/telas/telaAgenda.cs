@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
         AbrirFuncionario abrirfunc = new AbrirFuncionario();
         AbrirPagamento abrirpag = new AbrirPagamento();
         AbrirServico abrirserv = new AbrirServico();
+        AbrirProntuario abrirpront = new AbrirProntuario();
 
 
         public telaAgenda()

@@ -99,3 +99,4 @@ C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TCM_Clinica.csprojAssemblyReference.cache
