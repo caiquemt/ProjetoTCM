@@ -65,5 +65,35 @@ namespace WindowsFormsApp1
         {
             abrirmed.AbrirCadMedico(this);
         }
+
+        private void btnAgenda_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnProntuario_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEstoqueFuncionario_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnPagamento_Click_1(object sender, EventArgs e)
+        {
+            abrirpag.AbrirCadPagamento(this);
+        }
+
+        private void btnFuncionario_Click(object sender, EventArgs e)
+        {
+            abrirfunc.AbrirCadFuncionario(this);
+        }
+
+        private void btnPesquisa_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

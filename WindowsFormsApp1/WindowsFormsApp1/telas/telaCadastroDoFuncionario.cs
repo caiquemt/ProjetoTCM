@@ -66,7 +66,7 @@ namespace WindowsFormsApp1
 
         private void btnPagamento_Click(object sender, EventArgs e)
         {
-
+            abrirpag.AbrirCadPagamento(this);
         }
 
         private void btnProntuario_Click(object sender, EventArgs e)
@@ -111,7 +111,22 @@ namespace WindowsFormsApp1
 
         private void btnMedico_Click(object sender, EventArgs e)
         {
-            abrirMed.AbrirCadMedico(this);
+            abrirmed.AbrirCadMedico(this);
+        }
+
+        private void btnAgenda_Click(object sender, EventArgs e)
+        {
+            abriragen.AbrirCadAgenda(this);
+        }
+
+        private void btnFuncionario_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnPesquisa_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

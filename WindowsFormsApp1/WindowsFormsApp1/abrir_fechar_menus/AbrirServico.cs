@@ -16,7 +16,7 @@ namespace WindowsFormsApp1.abrir_fechar_menus
 
         public void AbrirCadServico(Form cadserv)
         {
-            telaServico abrirServ = new telaServico();
+            telaServiço abrirServ = new telaServiço();
             abrirServ.Show();
             cadserv.Hide();
         }

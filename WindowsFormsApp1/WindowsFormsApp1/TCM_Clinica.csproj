@@ -47,8 +47,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="abrir_fechar_menus\AbrirAgenda.cs" />
+    <Compile Include="abrir_fechar_menus\AbrirEstoque.cs" />
+    <Compile Include="abrir_fechar_menus\AbrirFuncionario.cs" />
     <Compile Include="abrir_fechar_menus\AbrirMedico.cs" />
     <Compile Include="abrir_fechar_menus\AbrirPaciente.cs" />
+    <Compile Include="abrir_fechar_menus\AbrirPagamento.cs" />
+    <Compile Include="abrir_fechar_menus\AbrirProntuário.cs" />
+    <Compile Include="abrir_fechar_menus\AbrirServico.cs" />
     <Compile Include="conexao.cs" />
     <Compile Include="controlador\controladorConsulta.cs" />
     <Compile Include="controlador\controladorEstoque.cs" />
