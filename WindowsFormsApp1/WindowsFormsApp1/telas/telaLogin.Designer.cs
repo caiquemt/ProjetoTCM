@@ -35,6 +35,7 @@
             this.lkEsqueciSenhaLogin = new System.Windows.Forms.LinkLabel();
             this.txtUsuarioLogin = new System.Windows.Forms.TextBox();
             this.txtSenhaLogin = new System.Windows.Forms.TextBox();
+            this.btnSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbUsuarioLogin
@@ -61,24 +62,28 @@
             // 
             // btnConectarLogin
             // 
+            this.btnConectarLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnConectarLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConectarLogin.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
             this.btnConectarLogin.Location = new System.Drawing.Point(23, 125);
             this.btnConectarLogin.Name = "btnConectarLogin";
             this.btnConectarLogin.Size = new System.Drawing.Size(89, 31);
             this.btnConectarLogin.TabIndex = 3;
             this.btnConectarLogin.Text = "Conectar";
-            this.btnConectarLogin.UseVisualStyleBackColor = true;
+            this.btnConectarLogin.UseVisualStyleBackColor = false;
             this.btnConectarLogin.Click += new System.EventHandler(this.btnConectarLogin_Click);
             // 
             // btnCancelarLogin
             // 
+            this.btnCancelarLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnCancelarLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelarLogin.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
             this.btnCancelarLogin.Location = new System.Drawing.Point(151, 125);
             this.btnCancelarLogin.Name = "btnCancelarLogin";
             this.btnCancelarLogin.Size = new System.Drawing.Size(89, 31);
             this.btnCancelarLogin.TabIndex = 4;
             this.btnCancelarLogin.Text = "Cancelar";
-            this.btnCancelarLogin.UseVisualStyleBackColor = true;
+            this.btnCancelarLogin.UseVisualStyleBackColor = false;
             this.btnCancelarLogin.Click += new System.EventHandler(this.btnCancelarLogin_Click);
             // 
             // lkEsqueciSenhaLogin
@@ -111,12 +116,26 @@
             this.txtSenhaLogin.TabIndex = 7;
             this.txtSenhaLogin.TextChanged += new System.EventHandler(this.txtSenhaLogin_TextChanged);
             // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.LightCoral;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
+            this.btnSair.Location = new System.Drawing.Point(191, 169);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(49, 32);
+            this.btnSair.TabIndex = 8;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.UseWaitCursor = true;
+            // 
             // telaLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(268, 213);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.txtSenhaLogin);
             this.Controls.Add(this.txtUsuarioLogin);
             this.Controls.Add(this.lkEsqueciSenhaLogin);
@@ -142,5 +161,6 @@
         private System.Windows.Forms.LinkLabel lkEsqueciSenhaLogin;
         private System.Windows.Forms.TextBox txtUsuarioLogin;
         private System.Windows.Forms.TextBox txtSenhaLogin;
+        private System.Windows.Forms.Button btnSair;
     }
 }
