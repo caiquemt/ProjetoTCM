@@ -29,16 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaMédico));
-            this.btnSair = new System.Windows.Forms.Button();
+            this.btnInativar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.txtDataEncerramento = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.txtDataCadastro = new System.Windows.Forms.TextBox();
-            this.btnSalvarCadastro = new System.Windows.Forms.Button();
-            this.btnCancelarCadastro = new System.Windows.Forms.Button();
-            this.btnSairCadastro = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txbCPFMed = new System.Windows.Forms.TextBox();
             this.txbRGMed = new System.Windows.Forms.TextBox();
@@ -77,7 +74,7 @@
             this.lblCidadeMed = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.barraSuperior = new System.Windows.Forms.Panel();
-            this.btnSairPrograma = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -87,32 +84,33 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.btnSalvarCadastro = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnSair
+            // btnInativar
             // 
-            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnInativar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSair.Location = new System.Drawing.Point(648, 451);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(668, 195);
-            this.btnSair.TabIndex = 48;
-            this.btnSair.Text = "Inativar";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnInativar.Location = new System.Drawing.Point(1098, 558);
+            this.btnInativar.Name = "btnInativar";
+            this.btnInativar.Size = new System.Drawing.Size(199, 35);
+            this.btnInativar.TabIndex = 48;
+            this.btnInativar.Text = "Inativar";
+            this.btnInativar.UseVisualStyleBackColor = true;
             // 
             // btnExcluir
             // 
             this.btnExcluir.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExcluir.Location = new System.Drawing.Point(648, 420);
+            this.btnExcluir.Location = new System.Drawing.Point(1098, 529);
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(668, 195);
+            this.btnExcluir.Size = new System.Drawing.Size(199, 33);
             this.btnExcluir.TabIndex = 47;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
@@ -122,9 +120,9 @@
             this.btnAlterar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAlterar.Location = new System.Drawing.Point(648, 389);
+            this.btnAlterar.Location = new System.Drawing.Point(1098, 500);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(668, 195);
+            this.btnAlterar.Size = new System.Drawing.Size(199, 31);
             this.btnAlterar.TabIndex = 46;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
@@ -134,10 +132,10 @@
             this.txtDataEncerramento.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDataEncerramento.Location = new System.Drawing.Point(648, 358);
+            this.txtDataEncerramento.Location = new System.Drawing.Point(1098, 390);
             this.txtDataEncerramento.Multiline = true;
             this.txtDataEncerramento.Name = "txtDataEncerramento";
-            this.txtDataEncerramento.Size = new System.Drawing.Size(668, 195);
+            this.txtDataEncerramento.Size = new System.Drawing.Size(199, 25);
             this.txtDataEncerramento.TabIndex = 45;
             // 
             // label10
@@ -147,7 +145,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.label10.Location = new System.Drawing.Point(617, 330);
+            this.label10.Location = new System.Drawing.Point(1107, 424);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(175, 19);
             this.label10.TabIndex = 44;
@@ -160,7 +158,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(643, 280);
+            this.label9.Location = new System.Drawing.Point(1132, 368);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(136, 19);
             this.label9.TabIndex = 43;
@@ -171,51 +169,11 @@
             this.txtDataCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDataCadastro.Location = new System.Drawing.Point(648, 302);
+            this.txtDataCadastro.Location = new System.Drawing.Point(1098, 445);
             this.txtDataCadastro.Multiline = true;
             this.txtDataCadastro.Name = "txtDataCadastro";
-            this.txtDataCadastro.Size = new System.Drawing.Size(668, 195);
+            this.txtDataCadastro.Size = new System.Drawing.Size(199, 26);
             this.txtDataCadastro.TabIndex = 42;
-            // 
-            // btnSalvarCadastro
-            // 
-            this.btnSalvarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalvarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvarCadastro.Location = new System.Drawing.Point(21, 459);
-            this.btnSalvarCadastro.Name = "btnSalvarCadastro";
-            this.btnSalvarCadastro.Size = new System.Drawing.Size(667, 215);
-            this.btnSalvarCadastro.TabIndex = 41;
-            this.btnSalvarCadastro.Text = "Salvar";
-            this.btnSalvarCadastro.UseVisualStyleBackColor = true;
-            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
-            // 
-            // btnCancelarCadastro
-            // 
-            this.btnCancelarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCancelarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarCadastro.Location = new System.Drawing.Point(259, 459);
-            this.btnCancelarCadastro.Name = "btnCancelarCadastro";
-            this.btnCancelarCadastro.Size = new System.Drawing.Size(667, 215);
-            this.btnCancelarCadastro.TabIndex = 40;
-            this.btnCancelarCadastro.Text = "Cancelar";
-            this.btnCancelarCadastro.UseVisualStyleBackColor = true;
-            // 
-            // btnSairCadastro
-            // 
-            this.btnSairCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSairCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSairCadastro.Location = new System.Drawing.Point(473, 459);
-            this.btnSairCadastro.Name = "btnSairCadastro";
-            this.btnSairCadastro.Size = new System.Drawing.Size(667, 215);
-            this.btnSairCadastro.TabIndex = 39;
-            this.btnSairCadastro.Text = "Sair";
-            this.btnSairCadastro.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -239,25 +197,25 @@
             this.panel3.Controls.Add(this.lbNomeCadastro);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.panel3.Location = new System.Drawing.Point(12, 116);
+            this.panel3.Location = new System.Drawing.Point(49, 181);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1150, 328);
+            this.panel3.Size = new System.Drawing.Size(885, 234);
             this.panel3.TabIndex = 37;
             // 
             // txbCPFMed
             // 
             this.txbCPFMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbCPFMed.Location = new System.Drawing.Point(308, 84);
+            this.txbCPFMed.Location = new System.Drawing.Point(300, 84);
             this.txbCPFMed.Name = "txbCPFMed";
-            this.txbCPFMed.Size = new System.Drawing.Size(279, 26);
+            this.txbCPFMed.Size = new System.Drawing.Size(288, 26);
             this.txbCPFMed.TabIndex = 25;
             // 
             // txbRGMed
             // 
             this.txbRGMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbRGMed.Location = new System.Drawing.Point(39, 84);
+            this.txbRGMed.Location = new System.Drawing.Point(31, 84);
             this.txbRGMed.Name = "txbRGMed";
-            this.txbRGMed.Size = new System.Drawing.Size(185, 26);
+            this.txbRGMed.Size = new System.Drawing.Size(194, 26);
             this.txbRGMed.TabIndex = 24;
             // 
             // lblRGMed
@@ -280,9 +238,9 @@
             // 
             // txbIdadeMed
             // 
-            this.txbIdadeMed.Location = new System.Drawing.Point(348, 52);
+            this.txbIdadeMed.Location = new System.Drawing.Point(340, 52);
             this.txbIdadeMed.Name = "txbIdadeMed";
-            this.txbIdadeMed.Size = new System.Drawing.Size(239, 26);
+            this.txbIdadeMed.Size = new System.Drawing.Size(248, 26);
             this.txbIdadeMed.TabIndex = 21;
             // 
             // lblIdadeMed
@@ -296,9 +254,9 @@
             // 
             // txtMatriculaCadastro
             // 
-            this.txtMatriculaCadastro.Location = new System.Drawing.Point(407, 120);
+            this.txtMatriculaCadastro.Location = new System.Drawing.Point(399, 120);
             this.txtMatriculaCadastro.Name = "txtMatriculaCadastro";
-            this.txtMatriculaCadastro.Size = new System.Drawing.Size(180, 26);
+            this.txtMatriculaCadastro.Size = new System.Drawing.Size(189, 26);
             this.txtMatriculaCadastro.TabIndex = 16;
             // 
             // lbCRMMed
@@ -313,26 +271,26 @@
             // txtCargaCadastro
             // 
             this.txtCargaCadastro.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txtCargaCadastro.Location = new System.Drawing.Point(121, 120);
+            this.txtCargaCadastro.Location = new System.Drawing.Point(113, 120);
             this.txtCargaCadastro.Name = "txtCargaCadastro";
-            this.txtCargaCadastro.Size = new System.Drawing.Size(215, 26);
+            this.txtCargaCadastro.Size = new System.Drawing.Size(224, 26);
             this.txtCargaCadastro.TabIndex = 10;
             // 
             // txtDataNascimentoCadastro
             // 
             this.txtDataNascimentoCadastro.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txtDataNascimentoCadastro.Location = new System.Drawing.Point(166, 52);
+            this.txtDataNascimentoCadastro.Location = new System.Drawing.Point(158, 52);
             this.txtDataNascimentoCadastro.Name = "txtDataNascimentoCadastro";
-            this.txtDataNascimentoCadastro.Size = new System.Drawing.Size(114, 26);
+            this.txtDataNascimentoCadastro.Size = new System.Drawing.Size(123, 26);
             this.txtDataNascimentoCadastro.TabIndex = 9;
             this.txtDataNascimentoCadastro.TextChanged += new System.EventHandler(this.txtDataNascimentoCadastro_TextChanged);
             // 
             // txtNomeCadastro
             // 
             this.txtNomeCadastro.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txtNomeCadastro.Location = new System.Drawing.Point(60, 13);
+            this.txtNomeCadastro.Location = new System.Drawing.Point(52, 13);
             this.txtNomeCadastro.Name = "txtNomeCadastro";
-            this.txtNomeCadastro.Size = new System.Drawing.Size(528, 26);
+            this.txtNomeCadastro.Size = new System.Drawing.Size(537, 26);
             this.txtNomeCadastro.TabIndex = 7;
             // 
             // lbEspecialidadeMed
@@ -444,13 +402,13 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(621, 118);
+            this.pictureBox1.Location = new System.Drawing.Point(1098, 181);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(716, 328);
+            this.pictureBox1.Size = new System.Drawing.Size(199, 167);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
-            // 
+             // 
             // lblNumeroRuaMed
             // 
             this.lblNumeroRuaMed.AutoSize = true;
@@ -573,6 +531,7 @@
             this.panel1.Controls.Add(this.lblCEPMed);
             this.panel1.Controls.Add(this.txbEmailMed);
             this.panel1.Controls.Add(this.txbComplementoMed);
+            this.panel1.Controls.Add(this.btnSalvarCadastro);
             this.panel1.Controls.Add(this.lblCidadeMed);
             this.panel1.Controls.Add(this.lblComplementoMed);
             this.panel1.Controls.Add(this.lblEmailMed);
@@ -586,9 +545,9 @@
             this.panel1.Controls.Add(this.lblNaturalidadeMed);
             this.panel1.Controls.Add(this.txbCelularMed);
             this.panel1.Controls.Add(this.lblRuaMed);
-            this.panel1.Location = new System.Drawing.Point(12, 279);
+            this.panel1.Location = new System.Drawing.Point(49, 424);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1914, 938);
+            this.panel1.Size = new System.Drawing.Size(885, 240);
             this.panel1.TabIndex = 60;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -598,7 +557,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.barraSuperior.Controls.Add(this.btnSairPrograma);
+            this.barraSuperior.Controls.Add(this.button1);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
             this.barraSuperior.Controls.Add(this.btnPacienteConsulta);
             this.barraSuperior.Controls.Add(this.button11);
@@ -614,21 +573,20 @@
             this.barraSuperior.Size = new System.Drawing.Size(1366, 81);
             this.barraSuperior.TabIndex = 61;
             // 
-            // btnSairPrograma
+            // button1
             // 
-            this.btnSairPrograma.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSairPrograma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSairPrograma.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSairPrograma.Image = ((System.Drawing.Image)(resources.GetObject("btnSairPrograma.Image")));
-            this.btnSairPrograma.Location = new System.Drawing.Point(1273, -2);
-            this.btnSairPrograma.Name = "btnSairPrograma";
-            this.btnSairPrograma.Size = new System.Drawing.Size(92, 81);
-            this.btnSairPrograma.TabIndex = 26;
-            this.btnSairPrograma.Text = "Sair";
-            this.btnSairPrograma.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSairPrograma.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnSairPrograma.UseVisualStyleBackColor = true;
-            this.btnSairPrograma.Click += new System.EventHandler(this.btnSairPrograma_Click);
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(1273, -2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 81);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "Sair";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnVoltarCadastro
             // 
@@ -660,7 +618,6 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
-            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click);
             // 
             // button11
             // 
@@ -751,7 +708,6 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
-            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click);
             // 
             // button5
             // 
@@ -768,6 +724,20 @@
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = false;
             // 
+            // btnSalvarCadastro
+            // 
+            this.btnSalvarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalvarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvarCadastro.Location = new System.Drawing.Point(10, 248);
+            this.btnSalvarCadastro.Name = "btnSalvarCadastro";
+            this.btnSalvarCadastro.Size = new System.Drawing.Size(284, 0);
+            this.btnSalvarCadastro.TabIndex = 41;
+            this.btnSalvarCadastro.Text = "Salvar";
+            this.btnSalvarCadastro.UseVisualStyleBackColor = true;
+            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
+            // 
             // telaMédico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -775,16 +745,13 @@
             this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.barraSuperior);
-            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.btnInativar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.txtDataEncerramento);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtDataCadastro);
-            this.Controls.Add(this.btnSalvarCadastro);
-            this.Controls.Add(this.btnCancelarCadastro);
-            this.Controls.Add(this.btnSairCadastro);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -805,16 +772,13 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.Button btnInativar;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.TextBox txtDataEncerramento;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtDataCadastro;
-        private System.Windows.Forms.Button btnSalvarCadastro;
-        private System.Windows.Forms.Button btnCancelarCadastro;
-        private System.Windows.Forms.Button btnSairCadastro;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox txbCelularMed;
@@ -853,7 +817,7 @@
         private System.Windows.Forms.Label lblCidadeMed;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel barraSuperior;
-        private System.Windows.Forms.Button btnSairPrograma;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnVoltarCadastro;
         private System.Windows.Forms.Button btnPacienteConsulta;
         private System.Windows.Forms.Button button11;
@@ -863,5 +827,6 @@
         private System.Windows.Forms.Button btnAgenda;
         private System.Windows.Forms.Button btnMedico;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnSalvarCadastro;
     }
 }

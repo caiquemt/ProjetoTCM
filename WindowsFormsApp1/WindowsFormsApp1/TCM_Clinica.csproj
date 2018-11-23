@@ -118,6 +118,12 @@
     <Compile Include="telas\telaPaciente.Designer.cs">
       <DependentUpon>telaPaciente.cs</DependentUpon>
     </Compile>
+    <Compile Include="telas\telaPesquisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas\telaPesquisa.Designer.cs">
+      <DependentUpon>telaPesquisa.cs</DependentUpon>
+    </Compile>
     <Compile Include="telas\telaServiço.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="telas\telaPaciente.resx">
       <DependentUpon>telaPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas\telaPesquisa.resx">
+      <DependentUpon>telaPesquisa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="telas\telaServiço.resx">
       <DependentUpon>telaServiço.cs</DependentUpon>
