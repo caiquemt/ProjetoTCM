@@ -79,12 +79,15 @@ C:\Users\2binfo\Desktop\Projeto\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj
 C:\Users\2binfo\Desktop\Projeto\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TCM_Clinica.csproj.CoreCompileInputs.cache
 C:\Users\2binfo\Desktop\Projeto\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\2binfo\Desktop\Projeto\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TCM_Clinica.csprojAssemblyReference.cache
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaCadastroDoFuncionario.resources
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaAgenda.resources
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaConsulta.resources
+C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaExame.resources
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaMenu.resources
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaMédico.resources
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaPaciente.resources
+C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaPesquisa.resources
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaServiço.resources
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaEstoque.resources
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.telaLogin.resources
@@ -94,9 +97,3 @@ C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TCM_Clinica.csproj.GenerateResource.cache
 C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TCM_Clinica.csproj.CoreCompileInputs.cache
-C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
-C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
-C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
-C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
-C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
-C:\Users\2binfo\Desktop\TCM_Caique\ProjetoTCM\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TCM_Clinica.csprojAssemblyReference.cache

@@ -100,6 +100,12 @@
     <Compile Include="telas\telaConsulta.Designer.cs">
       <DependentUpon>telaConsulta.cs</DependentUpon>
     </Compile>
+    <Compile Include="telas\telaExame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas\telaExame.Designer.cs">
+      <DependentUpon>telaExame.cs</DependentUpon>
+    </Compile>
     <Compile Include="telas\telaMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,12 @@
     </Compile>
     <Compile Include="telas\telaPaciente.Designer.cs">
       <DependentUpon>telaPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="telas\telaPesquisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telas\telaPesquisa.Designer.cs">
+      <DependentUpon>telaPesquisa.cs</DependentUpon>
     </Compile>
     <Compile Include="telas\telaServiço.cs">
       <SubType>Form</SubType>
@@ -165,6 +177,9 @@
     <EmbeddedResource Include="telas\telaConsulta.resx">
       <DependentUpon>telaConsulta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="telas\telaExame.resx">
+      <DependentUpon>telaExame.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="telas\telaMenu.resx">
       <DependentUpon>telaMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -173,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="telas\telaPaciente.resx">
       <DependentUpon>telaPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telas\telaPesquisa.resx">
+      <DependentUpon>telaPesquisa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="telas\telaServiço.resx">
       <DependentUpon>telaServiço.cs</DependentUpon>
