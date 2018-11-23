@@ -29,19 +29,44 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btnMedico_Click(object sender, EventArgs e)
         {
-
+            abrirmed.AbrirCadMedico(this);
         }
 
         private void btnPesquisa_Click(object sender, EventArgs e)
         {
-
+            abrirpesq.AbrirCadPEsquisa(this);
         }
 
         private void btnPaciente_Click(object sender, EventArgs e)
         {
             abripac.AbrirCadPaciente(this);
+        }
+
+        private void btnAgenda_Click(object sender, EventArgs e)
+        {
+            abriragen.AbrirCadAgenda(this);
+        }
+
+        private void btnProntuario_Click(object sender, EventArgs e)
+        {
+            abrirpront.AbrirCadProntuario(this);
+        }
+
+        private void btnPagamento_Click(object sender, EventArgs e)
+        {
+            abrirpag.AbrirCadPagamento(this);
+        }
+
+        private void btnEstoque_Click(object sender, EventArgs e)
+        {
+            abrirest.AbrirCadEstoque(this);
+        }
+
+        private void btnFuncionario_Click(object sender, EventArgs e)
+        {
+            abrirfunc.AbrirCadFuncionario(this);
         }
     }
 }
