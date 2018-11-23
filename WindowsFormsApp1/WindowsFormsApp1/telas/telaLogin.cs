@@ -90,5 +90,12 @@ namespace WindowsFormsApp1
         {
             MessageBox.Show("Entre em contato com o administrador para redefinir sua senha.");
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            fecharAbrirMenus fecharform = new fecharAbrirMenus();
+
+            fecharform.FecharTela(this);
+        }
     }
 }

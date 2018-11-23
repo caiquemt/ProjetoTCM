@@ -17,7 +17,17 @@ namespace WindowsFormsApp1
 
         public void FecharTela(Form form)
         {
-            form.Close();
+            DialogResult dialogResult = MessageBox.Show("Deseja realmente fechar o programa? Podem haver alterações não salvar.", "Sair do sistema", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                //do something
+                form.Close();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+                //do something else
+            }
+            
         }
     }
 }

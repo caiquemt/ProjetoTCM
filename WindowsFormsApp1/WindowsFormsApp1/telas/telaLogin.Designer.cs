@@ -127,7 +127,7 @@
             this.btnSair.TabIndex = 8;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = false;
-            this.btnSair.UseWaitCursor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // telaLogin
             // 
