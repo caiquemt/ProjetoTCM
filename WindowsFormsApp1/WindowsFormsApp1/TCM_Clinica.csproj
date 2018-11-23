@@ -74,6 +74,7 @@
     <Compile Include="dominio\Pagamento.cs" />
     <Compile Include="dominio\Servico.cs" />
     <Compile Include="abrir_fechar_menus\fecharAbrirMenus.cs" />
+    <Compile Include="Login.cs" />
     <Compile Include="repositorio\repositorioConsulta.cs" />
     <Compile Include="repositorio\repositorioEstoque.cs" />
     <Compile Include="repositorio\repositorioExame.cs" />
