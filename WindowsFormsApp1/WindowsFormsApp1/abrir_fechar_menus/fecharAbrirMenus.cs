@@ -23,11 +23,7 @@ namespace WindowsFormsApp1
                 //do something
                 form.Close();
             }
-            else if (dialogResult == DialogResult.No)
-            {
-                //do something else
-            }
-            
+           
         }
     }
 }
