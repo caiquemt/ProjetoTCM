@@ -79,6 +79,7 @@
             this.btnCancelarLogin.TabIndex = 4;
             this.btnCancelarLogin.Text = "Cancelar";
             this.btnCancelarLogin.UseVisualStyleBackColor = true;
+            this.btnCancelarLogin.Click += new System.EventHandler(this.btnCancelarLogin_Click);
             // 
             // lkEsqueciSenhaLogin
             // 
@@ -90,6 +91,7 @@
             this.lkEsqueciSenhaLogin.TabIndex = 5;
             this.lkEsqueciSenhaLogin.TabStop = true;
             this.lkEsqueciSenhaLogin.Text = "Esqueci minha senha";
+            this.lkEsqueciSenhaLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lkEsqueciSenhaLogin_LinkClicked);
             // 
             // txtUsuarioLogin
             // 
@@ -126,7 +128,6 @@
             this.Name = "telaLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

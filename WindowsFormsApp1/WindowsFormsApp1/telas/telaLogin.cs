@@ -46,6 +46,8 @@ namespace WindowsFormsApp1
 
         private void btnConectarLogin_Click(object sender, EventArgs e)
         {
+            telaMenu telamenu = new telaMenu();
+
             //define local variables from the user inputs 
             string user = txtUsuarioLogin.Text;
             string pass = txtSenhaLogin.Text;
@@ -53,12 +55,18 @@ namespace WindowsFormsApp1
             if (login.IsLoggedIn(user, pass))
             {
                 MessageBox.Show("Logado com sucesso");
+                telamenu.Show();
+                this.Hide();
             }
             else
             {
                 //show default login error message 
                 MessageBox.Show("Erro ao conectar");
+                txtUsuarioLogin.Clear();
+                txtSenhaLogin.Clear();
+                txtUsuarioLogin.Focus();
             }
+   
         }
 
         private void txtUsuarioLogin_TextChanged(object sender, EventArgs e)
@@ -69,6 +77,18 @@ namespace WindowsFormsApp1
         private void txtSenhaLogin_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCancelarLogin_Click(object sender, EventArgs e)
+        {
+            txtUsuarioLogin.Clear();
+            txtSenhaLogin.Clear();
+            txtUsuarioLogin.Focus();
+        }
+
+        private void lkEsqueciSenhaLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("Entre em contato com o administrador para redefinir sua senha.");
         }
     }
 }

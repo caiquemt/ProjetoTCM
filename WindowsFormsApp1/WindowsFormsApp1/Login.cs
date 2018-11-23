@@ -37,7 +37,7 @@ namespace WindowsFormsApp1
             }
         }
         //validate integer 
-        private bool IntegerValidator(string input)
+       /* private bool IntegerValidator(string input)
         {
             string pattern = "[^0-9]";
             if (Regex.IsMatch(input, pattern))
@@ -48,7 +48,7 @@ namespace WindowsFormsApp1
             {
                 return false;
             }
-        }
+        }*/
         //clear user inputs 
         private void ClearTexts(string caique, string zxc)
         {
@@ -90,11 +90,11 @@ namespace WindowsFormsApp1
                         return false;
                     }
                     //check password is valid 
-                    else if (IntegerValidator(zxc) == true)
+                   /* else if (IntegerValidator(zxc) == true)
                     {
                         MessageBox.Show("Enter only integer here");
                         return false;
-                    }
+                    }*/
                     //check password is correct 
                     else if (Userpassword != zxc)
                     {
