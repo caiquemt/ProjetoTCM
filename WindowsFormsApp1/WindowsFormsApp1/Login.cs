@@ -36,19 +36,6 @@ namespace WindowsFormsApp1
                 return false;
             }
         }
-        //validate integer 
-       /* private bool IntegerValidator(string input)
-        {
-            string pattern = "[^0-9]";
-            if (Regex.IsMatch(input, pattern))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }*/
         //clear user inputs 
         private void ClearTexts(string caique, string zxc)
         {
@@ -89,12 +76,6 @@ namespace WindowsFormsApp1
                         MessageBox.Show("Digite a senha.");
                         return false;
                     }
-                    //check password is valid 
-                   /* else if (IntegerValidator(zxc) == true)
-                    {
-                        MessageBox.Show("Enter only integer here");
-                        return false;
-                    }*/
                     //check password is correct 
                     else if (Userpassword != zxc)
                     {
