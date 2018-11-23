@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.abrir_fechar_menus;
 
 namespace WindowsFormsApp1
 {
@@ -18,6 +19,9 @@ namespace WindowsFormsApp1
         AbrirFuncionario abrirfunc = new AbrirFuncionario();
         AbrirPagamento abrirpag = new AbrirPagamento();
         AbrirServico abrirserv = new AbrirServico();
+        AbrirProntuario abrirpront = new AbrirProntuario();
+        AbrirPesquisa abrirpesq = new AbrirPesquisa();
+        AbrirEstoque abrirest = new AbrirEstoque();
         AbrirAgenda abriragen = new AbrirAgenda();
 
         public telaPesquisa()

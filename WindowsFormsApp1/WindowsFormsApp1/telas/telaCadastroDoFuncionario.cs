@@ -31,7 +31,8 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-                    }
+
+        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -131,6 +132,11 @@ namespace WindowsFormsApp1
         private void btnPesquisa_Click(object sender, EventArgs e)
         {
             abrirpesq.AbrirCadPEsquisa(this);
+        }
+
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
