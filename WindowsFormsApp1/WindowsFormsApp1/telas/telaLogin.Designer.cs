@@ -68,6 +68,7 @@
             this.btnConectarLogin.TabIndex = 3;
             this.btnConectarLogin.Text = "Conectar";
             this.btnConectarLogin.UseVisualStyleBackColor = true;
+            this.btnConectarLogin.Click += new System.EventHandler(this.btnConectarLogin_Click);
             // 
             // btnCancelarLogin
             // 
@@ -97,6 +98,7 @@
             this.txtUsuarioLogin.Name = "txtUsuarioLogin";
             this.txtUsuarioLogin.Size = new System.Drawing.Size(152, 26);
             this.txtUsuarioLogin.TabIndex = 6;
+            this.txtUsuarioLogin.TextChanged += new System.EventHandler(this.txtUsuarioLogin_TextChanged);
             // 
             // txtSenhaLogin
             // 
@@ -105,8 +107,9 @@
             this.txtSenhaLogin.Name = "txtSenhaLogin";
             this.txtSenhaLogin.Size = new System.Drawing.Size(152, 26);
             this.txtSenhaLogin.TabIndex = 7;
+            this.txtSenhaLogin.TextChanged += new System.EventHandler(this.txtSenhaLogin_TextChanged);
             // 
-            // Login
+            // telaLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -120,7 +123,7 @@
             this.Controls.Add(this.lbSenhaLogin);
             this.Controls.Add(this.btnConectarLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Login";
+            this.Name = "telaLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

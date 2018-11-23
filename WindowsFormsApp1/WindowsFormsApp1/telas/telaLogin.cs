@@ -24,6 +24,9 @@ namespace WindowsFormsApp1
            int nHeightEllipse // width of ellipse
         );
 
+        //Enter code here for your version of username and userpassword 
+        Login login = new Login("caique", "zxc");
+
         public telaLogin()
         {
             InitializeComponent();
@@ -37,6 +40,33 @@ namespace WindowsFormsApp1
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnConectarLogin_Click(object sender, EventArgs e)
+        {
+            //define local variables from the user inputs 
+            string user = txtUsuarioLogin.Text;
+            string pass = txtSenhaLogin.Text;
+            //check if eligible to be logged in 
+            if (login.IsLoggedIn(user, pass))
+            {
+                MessageBox.Show("Logado com sucesso");
+            }
+            else
+            {
+                //show default login error message 
+                MessageBox.Show("Erro ao conectar");
+            }
+        }
+
+        private void txtUsuarioLogin_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSenhaLogin_TextChanged(object sender, EventArgs e)
         {
 
         }
