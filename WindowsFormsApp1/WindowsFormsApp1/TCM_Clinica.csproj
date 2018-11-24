@@ -146,10 +146,10 @@
     <Compile Include="telas\telaPesquisa.Designer.cs">
       <DependentUpon>telaPesquisa.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas\telaServiço.cs">
+    <Compile Include="naoutilizados\telaServiço.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas\telaServiço.Designer.cs">
+    <Compile Include="naoutilizados\telaServiço.Designer.cs">
       <DependentUpon>telaServiço.cs</DependentUpon>
     </Compile>
     <Compile Include="telas\telaEstoque.cs">
@@ -164,10 +164,10 @@
     <Compile Include="telas\telaPagamento.Designer.cs">
       <DependentUpon>telaPagamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="telas\telaSubMenuProntuario.cs">
+    <Compile Include="naoutilizados\telaSubMenuProntuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="telas\telaSubMenuProntuario.Designer.cs">
+    <Compile Include="naoutilizados\telaSubMenuProntuario.Designer.cs">
       <DependentUpon>telaSubMenuProntuario.cs</DependentUpon>
     </Compile>
     <Compile Include="telas\telaSplash.cs">
@@ -208,7 +208,7 @@
     <EmbeddedResource Include="telas\telaPesquisa.resx">
       <DependentUpon>telaPesquisa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas\telaServiço.resx">
+    <EmbeddedResource Include="naoutilizados\telaServiço.resx">
       <DependentUpon>telaServiço.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="telas\telaEstoque.resx">
@@ -220,7 +220,7 @@
     <EmbeddedResource Include="telas\telaPagamento.resx">
       <DependentUpon>telaPagamento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="telas\telaSubMenuProntuario.resx">
+    <EmbeddedResource Include="naoutilizados\telaSubMenuProntuario.resx">
       <DependentUpon>telaSubMenuProntuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="telas\telaSplash.resx">
