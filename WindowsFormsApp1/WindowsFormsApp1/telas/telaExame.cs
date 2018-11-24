@@ -68,5 +68,10 @@ namespace WindowsFormsApp1
         {
             abrirpesq.AbrirCadPEsquisa(this);
         }
+
+        private void btnSairCadastro_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
+        }
     }
 }

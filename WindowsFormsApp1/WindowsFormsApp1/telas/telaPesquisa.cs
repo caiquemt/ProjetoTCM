@@ -14,7 +14,7 @@ namespace WindowsFormsApp1
     public partial class telaPesquisa : Form
     {
         fecharAbrirMenus fecharform = new fecharAbrirMenus();
-        AbrirPaciente abripac = new AbrirPaciente();
+        AbrirPaciente abrirpac = new AbrirPaciente();
         AbrirMedico abrirmed = new AbrirMedico();
         AbrirFuncionario abrirfunc = new AbrirFuncionario();
         AbrirPagamento abrirpag = new AbrirPagamento();
@@ -27,6 +27,46 @@ namespace WindowsFormsApp1
         public telaPesquisa()
         {
             InitializeComponent();
+        }
+
+        private void btnSairCadastro_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
+        }
+
+        private void btnPacienteConsulta_Click(object sender, EventArgs e)
+        {
+            abrirpac.AbrirCadPaciente(this);
+        }
+
+        private void btnMedico_Click(object sender, EventArgs e)
+        {
+            abrirmed.AbrirCadMedico(this);
+        }
+
+        private void btnAgenda_Click(object sender, EventArgs e)
+        {
+            abriragen.AbrirCadAgenda(this);
+        }
+
+        private void btnProntuario_Click(object sender, EventArgs e)
+        {
+            abrirpront.AbrirCadProntuario(this);
+        }
+
+        private void btnEstoqueFuncionario_Click(object sender, EventArgs e)
+        {
+            abrirest.AbrirCadEstoque(this);
+        }
+
+        private void btnPagamento_Click(object sender, EventArgs e)
+        {
+            abrirpag.AbrirCadPagamento(this);
+        }
+
+        private void btnFuncionario_Click(object sender, EventArgs e)
+        {
+            abrirfunc.AbrirCadFuncionario(this);
         }
     }
 }

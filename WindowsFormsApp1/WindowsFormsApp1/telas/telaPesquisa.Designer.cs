@@ -33,24 +33,24 @@
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.btnFuncionario = new System.Windows.Forms.Button();
             this.btnPagamento = new System.Windows.Forms.Button();
             this.btnEstoqueFuncionario = new System.Windows.Forms.Button();
             this.btnProntuario = new System.Windows.Forms.Button();
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnPesquisa = new System.Windows.Forms.Button();
             this.lblPesquisar = new System.Windows.Forms.Label();
             this.lblPesquisar1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblPesquisaPor = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.lblNomePesquisa = new System.Windows.Forms.Label();
-            this.lblMatriculaPesquisa = new System.Windows.Forms.Label();
             this.lblExpedientePesquisa = new System.Windows.Forms.Label();
             this.lblFixoPesquisa = new System.Windows.Forms.Label();
             this.lblCelularPesquisa = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.lblMatriculaPesquisa = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -64,13 +64,13 @@
             this.panel1.Controls.Add(this.btnSairCadastro);
             this.panel1.Controls.Add(this.btnVoltarCadastro);
             this.panel1.Controls.Add(this.btnPacienteConsulta);
-            this.panel1.Controls.Add(this.button11);
+            this.panel1.Controls.Add(this.btnFuncionario);
             this.panel1.Controls.Add(this.btnPagamento);
             this.panel1.Controls.Add(this.btnEstoqueFuncionario);
             this.panel1.Controls.Add(this.btnProntuario);
             this.panel1.Controls.Add(this.btnAgenda);
             this.panel1.Controls.Add(this.btnMedico);
-            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.btnPesquisa);
             this.panel1.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -91,6 +91,7 @@
             this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSairCadastro.UseVisualStyleBackColor = true;
+            this.btnSairCadastro.Click += new System.EventHandler(this.btnSairCadastro_Click);
             // 
             // btnVoltarCadastro
             // 
@@ -122,21 +123,23 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
+            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click);
             // 
-            // button11
+            // btnFuncionario
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            this.button11.Location = new System.Drawing.Point(605, -1);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(101, 80);
-            this.button11.TabIndex = 22;
-            this.button11.Text = "Funcionário";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button11.UseVisualStyleBackColor = false;
+            this.btnFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
+            this.btnFuncionario.Location = new System.Drawing.Point(605, -1);
+            this.btnFuncionario.Name = "btnFuncionario";
+            this.btnFuncionario.Size = new System.Drawing.Size(101, 80);
+            this.btnFuncionario.TabIndex = 22;
+            this.btnFuncionario.Text = "Funcionário";
+            this.btnFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnFuncionario.UseVisualStyleBackColor = false;
+            this.btnFuncionario.Click += new System.EventHandler(this.btnFuncionario_Click);
             // 
             // btnPagamento
             // 
@@ -152,6 +155,7 @@
             this.btnPagamento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPagamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPagamento.UseVisualStyleBackColor = false;
+            this.btnPagamento.Click += new System.EventHandler(this.btnPagamento_Click);
             // 
             // btnEstoqueFuncionario
             // 
@@ -167,6 +171,7 @@
             this.btnEstoqueFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEstoqueFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEstoqueFuncionario.UseVisualStyleBackColor = false;
+            this.btnEstoqueFuncionario.Click += new System.EventHandler(this.btnEstoqueFuncionario_Click);
             // 
             // btnProntuario
             // 
@@ -182,6 +187,7 @@
             this.btnProntuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnProntuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProntuario.UseVisualStyleBackColor = false;
+            this.btnProntuario.Click += new System.EventHandler(this.btnProntuario_Click);
             // 
             // btnAgenda
             // 
@@ -197,6 +203,7 @@
             this.btnAgenda.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAgenda.UseVisualStyleBackColor = false;
+            this.btnAgenda.Click += new System.EventHandler(this.btnAgenda_Click);
             // 
             // btnMedico
             // 
@@ -212,21 +219,22 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
+            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click);
             // 
-            // button5
+            // btnPesquisa
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(706, -1);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(101, 80);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "Pesquisa";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnPesquisa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesquisa.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPesquisa.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisa.Image")));
+            this.btnPesquisa.Location = new System.Drawing.Point(706, -1);
+            this.btnPesquisa.Name = "btnPesquisa";
+            this.btnPesquisa.Size = new System.Drawing.Size(101, 80);
+            this.btnPesquisa.TabIndex = 16;
+            this.btnPesquisa.Text = "Pesquisa";
+            this.btnPesquisa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPesquisa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnPesquisa.UseVisualStyleBackColor = false;
             // 
             // lblPesquisar
             // 
@@ -275,7 +283,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 229F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 151F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 328F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 331F));
             this.tableLayoutPanel1.Controls.Add(this.lblNomePesquisa, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.lblExpedientePesquisa, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.lblFixoPesquisa, 3, 0);
@@ -308,17 +316,6 @@
             this.lblNomePesquisa.TabIndex = 30;
             this.lblNomePesquisa.Text = "Nome";
             this.lblNomePesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblMatriculaPesquisa
-            // 
-            this.lblMatriculaPesquisa.AutoSize = true;
-            this.lblMatriculaPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMatriculaPesquisa.Location = new System.Drawing.Point(222, 3);
-            this.lblMatriculaPesquisa.Name = "lblMatriculaPesquisa";
-            this.lblMatriculaPesquisa.Size = new System.Drawing.Size(96, 20);
-            this.lblMatriculaPesquisa.TabIndex = 31;
-            this.lblMatriculaPesquisa.Text = "Matricula";
-            this.lblMatriculaPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblExpedientePesquisa
             // 
@@ -364,6 +361,17 @@
             this.label9.Text = "E-mail";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lblMatriculaPesquisa
+            // 
+            this.lblMatriculaPesquisa.AutoSize = true;
+            this.lblMatriculaPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMatriculaPesquisa.Location = new System.Drawing.Point(222, 3);
+            this.lblMatriculaPesquisa.Name = "lblMatriculaPesquisa";
+            this.lblMatriculaPesquisa.Size = new System.Drawing.Size(96, 20);
+            this.lblMatriculaPesquisa.TabIndex = 31;
+            this.lblMatriculaPesquisa.Text = "Matricula";
+            this.lblMatriculaPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // telaPesquisa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -395,13 +403,12 @@
         private System.Windows.Forms.Button btnSairCadastro;
         private System.Windows.Forms.Button btnVoltarCadastro;
         private System.Windows.Forms.Button btnPacienteConsulta;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button btnPagamento;
         private System.Windows.Forms.Button btnEstoqueFuncionario;
         private System.Windows.Forms.Button btnProntuario;
         private System.Windows.Forms.Button btnAgenda;
         private System.Windows.Forms.Button btnMedico;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnPesquisa;
         private System.Windows.Forms.Label lblPesquisar;
         private System.Windows.Forms.Label lblPesquisar1;
         private System.Windows.Forms.TextBox textBox1;
@@ -413,5 +420,6 @@
         private System.Windows.Forms.Label lblFixoPesquisa;
         private System.Windows.Forms.Label lblCelularPesquisa;
         private System.Windows.Forms.Label label9;
+        public System.Windows.Forms.Button btnFuncionario;
     }
 }
