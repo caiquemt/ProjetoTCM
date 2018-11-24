@@ -43,19 +43,19 @@
             // lblMenuPrincipal
             // 
             this.lblMenuPrincipal.AutoSize = true;
-            this.lblMenuPrincipal.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMenuPrincipal.Location = new System.Drawing.Point(304, 19);
+            this.lblMenuPrincipal.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.lblMenuPrincipal.Location = new System.Drawing.Point(530, 175);
             this.lblMenuPrincipal.Name = "lblMenuPrincipal";
-            this.lblMenuPrincipal.Size = new System.Drawing.Size(221, 33);
+            this.lblMenuPrincipal.Size = new System.Drawing.Size(310, 41);
             this.lblMenuPrincipal.TabIndex = 8;
             this.lblMenuPrincipal.Text = "MENU PRINCIPAL";
             // 
             // btnPesquisa
             // 
-            this.btnPesquisa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPesquisa.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPesquisa.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisa.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisa.Image")));
-            this.btnPesquisa.Location = new System.Drawing.Point(562, 100);
+            this.btnPesquisa.Location = new System.Drawing.Point(838, 262);
             this.btnPesquisa.Name = "btnPesquisa";
             this.btnPesquisa.Size = new System.Drawing.Size(130, 130);
             this.btnPesquisa.TabIndex = 7;
@@ -67,10 +67,10 @@
             // 
             // btnFuncionario
             // 
-            this.btnFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnFuncionario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnFuncionario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
-            this.btnFuncionario.Location = new System.Drawing.Point(562, 262);
+            this.btnFuncionario.Location = new System.Drawing.Point(838, 424);
             this.btnFuncionario.Name = "btnFuncionario";
             this.btnFuncionario.Size = new System.Drawing.Size(130, 130);
             this.btnFuncionario.TabIndex = 6;
@@ -82,11 +82,11 @@
             // 
             // btnProntuario
             // 
-            this.btnProntuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnProntuario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnProntuario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProntuario.Image = ((System.Drawing.Image)(resources.GetObject("btnProntuario.Image")));
             this.btnProntuario.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnProntuario.Location = new System.Drawing.Point(108, 262);
+            this.btnProntuario.Location = new System.Drawing.Point(384, 424);
             this.btnProntuario.Name = "btnProntuario";
             this.btnProntuario.Size = new System.Drawing.Size(130, 130);
             this.btnProntuario.TabIndex = 5;
@@ -97,10 +97,10 @@
             // 
             // btnMedico
             // 
-            this.btnMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnMedico.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnMedico.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
-            this.btnMedico.Location = new System.Drawing.Point(261, 100);
+            this.btnMedico.Location = new System.Drawing.Point(537, 262);
             this.btnMedico.Name = "btnMedico";
             this.btnMedico.Size = new System.Drawing.Size(130, 130);
             this.btnMedico.TabIndex = 4;
@@ -112,11 +112,11 @@
             // 
             // btnAgenda
             // 
-            this.btnAgenda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnAgenda.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnAgenda.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgenda.Image = ((System.Drawing.Image)(resources.GetObject("btnAgenda.Image")));
             this.btnAgenda.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnAgenda.Location = new System.Drawing.Point(414, 100);
+            this.btnAgenda.Location = new System.Drawing.Point(690, 262);
             this.btnAgenda.Name = "btnAgenda";
             this.btnAgenda.Size = new System.Drawing.Size(130, 130);
             this.btnAgenda.TabIndex = 3;
@@ -127,11 +127,11 @@
             // 
             // btnPagamento
             // 
-            this.btnPagamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPagamento.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPagamento.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
             this.btnPagamento.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnPagamento.Location = new System.Drawing.Point(261, 262);
+            this.btnPagamento.Location = new System.Drawing.Point(537, 424);
             this.btnPagamento.Name = "btnPagamento";
             this.btnPagamento.Size = new System.Drawing.Size(130, 130);
             this.btnPagamento.TabIndex = 2;
@@ -142,10 +142,10 @@
             // 
             // btnEstoque
             // 
-            this.btnEstoque.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnEstoque.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnEstoque.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoque.Image = ((System.Drawing.Image)(resources.GetObject("btnEstoque.Image")));
-            this.btnEstoque.Location = new System.Drawing.Point(414, 262);
+            this.btnEstoque.Location = new System.Drawing.Point(690, 424);
             this.btnEstoque.Name = "btnEstoque";
             this.btnEstoque.Size = new System.Drawing.Size(130, 130);
             this.btnEstoque.TabIndex = 1;
@@ -157,10 +157,10 @@
             // 
             // btnPaciente
             // 
-            this.btnPaciente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPaciente.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPaciente.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPaciente.Image = ((System.Drawing.Image)(resources.GetObject("btnPaciente.Image")));
-            this.btnPaciente.Location = new System.Drawing.Point(108, 100);
+            this.btnPaciente.Location = new System.Drawing.Point(384, 262);
             this.btnPaciente.Name = "btnPaciente";
             this.btnPaciente.Size = new System.Drawing.Size(130, 130);
             this.btnPaciente.TabIndex = 0;
@@ -174,7 +174,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.lblMenuPrincipal);
             this.Controls.Add(this.btnPesquisa);

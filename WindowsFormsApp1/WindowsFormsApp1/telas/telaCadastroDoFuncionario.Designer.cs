@@ -335,8 +335,9 @@
             this.maskedTextBox2.Location = new System.Drawing.Point(705, 160);
             this.maskedTextBox2.Mask = "00/00/0000";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(84, 36);
+            this.maskedTextBox2.Size = new System.Drawing.Size(123, 36);
             this.maskedTextBox2.TabIndex = 49;
+            this.maskedTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbTelFunc
             // 
@@ -607,7 +608,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSalvarCadastro.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnSalvarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalvarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnSalvarCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSalvarCadastro.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
             this.btnSalvarCadastro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSalvarCadastro.Location = new System.Drawing.Point(55, 395);
@@ -623,7 +624,7 @@
             this.btnAlterar.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnAlterar.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnAlterar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnAlterar.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
             this.btnAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlterar.Location = new System.Drawing.Point(54, 310);

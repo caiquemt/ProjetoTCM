@@ -42,7 +42,7 @@
             // 
             this.lbUsuarioLogin.AutoSize = true;
             this.lbUsuarioLogin.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lbUsuarioLogin.Location = new System.Drawing.Point(15, 26);
+            this.lbUsuarioLogin.Location = new System.Drawing.Point(15, 32);
             this.lbUsuarioLogin.Name = "lbUsuarioLogin";
             this.lbUsuarioLogin.Size = new System.Drawing.Size(67, 19);
             this.lbUsuarioLogin.TabIndex = 0;
@@ -62,7 +62,7 @@
             // 
             // btnEntrarLogin
             // 
-            this.btnEntrarLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnEntrarLogin.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnEntrarLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEntrarLogin.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
             this.btnEntrarLogin.Location = new System.Drawing.Point(23, 125);
@@ -75,7 +75,7 @@
             // 
             // btnCancelarLogin
             // 
-            this.btnCancelarLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnCancelarLogin.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnCancelarLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelarLogin.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
             this.btnCancelarLogin.Location = new System.Drawing.Point(151, 125);
@@ -101,7 +101,7 @@
             // txtUsuarioLogin
             // 
             this.txtUsuarioLogin.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txtUsuarioLogin.Location = new System.Drawing.Point(88, 23);
+            this.txtUsuarioLogin.Location = new System.Drawing.Point(88, 29);
             this.txtUsuarioLogin.Name = "txtUsuarioLogin";
             this.txtUsuarioLogin.Size = new System.Drawing.Size(152, 26);
             this.txtUsuarioLogin.TabIndex = 6;
@@ -122,7 +122,7 @@
             this.btnSair.BackColor = System.Drawing.Color.LightCoral;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.btnSair.Location = new System.Drawing.Point(191, 169);
+            this.btnSair.Location = new System.Drawing.Point(191, 162);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(49, 32);
             this.btnSair.TabIndex = 8;
@@ -134,7 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(268, 213);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.txtSenhaLogin);

@@ -29,16 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaMédico));
-            this.btnInativar = new System.Windows.Forms.Button();
-            this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.txtDataEncerramento = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.txtDataCadastro = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.txbCPFMed = new System.Windows.Forms.TextBox();
-            this.txbRGMed = new System.Windows.Forms.TextBox();
             this.lblRGMed = new System.Windows.Forms.Label();
             this.lblCPFMed = new System.Windows.Forms.Label();
             this.txbIdadeMed = new System.Windows.Forms.TextBox();
@@ -46,7 +42,6 @@
             this.txtMatriculaCadastro = new System.Windows.Forms.TextBox();
             this.lbCRMMed = new System.Windows.Forms.Label();
             this.txtCargaCadastro = new System.Windows.Forms.TextBox();
-            this.txtDataNascimentoCadastro = new System.Windows.Forms.TextBox();
             this.txtNomeCadastro = new System.Windows.Forms.TextBox();
             this.lbEspecialidadeMed = new System.Windows.Forms.Label();
             this.lbDataNascimento = new System.Windows.Forms.Label();
@@ -63,7 +58,6 @@
             this.txbNumeroRuaMed = new System.Windows.Forms.TextBox();
             this.lblComplementoMed = new System.Windows.Forms.Label();
             this.txbComplementoMed = new System.Windows.Forms.TextBox();
-            this.txbCEPMed = new System.Windows.Forms.TextBox();
             this.lblCEPMed = new System.Windows.Forms.Label();
             this.lblNaturalidadeMed = new System.Windows.Forms.Label();
             this.lblUFMed = new System.Windows.Forms.Label();
@@ -84,34 +78,14 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.btnPesquisa = new System.Windows.Forms.Button();
+            this.txbRgMed = new System.Windows.Forms.MaskedTextBox();
+            this.txbCpfMed = new System.Windows.Forms.MaskedTextBox();
+            this.txbNascMed = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnInativar
-            // 
-            this.btnInativar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnInativar.Location = new System.Drawing.Point(1098, 558);
-            this.btnInativar.Name = "btnInativar";
-            this.btnInativar.Size = new System.Drawing.Size(199, 35);
-            this.btnInativar.TabIndex = 48;
-            this.btnInativar.Text = "Inativar";
-            this.btnInativar.UseVisualStyleBackColor = true;
-            // 
-            // btnExcluir
-            // 
-            this.btnExcluir.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExcluir.Location = new System.Drawing.Point(1098, 529);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(199, 33);
-            this.btnExcluir.TabIndex = 47;
-            this.btnExcluir.Text = "Excluir";
-            this.btnExcluir.UseVisualStyleBackColor = true;
             // 
             // btnAlterar
             // 
@@ -127,9 +101,7 @@
             // 
             // txtDataEncerramento
             // 
-            this.txtDataEncerramento.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtDataEncerramento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDataEncerramento.Location = new System.Drawing.Point(1098, 390);
             this.txtDataEncerramento.Multiline = true;
             this.txtDataEncerramento.Name = "txtDataEncerramento";
@@ -164,9 +136,7 @@
             // 
             // txtDataCadastro
             // 
-            this.txtDataCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtDataCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDataCadastro.Location = new System.Drawing.Point(1098, 445);
             this.txtDataCadastro.Multiline = true;
             this.txtDataCadastro.Name = "txtDataCadastro";
@@ -179,8 +149,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.txbCPFMed);
-            this.panel3.Controls.Add(this.txbRGMed);
+            this.panel3.Controls.Add(this.txbNascMed);
+            this.panel3.Controls.Add(this.txbCpfMed);
+            this.panel3.Controls.Add(this.txbRgMed);
             this.panel3.Controls.Add(this.lblRGMed);
             this.panel3.Controls.Add(this.lblCPFMed);
             this.panel3.Controls.Add(this.txbIdadeMed);
@@ -188,7 +159,6 @@
             this.panel3.Controls.Add(this.txtMatriculaCadastro);
             this.panel3.Controls.Add(this.lbCRMMed);
             this.panel3.Controls.Add(this.txtCargaCadastro);
-            this.panel3.Controls.Add(this.txtDataNascimentoCadastro);
             this.panel3.Controls.Add(this.txtNomeCadastro);
             this.panel3.Controls.Add(this.lbEspecialidadeMed);
             this.panel3.Controls.Add(this.lbDataNascimento);
@@ -200,306 +170,279 @@
             this.panel3.Size = new System.Drawing.Size(885, 234);
             this.panel3.TabIndex = 37;
             // 
-            // txbCPFMed
-            // 
-            this.txbCPFMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbCPFMed.Location = new System.Drawing.Point(300, 84);
-            this.txbCPFMed.Name = "txbCPFMed";
-            this.txbCPFMed.Size = new System.Drawing.Size(288, 26);
-            this.txbCPFMed.TabIndex = 25;
-            // 
-            // txbRGMed
-            // 
-            this.txbRGMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbRGMed.Location = new System.Drawing.Point(31, 84);
-            this.txbRGMed.Name = "txbRGMed";
-            this.txbRGMed.Size = new System.Drawing.Size(194, 26);
-            this.txbRGMed.TabIndex = 24;
-            // 
             // lblRGMed
             // 
             this.lblRGMed.AutoSize = true;
-            this.lblRGMed.Location = new System.Drawing.Point(3, 87);
+            this.lblRGMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRGMed.Location = new System.Drawing.Point(5, 70);
             this.lblRGMed.Name = "lblRGMed";
-            this.lblRGMed.Size = new System.Drawing.Size(34, 19);
+            this.lblRGMed.Size = new System.Drawing.Size(50, 28);
             this.lblRGMed.TabIndex = 23;
             this.lblRGMed.Text = "RG:";
             // 
             // lblCPFMed
             // 
             this.lblCPFMed.AutoSize = true;
-            this.lblCPFMed.Location = new System.Drawing.Point(261, 87);
+            this.lblCPFMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCPFMed.Location = new System.Drawing.Point(374, 70);
             this.lblCPFMed.Name = "lblCPFMed";
-            this.lblCPFMed.Size = new System.Drawing.Size(41, 19);
+            this.lblCPFMed.Size = new System.Drawing.Size(60, 28);
             this.lblCPFMed.TabIndex = 22;
             this.lblCPFMed.Text = "CPF:";
             // 
             // txbIdadeMed
             // 
-            this.txbIdadeMed.Location = new System.Drawing.Point(340, 52);
+            this.txbIdadeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbIdadeMed.Location = new System.Drawing.Point(455, 118);
             this.txbIdadeMed.Name = "txbIdadeMed";
-            this.txbIdadeMed.Size = new System.Drawing.Size(248, 26);
+            this.txbIdadeMed.Size = new System.Drawing.Size(75, 36);
             this.txbIdadeMed.TabIndex = 21;
             // 
             // lblIdadeMed
             // 
             this.lblIdadeMed.AutoSize = true;
-            this.lblIdadeMed.Location = new System.Drawing.Point(286, 55);
+            this.lblIdadeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblIdadeMed.Location = new System.Drawing.Point(371, 121);
             this.lblIdadeMed.Name = "lblIdadeMed";
-            this.lblIdadeMed.Size = new System.Drawing.Size(56, 19);
+            this.lblIdadeMed.Size = new System.Drawing.Size(81, 28);
             this.lblIdadeMed.TabIndex = 20;
             this.lblIdadeMed.Text = "Idade:";
             // 
             // txtMatriculaCadastro
             // 
-            this.txtMatriculaCadastro.Location = new System.Drawing.Point(399, 120);
+            this.txtMatriculaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtMatriculaCadastro.Location = new System.Drawing.Point(484, 169);
             this.txtMatriculaCadastro.Name = "txtMatriculaCadastro";
-            this.txtMatriculaCadastro.Size = new System.Drawing.Size(189, 26);
+            this.txtMatriculaCadastro.Size = new System.Drawing.Size(189, 36);
             this.txtMatriculaCadastro.TabIndex = 16;
             // 
             // lbCRMMed
             // 
             this.lbCRMMed.AutoSize = true;
-            this.lbCRMMed.Location = new System.Drawing.Point(358, 125);
+            this.lbCRMMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbCRMMed.Location = new System.Drawing.Point(420, 172);
             this.lbCRMMed.Name = "lbCRMMed";
-            this.lbCRMMed.Size = new System.Drawing.Size(47, 19);
+            this.lbCRMMed.Size = new System.Drawing.Size(69, 28);
             this.lbCRMMed.TabIndex = 15;
             this.lbCRMMed.Text = "CRM:";
             // 
             // txtCargaCadastro
             // 
-            this.txtCargaCadastro.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txtCargaCadastro.Location = new System.Drawing.Point(113, 120);
+            this.txtCargaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtCargaCadastro.Location = new System.Drawing.Point(184, 169);
             this.txtCargaCadastro.Name = "txtCargaCadastro";
-            this.txtCargaCadastro.Size = new System.Drawing.Size(224, 26);
+            this.txtCargaCadastro.Size = new System.Drawing.Size(224, 36);
             this.txtCargaCadastro.TabIndex = 10;
-            // 
-            // txtDataNascimentoCadastro
-            // 
-            this.txtDataNascimentoCadastro.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txtDataNascimentoCadastro.Location = new System.Drawing.Point(158, 52);
-            this.txtDataNascimentoCadastro.Name = "txtDataNascimentoCadastro";
-            this.txtDataNascimentoCadastro.Size = new System.Drawing.Size(123, 26);
-            this.txtDataNascimentoCadastro.TabIndex = 9;
-            this.txtDataNascimentoCadastro.TextChanged += new System.EventHandler(this.txtDataNascimentoCadastro_TextChanged);
             // 
             // txtNomeCadastro
             // 
-            this.txtNomeCadastro.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txtNomeCadastro.Location = new System.Drawing.Point(52, 13);
+            this.txtNomeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtNomeCadastro.Location = new System.Drawing.Point(93, 13);
             this.txtNomeCadastro.Name = "txtNomeCadastro";
-            this.txtNomeCadastro.Size = new System.Drawing.Size(537, 26);
+            this.txtNomeCadastro.Size = new System.Drawing.Size(665, 36);
             this.txtNomeCadastro.TabIndex = 7;
             // 
             // lbEspecialidadeMed
             // 
             this.lbEspecialidadeMed.AutoSize = true;
-            this.lbEspecialidadeMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lbEspecialidadeMed.Location = new System.Drawing.Point(3, 124);
+            this.lbEspecialidadeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbEspecialidadeMed.Location = new System.Drawing.Point(6, 172);
             this.lbEspecialidadeMed.Name = "lbEspecialidadeMed";
-            this.lbEspecialidadeMed.Size = new System.Drawing.Size(116, 19);
+            this.lbEspecialidadeMed.Size = new System.Drawing.Size(172, 28);
             this.lbEspecialidadeMed.TabIndex = 3;
             this.lbEspecialidadeMed.Text = "Especialidade:";
             // 
             // lbDataNascimento
             // 
             this.lbDataNascimento.AutoSize = true;
-            this.lbDataNascimento.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lbDataNascimento.Location = new System.Drawing.Point(3, 55);
+            this.lbDataNascimento.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbDataNascimento.Location = new System.Drawing.Point(6, 121);
             this.lbDataNascimento.Name = "lbDataNascimento";
-            this.lbDataNascimento.Size = new System.Drawing.Size(161, 19);
+            this.lbDataNascimento.Size = new System.Drawing.Size(238, 28);
             this.lbDataNascimento.TabIndex = 2;
             this.lbDataNascimento.Text = "Data de Nascimento:";
             // 
             // lbNomeCadastro
             // 
             this.lbNomeCadastro.AutoSize = true;
-            this.lbNomeCadastro.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lbNomeCadastro.Location = new System.Drawing.Point(4, 16);
+            this.lbNomeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbNomeCadastro.Location = new System.Drawing.Point(6, 16);
             this.lbNomeCadastro.Name = "lbNomeCadastro";
-            this.lbNomeCadastro.Size = new System.Drawing.Size(55, 19);
+            this.lbNomeCadastro.Size = new System.Drawing.Size(83, 28);
             this.lbNomeCadastro.TabIndex = 0;
             this.lbNomeCadastro.Text = "Nome:";
             // 
             // txbCelularMed
             // 
-            this.txbCelularMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbCelularMed.Location = new System.Drawing.Point(354, 105);
+            this.txbCelularMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbCelularMed.Location = new System.Drawing.Point(440, 141);
             this.txbCelularMed.Name = "txbCelularMed";
-            this.txbCelularMed.Size = new System.Drawing.Size(233, 26);
+            this.txbCelularMed.Size = new System.Drawing.Size(233, 36);
             this.txbCelularMed.TabIndex = 19;
             // 
             // lblCelularCadastro
             // 
             this.lblCelularCadastro.AutoSize = true;
-            this.lblCelularCadastro.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lblCelularCadastro.Location = new System.Drawing.Point(286, 110);
+            this.lblCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCelularCadastro.Location = new System.Drawing.Point(336, 145);
             this.lblCelularCadastro.Name = "lblCelularCadastro";
-            this.lblCelularCadastro.Size = new System.Drawing.Size(66, 19);
+            this.lblCelularCadastro.Size = new System.Drawing.Size(98, 28);
             this.lblCelularCadastro.TabIndex = 18;
             this.lblCelularCadastro.Text = "Celular:";
             // 
             // txbEmailMed
             // 
-            this.txbEmailMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbEmailMed.Location = new System.Drawing.Point(61, 139);
+            this.txbEmailMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbEmailMed.Location = new System.Drawing.Point(93, 181);
             this.txbEmailMed.Name = "txbEmailMed";
-            this.txbEmailMed.Size = new System.Drawing.Size(527, 26);
+            this.txbEmailMed.Size = new System.Drawing.Size(527, 36);
             this.txbEmailMed.TabIndex = 13;
             // 
             // txbTelefoneMed
             // 
-            this.txbTelefoneMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbTelefoneMed.Location = new System.Drawing.Point(81, 107);
+            this.txbTelefoneMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbTelefoneMed.Location = new System.Drawing.Point(125, 142);
             this.txbTelefoneMed.Name = "txbTelefoneMed";
-            this.txbTelefoneMed.Size = new System.Drawing.Size(196, 26);
+            this.txbTelefoneMed.Size = new System.Drawing.Size(196, 36);
             this.txbTelefoneMed.TabIndex = 12;
             // 
             // txbRuaMed
             // 
-            this.txbRuaMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbRuaMed.Location = new System.Drawing.Point(50, 6);
+            this.txbRuaMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbRuaMed.Location = new System.Drawing.Point(74, 9);
             this.txbRuaMed.Name = "txbRuaMed";
-            this.txbRuaMed.Size = new System.Drawing.Size(439, 26);
+            this.txbRuaMed.Size = new System.Drawing.Size(615, 36);
             this.txbRuaMed.TabIndex = 11;
             this.txbRuaMed.TextChanged += new System.EventHandler(this.txtHorarioExpedienteCadastro_TextChanged);
             // 
             // lblEmailMed
             // 
             this.lblEmailMed.AutoSize = true;
-            this.lblEmailMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lblEmailMed.Location = new System.Drawing.Point(4, 142);
+            this.lblEmailMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblEmailMed.Location = new System.Drawing.Point(6, 184);
             this.lblEmailMed.Name = "lblEmailMed";
-            this.lblEmailMed.Size = new System.Drawing.Size(55, 19);
+            this.lblEmailMed.Size = new System.Drawing.Size(82, 28);
             this.lblEmailMed.TabIndex = 6;
             this.lblEmailMed.Text = "Email:";
             // 
             // lblTelefoneMed
             // 
             this.lblTelefoneMed.AutoSize = true;
-            this.lblTelefoneMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lblTelefoneMed.Location = new System.Drawing.Point(4, 108);
+            this.lblTelefoneMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblTelefoneMed.Location = new System.Drawing.Point(5, 142);
             this.lblTelefoneMed.Name = "lblTelefoneMed";
-            this.lblTelefoneMed.Size = new System.Drawing.Size(75, 19);
+            this.lblTelefoneMed.Size = new System.Drawing.Size(114, 28);
             this.lblTelefoneMed.TabIndex = 5;
             this.lblTelefoneMed.Text = "Telefone:";
             // 
             // lblRuaMed
             // 
             this.lblRuaMed.AutoSize = true;
-            this.lblRuaMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
+            this.lblRuaMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.lblRuaMed.Location = new System.Drawing.Point(6, 9);
             this.lblRuaMed.Name = "lblRuaMed";
-            this.lblRuaMed.Size = new System.Drawing.Size(43, 19);
+            this.lblRuaMed.Size = new System.Drawing.Size(62, 28);
             this.lblRuaMed.TabIndex = 4;
             this.lblRuaMed.Text = "Rua:";
             // 
             // lblNumeroRuaMed
             // 
             this.lblNumeroRuaMed.AutoSize = true;
-            this.lblNumeroRuaMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lblNumeroRuaMed.Location = new System.Drawing.Point(495, 9);
+            this.lblNumeroRuaMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblNumeroRuaMed.Location = new System.Drawing.Point(695, 14);
             this.lblNumeroRuaMed.Name = "lblNumeroRuaMed";
-            this.lblNumeroRuaMed.Size = new System.Drawing.Size(31, 19);
+            this.lblNumeroRuaMed.Size = new System.Drawing.Size(45, 28);
             this.lblNumeroRuaMed.TabIndex = 51;
             this.lblNumeroRuaMed.Text = "Nº:";
             // 
             // txbNumeroRuaMed
             // 
-            this.txbNumeroRuaMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbNumeroRuaMed.Location = new System.Drawing.Point(528, 6);
+            this.txbNumeroRuaMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbNumeroRuaMed.Location = new System.Drawing.Point(746, 11);
             this.txbNumeroRuaMed.Name = "txbNumeroRuaMed";
-            this.txbNumeroRuaMed.Size = new System.Drawing.Size(59, 26);
+            this.txbNumeroRuaMed.Size = new System.Drawing.Size(85, 36);
             this.txbNumeroRuaMed.TabIndex = 52;
             // 
             // lblComplementoMed
             // 
             this.lblComplementoMed.AutoSize = true;
-            this.lblComplementoMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lblComplementoMed.Location = new System.Drawing.Point(6, 41);
+            this.lblComplementoMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblComplementoMed.Location = new System.Drawing.Point(6, 55);
             this.lblComplementoMed.Name = "lblComplementoMed";
-            this.lblComplementoMed.Size = new System.Drawing.Size(115, 19);
+            this.lblComplementoMed.Size = new System.Drawing.Size(173, 28);
             this.lblComplementoMed.TabIndex = 26;
             this.lblComplementoMed.Text = "Complemento:";
             // 
             // txbComplementoMed
             // 
-            this.txbComplementoMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbComplementoMed.Location = new System.Drawing.Point(123, 38);
+            this.txbComplementoMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbComplementoMed.Location = new System.Drawing.Point(184, 55);
             this.txbComplementoMed.Name = "txbComplementoMed";
-            this.txbComplementoMed.Size = new System.Drawing.Size(196, 26);
+            this.txbComplementoMed.Size = new System.Drawing.Size(196, 36);
             this.txbComplementoMed.TabIndex = 53;
-            // 
-            // txbCEPMed
-            // 
-            this.txbCEPMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbCEPMed.Location = new System.Drawing.Point(362, 38);
-            this.txbCEPMed.Name = "txbCEPMed";
-            this.txbCEPMed.Size = new System.Drawing.Size(226, 26);
-            this.txbCEPMed.TabIndex = 27;
             // 
             // lblCEPMed
             // 
             this.lblCEPMed.AutoSize = true;
-            this.lblCEPMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lblCEPMed.Location = new System.Drawing.Point(325, 41);
+            this.lblCEPMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCEPMed.Location = new System.Drawing.Point(427, 58);
             this.lblCEPMed.Name = "lblCEPMed";
-            this.lblCEPMed.Size = new System.Drawing.Size(41, 19);
+            this.lblCEPMed.Size = new System.Drawing.Size(62, 28);
             this.lblCEPMed.TabIndex = 26;
             this.lblCEPMed.Text = "CEP:";
             // 
             // lblNaturalidadeMed
             // 
             this.lblNaturalidadeMed.AutoSize = true;
-            this.lblNaturalidadeMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lblNaturalidadeMed.Location = new System.Drawing.Point(6, 77);
+            this.lblNaturalidadeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblNaturalidadeMed.Location = new System.Drawing.Point(3, 100);
             this.lblNaturalidadeMed.Name = "lblNaturalidadeMed";
-            this.lblNaturalidadeMed.Size = new System.Drawing.Size(112, 19);
+            this.lblNaturalidadeMed.Size = new System.Drawing.Size(164, 28);
             this.lblNaturalidadeMed.TabIndex = 54;
             this.lblNaturalidadeMed.Text = "Naturalidade:";
             // 
             // lblUFMed
             // 
             this.lblUFMed.AutoSize = true;
-            this.lblUFMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lblUFMed.Location = new System.Drawing.Point(266, 77);
+            this.lblUFMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblUFMed.Location = new System.Drawing.Point(301, 97);
             this.lblUFMed.Name = "lblUFMed";
-            this.lblUFMed.Size = new System.Drawing.Size(33, 19);
+            this.lblUFMed.Size = new System.Drawing.Size(47, 28);
             this.lblUFMed.TabIndex = 55;
             this.lblUFMed.Text = "UF:";
             // 
             // txbNaturalidadeMed
             // 
-            this.txbNaturalidadeMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbNaturalidadeMed.Location = new System.Drawing.Point(120, 75);
+            this.txbNaturalidadeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbNaturalidadeMed.Location = new System.Drawing.Point(167, 97);
             this.txbNaturalidadeMed.Name = "txbNaturalidadeMed";
-            this.txbNaturalidadeMed.Size = new System.Drawing.Size(127, 26);
+            this.txbNaturalidadeMed.Size = new System.Drawing.Size(127, 36);
             this.txbNaturalidadeMed.TabIndex = 56;
             // 
             // cmbUFMed
             // 
-            this.cmbUFMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
+            this.cmbUFMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.cmbUFMed.FormattingEnabled = true;
-            this.cmbUFMed.Location = new System.Drawing.Point(301, 74);
+            this.cmbUFMed.Location = new System.Drawing.Point(354, 94);
             this.cmbUFMed.Name = "cmbUFMed";
-            this.cmbUFMed.Size = new System.Drawing.Size(43, 27);
+            this.cmbUFMed.Size = new System.Drawing.Size(43, 36);
             this.cmbUFMed.TabIndex = 57;
             // 
             // txbCidadeMed
             // 
-            this.txbCidadeMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.txbCidadeMed.Location = new System.Drawing.Point(420, 75);
+            this.txbCidadeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbCidadeMed.Location = new System.Drawing.Point(540, 97);
             this.txbCidadeMed.Name = "txbCidadeMed";
-            this.txbCidadeMed.Size = new System.Drawing.Size(167, 26);
+            this.txbCidadeMed.Size = new System.Drawing.Size(167, 36);
             this.txbCidadeMed.TabIndex = 59;
             // 
             // lblCidadeMed
             // 
             this.lblCidadeMed.AutoSize = true;
-            this.lblCidadeMed.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.lblCidadeMed.Location = new System.Drawing.Point(358, 77);
+            this.lblCidadeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCidadeMed.Location = new System.Drawing.Point(439, 100);
             this.lblCidadeMed.Name = "lblCidadeMed";
-            this.lblCidadeMed.Size = new System.Drawing.Size(64, 19);
+            this.lblCidadeMed.Size = new System.Drawing.Size(95, 28);
             this.lblCidadeMed.TabIndex = 58;
             this.lblCidadeMed.Text = "Cidade:";
             // 
@@ -509,8 +452,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.maskedTextBox1);
             this.panel1.Controls.Add(this.txbNumeroRuaMed);
-            this.panel1.Controls.Add(this.txbCEPMed);
             this.panel1.Controls.Add(this.lblNumeroRuaMed);
             this.panel1.Controls.Add(this.txbCidadeMed);
             this.panel1.Controls.Add(this.lblCEPMed);
@@ -554,7 +497,7 @@
             // 
             this.barraSuperior.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.barraSuperior.BackColor = System.Drawing.Color.LightSeaGreen;
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.barraSuperior.Controls.Add(this.btnSairPrograma);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
@@ -575,6 +518,7 @@
             // btnSairPrograma
             // 
             this.btnSairPrograma.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSairPrograma.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnSairPrograma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairPrograma.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairPrograma.Image = ((System.Drawing.Image)(resources.GetObject("btnSairPrograma.Image")));
@@ -585,13 +529,13 @@
             this.btnSairPrograma.Text = "Sair";
             this.btnSairPrograma.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSairPrograma.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnSairPrograma.UseVisualStyleBackColor = true;
+            this.btnSairPrograma.UseVisualStyleBackColor = false;
             this.btnSairPrograma.Click += new System.EventHandler(this.btnSairPrograma_Click_1);
             // 
             // btnVoltarCadastro
             // 
-            this.btnVoltarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnVoltarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnVoltarCadastro.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
@@ -602,11 +546,11 @@
             this.btnVoltarCadastro.Text = "Voltar";
             this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnVoltarCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnVoltarCadastro.UseVisualStyleBackColor = true;
+            this.btnVoltarCadastro.UseVisualStyleBackColor = false;
             // 
             // btnPacienteConsulta
             // 
-            this.btnPacienteConsulta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPacienteConsulta.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPacienteConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPacienteConsulta.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPacienteConsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnPacienteConsulta.Image")));
@@ -622,7 +566,7 @@
             // 
             // btnFuncionario
             // 
-            this.btnFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnFuncionario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
@@ -638,7 +582,7 @@
             // 
             // btnPagamento
             // 
-            this.btnPagamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPagamento.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPagamento.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
@@ -654,7 +598,7 @@
             // 
             // btnEstoqueFuncionario
             // 
-            this.btnEstoqueFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnEstoqueFuncionario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnEstoqueFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstoqueFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoqueFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnEstoqueFuncionario.Image")));
@@ -670,7 +614,7 @@
             // 
             // btnProntuario
             // 
-            this.btnProntuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnProntuario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnProntuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProntuario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProntuario.Image = ((System.Drawing.Image)(resources.GetObject("btnProntuario.Image")));
@@ -686,7 +630,7 @@
             // 
             // btnAgenda
             // 
-            this.btnAgenda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnAgenda.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnAgenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgenda.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgenda.Image = ((System.Drawing.Image)(resources.GetObject("btnAgenda.Image")));
@@ -702,7 +646,7 @@
             // 
             // btnMedico
             // 
-            this.btnMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnMedico.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnMedico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMedico.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
@@ -718,7 +662,7 @@
             // 
             // btnPesquisa
             // 
-            this.btnPesquisa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPesquisa.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPesquisa.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisa.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisa.Image")));
@@ -732,15 +676,53 @@
             this.btnPesquisa.UseVisualStyleBackColor = false;
             this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
+            // txbRgMed
+            // 
+            this.txbRgMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbRgMed.Location = new System.Drawing.Point(51, 70);
+            this.txbRgMed.Mask = "00.000.000-0";
+            this.txbRgMed.Name = "txbRgMed";
+            this.txbRgMed.Size = new System.Drawing.Size(128, 36);
+            this.txbRgMed.TabIndex = 24;
+            this.txbRgMed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbCpfMed
+            // 
+            this.txbCpfMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbCpfMed.Location = new System.Drawing.Point(455, 67);
+            this.txbCpfMed.Mask = "000.000.000-00";
+            this.txbCpfMed.Name = "txbCpfMed";
+            this.txbCpfMed.Size = new System.Drawing.Size(142, 36);
+            this.txbCpfMed.TabIndex = 25;
+            this.txbCpfMed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbNascMed
+            // 
+            this.txbNascMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbNascMed.Location = new System.Drawing.Point(237, 118);
+            this.txbNascMed.Mask = "00/00/0000";
+            this.txbNascMed.Name = "txbNascMed";
+            this.txbNascMed.Size = new System.Drawing.Size(128, 36);
+            this.txbNascMed.TabIndex = 26;
+            this.txbNascMed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox1.Location = new System.Drawing.Point(495, 52);
+            this.maskedTextBox1.Mask = "00000-000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(128, 36);
+            this.maskedTextBox1.TabIndex = 27;
+            this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // telaMédico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.barraSuperior);
-            this.Controls.Add(this.btnInativar);
-            this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.txtDataEncerramento);
             this.Controls.Add(this.label10);
@@ -751,7 +733,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaMédico";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "telaMédico";
+            this.Text = "txbCepMed";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -764,8 +746,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btnInativar;
-        private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.TextBox txtDataEncerramento;
         private System.Windows.Forms.Label label10;
@@ -780,7 +760,6 @@
         private System.Windows.Forms.TextBox txbTelefoneMed;
         private System.Windows.Forms.TextBox txbRuaMed;
         private System.Windows.Forms.TextBox txtCargaCadastro;
-        private System.Windows.Forms.TextBox txtDataNascimentoCadastro;
         private System.Windows.Forms.TextBox txtNomeCadastro;
         private System.Windows.Forms.Label lblEmailMed;
         private System.Windows.Forms.Label lblTelefoneMed;
@@ -788,8 +767,6 @@
         private System.Windows.Forms.Label lbEspecialidadeMed;
         private System.Windows.Forms.Label lbDataNascimento;
         private System.Windows.Forms.Label lbNomeCadastro;
-        private System.Windows.Forms.TextBox txbCPFMed;
-        private System.Windows.Forms.TextBox txbRGMed;
         private System.Windows.Forms.Label lblRGMed;
         private System.Windows.Forms.Label lblCPFMed;
         private System.Windows.Forms.TextBox txbIdadeMed;
@@ -798,7 +775,6 @@
         private System.Windows.Forms.TextBox txbNumeroRuaMed;
         private System.Windows.Forms.Label lblComplementoMed;
         private System.Windows.Forms.TextBox txbComplementoMed;
-        private System.Windows.Forms.TextBox txbCEPMed;
         private System.Windows.Forms.Label lblCEPMed;
         private System.Windows.Forms.Label lblNaturalidadeMed;
         private System.Windows.Forms.Label lblUFMed;
@@ -819,5 +795,9 @@
         private System.Windows.Forms.Button btnMedico;
         private System.Windows.Forms.Button btnPesquisa;
         private System.Windows.Forms.Button btnSalvarCadastro;
+        private System.Windows.Forms.MaskedTextBox txbNascMed;
+        private System.Windows.Forms.MaskedTextBox txbCpfMed;
+        private System.Windows.Forms.MaskedTextBox txbRgMed;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }
