@@ -60,7 +60,7 @@
             this.btnPesquisa.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisa.Image")));
             this.btnPesquisa.Location = new System.Drawing.Point(977, 240);
             this.btnPesquisa.Name = "btnPesquisa";
-            this.btnPesquisa.Size = new System.Drawing.Size(130, 130);
+            this.btnPesquisa.Size = new System.Drawing.Size(176, 153);
             this.btnPesquisa.TabIndex = 7;
             this.btnPesquisa.Text = "Pesquisa";
             this.btnPesquisa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -75,7 +75,7 @@
             this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
             this.btnFuncionario.Location = new System.Drawing.Point(977, 475);
             this.btnFuncionario.Name = "btnFuncionario";
-            this.btnFuncionario.Size = new System.Drawing.Size(130, 130);
+            this.btnFuncionario.Size = new System.Drawing.Size(176, 153);
             this.btnFuncionario.TabIndex = 6;
             this.btnFuncionario.Text = "Funcionário";
             this.btnFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -89,9 +89,9 @@
             this.btnProntuario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProntuario.Image = ((System.Drawing.Image)(resources.GetObject("btnProntuario.Image")));
             this.btnProntuario.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnProntuario.Location = new System.Drawing.Point(189, 475);
+            this.btnProntuario.Location = new System.Drawing.Point(135, 475);
             this.btnProntuario.Name = "btnProntuario";
-            this.btnProntuario.Size = new System.Drawing.Size(130, 130);
+            this.btnProntuario.Size = new System.Drawing.Size(176, 153);
             this.btnProntuario.TabIndex = 5;
             this.btnProntuario.Text = "Prontuário";
             this.btnProntuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -103,9 +103,9 @@
             this.btnMedico.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnMedico.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
-            this.btnMedico.Location = new System.Drawing.Point(450, 240);
+            this.btnMedico.Location = new System.Drawing.Point(419, 240);
             this.btnMedico.Name = "btnMedico";
-            this.btnMedico.Size = new System.Drawing.Size(130, 130);
+            this.btnMedico.Size = new System.Drawing.Size(176, 153);
             this.btnMedico.TabIndex = 4;
             this.btnMedico.Text = "Médico";
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -121,7 +121,7 @@
             this.btnAgenda.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAgenda.Location = new System.Drawing.Point(703, 240);
             this.btnAgenda.Name = "btnAgenda";
-            this.btnAgenda.Size = new System.Drawing.Size(130, 130);
+            this.btnAgenda.Size = new System.Drawing.Size(176, 153);
             this.btnAgenda.TabIndex = 3;
             this.btnAgenda.Text = "Agenda";
             this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -134,9 +134,9 @@
             this.btnPagamento.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
             this.btnPagamento.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnPagamento.Location = new System.Drawing.Point(450, 475);
+            this.btnPagamento.Location = new System.Drawing.Point(419, 475);
             this.btnPagamento.Name = "btnPagamento";
-            this.btnPagamento.Size = new System.Drawing.Size(130, 130);
+            this.btnPagamento.Size = new System.Drawing.Size(176, 153);
             this.btnPagamento.TabIndex = 2;
             this.btnPagamento.Text = "Pagamento";
             this.btnPagamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -150,7 +150,7 @@
             this.btnEstoque.Image = ((System.Drawing.Image)(resources.GetObject("btnEstoque.Image")));
             this.btnEstoque.Location = new System.Drawing.Point(703, 475);
             this.btnEstoque.Name = "btnEstoque";
-            this.btnEstoque.Size = new System.Drawing.Size(130, 130);
+            this.btnEstoque.Size = new System.Drawing.Size(176, 153);
             this.btnEstoque.TabIndex = 1;
             this.btnEstoque.Text = "Estoque";
             this.btnEstoque.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -163,9 +163,9 @@
             this.btnPaciente.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPaciente.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPaciente.Image = ((System.Drawing.Image)(resources.GetObject("btnPaciente.Image")));
-            this.btnPaciente.Location = new System.Drawing.Point(189, 240);
+            this.btnPaciente.Location = new System.Drawing.Point(135, 240);
             this.btnPaciente.Name = "btnPaciente";
-            this.btnPaciente.Size = new System.Drawing.Size(130, 130);
+            this.btnPaciente.Size = new System.Drawing.Size(176, 153);
             this.btnPaciente.TabIndex = 0;
             this.btnPaciente.Text = "Paciente";
             this.btnPaciente.TextAlign = System.Drawing.ContentAlignment.BottomCenter;

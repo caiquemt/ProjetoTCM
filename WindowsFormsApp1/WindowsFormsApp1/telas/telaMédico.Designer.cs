@@ -501,7 +501,7 @@
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barraSuperior.Location = new System.Drawing.Point(0, 0);
             this.barraSuperior.Name = "barraSuperior";
-            this.barraSuperior.Size = new System.Drawing.Size(1296, 81);
+            this.barraSuperior.Size = new System.Drawing.Size(1280, 81);
             this.barraSuperior.TabIndex = 61;
             // 
             // btnSairPrograma
@@ -511,9 +511,9 @@
             this.btnSairPrograma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairPrograma.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairPrograma.Image = ((System.Drawing.Image)(resources.GetObject("btnSairPrograma.Image")));
-            this.btnSairPrograma.Location = new System.Drawing.Point(1185, -1);
+            this.btnSairPrograma.Location = new System.Drawing.Point(1187, 0);
             this.btnSairPrograma.Name = "btnSairPrograma";
-            this.btnSairPrograma.Size = new System.Drawing.Size(92, 81);
+            this.btnSairPrograma.Size = new System.Drawing.Size(101, 80);
             this.btnSairPrograma.TabIndex = 26;
             this.btnSairPrograma.Text = "Sair";
             this.btnSairPrograma.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -528,9 +528,9 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1066, -1);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1068, 0);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
-            this.btnVoltarCadastro.Size = new System.Drawing.Size(106, 81);
+            this.btnVoltarCadastro.Size = new System.Drawing.Size(101, 80);
             this.btnVoltarCadastro.TabIndex = 27;
             this.btnVoltarCadastro.Text = "Voltar";
             this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -543,7 +543,7 @@
             this.btnPacienteConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPacienteConsulta.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPacienteConsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnPacienteConsulta.Image")));
-            this.btnPacienteConsulta.Location = new System.Drawing.Point(-1, -1);
+            this.btnPacienteConsulta.Location = new System.Drawing.Point(0, 0);
             this.btnPacienteConsulta.Name = "btnPacienteConsulta";
             this.btnPacienteConsulta.Size = new System.Drawing.Size(101, 80);
             this.btnPacienteConsulta.TabIndex = 23;
@@ -559,7 +559,7 @@
             this.btnFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
-            this.btnFuncionario.Location = new System.Drawing.Point(605, -1);
+            this.btnFuncionario.Location = new System.Drawing.Point(600, 0);
             this.btnFuncionario.Name = "btnFuncionario";
             this.btnFuncionario.Size = new System.Drawing.Size(101, 80);
             this.btnFuncionario.TabIndex = 22;
@@ -575,7 +575,7 @@
             this.btnPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPagamento.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
-            this.btnPagamento.Location = new System.Drawing.Point(504, -1);
+            this.btnPagamento.Location = new System.Drawing.Point(500, 0);
             this.btnPagamento.Name = "btnPagamento";
             this.btnPagamento.Size = new System.Drawing.Size(101, 80);
             this.btnPagamento.TabIndex = 21;
@@ -591,7 +591,7 @@
             this.btnEstoqueFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstoqueFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoqueFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnEstoqueFuncionario.Image")));
-            this.btnEstoqueFuncionario.Location = new System.Drawing.Point(403, -1);
+            this.btnEstoqueFuncionario.Location = new System.Drawing.Point(400, 0);
             this.btnEstoqueFuncionario.Name = "btnEstoqueFuncionario";
             this.btnEstoqueFuncionario.Size = new System.Drawing.Size(101, 80);
             this.btnEstoqueFuncionario.TabIndex = 20;
@@ -607,7 +607,7 @@
             this.btnProntuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProntuario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProntuario.Image = ((System.Drawing.Image)(resources.GetObject("btnProntuario.Image")));
-            this.btnProntuario.Location = new System.Drawing.Point(302, -1);
+            this.btnProntuario.Location = new System.Drawing.Point(300, 0);
             this.btnProntuario.Name = "btnProntuario";
             this.btnProntuario.Size = new System.Drawing.Size(101, 80);
             this.btnProntuario.TabIndex = 19;
@@ -623,7 +623,7 @@
             this.btnAgenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgenda.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgenda.Image = ((System.Drawing.Image)(resources.GetObject("btnAgenda.Image")));
-            this.btnAgenda.Location = new System.Drawing.Point(201, -1);
+            this.btnAgenda.Location = new System.Drawing.Point(200, 0);
             this.btnAgenda.Name = "btnAgenda";
             this.btnAgenda.Size = new System.Drawing.Size(101, 80);
             this.btnAgenda.TabIndex = 18;
@@ -639,7 +639,7 @@
             this.btnMedico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMedico.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
-            this.btnMedico.Location = new System.Drawing.Point(100, -1);
+            this.btnMedico.Location = new System.Drawing.Point(100, 0);
             this.btnMedico.Name = "btnMedico";
             this.btnMedico.Size = new System.Drawing.Size(101, 80);
             this.btnMedico.TabIndex = 17;
@@ -655,7 +655,7 @@
             this.btnPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPesquisa.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisa.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisa.Image")));
-            this.btnPesquisa.Location = new System.Drawing.Point(706, -1);
+            this.btnPesquisa.Location = new System.Drawing.Point(700, 0);
             this.btnPesquisa.Name = "btnPesquisa";
             this.btnPesquisa.Size = new System.Drawing.Size(101, 80);
             this.btnPesquisa.TabIndex = 16;
