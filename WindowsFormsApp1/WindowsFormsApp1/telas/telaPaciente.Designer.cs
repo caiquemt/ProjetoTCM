@@ -29,14 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaPaciente));
-            this.btnInativar = new System.Windows.Forms.Button();
-            this.btnExcluir = new System.Windows.Forms.Button();
-            this.btnAlterar = new System.Windows.Forms.Button();
-            this.txtDataEncerramento = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtDataCadastro = new System.Windows.Forms.TextBox();
-            this.btnSalvarCadastro = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,7 +36,6 @@
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.txtCelularCadastro = new System.Windows.Forms.TextBox();
             this.lbCelularCadastro = new System.Windows.Forms.Label();
             this.txtCidade = new System.Windows.Forms.TextBox();
@@ -56,14 +47,14 @@
             this.txtHorarioExpedienteCadastro = new System.Windows.Forms.TextBox();
             this.txtCargaCadastro = new System.Windows.Forms.TextBox();
             this.TxtLogradouroCadastro = new System.Windows.Forms.TextBox();
-            this.txtNomeCadastro = new System.Windows.Forms.TextBox();
+            this.txbNomePac = new System.Windows.Forms.TextBox();
             this.LbEmailCadastro = new System.Windows.Forms.Label();
             this.lbTelefone = new System.Windows.Forms.Label();
             this.lbHorarioExpediente = new System.Windows.Forms.Label();
             this.lbCarga = new System.Windows.Forms.Label();
-            this.lbDataNascimento = new System.Windows.Forms.Label();
+            this.lbNascPac = new System.Windows.Forms.Label();
             this.lbLogrado = new System.Windows.Forms.Label();
-            this.lbNomeCadastro = new System.Windows.Forms.Label();
+            this.lbNomePac = new System.Windows.Forms.Label();
             this.lblFichaPaciente = new System.Windows.Forms.Label();
             this.barraSuperior = new System.Windows.Forms.Panel();
             this.btnSairPrograma = new System.Windows.Forms.Button();
@@ -76,95 +67,56 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
+            this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.btnSalvarPac = new System.Windows.Forms.Button();
+            this.btnAlterarPac = new System.Windows.Forms.Button();
+            this.lblRGPac = new System.Windows.Forms.Label();
+            this.lblCpfPac = new System.Windows.Forms.Label();
+            this.txbNascPac = new System.Windows.Forms.MaskedTextBox();
+            this.txbCpfPac = new System.Windows.Forms.MaskedTextBox();
+            this.txbRgPac = new System.Windows.Forms.MaskedTextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txbIdadePac = new System.Windows.Forms.MaskedTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.rdbFemPac = new System.Windows.Forms.RadioButton();
+            this.rdbMascPac = new System.Windows.Forms.RadioButton();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txbProntuarioPac = new System.Windows.Forms.MaskedTextBox();
             this.panel3.SuspendLayout();
             this.barraSuperior.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbImagemFunc)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnInativar
-            // 
-            this.btnInativar.Location = new System.Drawing.Point(1199, 500);
-            this.btnInativar.Name = "btnInativar";
-            this.btnInativar.Size = new System.Drawing.Size(116, 26);
-            this.btnInativar.TabIndex = 34;
-            this.btnInativar.Text = "Inativar";
-            this.btnInativar.UseVisualStyleBackColor = true;
-            // 
-            // btnExcluir
-            // 
-            this.btnExcluir.Location = new System.Drawing.Point(1199, 469);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(116, 26);
-            this.btnExcluir.TabIndex = 33;
-            this.btnExcluir.Text = "Excluir";
-            this.btnExcluir.UseVisualStyleBackColor = true;
-            // 
-            // btnAlterar
-            // 
-            this.btnAlterar.Location = new System.Drawing.Point(1199, 438);
-            this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(116, 26);
-            this.btnAlterar.TabIndex = 32;
-            this.btnAlterar.Text = "Alterar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
-            // 
-            // txtDataEncerramento
-            // 
-            this.txtDataEncerramento.Location = new System.Drawing.Point(1199, 407);
-            this.txtDataEncerramento.Multiline = true;
-            this.txtDataEncerramento.Name = "txtDataEncerramento";
-            this.txtDataEncerramento.Size = new System.Drawing.Size(116, 26);
-            this.txtDataEncerramento.TabIndex = 31;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.label10.Location = new System.Drawing.Point(1168, 385);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(175, 19);
-            this.label10.TabIndex = 30;
-            this.label10.Text = "Data de Encerramento";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(1194, 329);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(136, 19);
-            this.label9.TabIndex = 29;
-            this.label9.Text = "Data de Cadastro";
-            // 
-            // txtDataCadastro
-            // 
-            this.txtDataCadastro.Location = new System.Drawing.Point(1199, 351);
-            this.txtDataCadastro.Multiline = true;
-            this.txtDataCadastro.Name = "txtDataCadastro";
-            this.txtDataCadastro.Size = new System.Drawing.Size(116, 26);
-            this.txtDataCadastro.TabIndex = 28;
-            // 
-            // btnSalvarCadastro
-            // 
-            this.btnSalvarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvarCadastro.Location = new System.Drawing.Point(101, 653);
-            this.btnSalvarCadastro.Name = "btnSalvarCadastro";
-            this.btnSalvarCadastro.Size = new System.Drawing.Size(115, 46);
-            this.btnSalvarCadastro.TabIndex = 27;
-            this.btnSalvarCadastro.Text = "Salvar";
-            this.btnSalvarCadastro.UseVisualStyleBackColor = true;
-            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
             // 
             // panel3
             // 
             this.panel3.AutoScroll = true;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.txbProntuarioPac);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.rdbMascPac);
+            this.panel3.Controls.Add(this.rdbFemPac);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.comboBox1);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.txbIdadePac);
+            this.panel3.Controls.Add(this.txbNascPac);
+            this.panel3.Controls.Add(this.txbCpfPac);
+            this.panel3.Controls.Add(this.txbRgPac);
+            this.panel3.Controls.Add(this.lblCpfPac);
+            this.panel3.Controls.Add(this.lblRGPac);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.maskedTextBox3);
             this.panel3.Controls.Add(this.maskedTextBox2);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.vScrollBar1);
-            this.panel3.Controls.Add(this.maskedTextBox1);
             this.panel3.Controls.Add(this.txtCelularCadastro);
             this.panel3.Controls.Add(this.lbCelularCadastro);
             this.panel3.Controls.Add(this.txtCidade);
@@ -176,64 +128,64 @@
             this.panel3.Controls.Add(this.txtHorarioExpedienteCadastro);
             this.panel3.Controls.Add(this.txtCargaCadastro);
             this.panel3.Controls.Add(this.TxtLogradouroCadastro);
-            this.panel3.Controls.Add(this.txtNomeCadastro);
+            this.panel3.Controls.Add(this.txbNomePac);
             this.panel3.Controls.Add(this.LbEmailCadastro);
             this.panel3.Controls.Add(this.lbTelefone);
             this.panel3.Controls.Add(this.lbHorarioExpediente);
             this.panel3.Controls.Add(this.lbCarga);
-            this.panel3.Controls.Add(this.lbDataNascimento);
+            this.panel3.Controls.Add(this.lbNascPac);
             this.panel3.Controls.Add(this.lbLogrado);
-            this.panel3.Controls.Add(this.lbNomeCadastro);
+            this.panel3.Controls.Add(this.lbNomePac);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
             this.panel3.Location = new System.Drawing.Point(81, 189);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(975, 427);
+            this.panel3.Size = new System.Drawing.Size(975, 474);
             this.panel3.TabIndex = 23;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(639, 119);
+            this.label3.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(639, 332);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 24);
+            this.label3.Size = new System.Drawing.Size(95, 28);
             this.label3.TabIndex = 26;
             this.label3.Text = "Cidade:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 111);
+            this.label2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(3, 324);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 24);
+            this.label2.Size = new System.Drawing.Size(95, 28);
             this.label2.TabIndex = 25;
             this.label2.Text = "Cidade:";
             // 
             // maskedTextBox3
             // 
-            this.maskedTextBox3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox3.Location = new System.Drawing.Point(96, 111);
+            this.maskedTextBox3.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox3.Location = new System.Drawing.Point(96, 324);
             this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(100, 32);
+            this.maskedTextBox3.Size = new System.Drawing.Size(100, 36);
             this.maskedTextBox3.TabIndex = 24;
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox2.Location = new System.Drawing.Point(812, 66);
+            this.maskedTextBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox2.Location = new System.Drawing.Point(812, 279);
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(115, 32);
+            this.maskedTextBox2.Size = new System.Drawing.Size(115, 36);
             this.maskedTextBox2.TabIndex = 23;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(692, 71);
+            this.label1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(692, 284);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 24);
+            this.label1.Size = new System.Drawing.Size(123, 28);
             this.label1.TabIndex = 22;
             this.label1.Text = "Endereço:";
             // 
@@ -241,188 +193,181 @@
             // 
             this.vScrollBar1.Location = new System.Drawing.Point(954, 0);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(19, 425);
+            this.vScrollBar1.Size = new System.Drawing.Size(19, 472);
             this.vScrollBar1.TabIndex = 21;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(227, 161);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 32);
-            this.maskedTextBox1.TabIndex = 20;
             // 
             // txtCelularCadastro
             // 
-            this.txtCelularCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCelularCadastro.Location = new System.Drawing.Point(434, 262);
+            this.txtCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtCelularCadastro.Location = new System.Drawing.Point(434, 475);
             this.txtCelularCadastro.Name = "txtCelularCadastro";
-            this.txtCelularCadastro.Size = new System.Drawing.Size(192, 32);
+            this.txtCelularCadastro.Size = new System.Drawing.Size(192, 36);
             this.txtCelularCadastro.TabIndex = 19;
             // 
             // lbCelularCadastro
             // 
             this.lbCelularCadastro.AutoSize = true;
-            this.lbCelularCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCelularCadastro.Location = new System.Drawing.Point(344, 265);
+            this.lbCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbCelularCadastro.Location = new System.Drawing.Point(344, 478);
             this.lbCelularCadastro.Name = "lbCelularCadastro";
-            this.lbCelularCadastro.Size = new System.Drawing.Size(80, 24);
+            this.lbCelularCadastro.Size = new System.Drawing.Size(91, 28);
             this.lbCelularCadastro.TabIndex = 18;
             this.lbCelularCadastro.Text = "Celular";
             // 
             // txtCidade
             // 
-            this.txtCidade.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCidade.Location = new System.Drawing.Point(355, 111);
+            this.txtCidade.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtCidade.Location = new System.Drawing.Point(355, 324);
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(216, 32);
+            this.txtCidade.Size = new System.Drawing.Size(216, 36);
             this.txtCidade.TabIndex = 17;
             // 
             // txtMatriculaCadastro
             // 
-            this.txtMatriculaCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatriculaCadastro.Location = new System.Drawing.Point(468, 161);
+            this.txtMatriculaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtMatriculaCadastro.Location = new System.Drawing.Point(468, 374);
             this.txtMatriculaCadastro.Name = "txtMatriculaCadastro";
-            this.txtMatriculaCadastro.Size = new System.Drawing.Size(192, 32);
+            this.txtMatriculaCadastro.Size = new System.Drawing.Size(192, 36);
             this.txtMatriculaCadastro.TabIndex = 16;
             // 
             // lbMatriculaCadastro
             // 
             this.lbMatriculaCadastro.AutoSize = true;
-            this.lbMatriculaCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMatriculaCadastro.Location = new System.Drawing.Point(351, 164);
+            this.lbMatriculaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbMatriculaCadastro.Location = new System.Drawing.Point(351, 377);
             this.lbMatriculaCadastro.Name = "lbMatriculaCadastro";
-            this.lbMatriculaCadastro.Size = new System.Drawing.Size(108, 24);
+            this.lbMatriculaCadastro.Size = new System.Drawing.Size(125, 28);
             this.lbMatriculaCadastro.TabIndex = 15;
             this.lbMatriculaCadastro.Text = "Matrícula:";
             // 
             // lbCidadeCadastro
             // 
             this.lbCidadeCadastro.AutoSize = true;
-            this.lbCidadeCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCidadeCadastro.Location = new System.Drawing.Point(262, 114);
+            this.lbCidadeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbCidadeCadastro.Location = new System.Drawing.Point(262, 327);
             this.lbCidadeCadastro.Name = "lbCidadeCadastro";
-            this.lbCidadeCadastro.Size = new System.Drawing.Size(87, 24);
+            this.lbCidadeCadastro.Size = new System.Drawing.Size(95, 28);
             this.lbCidadeCadastro.TabIndex = 14;
             this.lbCidadeCadastro.Text = "Cidade:";
             // 
             // txtEmailCadastro
             // 
-            this.txtEmailCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmailCadastro.Location = new System.Drawing.Point(86, 310);
+            this.txtEmailCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtEmailCadastro.Location = new System.Drawing.Point(86, 523);
             this.txtEmailCadastro.Name = "txtEmailCadastro";
-            this.txtEmailCadastro.Size = new System.Drawing.Size(503, 32);
+            this.txtEmailCadastro.Size = new System.Drawing.Size(503, 36);
             this.txtEmailCadastro.TabIndex = 13;
             // 
             // txtTelefoneCadastro
             // 
-            this.txtTelefoneCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefoneCadastro.Location = new System.Drawing.Point(105, 260);
+            this.txtTelefoneCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtTelefoneCadastro.Location = new System.Drawing.Point(105, 473);
             this.txtTelefoneCadastro.Name = "txtTelefoneCadastro";
-            this.txtTelefoneCadastro.Size = new System.Drawing.Size(196, 32);
+            this.txtTelefoneCadastro.Size = new System.Drawing.Size(196, 36);
             this.txtTelefoneCadastro.TabIndex = 12;
             // 
             // txtHorarioExpedienteCadastro
             // 
-            this.txtHorarioExpedienteCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHorarioExpedienteCadastro.Location = new System.Drawing.Point(563, 209);
+            this.txtHorarioExpedienteCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtHorarioExpedienteCadastro.Location = new System.Drawing.Point(563, 422);
             this.txtHorarioExpedienteCadastro.Name = "txtHorarioExpedienteCadastro";
-            this.txtHorarioExpedienteCadastro.Size = new System.Drawing.Size(260, 32);
+            this.txtHorarioExpedienteCadastro.Size = new System.Drawing.Size(260, 36);
             this.txtHorarioExpedienteCadastro.TabIndex = 11;
             // 
             // txtCargaCadastro
             // 
-            this.txtCargaCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCargaCadastro.Location = new System.Drawing.Point(86, 209);
+            this.txtCargaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtCargaCadastro.Location = new System.Drawing.Point(86, 422);
             this.txtCargaCadastro.Name = "txtCargaCadastro";
-            this.txtCargaCadastro.Size = new System.Drawing.Size(215, 32);
+            this.txtCargaCadastro.Size = new System.Drawing.Size(215, 36);
             this.txtCargaCadastro.TabIndex = 10;
             // 
             // TxtLogradouroCadastro
             // 
-            this.TxtLogradouroCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtLogradouroCadastro.Location = new System.Drawing.Point(120, 63);
+            this.TxtLogradouroCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.TxtLogradouroCadastro.Location = new System.Drawing.Point(120, 276);
             this.TxtLogradouroCadastro.Name = "TxtLogradouroCadastro";
-            this.TxtLogradouroCadastro.Size = new System.Drawing.Size(563, 32);
+            this.TxtLogradouroCadastro.Size = new System.Drawing.Size(563, 36);
             this.TxtLogradouroCadastro.TabIndex = 8;
             // 
-            // txtNomeCadastro
+            // txbNomePac
             // 
-            this.txtNomeCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeCadastro.Location = new System.Drawing.Point(86, 18);
-            this.txtNomeCadastro.Name = "txtNomeCadastro";
-            this.txtNomeCadastro.Size = new System.Drawing.Size(841, 32);
-            this.txtNomeCadastro.TabIndex = 7;
+            this.txbNomePac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbNomePac.Location = new System.Drawing.Point(86, 18);
+            this.txbNomePac.Name = "txbNomePac";
+            this.txbNomePac.Size = new System.Drawing.Size(841, 36);
+            this.txbNomePac.TabIndex = 7;
             // 
             // LbEmailCadastro
             // 
             this.LbEmailCadastro.AutoSize = true;
-            this.LbEmailCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbEmailCadastro.Location = new System.Drawing.Point(15, 310);
+            this.LbEmailCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.LbEmailCadastro.Location = new System.Drawing.Point(15, 523);
             this.LbEmailCadastro.Name = "LbEmailCadastro";
-            this.LbEmailCadastro.Size = new System.Drawing.Size(65, 24);
+            this.LbEmailCadastro.Size = new System.Drawing.Size(75, 28);
             this.LbEmailCadastro.TabIndex = 6;
             this.LbEmailCadastro.Text = "Email";
             // 
             // lbTelefone
             // 
             this.lbTelefone.AutoSize = true;
-            this.lbTelefone.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTelefone.Location = new System.Drawing.Point(4, 263);
+            this.lbTelefone.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbTelefone.Location = new System.Drawing.Point(4, 476);
             this.lbTelefone.Name = "lbTelefone";
-            this.lbTelefone.Size = new System.Drawing.Size(95, 24);
+            this.lbTelefone.Size = new System.Drawing.Size(107, 28);
             this.lbTelefone.TabIndex = 5;
             this.lbTelefone.Text = "Telefone";
             // 
             // lbHorarioExpediente
             // 
             this.lbHorarioExpediente.AutoSize = true;
-            this.lbHorarioExpediente.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbHorarioExpediente.Location = new System.Drawing.Point(318, 212);
+            this.lbHorarioExpediente.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbHorarioExpediente.Location = new System.Drawing.Point(318, 425);
             this.lbHorarioExpediente.Name = "lbHorarioExpediente";
-            this.lbHorarioExpediente.Size = new System.Drawing.Size(239, 24);
+            this.lbHorarioExpediente.Size = new System.Drawing.Size(269, 28);
             this.lbHorarioExpediente.TabIndex = 4;
             this.lbHorarioExpediente.Text = "Horario do expediente:";
             // 
             // lbCarga
             // 
             this.lbCarga.AutoSize = true;
-            this.lbCarga.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCarga.Location = new System.Drawing.Point(3, 212);
+            this.lbCarga.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbCarga.Location = new System.Drawing.Point(3, 425);
             this.lbCarga.Name = "lbCarga";
-            this.lbCarga.Size = new System.Drawing.Size(77, 24);
+            this.lbCarga.Size = new System.Drawing.Size(82, 28);
             this.lbCarga.TabIndex = 3;
             this.lbCarga.Text = "Carga:";
             // 
-            // lbDataNascimento
+            // lbNascPac
             // 
-            this.lbDataNascimento.AutoSize = true;
-            this.lbDataNascimento.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDataNascimento.Location = new System.Drawing.Point(3, 163);
-            this.lbDataNascimento.Name = "lbDataNascimento";
-            this.lbDataNascimento.Size = new System.Drawing.Size(218, 24);
-            this.lbDataNascimento.TabIndex = 2;
-            this.lbDataNascimento.Text = "Data de nascimento:";
+            this.lbNascPac.AutoSize = true;
+            this.lbNascPac.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lbNascPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbNascPac.Location = new System.Drawing.Point(5, 64);
+            this.lbNascPac.Name = "lbNascPac";
+            this.lbNascPac.Size = new System.Drawing.Size(238, 28);
+            this.lbNascPac.TabIndex = 2;
+            this.lbNascPac.Text = "Data de Nascimento:";
             // 
             // lbLogrado
             // 
             this.lbLogrado.AutoSize = true;
-            this.lbLogrado.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLogrado.Location = new System.Drawing.Point(3, 66);
+            this.lbLogrado.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbLogrado.Location = new System.Drawing.Point(3, 279);
             this.lbLogrado.Name = "lbLogrado";
-            this.lbLogrado.Size = new System.Drawing.Size(114, 24);
+            this.lbLogrado.Size = new System.Drawing.Size(123, 28);
             this.lbLogrado.TabIndex = 1;
             this.lbLogrado.Text = "Endereço:";
             // 
-            // lbNomeCadastro
+            // lbNomePac
             // 
-            this.lbNomeCadastro.AutoSize = true;
-            this.lbNomeCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNomeCadastro.Location = new System.Drawing.Point(5, 21);
-            this.lbNomeCadastro.Name = "lbNomeCadastro";
-            this.lbNomeCadastro.Size = new System.Drawing.Size(75, 24);
-            this.lbNomeCadastro.TabIndex = 0;
-            this.lbNomeCadastro.Text = "Nome:";
+            this.lbNomePac.AutoSize = true;
+            this.lbNomePac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbNomePac.Location = new System.Drawing.Point(5, 21);
+            this.lbNomePac.Name = "lbNomePac";
+            this.lbNomePac.Size = new System.Drawing.Size(83, 28);
+            this.lbNomePac.TabIndex = 0;
+            this.lbNomePac.Text = "Nome:";
             // 
             // lblFichaPaciente
             // 
@@ -438,7 +383,7 @@
             // 
             this.barraSuperior.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.barraSuperior.BackColor = System.Drawing.Color.LightSeaGreen;
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.barraSuperior.Controls.Add(this.btnSairPrograma);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
@@ -490,7 +435,7 @@
             // 
             // btnPacienteConsulta
             // 
-            this.btnPacienteConsulta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPacienteConsulta.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPacienteConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPacienteConsulta.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPacienteConsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnPacienteConsulta.Image")));
@@ -506,7 +451,7 @@
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button11.BackColor = System.Drawing.Color.LightSeaGreen;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
@@ -522,7 +467,7 @@
             // 
             // btnPagamento
             // 
-            this.btnPagamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPagamento.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPagamento.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
@@ -538,7 +483,7 @@
             // 
             // btnEstoqueFuncionario
             // 
-            this.btnEstoqueFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnEstoqueFuncionario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnEstoqueFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstoqueFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoqueFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnEstoqueFuncionario.Image")));
@@ -554,7 +499,7 @@
             // 
             // btnProntuario
             // 
-            this.btnProntuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnProntuario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnProntuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProntuario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProntuario.Image = ((System.Drawing.Image)(resources.GetObject("btnProntuario.Image")));
@@ -570,7 +515,7 @@
             // 
             // btnAgenda
             // 
-            this.btnAgenda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnAgenda.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnAgenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgenda.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgenda.Image = ((System.Drawing.Image)(resources.GetObject("btnAgenda.Image")));
@@ -586,7 +531,7 @@
             // 
             // btnMedico
             // 
-            this.btnMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnMedico.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnMedico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMedico.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
@@ -602,7 +547,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button5.BackColor = System.Drawing.Color.LightSeaGreen;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
@@ -616,22 +561,226 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.maskedTextBox4);
+            this.panel2.Controls.Add(this.pcbImagemFunc);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.btnSalvarPac);
+            this.panel2.Controls.Add(this.btnAlterarPac);
+            this.panel2.Location = new System.Drawing.Point(1102, 189);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(221, 474);
+            this.panel2.TabIndex = 42;
+            // 
+            // maskedTextBox4
+            // 
+            this.maskedTextBox4.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox4.Location = new System.Drawing.Point(54, 241);
+            this.maskedTextBox4.Mask = "00/00/0000";
+            this.maskedTextBox4.Name = "maskedTextBox4";
+            this.maskedTextBox4.Size = new System.Drawing.Size(120, 29);
+            this.maskedTextBox4.TabIndex = 21;
+            this.maskedTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pcbImagemFunc
+            // 
+            this.pcbImagemFunc.Location = new System.Drawing.Point(29, 33);
+            this.pcbImagemFunc.Name = "pcbImagemFunc";
+            this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
+            this.pcbImagemFunc.TabIndex = 20;
+            this.pcbImagemFunc.TabStop = false;
+            // 
+            // label9
+            // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label9.Location = new System.Drawing.Point(16, 210);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(200, 28);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Data de Cadastro";
+            // 
+            // btnSalvarPac
+            // 
+            this.btnSalvarPac.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalvarPac.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnSalvarPac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvarPac.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnSalvarPac.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
+            this.btnSalvarPac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvarPac.Location = new System.Drawing.Point(55, 395);
+            this.btnSalvarPac.Name = "btnSalvarPac";
+            this.btnSalvarPac.Size = new System.Drawing.Size(120, 32);
+            this.btnSalvarPac.TabIndex = 8;
+            this.btnSalvarPac.Text = "Salvar";
+            this.btnSalvarPac.UseVisualStyleBackColor = false;
+            // 
+            // btnAlterarPac
+            // 
+            this.btnAlterarPac.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnAlterarPac.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAlterarPac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlterarPac.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnAlterarPac.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
+            this.btnAlterarPac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlterarPac.Location = new System.Drawing.Point(54, 310);
+            this.btnAlterarPac.Name = "btnAlterarPac";
+            this.btnAlterarPac.Size = new System.Drawing.Size(121, 35);
+            this.btnAlterarPac.TabIndex = 17;
+            this.btnAlterarPac.Text = "Alterar";
+            this.btnAlterarPac.UseVisualStyleBackColor = false;
+            // 
+            // lblRGPac
+            // 
+            this.lblRGPac.AutoSize = true;
+            this.lblRGPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRGPac.Location = new System.Drawing.Point(7, 103);
+            this.lblRGPac.Name = "lblRGPac";
+            this.lblRGPac.Size = new System.Drawing.Size(50, 28);
+            this.lblRGPac.TabIndex = 27;
+            this.lblRGPac.Text = "RG:";
+            // 
+            // lblCpfPac
+            // 
+            this.lblCpfPac.AutoSize = true;
+            this.lblCpfPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCpfPac.Location = new System.Drawing.Point(416, 106);
+            this.lblCpfPac.Name = "lblCpfPac";
+            this.lblCpfPac.Size = new System.Drawing.Size(60, 28);
+            this.lblCpfPac.TabIndex = 28;
+            this.lblCpfPac.Text = "CPF:";
+            // 
+            // txbNascPac
+            // 
+            this.txbNascPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbNascPac.Location = new System.Drawing.Point(249, 61);
+            this.txbNascPac.Mask = "00/00/0000";
+            this.txbNascPac.Name = "txbNascPac";
+            this.txbNascPac.Size = new System.Drawing.Size(128, 36);
+            this.txbNascPac.TabIndex = 31;
+            this.txbNascPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbCpfPac
+            // 
+            this.txbCpfPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbCpfPac.Location = new System.Drawing.Point(483, 103);
+            this.txbCpfPac.Mask = "000.000.000-00";
+            this.txbCpfPac.Name = "txbCpfPac";
+            this.txbCpfPac.Size = new System.Drawing.Size(142, 36);
+            this.txbCpfPac.TabIndex = 30;
+            this.txbCpfPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbRgPac
+            // 
+            this.txbRgPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbRgPac.Location = new System.Drawing.Point(63, 100);
+            this.txbRgPac.Mask = "00.000.000-0";
+            this.txbRgPac.Name = "txbRgPac";
+            this.txbRgPac.Size = new System.Drawing.Size(128, 36);
+            this.txbRgPac.TabIndex = 29;
+            this.txbRgPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(416, 64);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 28);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "Idade:";
+            // 
+            // txbIdadePac
+            // 
+            this.txbIdadePac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbIdadePac.Location = new System.Drawing.Point(506, 60);
+            this.txbIdadePac.Name = "txbIdadePac";
+            this.txbIdadePac.Size = new System.Drawing.Size(100, 36);
+            this.txbIdadePac.TabIndex = 32;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(7, 144);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 28);
+            this.label5.TabIndex = 34;
+            this.label5.Text = "Etnia:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(86, 141);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 36);
+            this.comboBox1.TabIndex = 35;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(416, 149);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(70, 28);
+            this.label6.TabIndex = 36;
+            this.label6.Text = "Sexo:";
+            // 
+            // rdbFemPac
+            // 
+            this.rdbFemPac.AutoSize = true;
+            this.rdbFemPac.Checked = true;
+            this.rdbFemPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rdbFemPac.Location = new System.Drawing.Point(492, 147);
+            this.rdbFemPac.Name = "rdbFemPac";
+            this.rdbFemPac.Size = new System.Drawing.Size(43, 32);
+            this.rdbFemPac.TabIndex = 37;
+            this.rdbFemPac.TabStop = true;
+            this.rdbFemPac.Text = "F";
+            this.rdbFemPac.UseVisualStyleBackColor = true;
+            // 
+            // rdbMascPac
+            // 
+            this.rdbMascPac.AutoSize = true;
+            this.rdbMascPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rdbMascPac.Location = new System.Drawing.Point(537, 147);
+            this.rdbMascPac.Name = "rdbMascPac";
+            this.rdbMascPac.Size = new System.Drawing.Size(50, 32);
+            this.rdbMascPac.TabIndex = 38;
+            this.rdbMascPac.Text = "M";
+            this.rdbMascPac.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(7, 191);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(173, 28);
+            this.label7.TabIndex = 39;
+            this.label7.Text = "Nº Prontuário:";
+            // 
+            // txbProntuarioPac
+            // 
+            this.txbProntuarioPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbProntuarioPac.Location = new System.Drawing.Point(186, 188);
+            this.txbProntuarioPac.Name = "txbProntuarioPac";
+            this.txbProntuarioPac.Size = new System.Drawing.Size(115, 36);
+            this.txbProntuarioPac.TabIndex = 40;
+            // 
             // telaPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.barraSuperior);
             this.Controls.Add(this.lblFichaPaciente);
-            this.Controls.Add(this.btnInativar);
-            this.Controls.Add(this.btnExcluir);
-            this.Controls.Add(this.btnAlterar);
-            this.Controls.Add(this.txtDataEncerramento);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtDataCadastro);
-            this.Controls.Add(this.btnSalvarCadastro);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaPaciente";
@@ -641,20 +790,15 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.barraSuperior.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbImagemFunc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btnInativar;
-        private System.Windows.Forms.Button btnExcluir;
-        private System.Windows.Forms.Button btnAlterar;
-        private System.Windows.Forms.TextBox txtDataEncerramento;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtDataCadastro;
-        private System.Windows.Forms.Button btnSalvarCadastro;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox txtCelularCadastro;
         private System.Windows.Forms.Label lbCelularCadastro;
@@ -667,17 +811,16 @@
         private System.Windows.Forms.TextBox txtHorarioExpedienteCadastro;
         private System.Windows.Forms.TextBox txtCargaCadastro;
         private System.Windows.Forms.TextBox TxtLogradouroCadastro;
-        private System.Windows.Forms.TextBox txtNomeCadastro;
+        private System.Windows.Forms.TextBox txbNomePac;
         private System.Windows.Forms.Label LbEmailCadastro;
         private System.Windows.Forms.Label lbTelefone;
         private System.Windows.Forms.Label lbHorarioExpediente;
         private System.Windows.Forms.Label lbCarga;
-        private System.Windows.Forms.Label lbDataNascimento;
+        private System.Windows.Forms.Label lbNascPac;
         private System.Windows.Forms.Label lbLogrado;
-        private System.Windows.Forms.Label lbNomeCadastro;
+        private System.Windows.Forms.Label lbNomePac;
         private System.Windows.Forms.Label lblFichaPaciente;
         private System.Windows.Forms.VScrollBar vScrollBar1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Panel barraSuperior;
         private System.Windows.Forms.Button btnSairPrograma;
         private System.Windows.Forms.Button btnVoltarCadastro;
@@ -694,5 +837,25 @@
         private System.Windows.Forms.MaskedTextBox maskedTextBox3;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
+        private System.Windows.Forms.PictureBox pcbImagemFunc;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnSalvarPac;
+        private System.Windows.Forms.Button btnAlterarPac;
+        private System.Windows.Forms.Label lblCpfPac;
+        private System.Windows.Forms.Label lblRGPac;
+        private System.Windows.Forms.RadioButton rdbMascPac;
+        private System.Windows.Forms.RadioButton rdbFemPac;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.MaskedTextBox txbIdadePac;
+        private System.Windows.Forms.MaskedTextBox txbNascPac;
+        private System.Windows.Forms.MaskedTextBox txbCpfPac;
+        private System.Windows.Forms.MaskedTextBox txbRgPac;
+        private System.Windows.Forms.MaskedTextBox txbProntuarioPac;
+        private System.Windows.Forms.Label label7;
     }
 }

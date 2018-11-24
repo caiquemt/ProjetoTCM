@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaMédico));
-            this.btnAlterar = new System.Windows.Forms.Button();
-            this.txtDataEncerramento = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtDataCadastro = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblRGMed = new System.Windows.Forms.Label();
             this.lblCPFMed = new System.Windows.Forms.Label();
@@ -42,14 +37,12 @@
             this.txtMatriculaCadastro = new System.Windows.Forms.TextBox();
             this.lbCRMMed = new System.Windows.Forms.Label();
             this.txtCargaCadastro = new System.Windows.Forms.TextBox();
-            this.txtNomeCadastro = new System.Windows.Forms.TextBox();
+            this.txtNomeMed = new System.Windows.Forms.TextBox();
             this.lbEspecialidadeMed = new System.Windows.Forms.Label();
             this.lbDataNascimento = new System.Windows.Forms.Label();
-            this.lbNomeCadastro = new System.Windows.Forms.Label();
-            this.txbCelularMed = new System.Windows.Forms.TextBox();
+            this.lbNomeMed = new System.Windows.Forms.Label();
             this.lblCelularCadastro = new System.Windows.Forms.Label();
             this.txbEmailMed = new System.Windows.Forms.TextBox();
-            this.txbTelefoneMed = new System.Windows.Forms.TextBox();
             this.txbRuaMed = new System.Windows.Forms.TextBox();
             this.lblEmailMed = new System.Windows.Forms.Label();
             this.lblTelefoneMed = new System.Windows.Forms.Label();
@@ -82,66 +75,21 @@
             this.txbCpfMed = new System.Windows.Forms.MaskedTextBox();
             this.txbNascMed = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txbDataCadMed = new System.Windows.Forms.MaskedTextBox();
+            this.lblDatCadMed = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnAlterar = new System.Windows.Forms.Button();
+            this.lblCadMed = new System.Windows.Forms.Label();
+            this.txbTelMed = new System.Windows.Forms.MaskedTextBox();
+            this.txbCelMed = new System.Windows.Forms.MaskedTextBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.barraSuperior.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbImagemFunc)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnAlterar
-            // 
-            this.btnAlterar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAlterar.Location = new System.Drawing.Point(1098, 500);
-            this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(199, 31);
-            this.btnAlterar.TabIndex = 46;
-            this.btnAlterar.Text = "Alterar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
-            // 
-            // txtDataEncerramento
-            // 
-            this.txtDataEncerramento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDataEncerramento.Location = new System.Drawing.Point(1098, 390);
-            this.txtDataEncerramento.Multiline = true;
-            this.txtDataEncerramento.Name = "txtDataEncerramento";
-            this.txtDataEncerramento.Size = new System.Drawing.Size(199, 25);
-            this.txtDataEncerramento.TabIndex = 45;
-            // 
-            // label10
-            // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.label10.Location = new System.Drawing.Point(1107, 424);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(175, 19);
-            this.label10.TabIndex = 44;
-            this.label10.Text = "Data de Encerramento";
-            // 
-            // label9
-            // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(1132, 368);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(136, 19);
-            this.label9.TabIndex = 43;
-            this.label9.Text = "Data de Cadastro";
-            // 
-            // txtDataCadastro
-            // 
-            this.txtDataCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDataCadastro.Location = new System.Drawing.Point(1098, 445);
-            this.txtDataCadastro.Multiline = true;
-            this.txtDataCadastro.Name = "txtDataCadastro";
-            this.txtDataCadastro.Size = new System.Drawing.Size(199, 26);
-            this.txtDataCadastro.TabIndex = 42;
             // 
             // panel3
             // 
@@ -159,10 +107,10 @@
             this.panel3.Controls.Add(this.txtMatriculaCadastro);
             this.panel3.Controls.Add(this.lbCRMMed);
             this.panel3.Controls.Add(this.txtCargaCadastro);
-            this.panel3.Controls.Add(this.txtNomeCadastro);
+            this.panel3.Controls.Add(this.txtNomeMed);
             this.panel3.Controls.Add(this.lbEspecialidadeMed);
             this.panel3.Controls.Add(this.lbDataNascimento);
-            this.panel3.Controls.Add(this.lbNomeCadastro);
+            this.panel3.Controls.Add(this.lbNomeMed);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
             this.panel3.Location = new System.Drawing.Point(49, 181);
@@ -234,13 +182,13 @@
             this.txtCargaCadastro.Size = new System.Drawing.Size(224, 36);
             this.txtCargaCadastro.TabIndex = 10;
             // 
-            // txtNomeCadastro
+            // txtNomeMed
             // 
-            this.txtNomeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txtNomeCadastro.Location = new System.Drawing.Point(93, 13);
-            this.txtNomeCadastro.Name = "txtNomeCadastro";
-            this.txtNomeCadastro.Size = new System.Drawing.Size(665, 36);
-            this.txtNomeCadastro.TabIndex = 7;
+            this.txtNomeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtNomeMed.Location = new System.Drawing.Point(93, 13);
+            this.txtNomeMed.Name = "txtNomeMed";
+            this.txtNomeMed.Size = new System.Drawing.Size(772, 36);
+            this.txtNomeMed.TabIndex = 7;
             // 
             // lbEspecialidadeMed
             // 
@@ -262,29 +210,21 @@
             this.lbDataNascimento.TabIndex = 2;
             this.lbDataNascimento.Text = "Data de Nascimento:";
             // 
-            // lbNomeCadastro
+            // lbNomeMed
             // 
-            this.lbNomeCadastro.AutoSize = true;
-            this.lbNomeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lbNomeCadastro.Location = new System.Drawing.Point(6, 16);
-            this.lbNomeCadastro.Name = "lbNomeCadastro";
-            this.lbNomeCadastro.Size = new System.Drawing.Size(83, 28);
-            this.lbNomeCadastro.TabIndex = 0;
-            this.lbNomeCadastro.Text = "Nome:";
-            // 
-            // txbCelularMed
-            // 
-            this.txbCelularMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbCelularMed.Location = new System.Drawing.Point(440, 141);
-            this.txbCelularMed.Name = "txbCelularMed";
-            this.txbCelularMed.Size = new System.Drawing.Size(233, 36);
-            this.txbCelularMed.TabIndex = 19;
+            this.lbNomeMed.AutoSize = true;
+            this.lbNomeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbNomeMed.Location = new System.Drawing.Point(6, 16);
+            this.lbNomeMed.Name = "lbNomeMed";
+            this.lbNomeMed.Size = new System.Drawing.Size(83, 28);
+            this.lbNomeMed.TabIndex = 0;
+            this.lbNomeMed.Text = "Nome:";
             // 
             // lblCelularCadastro
             // 
             this.lblCelularCadastro.AutoSize = true;
             this.lblCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblCelularCadastro.Location = new System.Drawing.Point(336, 145);
+            this.lblCelularCadastro.Location = new System.Drawing.Point(370, 143);
             this.lblCelularCadastro.Name = "lblCelularCadastro";
             this.lblCelularCadastro.Size = new System.Drawing.Size(98, 28);
             this.lblCelularCadastro.TabIndex = 18;
@@ -295,23 +235,15 @@
             this.txbEmailMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txbEmailMed.Location = new System.Drawing.Point(93, 181);
             this.txbEmailMed.Name = "txbEmailMed";
-            this.txbEmailMed.Size = new System.Drawing.Size(527, 36);
+            this.txbEmailMed.Size = new System.Drawing.Size(772, 36);
             this.txbEmailMed.TabIndex = 13;
-            // 
-            // txbTelefoneMed
-            // 
-            this.txbTelefoneMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbTelefoneMed.Location = new System.Drawing.Point(125, 142);
-            this.txbTelefoneMed.Name = "txbTelefoneMed";
-            this.txbTelefoneMed.Size = new System.Drawing.Size(196, 36);
-            this.txbTelefoneMed.TabIndex = 12;
             // 
             // txbRuaMed
             // 
             this.txbRuaMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txbRuaMed.Location = new System.Drawing.Point(74, 9);
             this.txbRuaMed.Name = "txbRuaMed";
-            this.txbRuaMed.Size = new System.Drawing.Size(615, 36);
+            this.txbRuaMed.Size = new System.Drawing.Size(649, 36);
             this.txbRuaMed.TabIndex = 11;
             this.txbRuaMed.TextChanged += new System.EventHandler(this.txtHorarioExpedienteCadastro_TextChanged);
             // 
@@ -349,7 +281,7 @@
             // 
             this.lblNumeroRuaMed.AutoSize = true;
             this.lblNumeroRuaMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblNumeroRuaMed.Location = new System.Drawing.Point(695, 14);
+            this.lblNumeroRuaMed.Location = new System.Drawing.Point(729, 13);
             this.lblNumeroRuaMed.Name = "lblNumeroRuaMed";
             this.lblNumeroRuaMed.Size = new System.Drawing.Size(45, 28);
             this.lblNumeroRuaMed.TabIndex = 51;
@@ -358,7 +290,7 @@
             // txbNumeroRuaMed
             // 
             this.txbNumeroRuaMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbNumeroRuaMed.Location = new System.Drawing.Point(746, 11);
+            this.txbNumeroRuaMed.Location = new System.Drawing.Point(780, 10);
             this.txbNumeroRuaMed.Name = "txbNumeroRuaMed";
             this.txbNumeroRuaMed.Size = new System.Drawing.Size(85, 36);
             this.txbNumeroRuaMed.TabIndex = 52;
@@ -405,7 +337,7 @@
             // 
             this.lblUFMed.AutoSize = true;
             this.lblUFMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblUFMed.Location = new System.Drawing.Point(301, 97);
+            this.lblUFMed.Location = new System.Drawing.Point(337, 100);
             this.lblUFMed.Name = "lblUFMed";
             this.lblUFMed.Size = new System.Drawing.Size(47, 28);
             this.lblUFMed.TabIndex = 55;
@@ -416,14 +348,14 @@
             this.txbNaturalidadeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txbNaturalidadeMed.Location = new System.Drawing.Point(167, 97);
             this.txbNaturalidadeMed.Name = "txbNaturalidadeMed";
-            this.txbNaturalidadeMed.Size = new System.Drawing.Size(127, 36);
+            this.txbNaturalidadeMed.Size = new System.Drawing.Size(154, 36);
             this.txbNaturalidadeMed.TabIndex = 56;
             // 
             // cmbUFMed
             // 
             this.cmbUFMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.cmbUFMed.FormattingEnabled = true;
-            this.cmbUFMed.Location = new System.Drawing.Point(354, 94);
+            this.cmbUFMed.Location = new System.Drawing.Point(390, 97);
             this.cmbUFMed.Name = "cmbUFMed";
             this.cmbUFMed.Size = new System.Drawing.Size(43, 36);
             this.cmbUFMed.TabIndex = 57;
@@ -452,6 +384,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.txbCelMed);
+            this.panel1.Controls.Add(this.txbTelMed);
             this.panel1.Controls.Add(this.maskedTextBox1);
             this.panel1.Controls.Add(this.txbNumeroRuaMed);
             this.panel1.Controls.Add(this.lblNumeroRuaMed);
@@ -468,10 +402,8 @@
             this.panel1.Controls.Add(this.lblUFMed);
             this.panel1.Controls.Add(this.txbNaturalidadeMed);
             this.panel1.Controls.Add(this.txbRuaMed);
-            this.panel1.Controls.Add(this.txbTelefoneMed);
             this.panel1.Controls.Add(this.lblCelularCadastro);
             this.panel1.Controls.Add(this.lblNaturalidadeMed);
-            this.panel1.Controls.Add(this.txbCelularMed);
             this.panel1.Controls.Add(this.lblRuaMed);
             this.panel1.Location = new System.Drawing.Point(49, 424);
             this.panel1.Name = "panel1";
@@ -716,20 +648,120 @@
             this.maskedTextBox1.TabIndex = 27;
             this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // pcbImagemFunc
+            // 
+            this.pcbImagemFunc.Location = new System.Drawing.Point(26, 34);
+            this.pcbImagemFunc.Name = "pcbImagemFunc";
+            this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
+            this.pcbImagemFunc.TabIndex = 62;
+            this.pcbImagemFunc.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.txbDataCadMed);
+            this.panel2.Controls.Add(this.lblDatCadMed);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btnAlterar);
+            this.panel2.Controls.Add(this.pcbImagemFunc);
+            this.panel2.Location = new System.Drawing.Point(1087, 149);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(225, 515);
+            this.panel2.TabIndex = 63;
+            // 
+            // txbDataCadMed
+            // 
+            this.txbDataCadMed.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.txbDataCadMed.Location = new System.Drawing.Point(50, 258);
+            this.txbDataCadMed.Mask = "00/00/0000";
+            this.txbDataCadMed.Name = "txbDataCadMed";
+            this.txbDataCadMed.Size = new System.Drawing.Size(120, 29);
+            this.txbDataCadMed.TabIndex = 66;
+            this.txbDataCadMed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lblDatCadMed
+            // 
+            this.lblDatCadMed.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblDatCadMed.AutoSize = true;
+            this.lblDatCadMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblDatCadMed.Location = new System.Drawing.Point(12, 227);
+            this.lblDatCadMed.Name = "lblDatCadMed";
+            this.lblDatCadMed.Size = new System.Drawing.Size(200, 28);
+            this.lblDatCadMed.TabIndex = 64;
+            this.lblDatCadMed.Text = "Data de Cadastro";
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.button1.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(51, 412);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 32);
+            this.button1.TabIndex = 63;
+            this.button1.Text = "Salvar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btnAlterar
+            // 
+            this.btnAlterar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnAlterar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlterar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnAlterar.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
+            this.btnAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlterar.Location = new System.Drawing.Point(50, 327);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(121, 35);
+            this.btnAlterar.TabIndex = 65;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = false;
+            // 
+            // lblCadMed
+            // 
+            this.lblCadMed.AutoSize = true;
+            this.lblCadMed.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCadMed.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblCadMed.Location = new System.Drawing.Point(468, 116);
+            this.lblCadMed.Name = "lblCadMed";
+            this.lblCadMed.Size = new System.Drawing.Size(346, 41);
+            this.lblCadMed.TabIndex = 64;
+            this.lblCadMed.Text = "Cadastro de Médico";
+            // 
+            // txbTelMed
+            // 
+            this.txbTelMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbTelMed.Location = new System.Drawing.Point(125, 140);
+            this.txbTelMed.Mask = "(00)0000-0000";
+            this.txbTelMed.Name = "txbTelMed";
+            this.txbTelMed.Size = new System.Drawing.Size(177, 36);
+            this.txbTelMed.TabIndex = 60;
+            this.txbTelMed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbCelMed
+            // 
+            this.txbCelMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbCelMed.Location = new System.Drawing.Point(474, 139);
+            this.txbCelMed.Mask = "(00)00000-0000";
+            this.txbCelMed.Name = "txbCelMed";
+            this.txbCelMed.Size = new System.Drawing.Size(183, 36);
+            this.txbCelMed.TabIndex = 61;
+            this.txbCelMed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // telaMédico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.lblCadMed);
             this.Controls.Add(this.barraSuperior);
-            this.Controls.Add(this.btnAlterar);
-            this.Controls.Add(this.txtDataEncerramento);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtDataCadastro);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaMédico";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -740,33 +772,29 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.barraSuperior.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pcbImagemFunc)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btnAlterar;
-        private System.Windows.Forms.TextBox txtDataEncerramento;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtDataCadastro;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox txbCelularMed;
         private System.Windows.Forms.Label lblCelularCadastro;
         private System.Windows.Forms.TextBox txtMatriculaCadastro;
         private System.Windows.Forms.Label lbCRMMed;
         private System.Windows.Forms.TextBox txbEmailMed;
-        private System.Windows.Forms.TextBox txbTelefoneMed;
         private System.Windows.Forms.TextBox txbRuaMed;
         private System.Windows.Forms.TextBox txtCargaCadastro;
-        private System.Windows.Forms.TextBox txtNomeCadastro;
+        private System.Windows.Forms.TextBox txtNomeMed;
         private System.Windows.Forms.Label lblEmailMed;
         private System.Windows.Forms.Label lblTelefoneMed;
         private System.Windows.Forms.Label lblRuaMed;
         private System.Windows.Forms.Label lbEspecialidadeMed;
         private System.Windows.Forms.Label lbDataNascimento;
-        private System.Windows.Forms.Label lbNomeCadastro;
+        private System.Windows.Forms.Label lbNomeMed;
         private System.Windows.Forms.Label lblRGMed;
         private System.Windows.Forms.Label lblCPFMed;
         private System.Windows.Forms.TextBox txbIdadeMed;
@@ -799,5 +827,14 @@
         private System.Windows.Forms.MaskedTextBox txbCpfMed;
         private System.Windows.Forms.MaskedTextBox txbRgMed;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.PictureBox pcbImagemFunc;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.MaskedTextBox txbDataCadMed;
+        private System.Windows.Forms.Label lblDatCadMed;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAlterar;
+        private System.Windows.Forms.Label lblCadMed;
+        private System.Windows.Forms.MaskedTextBox txbCelMed;
+        private System.Windows.Forms.MaskedTextBox txbTelMed;
     }
 }

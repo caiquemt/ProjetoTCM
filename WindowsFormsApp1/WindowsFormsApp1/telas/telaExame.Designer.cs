@@ -356,7 +356,7 @@
             this.txbDataExame.Location = new System.Drawing.Point(235, 89);
             this.txbDataExame.Mask = "00/00/0000";
             this.txbDataExame.Name = "txbDataExame";
-            this.txbDataExame.Size = new System.Drawing.Size(126, 36);
+            this.txbDataExame.Size = new System.Drawing.Size(152, 36);
             this.txbDataExame.TabIndex = 7;
             this.txbDataExame.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
