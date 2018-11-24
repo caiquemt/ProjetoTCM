@@ -77,7 +77,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(30, 192);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(741, 233);
+            this.dataGridView1.Size = new System.Drawing.Size(1084, 389);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -117,7 +117,6 @@
             this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSairCadastro.UseVisualStyleBackColor = true;
-            this.btnSairCadastro.Click += new System.EventHandler(this.btnSairCadastro_Click);
             // 
             // btnVoltarCadastro
             // 
@@ -149,7 +148,6 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
-            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click);
             // 
             // button11
             // 
@@ -240,7 +238,6 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
-            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click);
             // 
             // button5
             // 

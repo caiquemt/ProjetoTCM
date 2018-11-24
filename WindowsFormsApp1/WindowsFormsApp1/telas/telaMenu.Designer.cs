@@ -78,7 +78,6 @@
             this.btnFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFuncionario.UseVisualStyleBackColor = false;
-            this.btnFuncionario.Click += new System.EventHandler(this.btnFuncionario_Click);
             // 
             // btnProntuario
             // 
@@ -93,7 +92,6 @@
             this.btnProntuario.Text = "Prontuário";
             this.btnProntuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProntuario.UseVisualStyleBackColor = false;
-            this.btnProntuario.Click += new System.EventHandler(this.btnProntuario_Click);
             // 
             // btnMedico
             // 
@@ -108,7 +106,7 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
-            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click);
+            this.btnMedico.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnAgenda
             // 
@@ -123,7 +121,6 @@
             this.btnAgenda.Text = "Agenda";
             this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAgenda.UseVisualStyleBackColor = false;
-            this.btnAgenda.Click += new System.EventHandler(this.btnAgenda_Click);
             // 
             // btnPagamento
             // 
@@ -138,7 +135,6 @@
             this.btnPagamento.Text = "Pagamento";
             this.btnPagamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPagamento.UseVisualStyleBackColor = false;
-            this.btnPagamento.Click += new System.EventHandler(this.btnPagamento_Click);
             // 
             // btnEstoque
             // 
@@ -153,7 +149,6 @@
             this.btnEstoque.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEstoque.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEstoque.UseVisualStyleBackColor = false;
-            this.btnEstoque.Click += new System.EventHandler(this.btnEstoque_Click);
             // 
             // btnPaciente
             // 
@@ -168,7 +163,6 @@
             this.btnPaciente.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPaciente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPaciente.UseVisualStyleBackColor = false;
-            this.btnPaciente.Click += new System.EventHandler(this.btnPaciente_Click);
             // 
             // telaMenu
             // 

@@ -41,13 +41,13 @@
             this.btnMedicoExame = new System.Windows.Forms.Button();
             this.btnPesquisaExame = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblExame = new System.Windows.Forms.Label();
-            this.lblNomedoExame = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lblDatadoExame = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSelecionarImagemExame = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.lblDatadoExame = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblNomedoExame = new System.Windows.Forms.Label();
+            this.lblExame = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnAlterarExame = new System.Windows.Forms.Button();
             this.btnExcluirExame = new System.Windows.Forms.Button();
@@ -245,44 +245,25 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(949, 426);
             this.panel1.TabIndex = 24;
+            //this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lblExame
+            // btnSelecionarImagemExame
             // 
-            this.lblExame.AutoSize = true;
-            this.lblExame.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExame.Location = new System.Drawing.Point(551, 110);
-            this.lblExame.Name = "lblExame";
-            this.lblExame.Size = new System.Drawing.Size(129, 41);
-            this.lblExame.TabIndex = 25;
-            this.lblExame.Text = "Exame";
+            this.btnSelecionarImagemExame.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelecionarImagemExame.Location = new System.Drawing.Point(39, 154);
+            this.btnSelecionarImagemExame.Name = "btnSelecionarImagemExame";
+            this.btnSelecionarImagemExame.Size = new System.Drawing.Size(202, 34);
+            this.btnSelecionarImagemExame.TabIndex = 6;
+            this.btnSelecionarImagemExame.Text = "Selecionar Imagem...";
+            this.btnSelecionarImagemExame.UseVisualStyleBackColor = true;
             // 
-            // lblNomedoExame
+            // pictureBox1
             // 
-            this.lblNomedoExame.AutoSize = true;
-            this.lblNomedoExame.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomedoExame.Location = new System.Drawing.Point(33, 30);
-            this.lblNomedoExame.Name = "lblNomedoExame";
-            this.lblNomedoExame.Size = new System.Drawing.Size(242, 32);
-            this.lblNomedoExame.TabIndex = 1;
-            this.lblNomedoExame.Text = "Nome do Exame:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(281, 27);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(617, 39);
-            this.textBox1.TabIndex = 2;
-            // 
-            // lblDatadoExame
-            // 
-            this.lblDatadoExame.AutoSize = true;
-            this.lblDatadoExame.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDatadoExame.Location = new System.Drawing.Point(37, 90);
-            this.lblDatadoExame.Name = "lblDatadoExame";
-            this.lblDatadoExame.Size = new System.Drawing.Size(223, 32);
-            this.lblDatadoExame.TabIndex = 3;
-            this.lblDatadoExame.Text = "Data do Exame:";
+            this.pictureBox1.Location = new System.Drawing.Point(39, 194);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(859, 488);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // maskedTextBox1
             // 
@@ -296,23 +277,43 @@
             this.maskedTextBox1.TabIndex = 4;
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
-            // pictureBox1
+            // lblDatadoExame
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(39, 194);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(859, 488);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.lblDatadoExame.AutoSize = true;
+            this.lblDatadoExame.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDatadoExame.Location = new System.Drawing.Point(33, 90);
+            this.lblDatadoExame.Name = "lblDatadoExame";
+            this.lblDatadoExame.Size = new System.Drawing.Size(223, 32);
+            this.lblDatadoExame.TabIndex = 3;
+            this.lblDatadoExame.Text = "Data do Exame:";
             // 
-            // btnSelecionarImagemExame
+            // textBox1
             // 
-            this.btnSelecionarImagemExame.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSelecionarImagemExame.Location = new System.Drawing.Point(39, 154);
-            this.btnSelecionarImagemExame.Name = "btnSelecionarImagemExame";
-            this.btnSelecionarImagemExame.Size = new System.Drawing.Size(202, 34);
-            this.btnSelecionarImagemExame.TabIndex = 6;
-            this.btnSelecionarImagemExame.Text = "Selecionar Imagem...";
-            this.btnSelecionarImagemExame.UseVisualStyleBackColor = true;
+            this.textBox1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(281, 27);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(617, 39);
+            this.textBox1.TabIndex = 2;
+            // 
+            // lblNomedoExame
+            // 
+            this.lblNomedoExame.AutoSize = true;
+            this.lblNomedoExame.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomedoExame.Location = new System.Drawing.Point(33, 30);
+            this.lblNomedoExame.Name = "lblNomedoExame";
+            this.lblNomedoExame.Size = new System.Drawing.Size(242, 32);
+            this.lblNomedoExame.TabIndex = 1;
+            this.lblNomedoExame.Text = "Nome do Exame:";
+            // 
+            // lblExame
+            // 
+            this.lblExame.AutoSize = true;
+            this.lblExame.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExame.Location = new System.Drawing.Point(551, 110);
+            this.lblExame.Name = "lblExame";
+            this.lblExame.Size = new System.Drawing.Size(129, 41);
+            this.lblExame.TabIndex = 25;
+            this.lblExame.Text = "Exame";
             // 
             // pictureBox2
             // 

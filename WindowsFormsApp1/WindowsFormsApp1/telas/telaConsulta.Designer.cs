@@ -30,9 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaConsulta));
             this.barraSuperior = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
@@ -61,11 +58,14 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.barraSuperior.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // barraSuperior
@@ -82,34 +82,6 @@
             this.barraSuperior.Name = "barraSuperior";
             this.barraSuperior.Size = new System.Drawing.Size(1371, 768);
             this.barraSuperior.TabIndex = 23;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.Location = new System.Drawing.Point(1137, 466);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(170, 170);
-            this.pictureBox2.TabIndex = 29;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(1137, 239);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(170, 170);
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(577, 149);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(163, 41);
-            this.label1.TabIndex = 27;
-            this.label1.Text = "Consulta";
             // 
             // panel1
             // 
@@ -147,7 +119,6 @@
             this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSairCadastro.UseVisualStyleBackColor = true;
-            this.btnSairCadastro.Click += new System.EventHandler(this.btnSairCadastro_Click);
             // 
             // btnVoltarCadastro
             // 
@@ -179,7 +150,6 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
-            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click);
             // 
             // button11
             // 
@@ -457,6 +427,34 @@
             this.textBox3.Size = new System.Drawing.Size(245, 39);
             this.textBox3.TabIndex = 10;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(577, 149);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(163, 41);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "Consulta";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Location = new System.Drawing.Point(1137, 239);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(170, 170);
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.Location = new System.Drawing.Point(1137, 466);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(170, 170);
+            this.pictureBox2.TabIndex = 29;
+            this.pictureBox2.TabStop = false;
+            // 
             // telaConsulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -471,11 +469,11 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.barraSuperior.ResumeLayout(false);
             this.barraSuperior.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -39,13 +39,6 @@
             this.btnSalvarCadastro = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.txtCelularCadastro = new System.Windows.Forms.TextBox();
             this.lbCelularCadastro = new System.Windows.Forms.Label();
             this.txtCidade = new System.Windows.Forms.TextBox();
@@ -66,8 +59,10 @@
             this.lbLogrado = new System.Windows.Forms.Label();
             this.lbNomeCadastro = new System.Windows.Forms.Label();
             this.lblFichaPaciente = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.barraSuperior = new System.Windows.Forms.Panel();
-            this.btnSairPrograma1 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -77,6 +72,11 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.barraSuperior.SuspendLayout();
@@ -202,67 +202,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(975, 427);
             this.panel3.TabIndex = 23;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(639, 119);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 24);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "Cidade:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 111);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 24);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "Cidade:";
-            // 
-            // maskedTextBox3
-            // 
-            this.maskedTextBox3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox3.Location = new System.Drawing.Point(96, 111);
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(100, 32);
-            this.maskedTextBox3.TabIndex = 24;
-            // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox2.Location = new System.Drawing.Point(812, 66);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(115, 32);
-            this.maskedTextBox2.TabIndex = 23;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(692, 71);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 24);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "Endereço:";
-            // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Location = new System.Drawing.Point(954, 0);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(19, 425);
-            this.vScrollBar1.TabIndex = 21;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(227, 161);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 32);
-            this.maskedTextBox1.TabIndex = 20;
             // 
             // txtCelularCadastro
             // 
@@ -446,13 +385,28 @@
             this.lblFichaPaciente.TabIndex = 36;
             this.lblFichaPaciente.Text = "FICHA DO PACIENTE";
             // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.Location = new System.Drawing.Point(227, 161);
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(100, 32);
+            this.maskedTextBox1.TabIndex = 20;
+            // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(954, 0);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(19, 425);
+            this.vScrollBar1.TabIndex = 21;
+            // 
             // barraSuperior
             // 
             this.barraSuperior.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.barraSuperior.Controls.Add(this.btnSairPrograma1);
+            this.barraSuperior.Controls.Add(this.button1);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
             this.barraSuperior.Controls.Add(this.btnPacienteConsulta);
             this.barraSuperior.Controls.Add(this.button11);
@@ -468,21 +422,20 @@
             this.barraSuperior.Size = new System.Drawing.Size(1350, 81);
             this.barraSuperior.TabIndex = 37;
             // 
-            // btnSairPrograma1
+            // button1
             // 
-            this.btnSairPrograma1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSairPrograma1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSairPrograma1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSairPrograma1.Image = ((System.Drawing.Image)(resources.GetObject("btnSairPrograma1.Image")));
-            this.btnSairPrograma1.Location = new System.Drawing.Point(1257, -2);
-            this.btnSairPrograma1.Name = "btnSairPrograma1";
-            this.btnSairPrograma1.Size = new System.Drawing.Size(92, 81);
-            this.btnSairPrograma1.TabIndex = 26;
-            this.btnSairPrograma1.Text = "Sair";
-            this.btnSairPrograma1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSairPrograma1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnSairPrograma1.UseVisualStyleBackColor = true;
-            this.btnSairPrograma1.Click += new System.EventHandler(this.btnSairPrograma1_Click);
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(1257, -2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 81);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "Sair";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnVoltarCadastro
             // 
@@ -514,7 +467,6 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
-            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click);
             // 
             // button11
             // 
@@ -621,6 +573,52 @@
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(692, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(114, 24);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Endereço:";
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox2.Location = new System.Drawing.Point(812, 66);
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(115, 32);
+            this.maskedTextBox2.TabIndex = 23;
+            // 
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox3.Location = new System.Drawing.Point(96, 111);
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(100, 32);
+            this.maskedTextBox3.TabIndex = 24;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 111);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 24);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Cidade:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(639, 119);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(87, 24);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "Cidade:";
+            // 
             // telaPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -687,7 +685,7 @@
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Panel barraSuperior;
-        private System.Windows.Forms.Button btnSairPrograma1;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnVoltarCadastro;
         private System.Windows.Forms.Button btnPacienteConsulta;
         private System.Windows.Forms.Button button11;
