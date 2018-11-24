@@ -43,5 +43,50 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btnPacienteConsulta_Click_1(object sender, EventArgs e)
+        {
+            abripac.AbrirCadPaciente(this);
+        }
+
+        private void btnMedico_Click(object sender, EventArgs e)
+        {
+            abrirmed.AbrirCadMedico(this);
+        }
+
+        private void btnAgenda_Click(object sender, EventArgs e)
+        {
+            abriragen.AbrirCadAgenda(this);
+        }
+
+        private void btnProntuario_Click(object sender, EventArgs e)
+        {
+            abrirpront.AbrirCadProntuario(this);
+        }
+
+        private void btnEstoqueFuncionario_Click(object sender, EventArgs e)
+        {
+            abrirest.AbrirCadEstoque(this);
+        }
+
+        private void btnPagamento_Click(object sender, EventArgs e)
+        {
+            abrirpag.AbrirCadPagamento(this);
+        }
+
+        private void btnFunc_Click(object sender, EventArgs e)
+        {
+            abrirfunc.AbrirCadFuncionario(this);
+        }
+
+        private void btnPesquisa_Click(object sender, EventArgs e)
+        {
+            abrirpesq.AbrirCadPEsquisa(this);
+        }
+
+        private void btnSairPrograma_Click(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this);
+        }
     }
 }
