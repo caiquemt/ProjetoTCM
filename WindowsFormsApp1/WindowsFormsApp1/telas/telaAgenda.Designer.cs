@@ -35,16 +35,16 @@
             this.txtPesquisaNome = new System.Windows.Forms.TextBox();
             this.lblConsultasHoje = new System.Windows.Forms.Label();
             this.barraSuperior = new System.Windows.Forms.Panel();
+            this.btnSairCadastro = new System.Windows.Forms.Button();
+            this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.btnFuncionario = new System.Windows.Forms.Button();
             this.btnPagamento = new System.Windows.Forms.Button();
             this.btnEstoqueFuncionario = new System.Windows.Forms.Button();
             this.btnProntuario = new System.Windows.Forms.Button();
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.btnSairCadastro = new System.Windows.Forms.Button();
-            this.btnVoltarCadastro = new System.Windows.Forms.Button();
+            this.btnPesquisa = new System.Windows.Forms.Button();
             this.barraSuperior.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,19 +122,52 @@
             this.barraSuperior.Controls.Add(this.btnSairCadastro);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
             this.barraSuperior.Controls.Add(this.btnPacienteConsulta);
-            this.barraSuperior.Controls.Add(this.button11);
+            this.barraSuperior.Controls.Add(this.btnFuncionario);
             this.barraSuperior.Controls.Add(this.btnPagamento);
             this.barraSuperior.Controls.Add(this.btnEstoqueFuncionario);
             this.barraSuperior.Controls.Add(this.btnProntuario);
             this.barraSuperior.Controls.Add(this.btnAgenda);
             this.barraSuperior.Controls.Add(this.btnMedico);
-            this.barraSuperior.Controls.Add(this.button5);
+            this.barraSuperior.Controls.Add(this.btnPesquisa);
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barraSuperior.Location = new System.Drawing.Point(-1, -1);
             this.barraSuperior.Name = "barraSuperior";
             this.barraSuperior.Size = new System.Drawing.Size(1330, 81);
             this.barraSuperior.TabIndex = 23;
             this.barraSuperior.UseWaitCursor = true;
+            // 
+            // btnSairCadastro
+            // 
+            this.btnSairCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
+            this.btnSairCadastro.Location = new System.Drawing.Point(1237, -1);
+            this.btnSairCadastro.Name = "btnSairCadastro";
+            this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
+            this.btnSairCadastro.TabIndex = 24;
+            this.btnSairCadastro.Text = "Sair";
+            this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnSairCadastro.UseVisualStyleBackColor = true;
+            this.btnSairCadastro.UseWaitCursor = true;
+            // 
+            // btnVoltarCadastro
+            // 
+            this.btnVoltarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1141, -1);
+            this.btnVoltarCadastro.Name = "btnVoltarCadastro";
+            this.btnVoltarCadastro.Size = new System.Drawing.Size(90, 81);
+            this.btnVoltarCadastro.TabIndex = 25;
+            this.btnVoltarCadastro.Text = "Voltar";
+            this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnVoltarCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnVoltarCadastro.UseVisualStyleBackColor = true;
+            this.btnVoltarCadastro.UseWaitCursor = true;
             // 
             // btnPacienteConsulta
             // 
@@ -152,21 +185,22 @@
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
             this.btnPacienteConsulta.UseWaitCursor = true;
             // 
-            // button11
+            // btnFuncionario
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            this.button11.Location = new System.Drawing.Point(605, 0);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(101, 80);
-            this.button11.TabIndex = 22;
-            this.button11.Text = "Funcionário";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.UseWaitCursor = true;
+            this.btnFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
+            this.btnFuncionario.Location = new System.Drawing.Point(605, 0);
+            this.btnFuncionario.Name = "btnFuncionario";
+            this.btnFuncionario.Size = new System.Drawing.Size(101, 80);
+            this.btnFuncionario.TabIndex = 22;
+            this.btnFuncionario.Text = "Funcionário";
+            this.btnFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnFuncionario.UseVisualStyleBackColor = false;
+            this.btnFuncionario.UseWaitCursor = true;
+            this.btnFuncionario.Click += new System.EventHandler(this.btnFuncionario_Click);
             // 
             // btnPagamento
             // 
@@ -248,52 +282,22 @@
             this.btnMedico.UseVisualStyleBackColor = false;
             this.btnMedico.UseWaitCursor = true;
             // 
-            // button5
+            // btnPesquisa
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(706, 0);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(101, 80);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "Pesquisa";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.UseWaitCursor = true;
-            // 
-            // btnSairCadastro
-            // 
-            this.btnSairCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
-            this.btnSairCadastro.Location = new System.Drawing.Point(1237, -1);
-            this.btnSairCadastro.Name = "btnSairCadastro";
-            this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
-            this.btnSairCadastro.TabIndex = 24;
-            this.btnSairCadastro.Text = "Sair";
-            this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnSairCadastro.UseVisualStyleBackColor = true;
-            // 
-            // btnVoltarCadastro
-            // 
-            this.btnVoltarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1141, -1);
-            this.btnVoltarCadastro.Name = "btnVoltarCadastro";
-            this.btnVoltarCadastro.Size = new System.Drawing.Size(90, 81);
-            this.btnVoltarCadastro.TabIndex = 25;
-            this.btnVoltarCadastro.Text = "Voltar";
-            this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnVoltarCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnVoltarCadastro.UseVisualStyleBackColor = true;
+            this.btnPesquisa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesquisa.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPesquisa.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisa.Image")));
+            this.btnPesquisa.Location = new System.Drawing.Point(706, 0);
+            this.btnPesquisa.Name = "btnPesquisa";
+            this.btnPesquisa.Size = new System.Drawing.Size(101, 80);
+            this.btnPesquisa.TabIndex = 16;
+            this.btnPesquisa.Text = "Pesquisa";
+            this.btnPesquisa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPesquisa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnPesquisa.UseVisualStyleBackColor = false;
+            this.btnPesquisa.UseWaitCursor = true;
+            this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
             // telaAgenda
             // 
@@ -326,13 +330,13 @@
         private System.Windows.Forms.Label lblConsultasHoje;
         private System.Windows.Forms.Panel barraSuperior;
         private System.Windows.Forms.Button btnPacienteConsulta;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btnFuncionario;
         private System.Windows.Forms.Button btnPagamento;
         private System.Windows.Forms.Button btnEstoqueFuncionario;
         private System.Windows.Forms.Button btnProntuario;
         private System.Windows.Forms.Button btnAgenda;
         private System.Windows.Forms.Button btnMedico;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnPesquisa;
         private System.Windows.Forms.Button btnSairCadastro;
         private System.Windows.Forms.Button btnVoltarCadastro;
     }

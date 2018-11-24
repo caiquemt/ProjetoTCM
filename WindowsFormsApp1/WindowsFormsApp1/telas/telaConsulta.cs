@@ -73,5 +73,25 @@ namespace WindowsFormsApp1
         {
             abripac.AbrirCadPaciente(this);
         }
+
+        private void btnEstoqueFuncionario_Click(object sender, EventArgs e)
+        {
+            abrirest.AbrirCadEstoque(this);
+        }
+
+        private void btnPagamento_Click(object sender, EventArgs e)
+        {
+            abrirpag.AbrirCadPagamento(this);
+        }
+
+        private void btnFuncionario_Click(object sender, EventArgs e)
+        {
+            abrirfunc.AbrirCadFuncionario(this);
+        }
+
+        private void btnPesquisa_Click(object sender, EventArgs e)
+        {
+            abrirpesq.AbrirCadPEsquisa(this);
+        }
     }
 }

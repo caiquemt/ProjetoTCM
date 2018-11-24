@@ -82,7 +82,7 @@ namespace WindowsFormsApp1
 
         private void btnEstoqueFuncionario_Click(object sender, EventArgs e)
         {
-            
+            abrirest.AbrirCadEstoque(this);
         }
 
         private void btnPagamento_Click_1(object sender, EventArgs e)
@@ -99,5 +99,7 @@ namespace WindowsFormsApp1
         {
             abrirpesq.AbrirCadPEsquisa(this);
         }
+
+
     }
 }
