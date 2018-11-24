@@ -43,6 +43,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblPagamento = new System.Windows.Forms.Label();
             this.barraSuperior = new System.Windows.Forms.Panel();
+            this.txbValorPag = new System.Windows.Forms.MaskedTextBox();
+            this.btnConfirmarPag = new System.Windows.Forms.Button();
+            this.btnLimparPag = new System.Windows.Forms.Button();
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
@@ -53,9 +56,6 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.btnPesquisa = new System.Windows.Forms.Button();
-            this.txbValorPag = new System.Windows.Forms.MaskedTextBox();
-            this.btnConfirmarPag = new System.Windows.Forms.Button();
-            this.btnLimparPag = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.SuspendLayout();
@@ -217,6 +217,48 @@
             this.barraSuperior.Size = new System.Drawing.Size(1366, 81);
             this.barraSuperior.TabIndex = 38;
             // 
+            // txbValorPag
+            // 
+            this.txbValorPag.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbValorPag.Location = new System.Drawing.Point(676, 156);
+            this.txbValorPag.Mask = "000,00";
+            this.txbValorPag.Name = "txbValorPag";
+            this.txbValorPag.Size = new System.Drawing.Size(189, 36);
+            this.txbValorPag.TabIndex = 15;
+            this.txbValorPag.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnConfirmarPag
+            // 
+            this.btnConfirmarPag.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnConfirmarPag.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnConfirmarPag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmarPag.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnConfirmarPag.Image = global::WindowsFormsApp1.Properties.Resources.confirmicon2;
+            this.btnConfirmarPag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConfirmarPag.Location = new System.Drawing.Point(776, 586);
+            this.btnConfirmarPag.Name = "btnConfirmarPag";
+            this.btnConfirmarPag.Size = new System.Drawing.Size(164, 45);
+            this.btnConfirmarPag.TabIndex = 39;
+            this.btnConfirmarPag.Text = "Confirmar";
+            this.btnConfirmarPag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnConfirmarPag.UseVisualStyleBackColor = false;
+            // 
+            // btnLimparPag
+            // 
+            this.btnLimparPag.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnLimparPag.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnLimparPag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimparPag.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnLimparPag.Image = global::WindowsFormsApp1.Properties.Resources.clearicon2;
+            this.btnLimparPag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLimparPag.Location = new System.Drawing.Point(446, 586);
+            this.btnLimparPag.Name = "btnLimparPag";
+            this.btnLimparPag.Size = new System.Drawing.Size(142, 45);
+            this.btnLimparPag.TabIndex = 40;
+            this.btnLimparPag.Text = "Limpar";
+            this.btnLimparPag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLimparPag.UseVisualStyleBackColor = false;
+            // 
             // btnSairCadastro
             // 
             this.btnSairCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -375,46 +417,6 @@
             this.btnPesquisa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPesquisa.UseVisualStyleBackColor = false;
             this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click);
-            // 
-            // txbValorPag
-            // 
-            this.txbValorPag.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbValorPag.Location = new System.Drawing.Point(676, 156);
-            this.txbValorPag.Mask = "000,00";
-            this.txbValorPag.Name = "txbValorPag";
-            this.txbValorPag.Size = new System.Drawing.Size(189, 36);
-            this.txbValorPag.TabIndex = 15;
-            this.txbValorPag.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnConfirmarPag
-            // 
-            this.btnConfirmarPag.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnConfirmarPag.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnConfirmarPag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirmarPag.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnConfirmarPag.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
-            this.btnConfirmarPag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConfirmarPag.Location = new System.Drawing.Point(776, 586);
-            this.btnConfirmarPag.Name = "btnConfirmarPag";
-            this.btnConfirmarPag.Size = new System.Drawing.Size(164, 45);
-            this.btnConfirmarPag.TabIndex = 39;
-            this.btnConfirmarPag.Text = "Confirmar";
-            this.btnConfirmarPag.UseVisualStyleBackColor = false;
-            // 
-            // btnLimparPag
-            // 
-            this.btnLimparPag.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnLimparPag.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnLimparPag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLimparPag.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnLimparPag.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
-            this.btnLimparPag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimparPag.Location = new System.Drawing.Point(446, 586);
-            this.btnLimparPag.Name = "btnLimparPag";
-            this.btnLimparPag.Size = new System.Drawing.Size(142, 45);
-            this.btnLimparPag.TabIndex = 40;
-            this.btnLimparPag.Text = "Limpar";
-            this.btnLimparPag.UseVisualStyleBackColor = false;
             // 
             // telaPagamento
             // 

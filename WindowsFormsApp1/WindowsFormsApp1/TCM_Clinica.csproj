@@ -282,5 +282,14 @@
   <ItemGroup>
     <None Include="Icones\updateicon1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Icones\confirmicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icones\confirmicon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icones\clearicon2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
