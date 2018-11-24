@@ -16,7 +16,7 @@ namespace WindowsFormsApp1.abrir_fechar_menus
 
         public void AbrirCadEstoque(Form cadest)
         {
-            telaMédico abrirEst = new telaMédico();
+            telaEstoque abrirEst = new telaEstoque();
             abrirEst.Show();
             cadest.Hide();
         }

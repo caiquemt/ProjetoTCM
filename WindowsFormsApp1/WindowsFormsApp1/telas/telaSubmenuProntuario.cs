@@ -59,5 +59,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btnProntuario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

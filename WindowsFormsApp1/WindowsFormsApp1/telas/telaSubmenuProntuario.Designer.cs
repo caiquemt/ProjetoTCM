@@ -208,6 +208,7 @@
             this.btnProntuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnProntuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProntuario.UseVisualStyleBackColor = false;
+            this.btnProntuario.Click += new System.EventHandler(this.btnProntuario_Click);
             // 
             // btnAgenda
             // 

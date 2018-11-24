@@ -16,8 +16,8 @@ namespace WindowsFormsApp1.abrir_fechar_menus
 
         public void AbrirCadPEsquisa(Form cadpesq)
         {
-            telaMédico abrirEst = new telaMédico();
-            abrirEst.Show();
+            telaPesquisa abrirpesq = new telaPesquisa();
+            abrirpesq.Show();
             cadpesq.Hide();
         }
     }

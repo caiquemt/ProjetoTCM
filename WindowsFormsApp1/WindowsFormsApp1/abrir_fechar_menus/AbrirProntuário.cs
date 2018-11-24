@@ -16,7 +16,7 @@ namespace WindowsFormsApp1.abrir_fechar_menus
 
         public void AbrirCadProntuario(Form cadpront)
         {
-            telaSubMenuProntuario abrirPront = new telaSubMenuProntuario();
+            telaExame abrirPront = new telaExame();
             abrirPront.Show();
             cadpront.Hide();
         }
