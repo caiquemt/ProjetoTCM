@@ -30,6 +30,38 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaPaciente));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblBairroPac = new System.Windows.Forms.Label();
+            this.txbTelPac = new System.Windows.Forms.MaskedTextBox();
+            this.lblTelPac = new System.Windows.Forms.Label();
+            this.txbCelPac = new System.Windows.Forms.MaskedTextBox();
+            this.txbCidadeMed = new System.Windows.Forms.TextBox();
+            this.lblCidadePac = new System.Windows.Forms.Label();
+            this.cmbUFPac = new System.Windows.Forms.ComboBox();
+            this.lblUFPac = new System.Windows.Forms.Label();
+            this.lblCelularCadastro = new System.Windows.Forms.Label();
+            this.txbCEPPac = new System.Windows.Forms.MaskedTextBox();
+            this.lblCEPPac = new System.Windows.Forms.Label();
+            this.txbProntuarioPac = new System.Windows.Forms.MaskedTextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.rdbMascPac = new System.Windows.Forms.RadioButton();
+            this.rdbFemPac = new System.Windows.Forms.RadioButton();
+            this.label6 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txbIdadePac = new System.Windows.Forms.MaskedTextBox();
+            this.txbNascPac = new System.Windows.Forms.MaskedTextBox();
+            this.txbCpfPac = new System.Windows.Forms.MaskedTextBox();
+            this.txbRgPac = new System.Windows.Forms.MaskedTextBox();
+            this.lblCpfPac = new System.Windows.Forms.Label();
+            this.lblRGPac = new System.Windows.Forms.Label();
             this.lblComplementoPac = new System.Windows.Forms.Label();
             this.txbComplementoPac = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
@@ -43,44 +75,6 @@
             this.lbNomePac = new System.Windows.Forms.Label();
             this.lblFichaPaciente = new System.Windows.Forms.Label();
             this.barraSuperior = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.lblRGPac = new System.Windows.Forms.Label();
-            this.lblCpfPac = new System.Windows.Forms.Label();
-            this.txbNascPac = new System.Windows.Forms.MaskedTextBox();
-            this.txbCpfPac = new System.Windows.Forms.MaskedTextBox();
-            this.txbRgPac = new System.Windows.Forms.MaskedTextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txbIdadePac = new System.Windows.Forms.MaskedTextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.rdbFemPac = new System.Windows.Forms.RadioButton();
-            this.rdbMascPac = new System.Windows.Forms.RadioButton();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txbProntuarioPac = new System.Windows.Forms.MaskedTextBox();
-            this.txbCEPPac = new System.Windows.Forms.MaskedTextBox();
-            this.lblCEPPac = new System.Windows.Forms.Label();
-            this.txbCelPac = new System.Windows.Forms.MaskedTextBox();
-            this.txbCidadeMed = new System.Windows.Forms.TextBox();
-            this.lblCidadePac = new System.Windows.Forms.Label();
-            this.cmbUFPac = new System.Windows.Forms.ComboBox();
-            this.lblUFPac = new System.Windows.Forms.Label();
-            this.lblCelularCadastro = new System.Windows.Forms.Label();
-            this.txbTelPac = new System.Windows.Forms.MaskedTextBox();
-            this.lblTelPac = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lblBairroPac = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
-            this.btnSalvarPac = new System.Windows.Forms.Button();
-            this.btnAlterarPac = new System.Windows.Forms.Button();
             this.btnSairPrograma = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
@@ -91,10 +85,19 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
+            this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.btnSalvarPac = new System.Windows.Forms.Button();
+            this.btnAlterarPac = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblRelogio = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbImagemFunc)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
@@ -150,6 +153,314 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(975, 474);
             this.panel3.TabIndex = 23;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox4.Location = new System.Drawing.Point(270, 476);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(656, 36);
+            this.textBox4.TabIndex = 77;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox3.Location = new System.Drawing.Point(169, 434);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(757, 36);
+            this.textBox3.TabIndex = 76;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox2.Location = new System.Drawing.Point(169, 392);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(757, 36);
+            this.textBox2.TabIndex = 75;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(7, 479);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(257, 28);
+            this.label8.TabIndex = 74;
+            this.label8.Text = "Nome da Responsável:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(7, 437);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(156, 28);
+            this.label3.TabIndex = 73;
+            this.label3.Text = "Nome do Pai:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(6, 392);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(166, 28);
+            this.label2.TabIndex = 72;
+            this.label2.Text = "Nome da Mãe:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox1.Location = new System.Drawing.Point(105, 269);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(495, 36);
+            this.textBox1.TabIndex = 71;
+            // 
+            // lblBairroPac
+            // 
+            this.lblBairroPac.AutoSize = true;
+            this.lblBairroPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblBairroPac.Location = new System.Drawing.Point(7, 272);
+            this.lblBairroPac.Name = "lblBairroPac";
+            this.lblBairroPac.Size = new System.Drawing.Size(92, 28);
+            this.lblBairroPac.TabIndex = 70;
+            this.lblBairroPac.Text = "Bairro:";
+            // 
+            // txbTelPac
+            // 
+            this.txbTelPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbTelPac.Location = new System.Drawing.Point(124, 353);
+            this.txbTelPac.Mask = "(00)0000-0000";
+            this.txbTelPac.Name = "txbTelPac";
+            this.txbTelPac.Size = new System.Drawing.Size(177, 36);
+            this.txbTelPac.TabIndex = 69;
+            this.txbTelPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lblTelPac
+            // 
+            this.lblTelPac.AutoSize = true;
+            this.lblTelPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblTelPac.Location = new System.Drawing.Point(4, 355);
+            this.lblTelPac.Name = "lblTelPac";
+            this.lblTelPac.Size = new System.Drawing.Size(114, 28);
+            this.lblTelPac.TabIndex = 68;
+            this.lblTelPac.Text = "Telefone:";
+            // 
+            // txbCelPac
+            // 
+            this.txbCelPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbCelPac.Location = new System.Drawing.Point(420, 353);
+            this.txbCelPac.Mask = "(00)00000-0000";
+            this.txbCelPac.Name = "txbCelPac";
+            this.txbCelPac.Size = new System.Drawing.Size(183, 36);
+            this.txbCelPac.TabIndex = 67;
+            this.txbCelPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbCidadeMed
+            // 
+            this.txbCidadeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbCidadeMed.Location = new System.Drawing.Point(720, 314);
+            this.txbCidadeMed.Name = "txbCidadeMed";
+            this.txbCidadeMed.Size = new System.Drawing.Size(206, 36);
+            this.txbCidadeMed.TabIndex = 66;
+            // 
+            // lblCidadePac
+            // 
+            this.lblCidadePac.AutoSize = true;
+            this.lblCidadePac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCidadePac.Location = new System.Drawing.Point(619, 314);
+            this.lblCidadePac.Name = "lblCidadePac";
+            this.lblCidadePac.Size = new System.Drawing.Size(95, 28);
+            this.lblCidadePac.TabIndex = 65;
+            this.lblCidadePac.Text = "Cidade:";
+            // 
+            // cmbUFPac
+            // 
+            this.cmbUFPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.cmbUFPac.FormattingEnabled = true;
+            this.cmbUFPac.Location = new System.Drawing.Point(557, 311);
+            this.cmbUFPac.Name = "cmbUFPac";
+            this.cmbUFPac.Size = new System.Drawing.Size(43, 36);
+            this.cmbUFPac.TabIndex = 64;
+            // 
+            // lblUFPac
+            // 
+            this.lblUFPac.AutoSize = true;
+            this.lblUFPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblUFPac.Location = new System.Drawing.Point(504, 314);
+            this.lblUFPac.Name = "lblUFPac";
+            this.lblUFPac.Size = new System.Drawing.Size(47, 28);
+            this.lblUFPac.TabIndex = 63;
+            this.lblUFPac.Text = "UF:";
+            // 
+            // lblCelularCadastro
+            // 
+            this.lblCelularCadastro.AutoSize = true;
+            this.lblCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCelularCadastro.Location = new System.Drawing.Point(325, 356);
+            this.lblCelularCadastro.Name = "lblCelularCadastro";
+            this.lblCelularCadastro.Size = new System.Drawing.Size(98, 28);
+            this.lblCelularCadastro.TabIndex = 62;
+            this.lblCelularCadastro.Text = "Celular:";
+            // 
+            // txbCEPPac
+            // 
+            this.txbCEPPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbCEPPac.Location = new System.Drawing.Point(687, 266);
+            this.txbCEPPac.Mask = "00000-000";
+            this.txbCEPPac.Name = "txbCEPPac";
+            this.txbCEPPac.Size = new System.Drawing.Size(128, 36);
+            this.txbCEPPac.TabIndex = 42;
+            this.txbCEPPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lblCEPPac
+            // 
+            this.lblCEPPac.AutoSize = true;
+            this.lblCEPPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCEPPac.Location = new System.Drawing.Point(619, 272);
+            this.lblCEPPac.Name = "lblCEPPac";
+            this.lblCEPPac.Size = new System.Drawing.Size(62, 28);
+            this.lblCEPPac.TabIndex = 41;
+            this.lblCEPPac.Text = "CEP:";
+            // 
+            // txbProntuarioPac
+            // 
+            this.txbProntuarioPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbProntuarioPac.Location = new System.Drawing.Point(185, 182);
+            this.txbProntuarioPac.Name = "txbProntuarioPac";
+            this.txbProntuarioPac.Size = new System.Drawing.Size(115, 36);
+            this.txbProntuarioPac.TabIndex = 40;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label7.Location = new System.Drawing.Point(6, 185);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(173, 28);
+            this.label7.TabIndex = 39;
+            this.label7.Text = "Nº Prontuário:";
+            // 
+            // rdbMascPac
+            // 
+            this.rdbMascPac.AutoSize = true;
+            this.rdbMascPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rdbMascPac.Location = new System.Drawing.Point(536, 141);
+            this.rdbMascPac.Name = "rdbMascPac";
+            this.rdbMascPac.Size = new System.Drawing.Size(50, 32);
+            this.rdbMascPac.TabIndex = 38;
+            this.rdbMascPac.Text = "M";
+            this.rdbMascPac.UseVisualStyleBackColor = true;
+            // 
+            // rdbFemPac
+            // 
+            this.rdbFemPac.AutoSize = true;
+            this.rdbFemPac.Checked = true;
+            this.rdbFemPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rdbFemPac.Location = new System.Drawing.Point(491, 141);
+            this.rdbFemPac.Name = "rdbFemPac";
+            this.rdbFemPac.Size = new System.Drawing.Size(43, 32);
+            this.rdbFemPac.TabIndex = 37;
+            this.rdbFemPac.TabStop = true;
+            this.rdbFemPac.Text = "F";
+            this.rdbFemPac.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(415, 143);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(70, 28);
+            this.label6.TabIndex = 36;
+            this.label6.Text = "Sexo:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(85, 135);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 36);
+            this.comboBox1.TabIndex = 35;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(6, 138);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 28);
+            this.label5.TabIndex = 34;
+            this.label5.Text = "Etnia:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(415, 58);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 28);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "Idade:";
+            // 
+            // txbIdadePac
+            // 
+            this.txbIdadePac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbIdadePac.Location = new System.Drawing.Point(505, 54);
+            this.txbIdadePac.Name = "txbIdadePac";
+            this.txbIdadePac.Size = new System.Drawing.Size(100, 36);
+            this.txbIdadePac.TabIndex = 32;
+            // 
+            // txbNascPac
+            // 
+            this.txbNascPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbNascPac.Location = new System.Drawing.Point(248, 55);
+            this.txbNascPac.Mask = "00/00/0000";
+            this.txbNascPac.Name = "txbNascPac";
+            this.txbNascPac.Size = new System.Drawing.Size(128, 36);
+            this.txbNascPac.TabIndex = 31;
+            this.txbNascPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbCpfPac
+            // 
+            this.txbCpfPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbCpfPac.Location = new System.Drawing.Point(482, 97);
+            this.txbCpfPac.Mask = "000.000.000-00";
+            this.txbCpfPac.Name = "txbCpfPac";
+            this.txbCpfPac.Size = new System.Drawing.Size(171, 36);
+            this.txbCpfPac.TabIndex = 30;
+            this.txbCpfPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbRgPac
+            // 
+            this.txbRgPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbRgPac.Location = new System.Drawing.Point(62, 94);
+            this.txbRgPac.Mask = "00.000.000-0";
+            this.txbRgPac.Name = "txbRgPac";
+            this.txbRgPac.Size = new System.Drawing.Size(180, 36);
+            this.txbRgPac.TabIndex = 29;
+            this.txbRgPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lblCpfPac
+            // 
+            this.lblCpfPac.AutoSize = true;
+            this.lblCpfPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCpfPac.Location = new System.Drawing.Point(415, 100);
+            this.lblCpfPac.Name = "lblCpfPac";
+            this.lblCpfPac.Size = new System.Drawing.Size(60, 28);
+            this.lblCpfPac.TabIndex = 28;
+            this.lblCpfPac.Text = "CPF:";
+            // 
+            // lblRGPac
+            // 
+            this.lblRGPac.AutoSize = true;
+            this.lblRGPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRGPac.Location = new System.Drawing.Point(6, 97);
+            this.lblRGPac.Name = "lblRGPac";
+            this.lblRGPac.Size = new System.Drawing.Size(50, 28);
+            this.lblRGPac.TabIndex = 27;
+            this.lblRGPac.Text = "RG:";
             // 
             // lblComplementoPac
             // 
@@ -283,386 +594,6 @@
             this.barraSuperior.Name = "barraSuperior";
             this.barraSuperior.Size = new System.Drawing.Size(1350, 81);
             this.barraSuperior.TabIndex = 37;
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.maskedTextBox4);
-            this.panel2.Controls.Add(this.pcbImagemFunc);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.btnSalvarPac);
-            this.panel2.Controls.Add(this.btnAlterarPac);
-            this.panel2.Location = new System.Drawing.Point(1102, 189);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(221, 474);
-            this.panel2.TabIndex = 42;
-            // 
-            // maskedTextBox4
-            // 
-            this.maskedTextBox4.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox4.Location = new System.Drawing.Point(54, 241);
-            this.maskedTextBox4.Mask = "00/00/0000";
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(120, 29);
-            this.maskedTextBox4.TabIndex = 21;
-            this.maskedTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(16, 210);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(200, 28);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Data de Cadastro";
-            // 
-            // lblRGPac
-            // 
-            this.lblRGPac.AutoSize = true;
-            this.lblRGPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblRGPac.Location = new System.Drawing.Point(6, 97);
-            this.lblRGPac.Name = "lblRGPac";
-            this.lblRGPac.Size = new System.Drawing.Size(50, 28);
-            this.lblRGPac.TabIndex = 27;
-            this.lblRGPac.Text = "RG:";
-            // 
-            // lblCpfPac
-            // 
-            this.lblCpfPac.AutoSize = true;
-            this.lblCpfPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblCpfPac.Location = new System.Drawing.Point(415, 100);
-            this.lblCpfPac.Name = "lblCpfPac";
-            this.lblCpfPac.Size = new System.Drawing.Size(60, 28);
-            this.lblCpfPac.TabIndex = 28;
-            this.lblCpfPac.Text = "CPF:";
-            // 
-            // txbNascPac
-            // 
-            this.txbNascPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbNascPac.Location = new System.Drawing.Point(248, 55);
-            this.txbNascPac.Mask = "00/00/0000";
-            this.txbNascPac.Name = "txbNascPac";
-            this.txbNascPac.Size = new System.Drawing.Size(128, 36);
-            this.txbNascPac.TabIndex = 31;
-            this.txbNascPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbCpfPac
-            // 
-            this.txbCpfPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbCpfPac.Location = new System.Drawing.Point(482, 97);
-            this.txbCpfPac.Mask = "000.000.000-00";
-            this.txbCpfPac.Name = "txbCpfPac";
-            this.txbCpfPac.Size = new System.Drawing.Size(171, 36);
-            this.txbCpfPac.TabIndex = 30;
-            this.txbCpfPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbRgPac
-            // 
-            this.txbRgPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbRgPac.Location = new System.Drawing.Point(62, 94);
-            this.txbRgPac.Mask = "00.000.000-0";
-            this.txbRgPac.Name = "txbRgPac";
-            this.txbRgPac.Size = new System.Drawing.Size(180, 36);
-            this.txbRgPac.TabIndex = 29;
-            this.txbRgPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(415, 58);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 28);
-            this.label4.TabIndex = 33;
-            this.label4.Text = "Idade:";
-            // 
-            // txbIdadePac
-            // 
-            this.txbIdadePac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbIdadePac.Location = new System.Drawing.Point(505, 54);
-            this.txbIdadePac.Name = "txbIdadePac";
-            this.txbIdadePac.Size = new System.Drawing.Size(100, 36);
-            this.txbIdadePac.TabIndex = 32;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(6, 138);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 28);
-            this.label5.TabIndex = 34;
-            this.label5.Text = "Etnia:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(85, 135);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 36);
-            this.comboBox1.TabIndex = 35;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(415, 143);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 28);
-            this.label6.TabIndex = 36;
-            this.label6.Text = "Sexo:";
-            // 
-            // rdbFemPac
-            // 
-            this.rdbFemPac.AutoSize = true;
-            this.rdbFemPac.Checked = true;
-            this.rdbFemPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.rdbFemPac.Location = new System.Drawing.Point(491, 141);
-            this.rdbFemPac.Name = "rdbFemPac";
-            this.rdbFemPac.Size = new System.Drawing.Size(43, 32);
-            this.rdbFemPac.TabIndex = 37;
-            this.rdbFemPac.TabStop = true;
-            this.rdbFemPac.Text = "F";
-            this.rdbFemPac.UseVisualStyleBackColor = true;
-            // 
-            // rdbMascPac
-            // 
-            this.rdbMascPac.AutoSize = true;
-            this.rdbMascPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.rdbMascPac.Location = new System.Drawing.Point(536, 141);
-            this.rdbMascPac.Name = "rdbMascPac";
-            this.rdbMascPac.Size = new System.Drawing.Size(50, 32);
-            this.rdbMascPac.TabIndex = 38;
-            this.rdbMascPac.Text = "M";
-            this.rdbMascPac.UseVisualStyleBackColor = true;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(6, 185);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(173, 28);
-            this.label7.TabIndex = 39;
-            this.label7.Text = "Nº Prontuário:";
-            // 
-            // txbProntuarioPac
-            // 
-            this.txbProntuarioPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbProntuarioPac.Location = new System.Drawing.Point(185, 182);
-            this.txbProntuarioPac.Name = "txbProntuarioPac";
-            this.txbProntuarioPac.Size = new System.Drawing.Size(115, 36);
-            this.txbProntuarioPac.TabIndex = 40;
-            // 
-            // txbCEPPac
-            // 
-            this.txbCEPPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbCEPPac.Location = new System.Drawing.Point(687, 266);
-            this.txbCEPPac.Mask = "00000-000";
-            this.txbCEPPac.Name = "txbCEPPac";
-            this.txbCEPPac.Size = new System.Drawing.Size(128, 36);
-            this.txbCEPPac.TabIndex = 42;
-            this.txbCEPPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblCEPPac
-            // 
-            this.lblCEPPac.AutoSize = true;
-            this.lblCEPPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblCEPPac.Location = new System.Drawing.Point(619, 272);
-            this.lblCEPPac.Name = "lblCEPPac";
-            this.lblCEPPac.Size = new System.Drawing.Size(62, 28);
-            this.lblCEPPac.TabIndex = 41;
-            this.lblCEPPac.Text = "CEP:";
-            // 
-            // txbCelPac
-            // 
-            this.txbCelPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbCelPac.Location = new System.Drawing.Point(420, 353);
-            this.txbCelPac.Mask = "(00)00000-0000";
-            this.txbCelPac.Name = "txbCelPac";
-            this.txbCelPac.Size = new System.Drawing.Size(183, 36);
-            this.txbCelPac.TabIndex = 67;
-            this.txbCelPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbCidadeMed
-            // 
-            this.txbCidadeMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbCidadeMed.Location = new System.Drawing.Point(720, 314);
-            this.txbCidadeMed.Name = "txbCidadeMed";
-            this.txbCidadeMed.Size = new System.Drawing.Size(206, 36);
-            this.txbCidadeMed.TabIndex = 66;
-            // 
-            // lblCidadePac
-            // 
-            this.lblCidadePac.AutoSize = true;
-            this.lblCidadePac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblCidadePac.Location = new System.Drawing.Point(619, 314);
-            this.lblCidadePac.Name = "lblCidadePac";
-            this.lblCidadePac.Size = new System.Drawing.Size(95, 28);
-            this.lblCidadePac.TabIndex = 65;
-            this.lblCidadePac.Text = "Cidade:";
-            // 
-            // cmbUFPac
-            // 
-            this.cmbUFPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.cmbUFPac.FormattingEnabled = true;
-            this.cmbUFPac.Location = new System.Drawing.Point(557, 311);
-            this.cmbUFPac.Name = "cmbUFPac";
-            this.cmbUFPac.Size = new System.Drawing.Size(43, 36);
-            this.cmbUFPac.TabIndex = 64;
-            // 
-            // lblUFPac
-            // 
-            this.lblUFPac.AutoSize = true;
-            this.lblUFPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblUFPac.Location = new System.Drawing.Point(504, 314);
-            this.lblUFPac.Name = "lblUFPac";
-            this.lblUFPac.Size = new System.Drawing.Size(47, 28);
-            this.lblUFPac.TabIndex = 63;
-            this.lblUFPac.Text = "UF:";
-            // 
-            // lblCelularCadastro
-            // 
-            this.lblCelularCadastro.AutoSize = true;
-            this.lblCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblCelularCadastro.Location = new System.Drawing.Point(325, 356);
-            this.lblCelularCadastro.Name = "lblCelularCadastro";
-            this.lblCelularCadastro.Size = new System.Drawing.Size(98, 28);
-            this.lblCelularCadastro.TabIndex = 62;
-            this.lblCelularCadastro.Text = "Celular:";
-            // 
-            // txbTelPac
-            // 
-            this.txbTelPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbTelPac.Location = new System.Drawing.Point(124, 353);
-            this.txbTelPac.Mask = "(00)0000-0000";
-            this.txbTelPac.Name = "txbTelPac";
-            this.txbTelPac.Size = new System.Drawing.Size(177, 36);
-            this.txbTelPac.TabIndex = 69;
-            this.txbTelPac.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblTelPac
-            // 
-            this.lblTelPac.AutoSize = true;
-            this.lblTelPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblTelPac.Location = new System.Drawing.Point(4, 355);
-            this.lblTelPac.Name = "lblTelPac";
-            this.lblTelPac.Size = new System.Drawing.Size(114, 28);
-            this.lblTelPac.TabIndex = 68;
-            this.lblTelPac.Text = "Telefone:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox1.Location = new System.Drawing.Point(105, 269);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(495, 36);
-            this.textBox1.TabIndex = 71;
-            // 
-            // lblBairroPac
-            // 
-            this.lblBairroPac.AutoSize = true;
-            this.lblBairroPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblBairroPac.Location = new System.Drawing.Point(7, 272);
-            this.lblBairroPac.Name = "lblBairroPac";
-            this.lblBairroPac.Size = new System.Drawing.Size(92, 28);
-            this.lblBairroPac.TabIndex = 70;
-            this.lblBairroPac.Text = "Bairro:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(6, 392);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 28);
-            this.label2.TabIndex = 72;
-            this.label2.Text = "Nome da Mãe:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(7, 437);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(156, 28);
-            this.label3.TabIndex = 73;
-            this.label3.Text = "Nome do Pai:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(7, 479);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(257, 28);
-            this.label8.TabIndex = 74;
-            this.label8.Text = "Nome da Responsável:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox2.Location = new System.Drawing.Point(169, 392);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(757, 36);
-            this.textBox2.TabIndex = 75;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox3.Location = new System.Drawing.Point(169, 434);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(757, 36);
-            this.textBox3.TabIndex = 76;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox4.Location = new System.Drawing.Point(270, 476);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(656, 36);
-            this.textBox4.TabIndex = 77;
-            // 
-            // pcbImagemFunc
-            // 
-            this.pcbImagemFunc.Location = new System.Drawing.Point(29, 33);
-            this.pcbImagemFunc.Name = "pcbImagemFunc";
-            this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
-            this.pcbImagemFunc.TabIndex = 20;
-            this.pcbImagemFunc.TabStop = false;
-            // 
-            // btnSalvarPac
-            // 
-            this.btnSalvarPac.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalvarPac.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnSalvarPac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalvarPac.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnSalvarPac.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
-            this.btnSalvarPac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvarPac.Location = new System.Drawing.Point(55, 395);
-            this.btnSalvarPac.Name = "btnSalvarPac";
-            this.btnSalvarPac.Size = new System.Drawing.Size(120, 32);
-            this.btnSalvarPac.TabIndex = 8;
-            this.btnSalvarPac.Text = "Salvar";
-            this.btnSalvarPac.UseVisualStyleBackColor = false;
-            // 
-            // btnAlterarPac
-            // 
-            this.btnAlterarPac.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnAlterarPac.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnAlterarPac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterarPac.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnAlterarPac.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
-            this.btnAlterarPac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlterarPac.Location = new System.Drawing.Point(54, 310);
-            this.btnAlterarPac.Name = "btnAlterarPac";
-            this.btnAlterarPac.Size = new System.Drawing.Size(121, 35);
-            this.btnAlterarPac.TabIndex = 17;
-            this.btnAlterarPac.Text = "Alterar";
-            this.btnAlterarPac.UseVisualStyleBackColor = false;
             // 
             // btnSairPrograma
             // 
@@ -824,12 +755,107 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.maskedTextBox4);
+            this.panel2.Controls.Add(this.pcbImagemFunc);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.btnSalvarPac);
+            this.panel2.Controls.Add(this.btnAlterarPac);
+            this.panel2.Location = new System.Drawing.Point(1102, 189);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(221, 474);
+            this.panel2.TabIndex = 42;
+            // 
+            // maskedTextBox4
+            // 
+            this.maskedTextBox4.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox4.Location = new System.Drawing.Point(54, 241);
+            this.maskedTextBox4.Mask = "00/00/0000";
+            this.maskedTextBox4.Name = "maskedTextBox4";
+            this.maskedTextBox4.Size = new System.Drawing.Size(120, 29);
+            this.maskedTextBox4.TabIndex = 21;
+            this.maskedTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pcbImagemFunc
+            // 
+            this.pcbImagemFunc.Location = new System.Drawing.Point(29, 33);
+            this.pcbImagemFunc.Name = "pcbImagemFunc";
+            this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
+            this.pcbImagemFunc.TabIndex = 20;
+            this.pcbImagemFunc.TabStop = false;
+            // 
+            // label9
+            // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label9.Location = new System.Drawing.Point(16, 210);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(200, 28);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Data de Cadastro";
+            // 
+            // btnSalvarPac
+            // 
+            this.btnSalvarPac.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalvarPac.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnSalvarPac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvarPac.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnSalvarPac.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
+            this.btnSalvarPac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvarPac.Location = new System.Drawing.Point(55, 395);
+            this.btnSalvarPac.Name = "btnSalvarPac";
+            this.btnSalvarPac.Size = new System.Drawing.Size(120, 32);
+            this.btnSalvarPac.TabIndex = 8;
+            this.btnSalvarPac.Text = "Salvar";
+            this.btnSalvarPac.UseVisualStyleBackColor = false;
+            // 
+            // btnAlterarPac
+            // 
+            this.btnAlterarPac.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnAlterarPac.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAlterarPac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlterarPac.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnAlterarPac.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
+            this.btnAlterarPac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlterarPac.Location = new System.Drawing.Point(54, 310);
+            this.btnAlterarPac.Name = "btnAlterarPac";
+            this.btnAlterarPac.Size = new System.Drawing.Size(121, 35);
+            this.btnAlterarPac.TabIndex = 17;
+            this.btnAlterarPac.Text = "Alterar";
+            this.btnAlterarPac.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblRelogio);
+            this.panel1.Location = new System.Drawing.Point(0, 693);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1329, 36);
+            this.panel1.TabIndex = 43;
+            // 
+            // lblRelogio
+            // 
+            this.lblRelogio.AutoSize = true;
+            this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRelogio.Location = new System.Drawing.Point(1207, 5);
+            this.lblRelogio.Name = "lblRelogio";
+            this.lblRelogio.Size = new System.Drawing.Size(110, 28);
+            this.lblRelogio.TabIndex = 0;
+            this.lblRelogio.Text = "00:00:00";
+            // 
             // telaPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.barraSuperior);
             this.Controls.Add(this.lblFichaPaciente);
@@ -839,12 +865,15 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "telaPaciente";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.telaPaciente_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.barraSuperior.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbImagemFunc)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -913,5 +942,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblRelogio;
     }
 }

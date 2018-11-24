@@ -26,7 +26,6 @@ namespace WindowsFormsApp1
 
         Timer t = new Timer();
 
-
         public barraInferior()
         {
             InitializeComponent();

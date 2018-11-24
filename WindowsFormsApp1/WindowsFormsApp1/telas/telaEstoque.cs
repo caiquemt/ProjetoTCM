@@ -24,6 +24,8 @@ namespace WindowsFormsApp1
         AbrirEstoque abrirest = new AbrirEstoque();
         AbrirAgenda abriragen = new AbrirAgenda();
 
+        Timer t = new Timer();
+
         public telaEstoque()
         {
             InitializeComponent();
@@ -97,6 +99,49 @@ namespace WindowsFormsApp1
         private void btnPagamento_Click_1(object sender, EventArgs e)
         {
             abrirpag.AbrirCadPagamento(this);
+        }
+
+        private void t_Tick(object sennder, EventArgs e)
+        {
+            int hh = DateTime.Now.Hour;
+            int mm = DateTime.Now.Minute;
+            int ss = DateTime.Now.Second;
+
+            string time = "";
+
+            if (hh < 10)
+            {
+                time += "0" + hh;
+            }
+            else
+            {
+                time += hh;
+            }
+
+            time += ":";
+
+            if (mm < 10)
+            {
+                time += "0" + mm;
+            }
+            else
+            {
+                time += mm;
+            }
+
+            time += ":";
+
+            if (ss < 10)
+            {
+                time += "0" + ss;
+            }
+
+            else
+            {
+                time += ss;
+            }
+
+            lblRelogio.Text = time;
         }
     }
 }

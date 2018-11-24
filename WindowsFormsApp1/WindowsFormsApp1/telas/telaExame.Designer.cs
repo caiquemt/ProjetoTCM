@@ -30,15 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaExame));
             this.barraSuperior = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnSelecionarImagemExame = new System.Windows.Forms.Button();
-            this.lblDatadoExame = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lblNomedoExame = new System.Windows.Forms.Label();
-            this.lblExame = new System.Windows.Forms.Label();
-            this.txbDataExame = new System.Windows.Forms.MaskedTextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pcbExame = new System.Windows.Forms.PictureBox();
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteExame = new System.Windows.Forms.Button();
@@ -49,14 +40,26 @@
             this.btnAgendaExame = new System.Windows.Forms.Button();
             this.btnMedicoExame = new System.Windows.Forms.Button();
             this.btnPesquisaExame = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txbDataExame = new System.Windows.Forms.MaskedTextBox();
+            this.btnSelecionarImagemExame = new System.Windows.Forms.Button();
+            this.pcbExame = new System.Windows.Forms.PictureBox();
+            this.lblDatadoExame = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblNomedoExame = new System.Windows.Forms.Label();
+            this.lblExame = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnSalvarExame = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnAlterarExame = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lblRelogio = new System.Windows.Forms.Label();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbExame)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // barraSuperior
@@ -80,99 +83,6 @@
             this.barraSuperior.Name = "barraSuperior";
             this.barraSuperior.Size = new System.Drawing.Size(1367, 81);
             this.barraSuperior.TabIndex = 23;
-            // 
-            // panel1
-            // 
-            this.panel1.AutoScroll = true;
-            this.panel1.Controls.Add(this.txbDataExame);
-            this.panel1.Controls.Add(this.btnSelecionarImagemExame);
-            this.panel1.Controls.Add(this.pcbExame);
-            this.panel1.Controls.Add(this.lblDatadoExame);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.lblNomedoExame);
-            this.panel1.Location = new System.Drawing.Point(43, 180);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(949, 426);
-            this.panel1.TabIndex = 24;
-            // 
-            // btnSelecionarImagemExame
-            // 
-            this.btnSelecionarImagemExame.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnSelecionarImagemExame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSelecionarImagemExame.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.btnSelecionarImagemExame.Location = new System.Drawing.Point(39, 154);
-            this.btnSelecionarImagemExame.Name = "btnSelecionarImagemExame";
-            this.btnSelecionarImagemExame.Size = new System.Drawing.Size(202, 34);
-            this.btnSelecionarImagemExame.TabIndex = 6;
-            this.btnSelecionarImagemExame.Text = "Selecionar Imagem...";
-            this.btnSelecionarImagemExame.UseVisualStyleBackColor = false;
-            // 
-            // lblDatadoExame
-            // 
-            this.lblDatadoExame.AutoSize = true;
-            this.lblDatadoExame.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblDatadoExame.Location = new System.Drawing.Point(34, 92);
-            this.lblDatadoExame.Name = "lblDatadoExame";
-            this.lblDatadoExame.Size = new System.Drawing.Size(183, 28);
-            this.lblDatadoExame.TabIndex = 3;
-            this.lblDatadoExame.Text = "Data do Exame:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox1.Location = new System.Drawing.Point(235, 27);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(663, 36);
-            this.textBox1.TabIndex = 2;
-            // 
-            // lblNomedoExame
-            // 
-            this.lblNomedoExame.AutoSize = true;
-            this.lblNomedoExame.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblNomedoExame.Location = new System.Drawing.Point(34, 30);
-            this.lblNomedoExame.Name = "lblNomedoExame";
-            this.lblNomedoExame.Size = new System.Drawing.Size(195, 28);
-            this.lblNomedoExame.TabIndex = 1;
-            this.lblNomedoExame.Text = "Nome do Exame:";
-            // 
-            // lblExame
-            // 
-            this.lblExame.AutoSize = true;
-            this.lblExame.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExame.Location = new System.Drawing.Point(551, 110);
-            this.lblExame.Name = "lblExame";
-            this.lblExame.Size = new System.Drawing.Size(129, 41);
-            this.lblExame.TabIndex = 25;
-            this.lblExame.Text = "Exame";
-            // 
-            // txbDataExame
-            // 
-            this.txbDataExame.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbDataExame.Location = new System.Drawing.Point(235, 89);
-            this.txbDataExame.Mask = "00/00/0000";
-            this.txbDataExame.Name = "txbDataExame";
-            this.txbDataExame.Size = new System.Drawing.Size(152, 36);
-            this.txbDataExame.TabIndex = 7;
-            this.txbDataExame.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.btnSalvarExame);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.btnAlterarExame);
-            this.panel2.Location = new System.Drawing.Point(1114, 163);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 443);
-            this.panel2.TabIndex = 31;
-            // 
-            // pcbExame
-            // 
-            this.pcbExame.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pcbExame.Location = new System.Drawing.Point(39, 194);
-            this.pcbExame.Name = "pcbExame";
-            this.pcbExame.Size = new System.Drawing.Size(859, 488);
-            this.pcbExame.TabIndex = 5;
-            this.pcbExame.TabStop = false;
             // 
             // btnSairCadastro
             // 
@@ -335,6 +245,99 @@
             this.btnPesquisaExame.UseVisualStyleBackColor = false;
             this.btnPesquisaExame.Click += new System.EventHandler(this.btnPesquisaExame_Click);
             // 
+            // panel1
+            // 
+            this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.txbDataExame);
+            this.panel1.Controls.Add(this.btnSelecionarImagemExame);
+            this.panel1.Controls.Add(this.pcbExame);
+            this.panel1.Controls.Add(this.lblDatadoExame);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.lblNomedoExame);
+            this.panel1.Location = new System.Drawing.Point(43, 180);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(949, 426);
+            this.panel1.TabIndex = 24;
+            // 
+            // txbDataExame
+            // 
+            this.txbDataExame.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbDataExame.Location = new System.Drawing.Point(235, 89);
+            this.txbDataExame.Mask = "00/00/0000";
+            this.txbDataExame.Name = "txbDataExame";
+            this.txbDataExame.Size = new System.Drawing.Size(152, 36);
+            this.txbDataExame.TabIndex = 7;
+            this.txbDataExame.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnSelecionarImagemExame
+            // 
+            this.btnSelecionarImagemExame.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnSelecionarImagemExame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSelecionarImagemExame.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.btnSelecionarImagemExame.Location = new System.Drawing.Point(39, 154);
+            this.btnSelecionarImagemExame.Name = "btnSelecionarImagemExame";
+            this.btnSelecionarImagemExame.Size = new System.Drawing.Size(202, 34);
+            this.btnSelecionarImagemExame.TabIndex = 6;
+            this.btnSelecionarImagemExame.Text = "Selecionar Imagem...";
+            this.btnSelecionarImagemExame.UseVisualStyleBackColor = false;
+            // 
+            // pcbExame
+            // 
+            this.pcbExame.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pcbExame.Location = new System.Drawing.Point(39, 194);
+            this.pcbExame.Name = "pcbExame";
+            this.pcbExame.Size = new System.Drawing.Size(859, 488);
+            this.pcbExame.TabIndex = 5;
+            this.pcbExame.TabStop = false;
+            // 
+            // lblDatadoExame
+            // 
+            this.lblDatadoExame.AutoSize = true;
+            this.lblDatadoExame.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblDatadoExame.Location = new System.Drawing.Point(34, 92);
+            this.lblDatadoExame.Name = "lblDatadoExame";
+            this.lblDatadoExame.Size = new System.Drawing.Size(183, 28);
+            this.lblDatadoExame.TabIndex = 3;
+            this.lblDatadoExame.Text = "Data do Exame:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox1.Location = new System.Drawing.Point(235, 27);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(663, 36);
+            this.textBox1.TabIndex = 2;
+            // 
+            // lblNomedoExame
+            // 
+            this.lblNomedoExame.AutoSize = true;
+            this.lblNomedoExame.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblNomedoExame.Location = new System.Drawing.Point(34, 30);
+            this.lblNomedoExame.Name = "lblNomedoExame";
+            this.lblNomedoExame.Size = new System.Drawing.Size(195, 28);
+            this.lblNomedoExame.TabIndex = 1;
+            this.lblNomedoExame.Text = "Nome do Exame:";
+            // 
+            // lblExame
+            // 
+            this.lblExame.AutoSize = true;
+            this.lblExame.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExame.Location = new System.Drawing.Point(551, 110);
+            this.lblExame.Name = "lblExame";
+            this.lblExame.Size = new System.Drawing.Size(129, 41);
+            this.lblExame.TabIndex = 25;
+            this.lblExame.Text = "Exame";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.btnSalvarExame);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.btnAlterarExame);
+            this.panel2.Location = new System.Drawing.Point(1114, 163);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 443);
+            this.panel2.TabIndex = 31;
+            // 
             // btnSalvarExame
             // 
             this.btnSalvarExame.BackColor = System.Drawing.Color.LightSeaGreen;
@@ -374,12 +377,35 @@
             this.btnAlterarExame.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAlterarExame.UseVisualStyleBackColor = false;
             // 
+            // panel3
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.lblRelogio);
+            this.panel3.Location = new System.Drawing.Point(0, 655);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1329, 35);
+            this.panel3.TabIndex = 32;
+            // 
+            // lblRelogio
+            // 
+            this.lblRelogio.AutoSize = true;
+            this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRelogio.Location = new System.Drawing.Point(1207, 5);
+            this.lblRelogio.Name = "lblRelogio";
+            this.lblRelogio.Size = new System.Drawing.Size(110, 28);
+            this.lblRelogio.TabIndex = 0;
+            this.lblRelogio.Text = "00:00:00";
+            // 
             // telaExame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1355, 690);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.lblExame);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.barraSuperior);
@@ -388,12 +414,15 @@
             this.Name = "telaExame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.telaExame_Load);
             this.barraSuperior.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pcbExame)).EndInit();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -424,5 +453,7 @@
         private System.Windows.Forms.Button btnSalvarExame;
         private System.Windows.Forms.MaskedTextBox txbDataExame;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label lblRelogio;
     }
 }

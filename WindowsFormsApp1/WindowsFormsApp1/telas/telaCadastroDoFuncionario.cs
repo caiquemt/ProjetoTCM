@@ -25,6 +25,8 @@ namespace WindowsFormsApp1
         AbrirEstoque abrirest = new AbrirEstoque();
         AbrirAgenda abriragen = new AbrirAgenda();
 
+        Timer t = new Timer();
+
         public telaCadastroDoFuncionario()
         {
             InitializeComponent();
@@ -32,7 +34,11 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            t.Interval = 1000;
 
+            t.Tick += new EventHandler(this.t_Tick);
+
+            t.Start();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -184,6 +190,49 @@ namespace WindowsFormsApp1
         private void txtNascFunc_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
+        }
+
+        private void t_Tick(object sennder, EventArgs e)
+        {
+            int hh = DateTime.Now.Hour;
+            int mm = DateTime.Now.Minute;
+            int ss = DateTime.Now.Second;
+
+            string time = "";
+
+            if (hh < 10)
+            {
+                time += "0" + hh;
+            }
+            else
+            {
+                time += hh;
+            }
+
+            time += ":";
+
+            if (mm < 10)
+            {
+                time += "0" + mm;
+            }
+            else
+            {
+                time += mm;
+            }
+
+            time += ":";
+
+            if (ss < 10)
+            {
+                time += "0" + ss;
+            }
+
+            else
+            {
+                time += ss;
+            }
+
+            lblRelogio.Text = time;
         }
     }
 }

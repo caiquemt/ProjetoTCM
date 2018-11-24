@@ -38,6 +38,9 @@
             this.btnPagamento = new System.Windows.Forms.Button();
             this.btnEstoque = new System.Windows.Forms.Button();
             this.btnPaciente = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblRelogio = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblMenuPrincipal
@@ -170,12 +173,35 @@
             this.btnPaciente.UseVisualStyleBackColor = false;
             this.btnPaciente.Click += new System.EventHandler(this.btnPaciente_Click_1);
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblRelogio);
+            this.panel1.Location = new System.Drawing.Point(-1, 695);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1322, 35);
+            this.panel1.TabIndex = 28;
+            // 
+            // lblRelogio
+            // 
+            this.lblRelogio.AutoSize = true;
+            this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRelogio.Location = new System.Drawing.Point(1207, 5);
+            this.lblRelogio.Name = "lblRelogio";
+            this.lblRelogio.Size = new System.Drawing.Size(110, 28);
+            this.lblRelogio.TabIndex = 0;
+            this.lblRelogio.Text = "00:00:00";
+            // 
             // telaMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblMenuPrincipal);
             this.Controls.Add(this.btnPesquisa);
             this.Controls.Add(this.btnFuncionario);
@@ -190,6 +216,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "telaMenu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.telaMenu_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,5 +235,7 @@
         private System.Windows.Forms.Button btnFuncionario;
         private System.Windows.Forms.Button btnPesquisa;
         private System.Windows.Forms.Label lblMenuPrincipal;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblRelogio;
     }
 }

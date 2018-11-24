@@ -41,11 +41,9 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txbValorPag = new System.Windows.Forms.MaskedTextBox();
             this.lblPagamento = new System.Windows.Forms.Label();
             this.barraSuperior = new System.Windows.Forms.Panel();
-            this.txbValorPag = new System.Windows.Forms.MaskedTextBox();
-            this.btnConfirmarPag = new System.Windows.Forms.Button();
-            this.btnLimparPag = new System.Windows.Forms.Button();
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
@@ -56,8 +54,13 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.btnPesquisa = new System.Windows.Forms.Button();
+            this.btnConfirmarPag = new System.Windows.Forms.Button();
+            this.btnLimparPag = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lblRelogio = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.barraSuperior.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
@@ -184,6 +187,16 @@
             this.panel1.Size = new System.Drawing.Size(878, 214);
             this.panel1.TabIndex = 0;
             // 
+            // txbValorPag
+            // 
+            this.txbValorPag.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbValorPag.Location = new System.Drawing.Point(676, 156);
+            this.txbValorPag.Mask = "000,00";
+            this.txbValorPag.Name = "txbValorPag";
+            this.txbValorPag.Size = new System.Drawing.Size(189, 36);
+            this.txbValorPag.TabIndex = 15;
+            this.txbValorPag.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // lblPagamento
             // 
             this.lblPagamento.AutoSize = true;
@@ -216,48 +229,6 @@
             this.barraSuperior.Name = "barraSuperior";
             this.barraSuperior.Size = new System.Drawing.Size(1366, 81);
             this.barraSuperior.TabIndex = 38;
-            // 
-            // txbValorPag
-            // 
-            this.txbValorPag.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbValorPag.Location = new System.Drawing.Point(676, 156);
-            this.txbValorPag.Mask = "000,00";
-            this.txbValorPag.Name = "txbValorPag";
-            this.txbValorPag.Size = new System.Drawing.Size(189, 36);
-            this.txbValorPag.TabIndex = 15;
-            this.txbValorPag.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnConfirmarPag
-            // 
-            this.btnConfirmarPag.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnConfirmarPag.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnConfirmarPag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirmarPag.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnConfirmarPag.Image = global::WindowsFormsApp1.Properties.Resources.confirmicon2;
-            this.btnConfirmarPag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConfirmarPag.Location = new System.Drawing.Point(776, 586);
-            this.btnConfirmarPag.Name = "btnConfirmarPag";
-            this.btnConfirmarPag.Size = new System.Drawing.Size(164, 45);
-            this.btnConfirmarPag.TabIndex = 39;
-            this.btnConfirmarPag.Text = "Confirmar";
-            this.btnConfirmarPag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnConfirmarPag.UseVisualStyleBackColor = false;
-            // 
-            // btnLimparPag
-            // 
-            this.btnLimparPag.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnLimparPag.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnLimparPag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLimparPag.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnLimparPag.Image = global::WindowsFormsApp1.Properties.Resources.clearicon2;
-            this.btnLimparPag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimparPag.Location = new System.Drawing.Point(446, 586);
-            this.btnLimparPag.Name = "btnLimparPag";
-            this.btnLimparPag.Size = new System.Drawing.Size(142, 45);
-            this.btnLimparPag.TabIndex = 40;
-            this.btnLimparPag.Text = "Limpar";
-            this.btnLimparPag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLimparPag.UseVisualStyleBackColor = false;
             // 
             // btnSairCadastro
             // 
@@ -418,12 +389,65 @@
             this.btnPesquisa.UseVisualStyleBackColor = false;
             this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
+            // btnConfirmarPag
+            // 
+            this.btnConfirmarPag.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnConfirmarPag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmarPag.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnConfirmarPag.Image = global::WindowsFormsApp1.Properties.Resources.confirmicon2;
+            this.btnConfirmarPag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConfirmarPag.Location = new System.Drawing.Point(776, 586);
+            this.btnConfirmarPag.Name = "btnConfirmarPag";
+            this.btnConfirmarPag.Size = new System.Drawing.Size(164, 45);
+            this.btnConfirmarPag.TabIndex = 39;
+            this.btnConfirmarPag.Text = "Confirmar";
+            this.btnConfirmarPag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnConfirmarPag.UseVisualStyleBackColor = false;
+            // 
+            // btnLimparPag
+            // 
+            this.btnLimparPag.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnLimparPag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimparPag.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnLimparPag.Image = global::WindowsFormsApp1.Properties.Resources.clearicon2;
+            this.btnLimparPag.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLimparPag.Location = new System.Drawing.Point(446, 586);
+            this.btnLimparPag.Name = "btnLimparPag";
+            this.btnLimparPag.Size = new System.Drawing.Size(142, 45);
+            this.btnLimparPag.TabIndex = 40;
+            this.btnLimparPag.Text = "Limpar";
+            this.btnLimparPag.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLimparPag.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.lblRelogio);
+            this.panel2.Location = new System.Drawing.Point(2, 695);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1329, 35);
+            this.panel2.TabIndex = 41;
+            // 
+            // lblRelogio
+            // 
+            this.lblRelogio.AutoSize = true;
+            this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRelogio.Location = new System.Drawing.Point(1207, 5);
+            this.lblRelogio.Name = "lblRelogio";
+            this.lblRelogio.Size = new System.Drawing.Size(110, 28);
+            this.lblRelogio.TabIndex = 0;
+            this.lblRelogio.Text = "00:00:00";
+            // 
             // telaPagamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnConfirmarPag);
             this.Controls.Add(this.btnLimparPag);
             this.Controls.Add(this.barraSuperior);
@@ -433,9 +457,12 @@
             this.Name = "telaPagamento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.telaPagamento_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.barraSuperior.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -469,5 +496,7 @@
         private System.Windows.Forms.MaskedTextBox txbValorPag;
         private System.Windows.Forms.Button btnConfirmarPag;
         private System.Windows.Forms.Button btnLimparPag;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label lblRelogio;
     }
 }
