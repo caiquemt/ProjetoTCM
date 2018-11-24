@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaConsulta));
             this.barraSuperior = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lblRelogio = new System.Windows.Forms.Label();
             this.btnSalvarCons = new System.Windows.Forms.Button();
             this.btnAlterarCons = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,7 +46,6 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.btnPesquisa = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.lblPacienteConsulta = new System.Windows.Forms.Label();
@@ -61,30 +62,54 @@
             this.lblCodigoConsulta = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lblRelogio = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.barraSuperior.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // barraSuperior
             // 
             this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.barraSuperior.Controls.Add(this.panel4);
             this.barraSuperior.Controls.Add(this.panel2);
-            this.barraSuperior.Controls.Add(this.btnSalvarCons);
-            this.barraSuperior.Controls.Add(this.btnAlterarCons);
             this.barraSuperior.Controls.Add(this.label1);
             this.barraSuperior.Controls.Add(this.panel1);
-            this.barraSuperior.Controls.Add(this.groupBox1);
+            this.barraSuperior.Controls.Add(this.panel3);
             this.barraSuperior.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
             this.barraSuperior.Location = new System.Drawing.Point(0, 0);
             this.barraSuperior.Name = "barraSuperior";
-            this.barraSuperior.Size = new System.Drawing.Size(1371, 768);
+            this.barraSuperior.Size = new System.Drawing.Size(1280, 720);
             this.barraSuperior.TabIndex = 23;
             this.barraSuperior.Paint += new System.Windows.Forms.PaintEventHandler(this.barraSuperior_Paint);
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.lblRelogio);
+            this.panel2.Location = new System.Drawing.Point(-1, 684);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1280, 35);
+            this.panel2.TabIndex = 68;
+            // 
+            // lblRelogio
+            // 
+            this.lblRelogio.AutoSize = true;
+            this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRelogio.Location = new System.Drawing.Point(1163, 0);
+            this.lblRelogio.Name = "lblRelogio";
+            this.lblRelogio.Size = new System.Drawing.Size(110, 28);
+            this.lblRelogio.TabIndex = 0;
+            this.lblRelogio.Text = "00:00:00";
             // 
             // btnSalvarCons
             // 
@@ -95,9 +120,9 @@
             this.btnSalvarCons.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSalvarCons.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
             this.btnSalvarCons.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvarCons.Location = new System.Drawing.Point(1141, 561);
+            this.btnSalvarCons.Location = new System.Drawing.Point(68, 319);
             this.btnSalvarCons.Name = "btnSalvarCons";
-            this.btnSalvarCons.Size = new System.Drawing.Size(120, 32);
+            this.btnSalvarCons.Size = new System.Drawing.Size(121, 32);
             this.btnSalvarCons.TabIndex = 66;
             this.btnSalvarCons.Text = "Salvar";
             this.btnSalvarCons.UseVisualStyleBackColor = false;
@@ -110,7 +135,7 @@
             this.btnAlterarCons.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnAlterarCons.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
             this.btnAlterarCons.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlterarCons.Location = new System.Drawing.Point(1140, 465);
+            this.btnAlterarCons.Location = new System.Drawing.Point(68, 258);
             this.btnAlterarCons.Name = "btnAlterarCons";
             this.btnAlterarCons.Size = new System.Drawing.Size(121, 35);
             this.btnAlterarCons.TabIndex = 67;
@@ -121,7 +146,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(569, 130);
+            this.label1.Location = new System.Drawing.Point(569, 119);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(201, 41);
             this.label1.TabIndex = 27;
@@ -146,7 +171,7 @@
             this.panel1.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(-1, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1371, 81);
+            this.panel1.Size = new System.Drawing.Size(1280, 81);
             this.panel1.TabIndex = 26;
             // 
             // btnSairCadastro
@@ -155,7 +180,7 @@
             this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
-            this.btnSairCadastro.Location = new System.Drawing.Point(1256, -1);
+            this.btnSairCadastro.Location = new System.Drawing.Point(1187, -1);
             this.btnSairCadastro.Name = "btnSairCadastro";
             this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
             this.btnSairCadastro.TabIndex = 26;
@@ -170,9 +195,9 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1139, -1);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1087, -1);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
-            this.btnVoltarCadastro.Size = new System.Drawing.Size(111, 81);
+            this.btnVoltarCadastro.Size = new System.Drawing.Size(94, 81);
             this.btnVoltarCadastro.TabIndex = 27;
             this.btnVoltarCadastro.Text = "Voltar";
             this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -307,35 +332,10 @@
             this.btnPesquisa.UseVisualStyleBackColor = false;
             this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.maskedTextBox2);
-            this.groupBox1.Controls.Add(this.maskedTextBox1);
-            this.groupBox1.Controls.Add(this.lblPacienteConsulta);
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.lblDataConsulta);
-            this.groupBox1.Controls.Add(this.lblEspecialidadeConsulta);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.lblHoraConsulta);
-            this.groupBox1.Controls.Add(this.lblMedicoConsulta);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.lblDiaConsulta);
-            this.groupBox1.Controls.Add(this.lblCRMConsulta);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.lblCodigoConsulta);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.groupBox1.Location = new System.Drawing.Point(45, 237);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(999, 399);
-            this.groupBox1.TabIndex = 25;
-            this.groupBox1.TabStop = false;
-            // 
             // maskedTextBox2
             // 
             this.maskedTextBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox2.Location = new System.Drawing.Point(107, 251);
+            this.maskedTextBox2.Location = new System.Drawing.Point(93, 259);
             this.maskedTextBox2.Mask = "00:00";
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(120, 36);
@@ -345,7 +345,7 @@
             // maskedTextBox1
             // 
             this.maskedTextBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox1.Location = new System.Drawing.Point(107, 200);
+            this.maskedTextBox1.Location = new System.Drawing.Point(93, 208);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(120, 36);
@@ -356,7 +356,7 @@
             // 
             this.lblPacienteConsulta.AutoSize = true;
             this.lblPacienteConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblPacienteConsulta.Location = new System.Drawing.Point(17, 34);
+            this.lblPacienteConsulta.Location = new System.Drawing.Point(3, 42);
             this.lblPacienteConsulta.Name = "lblPacienteConsulta";
             this.lblPacienteConsulta.Size = new System.Drawing.Size(114, 28);
             this.lblPacienteConsulta.TabIndex = 0;
@@ -365,16 +365,16 @@
             // textBox8
             // 
             this.textBox8.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox8.Location = new System.Drawing.Point(642, 276);
+            this.textBox8.Location = new System.Drawing.Point(628, 284);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(326, 36);
+            this.textBox8.Size = new System.Drawing.Size(264, 36);
             this.textBox8.TabIndex = 15;
             // 
             // lblDataConsulta
             // 
             this.lblDataConsulta.AutoSize = true;
             this.lblDataConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblDataConsulta.Location = new System.Drawing.Point(17, 200);
+            this.lblDataConsulta.Location = new System.Drawing.Point(3, 208);
             this.lblDataConsulta.Name = "lblDataConsulta";
             this.lblDataConsulta.Size = new System.Drawing.Size(71, 28);
             this.lblDataConsulta.TabIndex = 3;
@@ -384,7 +384,7 @@
             // 
             this.lblEspecialidadeConsulta.AutoSize = true;
             this.lblEspecialidadeConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblEspecialidadeConsulta.Location = new System.Drawing.Point(17, 140);
+            this.lblEspecialidadeConsulta.Location = new System.Drawing.Point(3, 148);
             this.lblEspecialidadeConsulta.Name = "lblEspecialidadeConsulta";
             this.lblEspecialidadeConsulta.Size = new System.Drawing.Size(172, 28);
             this.lblEspecialidadeConsulta.TabIndex = 2;
@@ -393,9 +393,9 @@
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox7.Location = new System.Drawing.Point(513, 225);
+            this.textBox7.Location = new System.Drawing.Point(499, 233);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(455, 36);
+            this.textBox7.Size = new System.Drawing.Size(393, 36);
             this.textBox7.TabIndex = 14;
             this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
@@ -403,7 +403,7 @@
             // 
             this.lblHoraConsulta.AutoSize = true;
             this.lblHoraConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblHoraConsulta.Location = new System.Drawing.Point(17, 251);
+            this.lblHoraConsulta.Location = new System.Drawing.Point(3, 259);
             this.lblHoraConsulta.Name = "lblHoraConsulta";
             this.lblHoraConsulta.Size = new System.Drawing.Size(74, 28);
             this.lblHoraConsulta.TabIndex = 4;
@@ -413,7 +413,7 @@
             // 
             this.lblMedicoConsulta.AutoSize = true;
             this.lblMedicoConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblMedicoConsulta.Location = new System.Drawing.Point(17, 87);
+            this.lblMedicoConsulta.Location = new System.Drawing.Point(3, 95);
             this.lblMedicoConsulta.Name = "lblMedicoConsulta";
             this.lblMedicoConsulta.Size = new System.Drawing.Size(99, 28);
             this.lblMedicoConsulta.TabIndex = 1;
@@ -422,7 +422,7 @@
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox6.Location = new System.Drawing.Point(107, 297);
+            this.textBox6.Location = new System.Drawing.Point(93, 305);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(262, 36);
             this.textBox6.TabIndex = 13;
@@ -431,7 +431,7 @@
             // 
             this.lblDiaConsulta.AutoSize = true;
             this.lblDiaConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblDiaConsulta.Location = new System.Drawing.Point(17, 300);
+            this.lblDiaConsulta.Location = new System.Drawing.Point(3, 308);
             this.lblDiaConsulta.Name = "lblDiaConsulta";
             this.lblDiaConsulta.Size = new System.Drawing.Size(57, 28);
             this.lblDiaConsulta.TabIndex = 5;
@@ -441,7 +441,7 @@
             // 
             this.lblCRMConsulta.AutoSize = true;
             this.lblCRMConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblCRMConsulta.Location = new System.Drawing.Point(438, 228);
+            this.lblCRMConsulta.Location = new System.Drawing.Point(424, 236);
             this.lblCRMConsulta.Name = "lblCRMConsulta";
             this.lblCRMConsulta.Size = new System.Drawing.Size(69, 28);
             this.lblCRMConsulta.TabIndex = 6;
@@ -450,16 +450,16 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox5.Location = new System.Drawing.Point(137, 84);
+            this.textBox5.Location = new System.Drawing.Point(123, 92);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(831, 36);
+            this.textBox5.Size = new System.Drawing.Size(769, 36);
             this.textBox5.TabIndex = 12;
             // 
             // lblCodigoConsulta
             // 
             this.lblCodigoConsulta.AutoSize = true;
             this.lblCodigoConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblCodigoConsulta.Location = new System.Drawing.Point(440, 279);
+            this.lblCodigoConsulta.Location = new System.Drawing.Point(426, 287);
             this.lblCodigoConsulta.Name = "lblCodigoConsulta";
             this.lblCodigoConsulta.Size = new System.Drawing.Size(196, 28);
             this.lblCodigoConsulta.TabIndex = 7;
@@ -468,62 +468,82 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox1.Location = new System.Drawing.Point(137, 31);
+            this.textBox1.Location = new System.Drawing.Point(123, 39);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(831, 36);
+            this.textBox1.Size = new System.Drawing.Size(769, 36);
             this.textBox1.TabIndex = 8;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox4.Location = new System.Drawing.Point(195, 137);
+            this.textBox4.Location = new System.Drawing.Point(181, 145);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(773, 36);
+            this.textBox4.Size = new System.Drawing.Size(711, 36);
             this.textBox4.TabIndex = 11;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // panel2
+            // panel3
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.lblRelogio);
-            this.panel2.Location = new System.Drawing.Point(3, 694);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1322, 35);
-            this.panel2.TabIndex = 68;
+            this.panel3.Controls.Add(this.btnSalvarCons);
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Controls.Add(this.btnAlterarCons);
+            this.panel3.Location = new System.Drawing.Point(992, 190);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(244, 446);
+            this.panel3.TabIndex = 69;
             // 
-            // lblRelogio
+            // panel4
             // 
-            this.lblRelogio.AutoSize = true;
-            this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblRelogio.Location = new System.Drawing.Point(1207, 5);
-            this.lblRelogio.Name = "lblRelogio";
-            this.lblRelogio.Size = new System.Drawing.Size(110, 28);
-            this.lblRelogio.TabIndex = 0;
-            this.lblRelogio.Text = "00:00:00";
+            this.panel4.Controls.Add(this.textBox1);
+            this.panel4.Controls.Add(this.maskedTextBox2);
+            this.panel4.Controls.Add(this.textBox5);
+            this.panel4.Controls.Add(this.lblCRMConsulta);
+            this.panel4.Controls.Add(this.maskedTextBox1);
+            this.panel4.Controls.Add(this.lblCodigoConsulta);
+            this.panel4.Controls.Add(this.lblDiaConsulta);
+            this.panel4.Controls.Add(this.lblPacienteConsulta);
+            this.panel4.Controls.Add(this.textBox6);
+            this.panel4.Controls.Add(this.textBox8);
+            this.panel4.Controls.Add(this.textBox4);
+            this.panel4.Controls.Add(this.lblMedicoConsulta);
+            this.panel4.Controls.Add(this.lblDataConsulta);
+            this.panel4.Controls.Add(this.lblHoraConsulta);
+            this.panel4.Controls.Add(this.textBox7);
+            this.panel4.Controls.Add(this.lblEspecialidadeConsulta);
+            this.panel4.Location = new System.Drawing.Point(36, 190);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(919, 446);
+            this.panel4.TabIndex = 70;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(36, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(180, 155);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // telaConsulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.barraSuperior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaConsulta";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "telaConsulta";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.barraSuperior.ResumeLayout(false);
             this.barraSuperior.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -545,7 +565,6 @@
         private System.Windows.Forms.Label lblEspecialidadeConsulta;
         private System.Windows.Forms.Label lblMedicoConsulta;
         private System.Windows.Forms.Label lblPacienteConsulta;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnSairCadastro;
         private System.Windows.Forms.Button btnVoltarCadastro;
@@ -564,5 +583,8 @@
         private System.Windows.Forms.Button btnAlterarCons;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblRelogio;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

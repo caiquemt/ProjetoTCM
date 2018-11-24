@@ -90,7 +90,7 @@
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(16, 210);
+            this.label9.Location = new System.Drawing.Point(6, 195);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(200, 28);
             this.label9.TabIndex = 14;
@@ -115,7 +115,7 @@
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barraSuperior.Location = new System.Drawing.Point(0, 0);
             this.barraSuperior.Name = "barraSuperior";
-            this.barraSuperior.Size = new System.Drawing.Size(1350, 81);
+            this.barraSuperior.Size = new System.Drawing.Size(1280, 81);
             this.barraSuperior.TabIndex = 22;
             this.barraSuperior.Paint += new System.Windows.Forms.PaintEventHandler(this.barraSuperior_Paint);
             // 
@@ -126,7 +126,7 @@
             this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairCadastro.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
-            this.btnSairCadastro.Location = new System.Drawing.Point(1257, -2);
+            this.btnSairCadastro.Location = new System.Drawing.Point(1186, -2);
             this.btnSairCadastro.Name = "btnSairCadastro";
             this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
             this.btnSairCadastro.TabIndex = 26;
@@ -143,9 +143,9 @@
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1145, -2);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1088, -2);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
-            this.btnVoltarCadastro.Size = new System.Drawing.Size(106, 81);
+            this.btnVoltarCadastro.Size = new System.Drawing.Size(93, 81);
             this.btnVoltarCadastro.TabIndex = 27;
             this.btnVoltarCadastro.Text = "Voltar";
             this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -283,10 +283,10 @@
             // txtCelularCadastro
             // 
             this.txtCelularCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txtCelularCadastro.Location = new System.Drawing.Point(160, 160);
+            this.txtCelularCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtCelularCadastro.Location = new System.Drawing.Point(160, 145);
             this.txtCelularCadastro.Name = "txtCelularCadastro";
-            this.txtCelularCadastro.Size = new System.Drawing.Size(288, 36);
+            this.txtCelularCadastro.Size = new System.Drawing.Size(219, 29);
             this.txtCelularCadastro.TabIndex = 39;
             // 
             // lbCelularCadastro
@@ -294,7 +294,7 @@
             this.lbCelularCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbCelularCadastro.AutoSize = true;
             this.lbCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lbCelularCadastro.Location = new System.Drawing.Point(490, 288);
+            this.lbCelularCadastro.Location = new System.Drawing.Point(490, 273);
             this.lbCelularCadastro.Name = "lbCelularCadastro";
             this.lbCelularCadastro.Size = new System.Drawing.Size(98, 28);
             this.lbCelularCadastro.TabIndex = 38;
@@ -303,10 +303,10 @@
             // txtMatriculaCadastro
             // 
             this.txtMatriculaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMatriculaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txtMatriculaCadastro.Location = new System.Drawing.Point(552, 119);
+            this.txtMatriculaCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtMatriculaCadastro.Location = new System.Drawing.Point(558, 103);
             this.txtMatriculaCadastro.Name = "txtMatriculaCadastro";
-            this.txtMatriculaCadastro.Size = new System.Drawing.Size(227, 36);
+            this.txtMatriculaCadastro.Size = new System.Drawing.Size(158, 29);
             this.txtMatriculaCadastro.TabIndex = 36;
             // 
             // lbMatriculaCadastro
@@ -314,7 +314,7 @@
             this.lbMatriculaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbMatriculaCadastro.AutoSize = true;
             this.lbMatriculaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lbMatriculaCadastro.Location = new System.Drawing.Point(29, 165);
+            this.lbMatriculaCadastro.Location = new System.Drawing.Point(28, 145);
             this.lbMatriculaCadastro.Name = "lbMatriculaCadastro";
             this.lbMatriculaCadastro.Size = new System.Drawing.Size(125, 28);
             this.lbMatriculaCadastro.TabIndex = 35;
@@ -326,7 +326,7 @@
             this.lbCidadeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbCidadeCadastro.AutoSize = true;
             this.lbCidadeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lbCidadeCadastro.Location = new System.Drawing.Point(461, 122);
+            this.lbCidadeCadastro.Location = new System.Drawing.Point(461, 103);
             this.lbCidadeCadastro.Name = "lbCidadeCadastro";
             this.lbCidadeCadastro.Size = new System.Drawing.Size(95, 28);
             this.lbCidadeCadastro.TabIndex = 34;
@@ -336,19 +336,19 @@
             // txtEmailCadastro
             // 
             this.txtEmailCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEmailCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txtEmailCadastro.Location = new System.Drawing.Point(117, 330);
+            this.txtEmailCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtEmailCadastro.Location = new System.Drawing.Point(117, 315);
             this.txtEmailCadastro.Name = "txtEmailCadastro";
-            this.txtEmailCadastro.Size = new System.Drawing.Size(881, 36);
+            this.txtEmailCadastro.Size = new System.Drawing.Size(812, 29);
             this.txtEmailCadastro.TabIndex = 33;
             // 
             // txtCargaCadastro
             // 
             this.txtCargaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCargaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txtCargaCadastro.Location = new System.Drawing.Point(118, 202);
+            this.txtCargaCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtCargaCadastro.Location = new System.Drawing.Point(118, 187);
             this.txtCargaCadastro.Name = "txtCargaCadastro";
-            this.txtCargaCadastro.Size = new System.Drawing.Size(880, 36);
+            this.txtCargaCadastro.Size = new System.Drawing.Size(811, 29);
             this.txtCargaCadastro.TabIndex = 30;
             // 
             // LbEmailCadastro
@@ -356,7 +356,7 @@
             this.LbEmailCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.LbEmailCadastro.AutoSize = true;
             this.LbEmailCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.LbEmailCadastro.Location = new System.Drawing.Point(29, 337);
+            this.LbEmailCadastro.Location = new System.Drawing.Point(28, 315);
             this.LbEmailCadastro.Name = "LbEmailCadastro";
             this.LbEmailCadastro.Size = new System.Drawing.Size(82, 28);
             this.LbEmailCadastro.TabIndex = 26;
@@ -367,7 +367,7 @@
             this.lbTelefone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbTelefone.AutoSize = true;
             this.lbTelefone.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lbTelefone.Location = new System.Drawing.Point(28, 290);
+            this.lbTelefone.Location = new System.Drawing.Point(28, 273);
             this.lbTelefone.Name = "lbTelefone";
             this.lbTelefone.Size = new System.Drawing.Size(114, 28);
             this.lbTelefone.TabIndex = 25;
@@ -378,7 +378,7 @@
             this.lbHorarioExpediente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbHorarioExpediente.AutoSize = true;
             this.lbHorarioExpediente.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lbHorarioExpediente.Location = new System.Drawing.Point(28, 244);
+            this.lbHorarioExpediente.Location = new System.Drawing.Point(28, 232);
             this.lbHorarioExpediente.Name = "lbHorarioExpediente";
             this.lbHorarioExpediente.Size = new System.Drawing.Size(270, 28);
             this.lbHorarioExpediente.TabIndex = 24;
@@ -389,7 +389,7 @@
             this.lbCargo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbCargo.AutoSize = true;
             this.lbCargo.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lbCargo.Location = new System.Drawing.Point(29, 202);
+            this.lbCargo.Location = new System.Drawing.Point(28, 187);
             this.lbCargo.Name = "lbCargo";
             this.lbCargo.Size = new System.Drawing.Size(83, 28);
             this.lbCargo.TabIndex = 23;
@@ -400,7 +400,7 @@
             this.lbDataNascimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbDataNascimento.AutoSize = true;
             this.lbDataNascimento.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lbDataNascimento.Location = new System.Drawing.Point(461, 165);
+            this.lbDataNascimento.Location = new System.Drawing.Point(461, 150);
             this.lbDataNascimento.Name = "lbDataNascimento";
             this.lbDataNascimento.Size = new System.Drawing.Size(238, 28);
             this.lbDataNascimento.TabIndex = 22;
@@ -411,7 +411,7 @@
             this.lblRuaFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblRuaFuncionario.AutoSize = true;
             this.lblRuaFuncionario.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblRuaFuncionario.Location = new System.Drawing.Point(29, 76);
+            this.lblRuaFuncionario.Location = new System.Drawing.Point(29, 61);
             this.lblRuaFuncionario.Name = "lblRuaFuncionario";
             this.lblRuaFuncionario.Size = new System.Drawing.Size(62, 28);
             this.lblRuaFuncionario.TabIndex = 21;
@@ -420,28 +420,28 @@
             // txtNomeCadastro
             // 
             this.txtNomeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNomeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txtNomeCadastro.Location = new System.Drawing.Point(116, 31);
+            this.txtNomeCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeCadastro.Location = new System.Drawing.Point(116, 23);
             this.txtNomeCadastro.Name = "txtNomeCadastro";
-            this.txtNomeCadastro.Size = new System.Drawing.Size(882, 36);
+            this.txtNomeCadastro.Size = new System.Drawing.Size(813, 29);
             this.txtNomeCadastro.TabIndex = 27;
             // 
             // TxtLogradouroCadastro
             // 
             this.TxtLogradouroCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtLogradouroCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.TxtLogradouroCadastro.Location = new System.Drawing.Point(116, 73);
+            this.TxtLogradouroCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.TxtLogradouroCadastro.Location = new System.Drawing.Point(97, 62);
             this.TxtLogradouroCadastro.Name = "TxtLogradouroCadastro";
-            this.TxtLogradouroCadastro.Size = new System.Drawing.Size(688, 36);
+            this.TxtLogradouroCadastro.Size = new System.Drawing.Size(619, 29);
             this.TxtLogradouroCadastro.TabIndex = 28;
             // 
             // lbNomeCadastro
             // 
             this.lbNomeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lbNomeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lbNomeCadastro.Location = new System.Drawing.Point(29, 37);
+            this.lbNomeCadastro.Location = new System.Drawing.Point(29, 22);
             this.lbNomeCadastro.Name = "lbNomeCadastro";
-            this.lbNomeCadastro.Size = new System.Drawing.Size(88, 26);
+            this.lbNomeCadastro.Size = new System.Drawing.Size(83, 26);
             this.lbNomeCadastro.TabIndex = 20;
             this.lbNomeCadastro.Text = "Nome:";
             // 
@@ -477,9 +477,9 @@
             this.panel1.Controls.Add(this.lbCidadeCadastro);
             this.panel1.Controls.Add(this.txtEmailCadastro);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel1.Location = new System.Drawing.Point(30, 147);
+            this.panel1.Location = new System.Drawing.Point(30, 192);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1055, 474);
+            this.panel1.Size = new System.Drawing.Size(986, 445);
             this.panel1.TabIndex = 40;
             // 
             // label1
@@ -487,7 +487,7 @@
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(369, 247);
+            this.label1.Location = new System.Drawing.Point(369, 232);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 28);
             this.label1.TabIndex = 53;
@@ -495,61 +495,61 @@
             // 
             // txtHorarioFuncAte
             // 
-            this.txtHorarioFuncAte.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txtHorarioFuncAte.Location = new System.Drawing.Point(424, 243);
+            this.txtHorarioFuncAte.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtHorarioFuncAte.Location = new System.Drawing.Point(424, 232);
             this.txtHorarioFuncAte.Mask = "00:00";
             this.txtHorarioFuncAte.Name = "txtHorarioFuncAte";
-            this.txtHorarioFuncAte.Size = new System.Drawing.Size(59, 36);
+            this.txtHorarioFuncAte.Size = new System.Drawing.Size(59, 29);
             this.txtHorarioFuncAte.TabIndex = 52;
             this.txtHorarioFuncAte.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbHorarioFuncDe
             // 
-            this.txbHorarioFuncDe.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbHorarioFuncDe.Location = new System.Drawing.Point(304, 243);
+            this.txbHorarioFuncDe.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txbHorarioFuncDe.Location = new System.Drawing.Point(304, 234);
             this.txbHorarioFuncDe.Mask = "00:00";
             this.txbHorarioFuncDe.Name = "txbHorarioFuncDe";
-            this.txbHorarioFuncDe.Size = new System.Drawing.Size(59, 36);
+            this.txbHorarioFuncDe.Size = new System.Drawing.Size(59, 29);
             this.txbHorarioFuncDe.TabIndex = 51;
             this.txbHorarioFuncDe.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbCelFunc
             // 
-            this.txbCelFunc.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbCelFunc.Location = new System.Drawing.Point(585, 286);
+            this.txbCelFunc.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txbCelFunc.Location = new System.Drawing.Point(594, 274);
             this.txbCelFunc.Mask = "(00)00000-0000";
             this.txbCelFunc.Name = "txbCelFunc";
-            this.txbCelFunc.Size = new System.Drawing.Size(194, 36);
+            this.txbCelFunc.Size = new System.Drawing.Size(194, 29);
             this.txbCelFunc.TabIndex = 50;
             this.txbCelFunc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox2.Location = new System.Drawing.Point(705, 160);
+            this.maskedTextBox2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox2.Location = new System.Drawing.Point(705, 152);
             this.maskedTextBox2.Mask = "00/00/0000";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(123, 36);
+            this.maskedTextBox2.Size = new System.Drawing.Size(123, 29);
             this.maskedTextBox2.TabIndex = 49;
             this.maskedTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbTelFunc
             // 
-            this.txbTelFunc.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbTelFunc.Location = new System.Drawing.Point(148, 287);
+            this.txbTelFunc.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txbTelFunc.Location = new System.Drawing.Point(148, 274);
             this.txbTelFunc.Mask = "(00)0000-0000";
             this.txbTelFunc.Name = "txbTelFunc";
-            this.txbTelFunc.Size = new System.Drawing.Size(182, 36);
+            this.txbTelFunc.Size = new System.Drawing.Size(182, 29);
             this.txbTelFunc.TabIndex = 48;
             this.txbTelFunc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.comboBox1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(842, 118);
+            this.comboBox1.Location = new System.Drawing.Point(864, 100);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(46, 36);
+            this.comboBox1.Size = new System.Drawing.Size(65, 31);
             this.comboBox1.TabIndex = 47;
             // 
             // lblUFCFuncionario
@@ -557,7 +557,7 @@
             this.lblUFCFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUFCFuncionario.AutoSize = true;
             this.lblUFCFuncionario.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblUFCFuncionario.Location = new System.Drawing.Point(799, 122);
+            this.lblUFCFuncionario.Location = new System.Drawing.Point(816, 101);
             this.lblUFCFuncionario.Name = "lblUFCFuncionario";
             this.lblUFCFuncionario.Size = new System.Drawing.Size(47, 28);
             this.lblUFCFuncionario.TabIndex = 44;
@@ -568,7 +568,7 @@
             this.lblNCfuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNCfuncionario.AutoSize = true;
             this.lblNCfuncionario.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblNCfuncionario.Location = new System.Drawing.Point(828, 76);
+            this.lblNCfuncionario.Location = new System.Drawing.Point(828, 61);
             this.lblNCfuncionario.Name = "lblNCfuncionario";
             this.lblNCfuncionario.Size = new System.Drawing.Size(45, 28);
             this.lblNCfuncionario.TabIndex = 43;
@@ -577,10 +577,10 @@
             // textBox2
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox2.Location = new System.Drawing.Point(879, 76);
+            this.textBox2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.textBox2.Location = new System.Drawing.Point(879, 62);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(119, 36);
+            this.textBox2.Size = new System.Drawing.Size(50, 29);
             this.textBox2.TabIndex = 42;
             // 
             // lblBairroCFuncionario
@@ -588,7 +588,7 @@
             this.lblBairroCFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblBairroCFuncionario.AutoSize = true;
             this.lblBairroCFuncionario.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblBairroCFuncionario.Location = new System.Drawing.Point(29, 122);
+            this.lblBairroCFuncionario.Location = new System.Drawing.Point(28, 103);
             this.lblBairroCFuncionario.Name = "lblBairroCFuncionario";
             this.lblBairroCFuncionario.Size = new System.Drawing.Size(92, 28);
             this.lblBairroCFuncionario.TabIndex = 40;
@@ -597,10 +597,10 @@
             // textBox1
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox1.Location = new System.Drawing.Point(127, 118);
+            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.textBox1.Location = new System.Drawing.Point(126, 102);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(314, 36);
+            this.textBox1.Size = new System.Drawing.Size(245, 29);
             this.textBox1.TabIndex = 41;
             // 
             // panel2
@@ -611,15 +611,15 @@
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.btnSalvarCadastro);
             this.panel2.Controls.Add(this.btnAlterar);
-            this.panel2.Location = new System.Drawing.Point(1118, 147);
+            this.panel2.Location = new System.Drawing.Point(1044, 192);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(221, 474);
+            this.panel2.Size = new System.Drawing.Size(211, 445);
             this.panel2.TabIndex = 41;
             // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox1.Location = new System.Drawing.Point(54, 241);
+            this.maskedTextBox1.Location = new System.Drawing.Point(44, 233);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(120, 29);
@@ -628,7 +628,7 @@
             // 
             // pcbImagemFunc
             // 
-            this.pcbImagemFunc.Location = new System.Drawing.Point(29, 33);
+            this.pcbImagemFunc.Location = new System.Drawing.Point(20, 27);
             this.pcbImagemFunc.Name = "pcbImagemFunc";
             this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
             this.pcbImagemFunc.TabIndex = 20;
@@ -643,9 +643,9 @@
             this.btnSalvarCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSalvarCadastro.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
             this.btnSalvarCadastro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvarCadastro.Location = new System.Drawing.Point(55, 395);
+            this.btnSalvarCadastro.Location = new System.Drawing.Point(44, 353);
             this.btnSalvarCadastro.Name = "btnSalvarCadastro";
-            this.btnSalvarCadastro.Size = new System.Drawing.Size(120, 32);
+            this.btnSalvarCadastro.Size = new System.Drawing.Size(121, 34);
             this.btnSalvarCadastro.TabIndex = 8;
             this.btnSalvarCadastro.Text = "Salvar";
             this.btnSalvarCadastro.UseVisualStyleBackColor = false;
@@ -659,7 +659,7 @@
             this.btnAlterar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnAlterar.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
             this.btnAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlterar.Location = new System.Drawing.Point(54, 310);
+            this.btnAlterar.Location = new System.Drawing.Point(44, 295);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(121, 35);
             this.btnAlterar.TabIndex = 17;
@@ -671,7 +671,7 @@
             this.lblCdastroFuncionario.AutoSize = true;
             this.lblCdastroFuncionario.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCdastroFuncionario.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblCdastroFuncionario.Location = new System.Drawing.Point(489, 93);
+            this.lblCdastroFuncionario.Location = new System.Drawing.Point(489, 112);
             this.lblCdastroFuncionario.Name = "lblCdastroFuncionario";
             this.lblCdastroFuncionario.Size = new System.Drawing.Size(423, 41);
             this.lblCdastroFuncionario.TabIndex = 42;
@@ -684,16 +684,16 @@
             this.panel3.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.lblRelogio);
-            this.panel3.Location = new System.Drawing.Point(0, 695);
+            this.panel3.Location = new System.Drawing.Point(0, 686);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1313, 35);
+            this.panel3.Size = new System.Drawing.Size(1280, 35);
             this.panel3.TabIndex = 43;
             // 
             // lblRelogio
             // 
             this.lblRelogio.AutoSize = true;
             this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblRelogio.Location = new System.Drawing.Point(1207, 5);
+            this.lblRelogio.Location = new System.Drawing.Point(1169, 2);
             this.lblRelogio.Name = "lblRelogio";
             this.lblRelogio.Size = new System.Drawing.Size(110, 28);
             this.lblRelogio.TabIndex = 0;
@@ -704,7 +704,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.lblCdastroFuncionario);
             this.Controls.Add(this.panel1);
@@ -712,8 +712,8 @@
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaCadastroDoFuncionario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.barraSuperior.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

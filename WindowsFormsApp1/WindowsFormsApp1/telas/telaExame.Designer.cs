@@ -81,7 +81,7 @@
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barraSuperior.Location = new System.Drawing.Point(0, 0);
             this.barraSuperior.Name = "barraSuperior";
-            this.barraSuperior.Size = new System.Drawing.Size(1367, 81);
+            this.barraSuperior.Size = new System.Drawing.Size(1278, 81);
             this.barraSuperior.TabIndex = 23;
             // 
             // btnSairCadastro
@@ -91,7 +91,7 @@
             this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
-            this.btnSairCadastro.Location = new System.Drawing.Point(1274, -2);
+            this.btnSairCadastro.Location = new System.Drawing.Point(1185, -2);
             this.btnSairCadastro.Name = "btnSairCadastro";
             this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
             this.btnSairCadastro.TabIndex = 26;
@@ -108,7 +108,7 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1161, -2);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1072, -2);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
             this.btnVoltarCadastro.Size = new System.Drawing.Size(107, 81);
             this.btnVoltarCadastro.TabIndex = 27;
@@ -248,6 +248,7 @@
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.txbDataExame);
             this.panel1.Controls.Add(this.btnSelecionarImagemExame);
             this.panel1.Controls.Add(this.pcbExame);
@@ -256,7 +257,7 @@
             this.panel1.Controls.Add(this.lblNomedoExame);
             this.panel1.Location = new System.Drawing.Point(43, 180);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(949, 426);
+            this.panel1.Size = new System.Drawing.Size(949, 443);
             this.panel1.TabIndex = 24;
             // 
             // txbDataExame
@@ -321,7 +322,7 @@
             // lblExame
             // 
             this.lblExame.AutoSize = true;
-            this.lblExame.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExame.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExame.Location = new System.Drawing.Point(551, 110);
             this.lblExame.Name = "lblExame";
             this.lblExame.Size = new System.Drawing.Size(129, 41);
@@ -333,9 +334,9 @@
             this.panel2.Controls.Add(this.btnSalvarExame);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.btnAlterarExame);
-            this.panel2.Location = new System.Drawing.Point(1114, 163);
+            this.panel2.Location = new System.Drawing.Point(1028, 180);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 443);
+            this.panel2.Size = new System.Drawing.Size(215, 443);
             this.panel2.TabIndex = 31;
             // 
             // btnSalvarExame
@@ -345,7 +346,7 @@
             this.btnSalvarExame.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvarExame.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
             this.btnSalvarExame.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvarExame.Location = new System.Drawing.Point(50, 280);
+            this.btnSalvarExame.Location = new System.Drawing.Point(58, 327);
             this.btnSalvarExame.Name = "btnSalvarExame";
             this.btnSalvarExame.Size = new System.Drawing.Size(109, 31);
             this.btnSalvarExame.TabIndex = 30;
@@ -356,7 +357,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 17);
+            this.pictureBox2.Location = new System.Drawing.Point(23, 18);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(170, 170);
             this.pictureBox2.TabIndex = 26;
@@ -369,7 +370,7 @@
             this.btnAlterarExame.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterarExame.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
             this.btnAlterarExame.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlterarExame.Location = new System.Drawing.Point(50, 211);
+            this.btnAlterarExame.Location = new System.Drawing.Point(58, 258);
             this.btnAlterarExame.Name = "btnAlterarExame";
             this.btnAlterarExame.Size = new System.Drawing.Size(109, 30);
             this.btnAlterarExame.TabIndex = 27;
@@ -384,16 +385,16 @@
             this.panel3.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.lblRelogio);
-            this.panel3.Location = new System.Drawing.Point(0, 655);
+            this.panel3.Location = new System.Drawing.Point(0, 686);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1329, 35);
+            this.panel3.Size = new System.Drawing.Size(1280, 35);
             this.panel3.TabIndex = 32;
             // 
             // lblRelogio
             // 
             this.lblRelogio.AutoSize = true;
             this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblRelogio.Location = new System.Drawing.Point(1207, 5);
+            this.lblRelogio.Location = new System.Drawing.Point(1163, 3);
             this.lblRelogio.Name = "lblRelogio";
             this.lblRelogio.Size = new System.Drawing.Size(110, 28);
             this.lblRelogio.TabIndex = 0;
@@ -404,7 +405,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
-            this.ClientSize = new System.Drawing.Size(1355, 690);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.lblExame);
             this.Controls.Add(this.panel1);
@@ -413,7 +414,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaExame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.telaExame_Load);
             this.barraSuperior.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

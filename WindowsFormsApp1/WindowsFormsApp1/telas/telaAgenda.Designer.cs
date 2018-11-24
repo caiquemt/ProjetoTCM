@@ -97,7 +97,7 @@
             this.txtPesquisaNome.Location = new System.Drawing.Point(166, 175);
             this.txtPesquisaNome.Name = "txtPesquisaNome";
             this.txtPesquisaNome.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtPesquisaNome.Size = new System.Drawing.Size(1123, 36);
+            this.txtPesquisaNome.Size = new System.Drawing.Size(1066, 36);
             this.txtPesquisaNome.TabIndex = 13;
             this.txtPesquisaNome.Tag = "";
             this.txtPesquisaNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -132,7 +132,7 @@
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barraSuperior.Location = new System.Drawing.Point(-1, -1);
             this.barraSuperior.Name = "barraSuperior";
-            this.barraSuperior.Size = new System.Drawing.Size(1330, 81);
+            this.barraSuperior.Size = new System.Drawing.Size(1280, 81);
             this.barraSuperior.TabIndex = 23;
             // 
             // btnSairCadastro
@@ -141,7 +141,7 @@
             this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
-            this.btnSairCadastro.Location = new System.Drawing.Point(1237, -1);
+            this.btnSairCadastro.Location = new System.Drawing.Point(1187, -1);
             this.btnSairCadastro.Name = "btnSairCadastro";
             this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
             this.btnSairCadastro.TabIndex = 24;
@@ -157,7 +157,7 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1141, -1);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1091, -1);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
             this.btnVoltarCadastro.Size = new System.Drawing.Size(90, 81);
             this.btnVoltarCadastro.TabIndex = 25;
@@ -319,7 +319,7 @@
             this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(1148, 220);
+            this.button1.Location = new System.Drawing.Point(1091, 222);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 43);
             this.button1.TabIndex = 26;
@@ -333,16 +333,16 @@
             this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lblRelógio);
-            this.panel1.Location = new System.Drawing.Point(0, 651);
+            this.panel1.Location = new System.Drawing.Point(0, 685);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1329, 35);
+            this.panel1.Size = new System.Drawing.Size(1280, 35);
             this.panel1.TabIndex = 27;
             // 
             // lblRelógio
             // 
             this.lblRelógio.AutoSize = true;
             this.lblRelógio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblRelógio.Location = new System.Drawing.Point(1207, 5);
+            this.lblRelógio.Location = new System.Drawing.Point(1163, 0);
             this.lblRelógio.Name = "lblRelógio";
             this.lblRelógio.Size = new System.Drawing.Size(110, 28);
             this.lblRelógio.TabIndex = 0;
@@ -353,7 +353,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
-            this.ClientSize = new System.Drawing.Size(1330, 686);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -368,7 +368,6 @@
             this.Name = "barraInferior";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "telaAgenda";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.telaAgenda_Load);
             this.barraSuperior.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
