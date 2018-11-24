@@ -47,7 +47,7 @@
             // 
             this.lblMenuPrincipal.AutoSize = true;
             this.lblMenuPrincipal.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lblMenuPrincipal.Location = new System.Drawing.Point(530, 175);
+            this.lblMenuPrincipal.Location = new System.Drawing.Point(551, 118);
             this.lblMenuPrincipal.Name = "lblMenuPrincipal";
             this.lblMenuPrincipal.Size = new System.Drawing.Size(310, 41);
             this.lblMenuPrincipal.TabIndex = 8;
@@ -180,16 +180,16 @@
             this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lblRelogio);
-            this.panel1.Location = new System.Drawing.Point(-1, 695);
+            this.panel1.Location = new System.Drawing.Point(2, 685);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1322, 35);
+            this.panel1.Size = new System.Drawing.Size(1278, 35);
             this.panel1.TabIndex = 28;
             // 
             // lblRelogio
             // 
             this.lblRelogio.AutoSize = true;
             this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblRelogio.Location = new System.Drawing.Point(1207, 5);
+            this.lblRelogio.Location = new System.Drawing.Point(1163, 3);
             this.lblRelogio.Name = "lblRelogio";
             this.lblRelogio.Size = new System.Drawing.Size(110, 28);
             this.lblRelogio.TabIndex = 0;
@@ -200,7 +200,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblMenuPrincipal);
             this.Controls.Add(this.btnPesquisa);
