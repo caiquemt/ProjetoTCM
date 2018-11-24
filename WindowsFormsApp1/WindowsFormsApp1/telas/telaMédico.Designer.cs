@@ -73,18 +73,18 @@
             this.txbCidadeMed = new System.Windows.Forms.TextBox();
             this.lblCidadeMed = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnSalvarCadastro = new System.Windows.Forms.Button();
             this.barraSuperior = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSairPrograma = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.btnFuncionario = new System.Windows.Forms.Button();
             this.btnPagamento = new System.Windows.Forms.Button();
             this.btnEstoqueFuncionario = new System.Windows.Forms.Button();
             this.btnProntuario = new System.Windows.Forms.Button();
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.btnSalvarCadastro = new System.Windows.Forms.Button();
+            this.btnPesquisa = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -408,7 +408,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
-           // this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lblNumeroRuaMed
             // 
@@ -552,42 +551,57 @@
             this.panel1.TabIndex = 60;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // btnSalvarCadastro
+            // 
+            this.btnSalvarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalvarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvarCadastro.Location = new System.Drawing.Point(10, 248);
+            this.btnSalvarCadastro.Name = "btnSalvarCadastro";
+            this.btnSalvarCadastro.Size = new System.Drawing.Size(284, 0);
+            this.btnSalvarCadastro.TabIndex = 41;
+            this.btnSalvarCadastro.Text = "Salvar";
+            this.btnSalvarCadastro.UseVisualStyleBackColor = true;
+            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
+            // 
             // barraSuperior
             // 
             this.barraSuperior.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.barraSuperior.Controls.Add(this.button1);
+            this.barraSuperior.Controls.Add(this.btnSairPrograma);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
             this.barraSuperior.Controls.Add(this.btnPacienteConsulta);
-            this.barraSuperior.Controls.Add(this.button11);
+            this.barraSuperior.Controls.Add(this.btnFuncionario);
             this.barraSuperior.Controls.Add(this.btnPagamento);
             this.barraSuperior.Controls.Add(this.btnEstoqueFuncionario);
             this.barraSuperior.Controls.Add(this.btnProntuario);
             this.barraSuperior.Controls.Add(this.btnAgenda);
             this.barraSuperior.Controls.Add(this.btnMedico);
-            this.barraSuperior.Controls.Add(this.button5);
+            this.barraSuperior.Controls.Add(this.btnPesquisa);
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barraSuperior.Location = new System.Drawing.Point(0, 0);
             this.barraSuperior.Name = "barraSuperior";
             this.barraSuperior.Size = new System.Drawing.Size(1366, 81);
             this.barraSuperior.TabIndex = 61;
             // 
-            // button1
+            // btnSairPrograma
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(1273, -2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 81);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "Sair";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSairPrograma.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSairPrograma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSairPrograma.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSairPrograma.Image = ((System.Drawing.Image)(resources.GetObject("btnSairPrograma.Image")));
+            this.btnSairPrograma.Location = new System.Drawing.Point(1273, -2);
+            this.btnSairPrograma.Name = "btnSairPrograma";
+            this.btnSairPrograma.Size = new System.Drawing.Size(92, 81);
+            this.btnSairPrograma.TabIndex = 26;
+            this.btnSairPrograma.Text = "Sair";
+            this.btnSairPrograma.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSairPrograma.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnSairPrograma.UseVisualStyleBackColor = true;
+            this.btnSairPrograma.Click += new System.EventHandler(this.btnSairPrograma_Click_1);
             // 
             // btnVoltarCadastro
             // 
@@ -619,21 +633,23 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
+            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click_1);
             // 
-            // button11
+            // btnFuncionario
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            this.button11.Location = new System.Drawing.Point(605, -1);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(101, 80);
-            this.button11.TabIndex = 22;
-            this.button11.Text = "Funcionário";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button11.UseVisualStyleBackColor = false;
+            this.btnFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
+            this.btnFuncionario.Location = new System.Drawing.Point(605, -1);
+            this.btnFuncionario.Name = "btnFuncionario";
+            this.btnFuncionario.Size = new System.Drawing.Size(101, 80);
+            this.btnFuncionario.TabIndex = 22;
+            this.btnFuncionario.Text = "Funcionário";
+            this.btnFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnFuncionario.UseVisualStyleBackColor = false;
+            this.btnFuncionario.Click += new System.EventHandler(this.btnFuncionario_Click);
             // 
             // btnPagamento
             // 
@@ -649,6 +665,7 @@
             this.btnPagamento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPagamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPagamento.UseVisualStyleBackColor = false;
+            this.btnPagamento.Click += new System.EventHandler(this.btnPagamento_Click);
             // 
             // btnEstoqueFuncionario
             // 
@@ -664,6 +681,7 @@
             this.btnEstoqueFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEstoqueFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEstoqueFuncionario.UseVisualStyleBackColor = false;
+            this.btnEstoqueFuncionario.Click += new System.EventHandler(this.btnEstoqueFuncionario_Click);
             // 
             // btnProntuario
             // 
@@ -679,6 +697,7 @@
             this.btnProntuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnProntuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProntuario.UseVisualStyleBackColor = false;
+            this.btnProntuario.Click += new System.EventHandler(this.btnProntuario_Click);
             // 
             // btnAgenda
             // 
@@ -694,6 +713,7 @@
             this.btnAgenda.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAgenda.UseVisualStyleBackColor = false;
+            this.btnAgenda.Click += new System.EventHandler(this.btnAgenda_Click);
             // 
             // btnMedico
             // 
@@ -709,35 +729,23 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
+            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click_1);
             // 
-            // button5
+            // btnPesquisa
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(706, -1);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(101, 80);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "Pesquisa";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // btnSalvarCadastro
-            // 
-            this.btnSalvarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalvarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvarCadastro.Location = new System.Drawing.Point(10, 248);
-            this.btnSalvarCadastro.Name = "btnSalvarCadastro";
-            this.btnSalvarCadastro.Size = new System.Drawing.Size(284, 0);
-            this.btnSalvarCadastro.TabIndex = 41;
-            this.btnSalvarCadastro.Text = "Salvar";
-            this.btnSalvarCadastro.UseVisualStyleBackColor = true;
-            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
+            this.btnPesquisa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesquisa.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPesquisa.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisa.Image")));
+            this.btnPesquisa.Location = new System.Drawing.Point(706, -1);
+            this.btnPesquisa.Name = "btnPesquisa";
+            this.btnPesquisa.Size = new System.Drawing.Size(101, 80);
+            this.btnPesquisa.TabIndex = 16;
+            this.btnPesquisa.Text = "Pesquisa";
+            this.btnPesquisa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnPesquisa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnPesquisa.UseVisualStyleBackColor = false;
+            this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
             // telaMédico
             // 
@@ -818,16 +826,16 @@
         private System.Windows.Forms.Label lblCidadeMed;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel barraSuperior;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSairPrograma;
         private System.Windows.Forms.Button btnVoltarCadastro;
         private System.Windows.Forms.Button btnPacienteConsulta;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btnFuncionario;
         private System.Windows.Forms.Button btnPagamento;
         private System.Windows.Forms.Button btnEstoqueFuncionario;
         private System.Windows.Forms.Button btnProntuario;
         private System.Windows.Forms.Button btnAgenda;
         private System.Windows.Forms.Button btnMedico;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnPesquisa;
         private System.Windows.Forms.Button btnSalvarCadastro;
     }
 }

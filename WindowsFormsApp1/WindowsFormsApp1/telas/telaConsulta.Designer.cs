@@ -178,6 +178,7 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
+            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click_1);
             // 
             // btnFuncionario
             // 
@@ -241,6 +242,7 @@
             this.btnProntuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnProntuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProntuario.UseVisualStyleBackColor = false;
+            this.btnProntuario.Click += new System.EventHandler(this.btnProntuario_Click);
             // 
             // btnAgenda
             // 
@@ -256,6 +258,7 @@
             this.btnAgenda.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAgenda.UseVisualStyleBackColor = false;
+            this.btnAgenda.Click += new System.EventHandler(this.btnAgenda_Click);
             // 
             // btnMedico
             // 
@@ -271,6 +274,7 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
+            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click);
             // 
             // btnPesquisa
             // 

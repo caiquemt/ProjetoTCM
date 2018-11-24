@@ -111,7 +111,7 @@ namespace WindowsFormsApp1
 
         private void btnPacienteConsulta_Click(object sender, EventArgs e)
         {
-            abripac.AbrirCadPaciente(this);
+            abrirpac.AbrirCadPaciente(this);
         }
 
         private void btnMedico_Click(object sender, EventArgs e)
@@ -171,7 +171,7 @@ namespace WindowsFormsApp1
 
         private void btnSairCadastro_Click_1(object sender, EventArgs e)
         {
-            fecharform.FecharTela(this;)
+            fecharform.FecharTela(this);
         }
     }
 }

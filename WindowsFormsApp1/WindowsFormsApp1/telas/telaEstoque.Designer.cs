@@ -148,6 +148,7 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
+            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click_1);
             // 
             // btnFuncionario
             // 
@@ -179,7 +180,7 @@
             this.btnPagamento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPagamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPagamento.UseVisualStyleBackColor = false;
-          //  this.btnPagamento.Click += new System.EventHandler(this.btnPagamento_Click_1);
+            this.btnPagamento.Click += new System.EventHandler(this.btnPagamento_Click_1);
             // 
             // btnEstoqueFuncionario
             // 
@@ -243,6 +244,7 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
+            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click_1);
             // 
             // btnPesquisa
             // 

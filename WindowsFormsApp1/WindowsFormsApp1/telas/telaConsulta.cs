@@ -93,5 +93,25 @@ namespace WindowsFormsApp1
         {
             abrirpesq.AbrirCadPEsquisa(this);
         }
+
+        private void btnPacienteConsulta_Click_1(object sender, EventArgs e)
+        {
+            abripac.AbrirCadPaciente(this);
+        }
+
+        private void btnMedico_Click(object sender, EventArgs e)
+        {
+            abrirmed.AbrirCadMedico(this);
+        }
+
+        private void btnAgenda_Click(object sender, EventArgs e)
+        {
+            abriragen.AbrirCadAgenda(this);
+        }
+
+        private void btnProntuario_Click(object sender, EventArgs e)
+        {
+            abrirpront.AbrirCadProntuario(this);
+        }
     }
 }

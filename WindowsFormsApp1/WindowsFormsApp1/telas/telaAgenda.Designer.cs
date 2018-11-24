@@ -59,7 +59,6 @@
             this.rbuNome.TabStop = true;
             this.rbuNome.Text = "Nome";
             this.rbuNome.UseVisualStyleBackColor = true;
-            this.rbuNome.UseWaitCursor = true;
             // 
             // rbuCPF
             // 
@@ -72,7 +71,6 @@
             this.rbuCPF.TabStop = true;
             this.rbuCPF.Text = "CPF";
             this.rbuCPF.UseVisualStyleBackColor = true;
-            this.rbuCPF.UseWaitCursor = true;
             // 
             // rbuMedico
             // 
@@ -85,7 +83,6 @@
             this.rbuMedico.TabStop = true;
             this.rbuMedico.Text = "Médico";
             this.rbuMedico.UseVisualStyleBackColor = true;
-            this.rbuMedico.UseWaitCursor = true;
             // 
             // txtPesquisaNome
             // 
@@ -99,7 +96,6 @@
             this.txtPesquisaNome.Tag = "";
             this.txtPesquisaNome.Text = "Pesquisar por nome";
             this.txtPesquisaNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtPesquisaNome.UseWaitCursor = true;
             // 
             // lblConsultasHoje
             // 
@@ -110,7 +106,6 @@
             this.lblConsultasHoje.Size = new System.Drawing.Size(316, 31);
             this.lblConsultasHoje.TabIndex = 14;
             this.lblConsultasHoje.Text = "Consultas marcas para hoje:";
-            this.lblConsultasHoje.UseWaitCursor = true;
             this.lblConsultasHoje.Click += new System.EventHandler(this.lblConsultasHoje_Click);
             // 
             // barraSuperior
@@ -134,7 +129,6 @@
             this.barraSuperior.Name = "barraSuperior";
             this.barraSuperior.Size = new System.Drawing.Size(1330, 81);
             this.barraSuperior.TabIndex = 23;
-            this.barraSuperior.UseWaitCursor = true;
             // 
             // btnSairCadastro
             // 
@@ -150,7 +144,6 @@
             this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSairCadastro.UseVisualStyleBackColor = true;
-            this.btnSairCadastro.UseWaitCursor = true;
             this.btnSairCadastro.Click += new System.EventHandler(this.btnSairCadastro_Click_1);
             // 
             // btnVoltarCadastro
@@ -168,7 +161,6 @@
             this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnVoltarCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnVoltarCadastro.UseVisualStyleBackColor = true;
-            this.btnVoltarCadastro.UseWaitCursor = true;
             // 
             // btnPacienteConsulta
             // 
@@ -184,7 +176,6 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
-            this.btnPacienteConsulta.UseWaitCursor = true;
             this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click_1);
             // 
             // btnFuncionario
@@ -201,7 +192,6 @@
             this.btnFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFuncionario.UseVisualStyleBackColor = false;
-            this.btnFuncionario.UseWaitCursor = true;
             this.btnFuncionario.Click += new System.EventHandler(this.btnFuncionario_Click);
             // 
             // btnPagamento
@@ -218,7 +208,6 @@
             this.btnPagamento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPagamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPagamento.UseVisualStyleBackColor = false;
-            this.btnPagamento.UseWaitCursor = true;
             this.btnPagamento.Click += new System.EventHandler(this.btnPagamento_Click_2);
             // 
             // btnEstoqueFuncionario
@@ -235,7 +224,6 @@
             this.btnEstoqueFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEstoqueFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEstoqueFuncionario.UseVisualStyleBackColor = false;
-            this.btnEstoqueFuncionario.UseWaitCursor = true;
             this.btnEstoqueFuncionario.Click += new System.EventHandler(this.btnEstoqueFuncionario_Click_1);
             // 
             // btnProntuario
@@ -252,7 +240,6 @@
             this.btnProntuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnProntuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProntuario.UseVisualStyleBackColor = false;
-            this.btnProntuario.UseWaitCursor = true;
             this.btnProntuario.Click += new System.EventHandler(this.btnProntuario_Click_2);
             // 
             // btnAgenda
@@ -269,7 +256,6 @@
             this.btnAgenda.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAgenda.UseVisualStyleBackColor = false;
-            this.btnAgenda.UseWaitCursor = true;
             this.btnAgenda.Click += new System.EventHandler(this.btnAgenda_Click_1);
             // 
             // btnMedico
@@ -286,7 +272,6 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
-            this.btnMedico.UseWaitCursor = true;
             this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click_2);
             // 
             // btnPesquisa
@@ -303,7 +288,6 @@
             this.btnPesquisa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPesquisa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPesquisa.UseVisualStyleBackColor = false;
-            this.btnPesquisa.UseWaitCursor = true;
             this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
             // telaAgenda
@@ -321,7 +305,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaAgenda";
             this.Text = "telaAgenda";
-            this.UseWaitCursor = true;
             this.Load += new System.EventHandler(this.telaAgenda_Load);
             this.barraSuperior.ResumeLayout(false);
             this.ResumeLayout(false);
