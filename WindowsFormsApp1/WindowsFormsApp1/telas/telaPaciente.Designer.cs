@@ -37,7 +37,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txtDataCadastro = new System.Windows.Forms.TextBox();
             this.btnSalvarCadastro = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -77,7 +76,6 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.SuspendLayout();
@@ -154,17 +152,7 @@
             this.btnSalvarCadastro.TabIndex = 27;
             this.btnSalvarCadastro.Text = "Salvar";
             this.btnSalvarCadastro.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1174, 166);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(164, 159);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 24;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
             // 
             // panel3
             // 
@@ -644,14 +632,12 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtDataCadastro);
             this.Controls.Add(this.btnSalvarCadastro);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaPaciente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "telaPaciente";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.barraSuperior.ResumeLayout(false);
@@ -669,7 +655,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtDataCadastro;
         private System.Windows.Forms.Button btnSalvarCadastro;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox txtCelularCadastro;
         private System.Windows.Forms.Label lbCelularCadastro;

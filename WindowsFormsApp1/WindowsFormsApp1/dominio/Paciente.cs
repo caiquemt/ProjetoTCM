@@ -69,7 +69,7 @@ namespace WindowsFormsApp1.dominio
                                  Complemento_pac, Cep_pac, Naturalidade_pac, Uf_pac, Cidade_pac, Email_pac, Mae_pac, Pai_pac, Responsavel_pac, Documento_resp_pac, Observacoes_pac, Imagem_pac);
         }
 
-        public void ExibirCadPAc()
+        public void ExibirCadPac()
         {
             this.Nome_pac = "";
             MessageBox.Show(this.ToString());

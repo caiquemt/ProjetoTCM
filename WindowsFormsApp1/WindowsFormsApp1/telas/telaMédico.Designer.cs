@@ -59,7 +59,6 @@
             this.lblEmailMed = new System.Windows.Forms.Label();
             this.lblTelefoneMed = new System.Windows.Forms.Label();
             this.lblRuaMed = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblNumeroRuaMed = new System.Windows.Forms.Label();
             this.txbNumeroRuaMed = new System.Windows.Forms.TextBox();
             this.lblComplementoMed = new System.Windows.Forms.Label();
@@ -86,7 +85,6 @@
             this.btnMedico = new System.Windows.Forms.Button();
             this.btnPesquisa = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.SuspendLayout();
@@ -395,19 +393,6 @@
             this.lblRuaMed.Size = new System.Drawing.Size(43, 19);
             this.lblRuaMed.TabIndex = 4;
             this.lblRuaMed.Text = "Rua:";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1098, 181);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(199, 167);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 38;
-            this.pictureBox1.TabStop = false;
             // 
             // lblNumeroRuaMed
             // 
@@ -761,7 +746,6 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtDataCadastro);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -771,7 +755,6 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.barraSuperior.ResumeLayout(false);
@@ -788,7 +771,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtDataCadastro;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox txbCelularMed;
         private System.Windows.Forms.Label lblCelularCadastro;

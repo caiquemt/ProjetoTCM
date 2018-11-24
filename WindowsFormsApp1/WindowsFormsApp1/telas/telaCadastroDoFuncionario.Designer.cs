@@ -29,15 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaCadastroDoFuncionario));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSalvarCadastro = new System.Windows.Forms.Button();
             this.txtDataCadastro = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.txtDataEncerramento = new System.Windows.Forms.TextBox();
             this.btnAlterar = new System.Windows.Forms.Button();
-            this.btnExcluir = new System.Windows.Forms.Button();
-            this.btnInativar = new System.Windows.Forms.Button();
             this.barraSuperior = new System.Windows.Forms.Panel();
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
@@ -51,26 +48,22 @@
             this.btnPesquisa = new System.Windows.Forms.Button();
             this.txtCelularCadastro = new System.Windows.Forms.TextBox();
             this.lbCelularCadastro = new System.Windows.Forms.Label();
-            this.txtCidade = new System.Windows.Forms.TextBox();
             this.txtMatriculaCadastro = new System.Windows.Forms.TextBox();
             this.lbMatriculaCadastro = new System.Windows.Forms.Label();
             this.lbCidadeCadastro = new System.Windows.Forms.Label();
             this.txtEmailCadastro = new System.Windows.Forms.TextBox();
-            this.txtTelefoneCadastro = new System.Windows.Forms.TextBox();
             this.txtHorarioExpedienteCadastro = new System.Windows.Forms.TextBox();
             this.txtCargaCadastro = new System.Windows.Forms.TextBox();
             this.LbEmailCadastro = new System.Windows.Forms.Label();
             this.lbTelefone = new System.Windows.Forms.Label();
             this.lbHorarioExpediente = new System.Windows.Forms.Label();
-            this.lbCarga = new System.Windows.Forms.Label();
+            this.lbCargo = new System.Windows.Forms.Label();
             this.lbDataNascimento = new System.Windows.Forms.Label();
-            this.lblEndereçoCFuncionario = new System.Windows.Forms.Label();
+            this.lblRuaFuncionario = new System.Windows.Forms.Label();
             this.txtNomeCadastro = new System.Windows.Forms.TextBox();
             this.TxtLogradouroCadastro = new System.Windows.Forms.TextBox();
             this.lbNomeCadastro = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.lbxUFCFuncionario = new System.Windows.Forms.ListBox();
             this.lblUFCFuncionario = new System.Windows.Forms.Label();
             this.lblNCfuncionario = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -78,37 +71,31 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblCdastroFuncionario = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txbTelFunc = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.txbCelFunc = new System.Windows.Forms.MaskedTextBox();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(20, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(180, 164);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnSalvarCadastro
             // 
             this.btnSalvarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalvarCadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnSalvarCadastro.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnSalvarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalvarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvarCadastro.Location = new System.Drawing.Point(505, 671);
+            this.btnSalvarCadastro.Location = new System.Drawing.Point(54, 412);
             this.btnSalvarCadastro.Name = "btnSalvarCadastro";
-            this.btnSalvarCadastro.Size = new System.Drawing.Size(218, 45);
+            this.btnSalvarCadastro.Size = new System.Drawing.Size(120, 32);
             this.btnSalvarCadastro.TabIndex = 8;
             this.btnSalvarCadastro.Text = "Salvar";
             this.btnSalvarCadastro.UseVisualStyleBackColor = false;
+            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
             // 
             // txtDataCadastro
             // 
@@ -126,9 +113,9 @@
             this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
             this.label9.Location = new System.Drawing.Point(49, 218);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(135, 19);
+            this.label9.Size = new System.Drawing.Size(136, 19);
             this.label9.TabIndex = 14;
-            this.label9.Text = "Data de cadastro";
+            this.label9.Text = "Data de Cadastro";
             // 
             // label10
             // 
@@ -144,6 +131,7 @@
             // txtDataEncerramento
             // 
             this.txtDataEncerramento.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.txtDataEncerramento.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
             this.txtDataEncerramento.Location = new System.Drawing.Point(54, 296);
             this.txtDataEncerramento.Multiline = true;
             this.txtDataEncerramento.Name = "txtDataEncerramento";
@@ -153,38 +141,21 @@
             // btnAlterar
             // 
             this.btnAlterar.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnAlterar.Location = new System.Drawing.Point(54, 327);
+            this.btnAlterar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.btnAlterar.Location = new System.Drawing.Point(54, 345);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(120, 25);
+            this.btnAlterar.Size = new System.Drawing.Size(120, 35);
             this.btnAlterar.TabIndex = 17;
             this.btnAlterar.Text = "Alterar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
-            // 
-            // btnExcluir
-            // 
-            this.btnExcluir.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnExcluir.Location = new System.Drawing.Point(54, 358);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(120, 25);
-            this.btnExcluir.TabIndex = 18;
-            this.btnExcluir.Text = "Excluir";
-            this.btnExcluir.UseVisualStyleBackColor = true;
-            // 
-            // btnInativar
-            // 
-            this.btnInativar.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnInativar.Location = new System.Drawing.Point(54, 389);
-            this.btnInativar.Name = "btnInativar";
-            this.btnInativar.Size = new System.Drawing.Size(120, 25);
-            this.btnInativar.TabIndex = 19;
-            this.btnInativar.Text = "Inativar";
-            this.btnInativar.UseVisualStyleBackColor = true;
+            this.btnAlterar.UseVisualStyleBackColor = false;
             // 
             // barraSuperior
             // 
             this.barraSuperior.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.barraSuperior.BackColor = System.Drawing.Color.LightSeaGreen;
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.barraSuperior.Controls.Add(this.btnSairCadastro);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
@@ -208,6 +179,7 @@
             this.btnSairCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSairCadastro.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
             this.btnSairCadastro.Location = new System.Drawing.Point(1273, -2);
             this.btnSairCadastro.Name = "btnSairCadastro";
@@ -225,6 +197,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.btnVoltarCadastro.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
             this.btnVoltarCadastro.Location = new System.Drawing.Point(1161, -2);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
@@ -237,7 +210,7 @@
             // 
             // btnPacienteConsulta
             // 
-            this.btnPacienteConsulta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPacienteConsulta.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPacienteConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPacienteConsulta.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPacienteConsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnPacienteConsulta.Image")));
@@ -253,7 +226,7 @@
             // 
             // btnFuncionario
             // 
-            this.btnFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnFuncionario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
@@ -269,7 +242,7 @@
             // 
             // btnPagamento
             // 
-            this.btnPagamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPagamento.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPagamento.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
@@ -285,7 +258,7 @@
             // 
             // btnEstoqueFuncionario
             // 
-            this.btnEstoqueFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnEstoqueFuncionario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnEstoqueFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstoqueFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoqueFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnEstoqueFuncionario.Image")));
@@ -301,7 +274,7 @@
             // 
             // btnProntuario
             // 
-            this.btnProntuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnProntuario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnProntuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProntuario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProntuario.Image = ((System.Drawing.Image)(resources.GetObject("btnProntuario.Image")));
@@ -317,7 +290,7 @@
             // 
             // btnAgenda
             // 
-            this.btnAgenda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnAgenda.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnAgenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgenda.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgenda.Image = ((System.Drawing.Image)(resources.GetObject("btnAgenda.Image")));
@@ -333,7 +306,7 @@
             // 
             // btnMedico
             // 
-            this.btnMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnMedico.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnMedico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMedico.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
@@ -349,7 +322,7 @@
             // 
             // btnPesquisa
             // 
-            this.btnPesquisa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPesquisa.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPesquisa.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisa.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisa.Image")));
@@ -382,15 +355,6 @@
             this.lbCelularCadastro.Size = new System.Drawing.Size(92, 26);
             this.lbCelularCadastro.TabIndex = 38;
             this.lbCelularCadastro.Text = "Celular:";
-            // 
-            // txtCidade
-            // 
-            this.txtCidade.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCidade.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txtCidade.Location = new System.Drawing.Point(588, 287);
-            this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(391, 29);
-            this.txtCidade.TabIndex = 37;
             // 
             // txtMatriculaCadastro
             // 
@@ -433,16 +397,6 @@
             this.txtEmailCadastro.Name = "txtEmailCadastro";
             this.txtEmailCadastro.Size = new System.Drawing.Size(879, 29);
             this.txtEmailCadastro.TabIndex = 33;
-            // 
-            // txtTelefoneCadastro
-            // 
-            this.txtTelefoneCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTelefoneCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txtTelefoneCadastro.Location = new System.Drawing.Point(123, 286);
-            this.txtTelefoneCadastro.Name = "txtTelefoneCadastro";
-            this.txtTelefoneCadastro.Size = new System.Drawing.Size(308, 29);
-            this.txtTelefoneCadastro.TabIndex = 32;
-            this.txtTelefoneCadastro.TextChanged += new System.EventHandler(this.txtTelefoneCadastro_TextChanged);
             // 
             // txtHorarioExpedienteCadastro
             // 
@@ -492,20 +446,20 @@
             this.lbHorarioExpediente.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
             this.lbHorarioExpediente.Location = new System.Drawing.Point(28, 243);
             this.lbHorarioExpediente.Name = "lbHorarioExpediente";
-            this.lbHorarioExpediente.Size = new System.Drawing.Size(211, 22);
+            this.lbHorarioExpediente.Size = new System.Drawing.Size(212, 22);
             this.lbHorarioExpediente.TabIndex = 24;
-            this.lbHorarioExpediente.Text = "Horario do expediente:";
+            this.lbHorarioExpediente.Text = "Horário do Expediente:";
             // 
-            // lbCarga
+            // lbCargo
             // 
-            this.lbCarga.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbCarga.AutoSize = true;
-            this.lbCarga.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lbCarga.Location = new System.Drawing.Point(29, 201);
-            this.lbCarga.Name = "lbCarga";
-            this.lbCarga.Size = new System.Drawing.Size(65, 22);
-            this.lbCarga.TabIndex = 23;
-            this.lbCarga.Text = "Carga:";
+            this.lbCargo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbCargo.AutoSize = true;
+            this.lbCargo.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.lbCargo.Location = new System.Drawing.Point(29, 201);
+            this.lbCargo.Name = "lbCargo";
+            this.lbCargo.Size = new System.Drawing.Size(66, 22);
+            this.lbCargo.TabIndex = 23;
+            this.lbCargo.Text = "Cargo:";
             // 
             // lbDataNascimento
             // 
@@ -514,26 +468,26 @@
             this.lbDataNascimento.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
             this.lbDataNascimento.Location = new System.Drawing.Point(461, 164);
             this.lbDataNascimento.Name = "lbDataNascimento";
-            this.lbDataNascimento.Size = new System.Drawing.Size(185, 22);
+            this.lbDataNascimento.Size = new System.Drawing.Size(187, 22);
             this.lbDataNascimento.TabIndex = 22;
-            this.lbDataNascimento.Text = "Data de nascimento:";
+            this.lbDataNascimento.Text = "Data de Nascimento:";
             // 
-            // lblEndereçoCFuncionario
+            // lblRuaFuncionario
             // 
-            this.lblEndereçoCFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblEndereçoCFuncionario.AutoSize = true;
-            this.lblEndereçoCFuncionario.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lblEndereçoCFuncionario.Location = new System.Drawing.Point(29, 75);
-            this.lblEndereçoCFuncionario.Name = "lblEndereçoCFuncionario";
-            this.lblEndereçoCFuncionario.Size = new System.Drawing.Size(97, 22);
-            this.lblEndereçoCFuncionario.TabIndex = 21;
-            this.lblEndereçoCFuncionario.Text = "Endereço:";
+            this.lblRuaFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRuaFuncionario.AutoSize = true;
+            this.lblRuaFuncionario.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.lblRuaFuncionario.Location = new System.Drawing.Point(29, 75);
+            this.lblRuaFuncionario.Name = "lblRuaFuncionario";
+            this.lblRuaFuncionario.Size = new System.Drawing.Size(49, 22);
+            this.lblRuaFuncionario.TabIndex = 21;
+            this.lblRuaFuncionario.Text = "Rua:";
             // 
             // txtNomeCadastro
             // 
             this.txtNomeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNomeCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txtNomeCadastro.Location = new System.Drawing.Point(97, 33);
+            this.txtNomeCadastro.Location = new System.Drawing.Point(109, 33);
             this.txtNomeCadastro.Name = "txtNomeCadastro";
             this.txtNomeCadastro.Size = new System.Drawing.Size(880, 29);
             this.txtNomeCadastro.TabIndex = 27;
@@ -542,7 +496,7 @@
             // 
             this.TxtLogradouroCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtLogradouroCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.TxtLogradouroCadastro.Location = new System.Drawing.Point(130, 72);
+            this.TxtLogradouroCadastro.Location = new System.Drawing.Point(107, 72);
             this.TxtLogradouroCadastro.Name = "TxtLogradouroCadastro";
             this.TxtLogradouroCadastro.Size = new System.Drawing.Size(686, 29);
             this.TxtLogradouroCadastro.TabIndex = 28;
@@ -561,8 +515,10 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.maskedTextBox1);
-            this.panel1.Controls.Add(this.lbxUFCFuncionario);
+            this.panel1.Controls.Add(this.txbCelFunc);
+            this.panel1.Controls.Add(this.maskedTextBox2);
+            this.panel1.Controls.Add(this.txbTelFunc);
+            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.lblUFCFuncionario);
             this.panel1.Controls.Add(this.lblNCfuncionario);
             this.panel1.Controls.Add(this.textBox2);
@@ -572,19 +528,17 @@
             this.panel1.Controls.Add(this.lbHorarioExpediente);
             this.panel1.Controls.Add(this.lbTelefone);
             this.panel1.Controls.Add(this.txtCelularCadastro);
-            this.panel1.Controls.Add(this.lbCarga);
+            this.panel1.Controls.Add(this.lbCargo);
             this.panel1.Controls.Add(this.LbEmailCadastro);
             this.panel1.Controls.Add(this.lbCelularCadastro);
             this.panel1.Controls.Add(this.lbDataNascimento);
-            this.panel1.Controls.Add(this.lblEndereçoCFuncionario);
-            this.panel1.Controls.Add(this.txtCidade);
+            this.panel1.Controls.Add(this.lblRuaFuncionario);
             this.panel1.Controls.Add(this.TxtLogradouroCadastro);
             this.panel1.Controls.Add(this.txtNomeCadastro);
             this.panel1.Controls.Add(this.txtMatriculaCadastro);
             this.panel1.Controls.Add(this.txtCargaCadastro);
             this.panel1.Controls.Add(this.lbMatriculaCadastro);
             this.panel1.Controls.Add(this.txtHorarioExpedienteCadastro);
-            this.panel1.Controls.Add(this.txtTelefoneCadastro);
             this.panel1.Controls.Add(this.lbCidadeCadastro);
             this.panel1.Controls.Add(this.txtEmailCadastro);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -592,31 +546,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1055, 474);
             this.panel1.TabIndex = 40;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.maskedTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.maskedTextBox1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(652, 165);
-            this.maskedTextBox1.Mask = "00/00/0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 22);
-            this.maskedTextBox1.TabIndex = 46;
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
-            // 
-            // lbxUFCFuncionario
-            // 
-            this.lbxUFCFuncionario.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbxUFCFuncionario.FormattingEnabled = true;
-            this.lbxUFCFuncionario.ItemHeight = 23;
-            this.lbxUFCFuncionario.Items.AddRange(new object[] {
-            "SP",
-            "RJ"});
-            this.lbxUFCFuncionario.Location = new System.Drawing.Point(842, 120);
-            this.lbxUFCFuncionario.Name = "lbxUFCFuncionario";
-            this.lbxUFCFuncionario.Size = new System.Drawing.Size(54, 27);
-            this.lbxUFCFuncionario.TabIndex = 45;
             // 
             // lblUFCFuncionario
             // 
@@ -674,9 +603,8 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.txtDataCadastro);
-            this.panel2.Controls.Add(this.btnInativar);
             this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.btnExcluir);
+            this.panel2.Controls.Add(this.btnSalvarCadastro);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.btnAlterar);
             this.panel2.Controls.Add(this.txtDataEncerramento);
@@ -688,50 +616,91 @@
             // lblCdastroFuncionario
             // 
             this.lblCdastroFuncionario.AutoSize = true;
-            this.lblCdastroFuncionario.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCdastroFuncionario.Location = new System.Drawing.Point(366, 103);
+            this.lblCdastroFuncionario.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCdastroFuncionario.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblCdastroFuncionario.Location = new System.Drawing.Point(489, 93);
             this.lblCdastroFuncionario.Name = "lblCdastroFuncionario";
             this.lblCdastroFuncionario.Size = new System.Drawing.Size(423, 41);
             this.lblCdastroFuncionario.TabIndex = 42;
             this.lblCdastroFuncionario.Text = "Cadastro do Funcionário";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(29, 33);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(169, 153);
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(842, 118);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(46, 30);
+            this.comboBox1.TabIndex = 47;
+            // 
+            // txbTelFunc
+            // 
+            this.txbTelFunc.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.txbTelFunc.Location = new System.Drawing.Point(123, 287);
+            this.txbTelFunc.Mask = "(00)0000-0000";
+            this.txbTelFunc.Name = "txbTelFunc";
+            this.txbTelFunc.Size = new System.Drawing.Size(107, 29);
+            this.txbTelFunc.TabIndex = 48;
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox2.Location = new System.Drawing.Point(654, 161);
+            this.maskedTextBox2.Mask = "00/00/0000";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(84, 29);
+            this.maskedTextBox2.TabIndex = 49;
+            // 
+            // txbCelFunc
+            // 
+            this.txbCelFunc.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.txbCelFunc.Location = new System.Drawing.Point(585, 286);
+            this.txbCelFunc.Mask = "(00)00000-0000";
+            this.txbCelFunc.Name = "txbCelFunc";
+            this.txbCelFunc.Size = new System.Drawing.Size(107, 29);
+            this.txbCelFunc.TabIndex = 50;
+            // 
             // telaCadastroDoFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.lblCdastroFuncionario);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.barraSuperior);
-            this.Controls.Add(this.btnSalvarCadastro);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaCadastroDoFuncionario";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.barraSuperior.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnSalvarCadastro;
         private System.Windows.Forms.TextBox txtDataCadastro;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtDataEncerramento;
         private System.Windows.Forms.Button btnAlterar;
-        private System.Windows.Forms.Button btnExcluir;
-        private System.Windows.Forms.Button btnInativar;
         private System.Windows.Forms.Panel barraSuperior;
         private System.Windows.Forms.Button btnPacienteConsulta;
         private System.Windows.Forms.Button btnFuncionario;
@@ -743,28 +712,24 @@
         private System.Windows.Forms.Button btnPesquisa;
         private System.Windows.Forms.TextBox txtCelularCadastro;
         private System.Windows.Forms.Label lbCelularCadastro;
-        private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.TextBox txtMatriculaCadastro;
         private System.Windows.Forms.Label lbMatriculaCadastro;
         private System.Windows.Forms.Label lbCidadeCadastro;
         private System.Windows.Forms.TextBox txtEmailCadastro;
-        private System.Windows.Forms.TextBox txtTelefoneCadastro;
         private System.Windows.Forms.TextBox txtHorarioExpedienteCadastro;
         private System.Windows.Forms.TextBox txtCargaCadastro;
         private System.Windows.Forms.Label LbEmailCadastro;
         private System.Windows.Forms.Label lbTelefone;
         private System.Windows.Forms.Label lbHorarioExpediente;
-        private System.Windows.Forms.Label lbCarga;
+        private System.Windows.Forms.Label lbCargo;
         private System.Windows.Forms.Label lbDataNascimento;
         private System.Windows.Forms.Button btnSairCadastro;
         private System.Windows.Forms.Button btnVoltarCadastro;
-        private System.Windows.Forms.Label lblEndereçoCFuncionario;
+        private System.Windows.Forms.Label lblRuaFuncionario;
         private System.Windows.Forms.TextBox txtNomeCadastro;
         private System.Windows.Forms.TextBox TxtLogradouroCadastro;
         private System.Windows.Forms.Label lbNomeCadastro;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.ListBox lbxUFCFuncionario;
         private System.Windows.Forms.Label lblUFCFuncionario;
         private System.Windows.Forms.Label lblNCfuncionario;
         private System.Windows.Forms.TextBox textBox2;
@@ -772,5 +737,10 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblCdastroFuncionario;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.MaskedTextBox txbTelFunc;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox txbCelFunc;
     }
 }

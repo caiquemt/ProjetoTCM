@@ -45,7 +45,9 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.btnPesquisa = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.barraSuperior.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // rbuNome
@@ -290,12 +292,23 @@
             this.btnPesquisa.UseVisualStyleBackColor = false;
             this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(152, 256);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.TabIndex = 24;
+            // 
             // telaAgenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(1330, 686);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.barraSuperior);
             this.Controls.Add(this.lblConsultasHoje);
             this.Controls.Add(this.txtPesquisaNome);
@@ -304,9 +317,12 @@
             this.Controls.Add(this.rbuNome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaAgenda";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "telaAgenda";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.telaAgenda_Load);
             this.barraSuperior.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -329,5 +345,6 @@
         private System.Windows.Forms.Button btnPesquisa;
         private System.Windows.Forms.Button btnSairCadastro;
         private System.Windows.Forms.Button btnVoltarCadastro;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.abrir_fechar_menus;
+using WindowsFormsApp1.dominio;
 
 namespace WindowsFormsApp1
 {
@@ -87,6 +88,12 @@ namespace WindowsFormsApp1
         private void btnSairPrograma_Click(object sender, EventArgs e)
         {
             fecharform.FecharTela(this);
+        }
+
+        private void btnSalvarCadastro_Click(object sender, EventArgs e)
+        {
+            Paciente paciente = new Paciente();
+            paciente.ExibirCadPac();
         }
     }
 }

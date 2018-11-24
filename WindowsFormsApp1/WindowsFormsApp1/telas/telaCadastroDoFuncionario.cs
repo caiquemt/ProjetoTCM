@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.abrir_fechar_menus;
+using WindowsFormsApp1.dominio;
 
 namespace WindowsFormsApp1
 {
@@ -172,6 +173,17 @@ namespace WindowsFormsApp1
         private void btnSairCadastro_Click_1(object sender, EventArgs e)
         {
             fecharform.FecharTela(this);
+        }
+
+        private void btnSalvarCadastro_Click(object sender, EventArgs e)
+        {
+            Funcionario funcionario = new Funcionario();
+            funcionario.exibirValores();
+        }
+
+        private void txtNascFunc_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }
