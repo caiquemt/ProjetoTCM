@@ -61,7 +61,7 @@ namespace WindowsFormsApp1
 
         private void btnMedico_Click(object sender, EventArgs e)
         {
-            
+            abrirmed.AbrirCadMedico(this);
         }
 
        
