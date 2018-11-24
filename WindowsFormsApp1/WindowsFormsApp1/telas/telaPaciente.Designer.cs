@@ -149,7 +149,7 @@
             this.panel3.Controls.Add(this.lbNomePac);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.panel3.Location = new System.Drawing.Point(81, 189);
+            this.panel3.Location = new System.Drawing.Point(40, 189);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(975, 474);
             this.panel3.TabIndex = 23;
@@ -592,7 +592,7 @@
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barraSuperior.Location = new System.Drawing.Point(0, -1);
             this.barraSuperior.Name = "barraSuperior";
-            this.barraSuperior.Size = new System.Drawing.Size(1350, 81);
+            this.barraSuperior.Size = new System.Drawing.Size(1280, 81);
             this.barraSuperior.TabIndex = 37;
             // 
             // btnSairPrograma
@@ -601,7 +601,7 @@
             this.btnSairPrograma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairPrograma.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairPrograma.Image = ((System.Drawing.Image)(resources.GetObject("btnSairPrograma.Image")));
-            this.btnSairPrograma.Location = new System.Drawing.Point(1257, -2);
+            this.btnSairPrograma.Location = new System.Drawing.Point(1187, -2);
             this.btnSairPrograma.Name = "btnSairPrograma";
             this.btnSairPrograma.Size = new System.Drawing.Size(92, 81);
             this.btnSairPrograma.TabIndex = 26;
@@ -617,7 +617,7 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1161, -2);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1091, -2);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
             this.btnVoltarCadastro.Size = new System.Drawing.Size(90, 81);
             this.btnVoltarCadastro.TabIndex = 27;
@@ -762,7 +762,7 @@
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.btnSalvarPac);
             this.panel2.Controls.Add(this.btnAlterarPac);
-            this.panel2.Location = new System.Drawing.Point(1102, 189);
+            this.panel2.Location = new System.Drawing.Point(1047, 186);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(221, 474);
             this.panel2.TabIndex = 42;
@@ -833,16 +833,16 @@
             this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lblRelogio);
-            this.panel1.Location = new System.Drawing.Point(0, 693);
+            this.panel1.Location = new System.Drawing.Point(0, 686);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1329, 36);
+            this.panel1.Size = new System.Drawing.Size(1280, 35);
             this.panel1.TabIndex = 43;
             // 
             // lblRelogio
             // 
             this.lblRelogio.AutoSize = true;
             this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblRelogio.Location = new System.Drawing.Point(1207, 5);
+            this.lblRelogio.Location = new System.Drawing.Point(1163, 3);
             this.lblRelogio.Name = "lblRelogio";
             this.lblRelogio.Size = new System.Drawing.Size(110, 28);
             this.lblRelogio.TabIndex = 0;
@@ -853,7 +853,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.barraSuperior);
@@ -863,7 +863,7 @@
             this.Name = "telaPaciente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "telaPaciente";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.telaPaciente_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
