@@ -51,6 +51,9 @@
             this.lblCelularPesquisa = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.lblMatriculaPesquisa = new System.Windows.Forms.Label();
+            this.rdbMedicoPesq = new System.Windows.Forms.RadioButton();
+            this.rdbPacientePesq = new System.Windows.Forms.RadioButton();
+            this.rdbConsultaPesq = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -59,7 +62,7 @@
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btnSairCadastro);
             this.panel1.Controls.Add(this.btnVoltarCadastro);
@@ -111,7 +114,7 @@
             // 
             // btnPacienteConsulta
             // 
-            this.btnPacienteConsulta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPacienteConsulta.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPacienteConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPacienteConsulta.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPacienteConsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnPacienteConsulta.Image")));
@@ -127,7 +130,7 @@
             // 
             // btnFuncionario
             // 
-            this.btnFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnFuncionario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
@@ -143,7 +146,7 @@
             // 
             // btnPagamento
             // 
-            this.btnPagamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPagamento.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPagamento.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
@@ -159,7 +162,7 @@
             // 
             // btnEstoqueFuncionario
             // 
-            this.btnEstoqueFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnEstoqueFuncionario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnEstoqueFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstoqueFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoqueFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnEstoqueFuncionario.Image")));
@@ -175,7 +178,7 @@
             // 
             // btnProntuario
             // 
-            this.btnProntuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnProntuario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnProntuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProntuario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProntuario.Image = ((System.Drawing.Image)(resources.GetObject("btnProntuario.Image")));
@@ -191,7 +194,7 @@
             // 
             // btnAgenda
             // 
-            this.btnAgenda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnAgenda.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnAgenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgenda.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgenda.Image = ((System.Drawing.Image)(resources.GetObject("btnAgenda.Image")));
@@ -207,7 +210,7 @@
             // 
             // btnMedico
             // 
-            this.btnMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnMedico.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnMedico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMedico.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
@@ -223,7 +226,7 @@
             // 
             // btnPesquisa
             // 
-            this.btnPesquisa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPesquisa.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPesquisa.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisa.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisa.Image")));
@@ -250,7 +253,7 @@
             // 
             this.lblPesquisar1.AutoSize = true;
             this.lblPesquisar1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPesquisar1.Location = new System.Drawing.Point(46, 257);
+            this.lblPesquisar1.Location = new System.Drawing.Point(46, 213);
             this.lblPesquisar1.Name = "lblPesquisar1";
             this.lblPesquisar1.Size = new System.Drawing.Size(156, 32);
             this.lblPesquisar1.TabIndex = 29;
@@ -259,16 +262,16 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 14F);
-            this.textBox1.Location = new System.Drawing.Point(202, 260);
+            this.textBox1.Location = new System.Drawing.Point(202, 216);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(316, 29);
+            this.textBox1.Size = new System.Drawing.Size(785, 29);
             this.textBox1.TabIndex = 30;
             // 
             // lblPesquisaPor
             // 
             this.lblPesquisaPor.AutoSize = true;
             this.lblPesquisaPor.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPesquisaPor.Location = new System.Drawing.Point(554, 257);
+            this.lblPesquisaPor.Location = new System.Drawing.Point(45, 260);
             this.lblPesquisaPor.Name = "lblPesquisaPor";
             this.lblPesquisaPor.Size = new System.Drawing.Size(198, 32);
             this.lblPesquisaPor.TabIndex = 31;
@@ -283,7 +286,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 229F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 151F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 334F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 337F));
             this.tableLayoutPanel1.Controls.Add(this.lblNomePesquisa, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.lblExpedientePesquisa, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.lblFixoPesquisa, 3, 0);
@@ -372,12 +375,50 @@
             this.lblMatriculaPesquisa.Text = "Matricula";
             this.lblMatriculaPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // rdbMedicoPesq
+            // 
+            this.rdbMedicoPesq.AutoSize = true;
+            this.rdbMedicoPesq.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rdbMedicoPesq.Location = new System.Drawing.Point(376, 260);
+            this.rdbMedicoPesq.Name = "rdbMedicoPesq";
+            this.rdbMedicoPesq.Size = new System.Drawing.Size(110, 32);
+            this.rdbMedicoPesq.TabIndex = 40;
+            this.rdbMedicoPesq.Text = "Médico";
+            this.rdbMedicoPesq.UseVisualStyleBackColor = true;
+            // 
+            // rdbPacientePesq
+            // 
+            this.rdbPacientePesq.AutoSize = true;
+            this.rdbPacientePesq.Checked = true;
+            this.rdbPacientePesq.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rdbPacientePesq.Location = new System.Drawing.Point(245, 260);
+            this.rdbPacientePesq.Name = "rdbPacientePesq";
+            this.rdbPacientePesq.Size = new System.Drawing.Size(125, 32);
+            this.rdbPacientePesq.TabIndex = 39;
+            this.rdbPacientePesq.TabStop = true;
+            this.rdbPacientePesq.Text = "Paciente";
+            this.rdbPacientePesq.UseVisualStyleBackColor = true;
+            // 
+            // rdbConsultaPesq
+            // 
+            this.rdbConsultaPesq.AutoSize = true;
+            this.rdbConsultaPesq.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rdbConsultaPesq.Location = new System.Drawing.Point(489, 260);
+            this.rdbConsultaPesq.Name = "rdbConsultaPesq";
+            this.rdbConsultaPesq.Size = new System.Drawing.Size(126, 32);
+            this.rdbConsultaPesq.TabIndex = 41;
+            this.rdbConsultaPesq.Text = "Consulta";
+            this.rdbConsultaPesq.UseVisualStyleBackColor = true;
+            // 
             // telaPesquisa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1370, 729);
+            this.Controls.Add(this.rdbConsultaPesq);
+            this.Controls.Add(this.rdbMedicoPesq);
+            this.Controls.Add(this.rdbPacientePesq);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lblPesquisaPor);
             this.Controls.Add(this.textBox1);
@@ -421,5 +462,8 @@
         private System.Windows.Forms.Label lblCelularPesquisa;
         private System.Windows.Forms.Label label9;
         public System.Windows.Forms.Button btnFuncionario;
+        private System.Windows.Forms.RadioButton rdbMedicoPesq;
+        private System.Windows.Forms.RadioButton rdbPacientePesq;
+        private System.Windows.Forms.RadioButton rdbConsultaPesq;
     }
 }
