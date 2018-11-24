@@ -30,16 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaPesquisa));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnSairCadastro = new System.Windows.Forms.Button();
-            this.btnVoltarCadastro = new System.Windows.Forms.Button();
-            this.btnPacienteConsulta = new System.Windows.Forms.Button();
-            this.btnFuncionario = new System.Windows.Forms.Button();
-            this.btnPagamento = new System.Windows.Forms.Button();
-            this.btnEstoqueFuncionario = new System.Windows.Forms.Button();
-            this.btnProntuario = new System.Windows.Forms.Button();
-            this.btnAgenda = new System.Windows.Forms.Button();
-            this.btnMedico = new System.Windows.Forms.Button();
-            this.btnPesquisa = new System.Windows.Forms.Button();
             this.lblPesquisar = new System.Windows.Forms.Label();
             this.lblPesquisar1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -54,6 +44,16 @@
             this.rdbMedicoPesq = new System.Windows.Forms.RadioButton();
             this.rdbPacientePesq = new System.Windows.Forms.RadioButton();
             this.rdbConsultaPesq = new System.Windows.Forms.RadioButton();
+            this.btnSairCadastro = new System.Windows.Forms.Button();
+            this.btnVoltarCadastro = new System.Windows.Forms.Button();
+            this.btnPacienteConsulta = new System.Windows.Forms.Button();
+            this.btnFuncionario = new System.Windows.Forms.Button();
+            this.btnPagamento = new System.Windows.Forms.Button();
+            this.btnEstoqueFuncionario = new System.Windows.Forms.Button();
+            this.btnProntuario = new System.Windows.Forms.Button();
+            this.btnAgenda = new System.Windows.Forms.Button();
+            this.btnMedico = new System.Windows.Forms.Button();
+            this.btnPesquisa = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -77,8 +77,179 @@
             this.panel1.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1371, 81);
+            this.panel1.Size = new System.Drawing.Size(1331, 81);
             this.panel1.TabIndex = 27;
+            // 
+            // lblPesquisar
+            // 
+            this.lblPesquisar.AutoSize = true;
+            this.lblPesquisar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 30F, System.Drawing.FontStyle.Underline);
+            this.lblPesquisar.Location = new System.Drawing.Point(523, 118);
+            this.lblPesquisar.Name = "lblPesquisar";
+            this.lblPesquisar.Size = new System.Drawing.Size(261, 46);
+            this.lblPesquisar.TabIndex = 28;
+            this.lblPesquisar.Text = "PESQUISAR";
+            // 
+            // lblPesquisar1
+            // 
+            this.lblPesquisar1.AutoSize = true;
+            this.lblPesquisar1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblPesquisar1.Location = new System.Drawing.Point(28, 210);
+            this.lblPesquisar1.Name = "lblPesquisar1";
+            this.lblPesquisar1.Size = new System.Drawing.Size(128, 28);
+            this.lblPesquisar1.TabIndex = 29;
+            this.lblPesquisar1.Text = "Pesquisar:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox1.Location = new System.Drawing.Point(162, 210);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(1139, 36);
+            this.textBox1.TabIndex = 30;
+            // 
+            // lblPesquisaPor
+            // 
+            this.lblPesquisaPor.AutoSize = true;
+            this.lblPesquisaPor.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblPesquisaPor.Location = new System.Drawing.Point(27, 257);
+            this.lblPesquisaPor.Name = "lblPesquisaPor";
+            this.lblPesquisaPor.Size = new System.Drawing.Size(161, 28);
+            this.lblPesquisaPor.TabIndex = 31;
+            this.lblPesquisaPor.Text = "Pesquisa por:";
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.InsetDouble;
+            this.tableLayoutPanel1.ColumnCount = 6;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 213F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 198F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 229F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 151F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 340F));
+            this.tableLayoutPanel1.Controls.Add(this.lblNomePesquisa, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblExpedientePesquisa, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblFixoPesquisa, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblCelularPesquisa, 4, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label9, 5, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblMatriculaPesquisa, 1, 0);
+            this.tableLayoutPanel1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(31, 306);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 9;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 61F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1270, 298);
+            this.tableLayoutPanel1.TabIndex = 32;
+            // 
+            // lblNomePesquisa
+            // 
+            this.lblNomePesquisa.AutoSize = true;
+            this.lblNomePesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomePesquisa.Location = new System.Drawing.Point(6, 3);
+            this.lblNomePesquisa.Name = "lblNomePesquisa";
+            this.lblNomePesquisa.Size = new System.Drawing.Size(63, 20);
+            this.lblNomePesquisa.TabIndex = 30;
+            this.lblNomePesquisa.Text = "Nome";
+            this.lblNomePesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblExpedientePesquisa
+            // 
+            this.lblExpedientePesquisa.AutoSize = true;
+            this.lblExpedientePesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExpedientePesquisa.Location = new System.Drawing.Point(423, 3);
+            this.lblExpedientePesquisa.Name = "lblExpedientePesquisa";
+            this.lblExpedientePesquisa.Size = new System.Drawing.Size(217, 20);
+            this.lblExpedientePesquisa.TabIndex = 32;
+            this.lblExpedientePesquisa.Text = "Horário do Expediente";
+            this.lblExpedientePesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblFixoPesquisa
+            // 
+            this.lblFixoPesquisa.AutoSize = true;
+            this.lblFixoPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFixoPesquisa.Location = new System.Drawing.Point(655, 3);
+            this.lblFixoPesquisa.Name = "lblFixoPesquisa";
+            this.lblFixoPesquisa.Size = new System.Drawing.Size(135, 20);
+            this.lblFixoPesquisa.TabIndex = 33;
+            this.lblFixoPesquisa.Text = "Telefone Fixo";
+            this.lblFixoPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblCelularPesquisa
+            // 
+            this.lblCelularPesquisa.AutoSize = true;
+            this.lblCelularPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCelularPesquisa.Location = new System.Drawing.Point(809, 3);
+            this.lblCelularPesquisa.Name = "lblCelularPesquisa";
+            this.lblCelularPesquisa.Size = new System.Drawing.Size(76, 20);
+            this.lblCelularPesquisa.TabIndex = 34;
+            this.lblCelularPesquisa.Text = "Celular";
+            this.lblCelularPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(945, 3);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(67, 20);
+            this.label9.TabIndex = 35;
+            this.label9.Text = "E-mail";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblMatriculaPesquisa
+            // 
+            this.lblMatriculaPesquisa.AutoSize = true;
+            this.lblMatriculaPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMatriculaPesquisa.Location = new System.Drawing.Point(222, 3);
+            this.lblMatriculaPesquisa.Name = "lblMatriculaPesquisa";
+            this.lblMatriculaPesquisa.Size = new System.Drawing.Size(96, 20);
+            this.lblMatriculaPesquisa.TabIndex = 31;
+            this.lblMatriculaPesquisa.Text = "Matricula";
+            this.lblMatriculaPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // rdbMedicoPesq
+            // 
+            this.rdbMedicoPesq.AutoSize = true;
+            this.rdbMedicoPesq.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rdbMedicoPesq.Location = new System.Drawing.Point(333, 257);
+            this.rdbMedicoPesq.Name = "rdbMedicoPesq";
+            this.rdbMedicoPesq.Size = new System.Drawing.Size(110, 32);
+            this.rdbMedicoPesq.TabIndex = 40;
+            this.rdbMedicoPesq.Text = "Médico";
+            this.rdbMedicoPesq.UseVisualStyleBackColor = true;
+            // 
+            // rdbPacientePesq
+            // 
+            this.rdbPacientePesq.AutoSize = true;
+            this.rdbPacientePesq.Checked = true;
+            this.rdbPacientePesq.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rdbPacientePesq.Location = new System.Drawing.Point(202, 257);
+            this.rdbPacientePesq.Name = "rdbPacientePesq";
+            this.rdbPacientePesq.Size = new System.Drawing.Size(125, 32);
+            this.rdbPacientePesq.TabIndex = 39;
+            this.rdbPacientePesq.TabStop = true;
+            this.rdbPacientePesq.Text = "Paciente";
+            this.rdbPacientePesq.UseVisualStyleBackColor = true;
+            // 
+            // rdbConsultaPesq
+            // 
+            this.rdbConsultaPesq.AutoSize = true;
+            this.rdbConsultaPesq.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rdbConsultaPesq.Location = new System.Drawing.Point(446, 257);
+            this.rdbConsultaPesq.Name = "rdbConsultaPesq";
+            this.rdbConsultaPesq.Size = new System.Drawing.Size(126, 32);
+            this.rdbConsultaPesq.TabIndex = 41;
+            this.rdbConsultaPesq.Text = "Consulta";
+            this.rdbConsultaPesq.UseVisualStyleBackColor = true;
             // 
             // btnSairCadastro
             // 
@@ -86,7 +257,7 @@
             this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
-            this.btnSairCadastro.Location = new System.Drawing.Point(1278, -2);
+            this.btnSairCadastro.Location = new System.Drawing.Point(1238, -2);
             this.btnSairCadastro.Name = "btnSairCadastro";
             this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
             this.btnSairCadastro.TabIndex = 26;
@@ -103,9 +274,9 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1161, -2);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1143, -2);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
-            this.btnVoltarCadastro.Size = new System.Drawing.Size(111, 81);
+            this.btnVoltarCadastro.Size = new System.Drawing.Size(89, 81);
             this.btnVoltarCadastro.TabIndex = 27;
             this.btnVoltarCadastro.Text = "Voltar";
             this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -239,183 +410,12 @@
             this.btnPesquisa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPesquisa.UseVisualStyleBackColor = false;
             // 
-            // lblPesquisar
-            // 
-            this.lblPesquisar.AutoSize = true;
-            this.lblPesquisar.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPesquisar.Location = new System.Drawing.Point(553, 137);
-            this.lblPesquisar.Name = "lblPesquisar";
-            this.lblPesquisar.Size = new System.Drawing.Size(181, 41);
-            this.lblPesquisar.TabIndex = 28;
-            this.lblPesquisar.Text = "Pesquisar";
-            // 
-            // lblPesquisar1
-            // 
-            this.lblPesquisar1.AutoSize = true;
-            this.lblPesquisar1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPesquisar1.Location = new System.Drawing.Point(46, 213);
-            this.lblPesquisar1.Name = "lblPesquisar1";
-            this.lblPesquisar1.Size = new System.Drawing.Size(156, 32);
-            this.lblPesquisar1.TabIndex = 29;
-            this.lblPesquisar1.Text = "Pesquisar:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 14F);
-            this.textBox1.Location = new System.Drawing.Point(202, 216);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(785, 29);
-            this.textBox1.TabIndex = 30;
-            // 
-            // lblPesquisaPor
-            // 
-            this.lblPesquisaPor.AutoSize = true;
-            this.lblPesquisaPor.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPesquisaPor.Location = new System.Drawing.Point(45, 260);
-            this.lblPesquisaPor.Name = "lblPesquisaPor";
-            this.lblPesquisaPor.Size = new System.Drawing.Size(198, 32);
-            this.lblPesquisaPor.TabIndex = 31;
-            this.lblPesquisaPor.Text = "Pesquisa por:";
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.InsetDouble;
-            this.tableLayoutPanel1.ColumnCount = 6;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 213F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 198F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 229F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 151F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 337F));
-            this.tableLayoutPanel1.Controls.Add(this.lblNomePesquisa, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lblExpedientePesquisa, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lblFixoPesquisa, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lblCelularPesquisa, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label9, 5, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lblMatriculaPesquisa, 1, 0);
-            this.tableLayoutPanel1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(49, 309);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 9;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 61F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1270, 348);
-            this.tableLayoutPanel1.TabIndex = 32;
-            // 
-            // lblNomePesquisa
-            // 
-            this.lblNomePesquisa.AutoSize = true;
-            this.lblNomePesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomePesquisa.Location = new System.Drawing.Point(6, 3);
-            this.lblNomePesquisa.Name = "lblNomePesquisa";
-            this.lblNomePesquisa.Size = new System.Drawing.Size(63, 20);
-            this.lblNomePesquisa.TabIndex = 30;
-            this.lblNomePesquisa.Text = "Nome";
-            this.lblNomePesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblExpedientePesquisa
-            // 
-            this.lblExpedientePesquisa.AutoSize = true;
-            this.lblExpedientePesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExpedientePesquisa.Location = new System.Drawing.Point(423, 3);
-            this.lblExpedientePesquisa.Name = "lblExpedientePesquisa";
-            this.lblExpedientePesquisa.Size = new System.Drawing.Size(217, 20);
-            this.lblExpedientePesquisa.TabIndex = 32;
-            this.lblExpedientePesquisa.Text = "Horário do Expediente";
-            this.lblExpedientePesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblFixoPesquisa
-            // 
-            this.lblFixoPesquisa.AutoSize = true;
-            this.lblFixoPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFixoPesquisa.Location = new System.Drawing.Point(655, 3);
-            this.lblFixoPesquisa.Name = "lblFixoPesquisa";
-            this.lblFixoPesquisa.Size = new System.Drawing.Size(135, 20);
-            this.lblFixoPesquisa.TabIndex = 33;
-            this.lblFixoPesquisa.Text = "Telefone Fixo";
-            this.lblFixoPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblCelularPesquisa
-            // 
-            this.lblCelularPesquisa.AutoSize = true;
-            this.lblCelularPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCelularPesquisa.Location = new System.Drawing.Point(809, 3);
-            this.lblCelularPesquisa.Name = "lblCelularPesquisa";
-            this.lblCelularPesquisa.Size = new System.Drawing.Size(76, 20);
-            this.lblCelularPesquisa.TabIndex = 34;
-            this.lblCelularPesquisa.Text = "Celular";
-            this.lblCelularPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(945, 3);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 20);
-            this.label9.TabIndex = 35;
-            this.label9.Text = "E-mail";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblMatriculaPesquisa
-            // 
-            this.lblMatriculaPesquisa.AutoSize = true;
-            this.lblMatriculaPesquisa.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMatriculaPesquisa.Location = new System.Drawing.Point(222, 3);
-            this.lblMatriculaPesquisa.Name = "lblMatriculaPesquisa";
-            this.lblMatriculaPesquisa.Size = new System.Drawing.Size(96, 20);
-            this.lblMatriculaPesquisa.TabIndex = 31;
-            this.lblMatriculaPesquisa.Text = "Matricula";
-            this.lblMatriculaPesquisa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // rdbMedicoPesq
-            // 
-            this.rdbMedicoPesq.AutoSize = true;
-            this.rdbMedicoPesq.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.rdbMedicoPesq.Location = new System.Drawing.Point(376, 260);
-            this.rdbMedicoPesq.Name = "rdbMedicoPesq";
-            this.rdbMedicoPesq.Size = new System.Drawing.Size(110, 32);
-            this.rdbMedicoPesq.TabIndex = 40;
-            this.rdbMedicoPesq.Text = "Médico";
-            this.rdbMedicoPesq.UseVisualStyleBackColor = true;
-            // 
-            // rdbPacientePesq
-            // 
-            this.rdbPacientePesq.AutoSize = true;
-            this.rdbPacientePesq.Checked = true;
-            this.rdbPacientePesq.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.rdbPacientePesq.Location = new System.Drawing.Point(245, 260);
-            this.rdbPacientePesq.Name = "rdbPacientePesq";
-            this.rdbPacientePesq.Size = new System.Drawing.Size(125, 32);
-            this.rdbPacientePesq.TabIndex = 39;
-            this.rdbPacientePesq.TabStop = true;
-            this.rdbPacientePesq.Text = "Paciente";
-            this.rdbPacientePesq.UseVisualStyleBackColor = true;
-            // 
-            // rdbConsultaPesq
-            // 
-            this.rdbConsultaPesq.AutoSize = true;
-            this.rdbConsultaPesq.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.rdbConsultaPesq.Location = new System.Drawing.Point(489, 260);
-            this.rdbConsultaPesq.Name = "rdbConsultaPesq";
-            this.rdbConsultaPesq.Size = new System.Drawing.Size(126, 32);
-            this.rdbConsultaPesq.TabIndex = 41;
-            this.rdbConsultaPesq.Text = "Consulta";
-            this.rdbConsultaPesq.UseVisualStyleBackColor = true;
-            // 
             // telaPesquisa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
-            this.ClientSize = new System.Drawing.Size(1370, 729);
+            this.ClientSize = new System.Drawing.Size(1330, 686);
             this.Controls.Add(this.rdbConsultaPesq);
             this.Controls.Add(this.rdbMedicoPesq);
             this.Controls.Add(this.rdbPacientePesq);

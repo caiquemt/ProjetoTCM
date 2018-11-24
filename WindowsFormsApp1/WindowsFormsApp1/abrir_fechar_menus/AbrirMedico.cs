@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.telas;
 
 namespace WindowsFormsApp1.abrir_fechar_menus
 {

@@ -35,6 +35,8 @@
             this.txtPesquisaNome = new System.Windows.Forms.TextBox();
             this.lblConsultasHoje = new System.Windows.Forms.Label();
             this.barraSuperior = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
@@ -45,18 +47,17 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.btnPesquisa = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             this.barraSuperior.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // rbuNome
             // 
             this.rbuNome.AutoSize = true;
-            this.rbuNome.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold);
-            this.rbuNome.Location = new System.Drawing.Point(26, 94);
+            this.rbuNome.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rbuNome.Location = new System.Drawing.Point(210, 227);
             this.rbuNome.Name = "rbuNome";
-            this.rbuNome.Size = new System.Drawing.Size(82, 28);
+            this.rbuNome.Size = new System.Drawing.Size(94, 32);
             this.rbuNome.TabIndex = 10;
             this.rbuNome.TabStop = true;
             this.rbuNome.Text = "Nome";
@@ -65,10 +66,10 @@
             // rbuCPF
             // 
             this.rbuCPF.AutoSize = true;
-            this.rbuCPF.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold);
-            this.rbuCPF.Location = new System.Drawing.Point(114, 94);
+            this.rbuCPF.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rbuCPF.Location = new System.Drawing.Point(307, 227);
             this.rbuCPF.Name = "rbuCPF";
-            this.rbuCPF.Size = new System.Drawing.Size(67, 28);
+            this.rbuCPF.Size = new System.Drawing.Size(72, 32);
             this.rbuCPF.TabIndex = 11;
             this.rbuCPF.TabStop = true;
             this.rbuCPF.Text = "CPF";
@@ -77,10 +78,10 @@
             // rbuMedico
             // 
             this.rbuMedico.AutoSize = true;
-            this.rbuMedico.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold);
-            this.rbuMedico.Location = new System.Drawing.Point(187, 94);
+            this.rbuMedico.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.rbuMedico.Location = new System.Drawing.Point(385, 227);
             this.rbuMedico.Name = "rbuMedico";
-            this.rbuMedico.Size = new System.Drawing.Size(96, 28);
+            this.rbuMedico.Size = new System.Drawing.Size(110, 32);
             this.rbuMedico.TabIndex = 12;
             this.rbuMedico.TabStop = true;
             this.rbuMedico.Text = "Médico";
@@ -88,24 +89,23 @@
             // 
             // txtPesquisaNome
             // 
-            this.txtPesquisaNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPesquisaNome.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txtPesquisaNome.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtPesquisaNome.Location = new System.Drawing.Point(27, 128);
+            this.txtPesquisaNome.Location = new System.Drawing.Point(166, 175);
             this.txtPesquisaNome.Name = "txtPesquisaNome";
             this.txtPesquisaNome.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtPesquisaNome.Size = new System.Drawing.Size(477, 20);
+            this.txtPesquisaNome.Size = new System.Drawing.Size(1123, 36);
             this.txtPesquisaNome.TabIndex = 13;
             this.txtPesquisaNome.Tag = "";
-            this.txtPesquisaNome.Text = "Pesquisar por nome";
             this.txtPesquisaNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblConsultasHoje
             // 
             this.lblConsultasHoje.AutoSize = true;
-            this.lblConsultasHoje.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold);
-            this.lblConsultasHoje.Location = new System.Drawing.Point(21, 183);
+            this.lblConsultasHoje.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblConsultasHoje.Location = new System.Drawing.Point(32, 262);
             this.lblConsultasHoje.Name = "lblConsultasHoje";
-            this.lblConsultasHoje.Size = new System.Drawing.Size(316, 31);
+            this.lblConsultasHoje.Size = new System.Drawing.Size(320, 28);
             this.lblConsultasHoje.TabIndex = 14;
             this.lblConsultasHoje.Text = "Consultas marcas para hoje:";
             this.lblConsultasHoje.Click += new System.EventHandler(this.lblConsultasHoje_Click);
@@ -114,7 +114,7 @@
             // 
             this.barraSuperior.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.barraSuperior.BackColor = System.Drawing.Color.LightSeaGreen;
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.barraSuperior.Controls.Add(this.btnSairCadastro);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
@@ -131,6 +131,26 @@
             this.barraSuperior.Name = "barraSuperior";
             this.barraSuperior.Size = new System.Drawing.Size(1330, 81);
             this.barraSuperior.TabIndex = 23;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(32, 178);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(128, 28);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Pesquisar:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(32, 227);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(172, 28);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Pesquisar por:";
             // 
             // btnSairCadastro
             // 
@@ -166,7 +186,7 @@
             // 
             // btnPacienteConsulta
             // 
-            this.btnPacienteConsulta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPacienteConsulta.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPacienteConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPacienteConsulta.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPacienteConsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnPacienteConsulta.Image")));
@@ -182,7 +202,7 @@
             // 
             // btnFuncionario
             // 
-            this.btnFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnFuncionario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionario.Image")));
@@ -198,7 +218,7 @@
             // 
             // btnPagamento
             // 
-            this.btnPagamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPagamento.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPagamento.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagamento.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamento.Image")));
@@ -214,7 +234,7 @@
             // 
             // btnEstoqueFuncionario
             // 
-            this.btnEstoqueFuncionario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnEstoqueFuncionario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnEstoqueFuncionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstoqueFuncionario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoqueFuncionario.Image = ((System.Drawing.Image)(resources.GetObject("btnEstoqueFuncionario.Image")));
@@ -230,7 +250,7 @@
             // 
             // btnProntuario
             // 
-            this.btnProntuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnProntuario.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnProntuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProntuario.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProntuario.Image = ((System.Drawing.Image)(resources.GetObject("btnProntuario.Image")));
@@ -246,7 +266,7 @@
             // 
             // btnAgenda
             // 
-            this.btnAgenda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnAgenda.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnAgenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgenda.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgenda.Image = ((System.Drawing.Image)(resources.GetObject("btnAgenda.Image")));
@@ -262,7 +282,7 @@
             // 
             // btnMedico
             // 
-            this.btnMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnMedico.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnMedico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMedico.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMedico.Image = ((System.Drawing.Image)(resources.GetObject("btnMedico.Image")));
@@ -278,7 +298,7 @@
             // 
             // btnPesquisa
             // 
-            this.btnPesquisa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnPesquisa.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnPesquisa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPesquisa.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisa.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisa.Image")));
@@ -292,23 +312,27 @@
             this.btnPesquisa.UseVisualStyleBackColor = false;
             this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
-            // dataGridView1
+            // button1
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(152, 256);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView1.TabIndex = 24;
+            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(1148, 220);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(141, 43);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "Cadastrar";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // telaAgenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1330, 686);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.barraSuperior);
             this.Controls.Add(this.lblConsultasHoje);
             this.Controls.Add(this.txtPesquisaNome);
@@ -322,7 +346,6 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.telaAgenda_Load);
             this.barraSuperior.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -345,6 +368,8 @@
         private System.Windows.Forms.Button btnPesquisa;
         private System.Windows.Forms.Button btnSairCadastro;
         private System.Windows.Forms.Button btnVoltarCadastro;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
