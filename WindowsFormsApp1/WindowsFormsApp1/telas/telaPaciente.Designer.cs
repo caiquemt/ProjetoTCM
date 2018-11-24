@@ -224,7 +224,7 @@
             // 
             this.LbEmailPac.AutoSize = true;
             this.LbEmailPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.LbEmailPac.Location = new System.Drawing.Point(14, 529);
+            this.LbEmailPac.Location = new System.Drawing.Point(7, 529);
             this.LbEmailPac.Name = "LbEmailPac";
             this.LbEmailPac.Size = new System.Drawing.Size(82, 28);
             this.LbEmailPac.TabIndex = 6;
