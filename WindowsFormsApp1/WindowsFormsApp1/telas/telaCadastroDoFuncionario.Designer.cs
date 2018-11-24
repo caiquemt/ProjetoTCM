@@ -29,30 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaCadastroDoFuncionario));
-            this.btnSalvarCadastro = new System.Windows.Forms.Button();
-            this.txtDataCadastro = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtDataEncerramento = new System.Windows.Forms.TextBox();
-            this.btnAlterar = new System.Windows.Forms.Button();
             this.barraSuperior = new System.Windows.Forms.Panel();
-            this.btnSairCadastro = new System.Windows.Forms.Button();
-            this.btnVoltarCadastro = new System.Windows.Forms.Button();
-            this.btnPacienteConsulta = new System.Windows.Forms.Button();
-            this.btnFuncionario = new System.Windows.Forms.Button();
-            this.btnPagamento = new System.Windows.Forms.Button();
-            this.btnEstoqueFuncionario = new System.Windows.Forms.Button();
-            this.btnProntuario = new System.Windows.Forms.Button();
-            this.btnAgenda = new System.Windows.Forms.Button();
-            this.btnMedico = new System.Windows.Forms.Button();
-            this.btnPesquisa = new System.Windows.Forms.Button();
             this.txtCelularCadastro = new System.Windows.Forms.TextBox();
             this.lbCelularCadastro = new System.Windows.Forms.Label();
             this.txtMatriculaCadastro = new System.Windows.Forms.TextBox();
             this.lbMatriculaCadastro = new System.Windows.Forms.Label();
             this.lbCidadeCadastro = new System.Windows.Forms.Label();
             this.txtEmailCadastro = new System.Windows.Forms.TextBox();
-            this.txtHorarioExpedienteCadastro = new System.Windows.Forms.TextBox();
             this.txtCargaCadastro = new System.Windows.Forms.TextBox();
             this.LbEmailCadastro = new System.Windows.Forms.Label();
             this.lbTelefone = new System.Windows.Forms.Label();
@@ -64,6 +48,10 @@
             this.TxtLogradouroCadastro = new System.Windows.Forms.TextBox();
             this.lbNomeCadastro = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txbCelFunc = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.txbTelFunc = new System.Windows.Forms.MaskedTextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lblUFCFuncionario = new System.Windows.Forms.Label();
             this.lblNCfuncionario = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -71,85 +59,39 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblCdastroFuncionario = new System.Windows.Forms.Label();
+            this.btnSairCadastro = new System.Windows.Forms.Button();
+            this.btnVoltarCadastro = new System.Windows.Forms.Button();
+            this.btnPacienteConsulta = new System.Windows.Forms.Button();
+            this.btnFuncionario = new System.Windows.Forms.Button();
+            this.btnPagamento = new System.Windows.Forms.Button();
+            this.btnEstoqueFuncionario = new System.Windows.Forms.Button();
+            this.btnProntuario = new System.Windows.Forms.Button();
+            this.btnAgenda = new System.Windows.Forms.Button();
+            this.btnMedico = new System.Windows.Forms.Button();
+            this.btnPesquisa = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.txbTelFunc = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.txbCelFunc = new System.Windows.Forms.MaskedTextBox();
+            this.btnSalvarCadastro = new System.Windows.Forms.Button();
+            this.btnAlterar = new System.Windows.Forms.Button();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.txbHorarioFuncDe = new System.Windows.Forms.MaskedTextBox();
+            this.txtHorarioFuncAte = new System.Windows.Forms.MaskedTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnSalvarCadastro
-            // 
-            this.btnSalvarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalvarCadastro.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnSalvarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalvarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvarCadastro.Location = new System.Drawing.Point(54, 412);
-            this.btnSalvarCadastro.Name = "btnSalvarCadastro";
-            this.btnSalvarCadastro.Size = new System.Drawing.Size(120, 32);
-            this.btnSalvarCadastro.TabIndex = 8;
-            this.btnSalvarCadastro.Text = "Salvar";
-            this.btnSalvarCadastro.UseVisualStyleBackColor = false;
-            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
-            // 
-            // txtDataCadastro
-            // 
-            this.txtDataCadastro.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.txtDataCadastro.Location = new System.Drawing.Point(54, 240);
-            this.txtDataCadastro.Multiline = true;
-            this.txtDataCadastro.Name = "txtDataCadastro";
-            this.txtDataCadastro.Size = new System.Drawing.Size(120, 25);
-            this.txtDataCadastro.TabIndex = 9;
-            // 
             // label9
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(49, 218);
+            this.label9.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label9.Location = new System.Drawing.Point(16, 210);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(136, 19);
+            this.label9.Size = new System.Drawing.Size(200, 28);
             this.label9.TabIndex = 14;
             this.label9.Text = "Data de Cadastro";
-            // 
-            // label10
-            // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.label10.Location = new System.Drawing.Point(23, 274);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(175, 19);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "Data de Encerramento";
-            // 
-            // txtDataEncerramento
-            // 
-            this.txtDataEncerramento.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.txtDataEncerramento.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txtDataEncerramento.Location = new System.Drawing.Point(54, 296);
-            this.txtDataEncerramento.Multiline = true;
-            this.txtDataEncerramento.Name = "txtDataEncerramento";
-            this.txtDataEncerramento.Size = new System.Drawing.Size(120, 25);
-            this.txtDataEncerramento.TabIndex = 16;
-            // 
-            // btnAlterar
-            // 
-            this.btnAlterar.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnAlterar.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.btnAlterar.Location = new System.Drawing.Point(54, 345);
-            this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(120, 35);
-            this.btnAlterar.TabIndex = 17;
-            this.btnAlterar.Text = "Alterar";
-            this.btnAlterar.UseVisualStyleBackColor = false;
             // 
             // barraSuperior
             // 
@@ -174,6 +116,322 @@
             this.barraSuperior.TabIndex = 22;
             this.barraSuperior.Paint += new System.Windows.Forms.PaintEventHandler(this.barraSuperior_Paint);
             // 
+            // txtCelularCadastro
+            // 
+            this.txtCelularCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtCelularCadastro.Location = new System.Drawing.Point(160, 159);
+            this.txtCelularCadastro.Name = "txtCelularCadastro";
+            this.txtCelularCadastro.Size = new System.Drawing.Size(286, 36);
+            this.txtCelularCadastro.TabIndex = 39;
+            // 
+            // lbCelularCadastro
+            // 
+            this.lbCelularCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbCelularCadastro.AutoSize = true;
+            this.lbCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbCelularCadastro.Location = new System.Drawing.Point(490, 287);
+            this.lbCelularCadastro.Name = "lbCelularCadastro";
+            this.lbCelularCadastro.Size = new System.Drawing.Size(98, 28);
+            this.lbCelularCadastro.TabIndex = 38;
+            this.lbCelularCadastro.Text = "Celular:";
+            // 
+            // txtMatriculaCadastro
+            // 
+            this.txtMatriculaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtMatriculaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtMatriculaCadastro.Location = new System.Drawing.Point(552, 118);
+            this.txtMatriculaCadastro.Name = "txtMatriculaCadastro";
+            this.txtMatriculaCadastro.Size = new System.Drawing.Size(225, 36);
+            this.txtMatriculaCadastro.TabIndex = 36;
+            // 
+            // lbMatriculaCadastro
+            // 
+            this.lbMatriculaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbMatriculaCadastro.AutoSize = true;
+            this.lbMatriculaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbMatriculaCadastro.Location = new System.Drawing.Point(29, 164);
+            this.lbMatriculaCadastro.Name = "lbMatriculaCadastro";
+            this.lbMatriculaCadastro.Size = new System.Drawing.Size(125, 28);
+            this.lbMatriculaCadastro.TabIndex = 35;
+            this.lbMatriculaCadastro.Text = "Matrícula:";
+            this.lbMatriculaCadastro.Click += new System.EventHandler(this.lbMatriculaCadastro_Click);
+            // 
+            // lbCidadeCadastro
+            // 
+            this.lbCidadeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbCidadeCadastro.AutoSize = true;
+            this.lbCidadeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbCidadeCadastro.Location = new System.Drawing.Point(461, 121);
+            this.lbCidadeCadastro.Name = "lbCidadeCadastro";
+            this.lbCidadeCadastro.Size = new System.Drawing.Size(95, 28);
+            this.lbCidadeCadastro.TabIndex = 34;
+            this.lbCidadeCadastro.Text = "Cidade:";
+            this.lbCidadeCadastro.Click += new System.EventHandler(this.lbCidadeCadastro_Click);
+            // 
+            // txtEmailCadastro
+            // 
+            this.txtEmailCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtEmailCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtEmailCadastro.Location = new System.Drawing.Point(117, 329);
+            this.txtEmailCadastro.Name = "txtEmailCadastro";
+            this.txtEmailCadastro.Size = new System.Drawing.Size(879, 36);
+            this.txtEmailCadastro.TabIndex = 33;
+            // 
+            // txtCargaCadastro
+            // 
+            this.txtCargaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCargaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtCargaCadastro.Location = new System.Drawing.Point(118, 201);
+            this.txtCargaCadastro.Name = "txtCargaCadastro";
+            this.txtCargaCadastro.Size = new System.Drawing.Size(878, 36);
+            this.txtCargaCadastro.TabIndex = 30;
+            // 
+            // LbEmailCadastro
+            // 
+            this.LbEmailCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.LbEmailCadastro.AutoSize = true;
+            this.LbEmailCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.LbEmailCadastro.Location = new System.Drawing.Point(29, 336);
+            this.LbEmailCadastro.Name = "LbEmailCadastro";
+            this.LbEmailCadastro.Size = new System.Drawing.Size(82, 28);
+            this.LbEmailCadastro.TabIndex = 26;
+            this.LbEmailCadastro.Text = "Email:";
+            // 
+            // lbTelefone
+            // 
+            this.lbTelefone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbTelefone.AutoSize = true;
+            this.lbTelefone.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbTelefone.Location = new System.Drawing.Point(28, 289);
+            this.lbTelefone.Name = "lbTelefone";
+            this.lbTelefone.Size = new System.Drawing.Size(114, 28);
+            this.lbTelefone.TabIndex = 25;
+            this.lbTelefone.Text = "Telefone:";
+            // 
+            // lbHorarioExpediente
+            // 
+            this.lbHorarioExpediente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbHorarioExpediente.AutoSize = true;
+            this.lbHorarioExpediente.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbHorarioExpediente.Location = new System.Drawing.Point(28, 243);
+            this.lbHorarioExpediente.Name = "lbHorarioExpediente";
+            this.lbHorarioExpediente.Size = new System.Drawing.Size(270, 28);
+            this.lbHorarioExpediente.TabIndex = 24;
+            this.lbHorarioExpediente.Text = "Horário do Expediente:";
+            // 
+            // lbCargo
+            // 
+            this.lbCargo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbCargo.AutoSize = true;
+            this.lbCargo.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbCargo.Location = new System.Drawing.Point(29, 201);
+            this.lbCargo.Name = "lbCargo";
+            this.lbCargo.Size = new System.Drawing.Size(83, 28);
+            this.lbCargo.TabIndex = 23;
+            this.lbCargo.Text = "Cargo:";
+            // 
+            // lbDataNascimento
+            // 
+            this.lbDataNascimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbDataNascimento.AutoSize = true;
+            this.lbDataNascimento.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbDataNascimento.Location = new System.Drawing.Point(461, 164);
+            this.lbDataNascimento.Name = "lbDataNascimento";
+            this.lbDataNascimento.Size = new System.Drawing.Size(238, 28);
+            this.lbDataNascimento.TabIndex = 22;
+            this.lbDataNascimento.Text = "Data de Nascimento:";
+            // 
+            // lblRuaFuncionario
+            // 
+            this.lblRuaFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRuaFuncionario.AutoSize = true;
+            this.lblRuaFuncionario.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRuaFuncionario.Location = new System.Drawing.Point(29, 75);
+            this.lblRuaFuncionario.Name = "lblRuaFuncionario";
+            this.lblRuaFuncionario.Size = new System.Drawing.Size(62, 28);
+            this.lblRuaFuncionario.TabIndex = 21;
+            this.lblRuaFuncionario.Text = "Rua:";
+            // 
+            // txtNomeCadastro
+            // 
+            this.txtNomeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNomeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtNomeCadastro.Location = new System.Drawing.Point(116, 30);
+            this.txtNomeCadastro.Name = "txtNomeCadastro";
+            this.txtNomeCadastro.Size = new System.Drawing.Size(880, 36);
+            this.txtNomeCadastro.TabIndex = 27;
+            // 
+            // TxtLogradouroCadastro
+            // 
+            this.TxtLogradouroCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.TxtLogradouroCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.TxtLogradouroCadastro.Location = new System.Drawing.Point(116, 72);
+            this.TxtLogradouroCadastro.Name = "TxtLogradouroCadastro";
+            this.TxtLogradouroCadastro.Size = new System.Drawing.Size(686, 36);
+            this.TxtLogradouroCadastro.TabIndex = 28;
+            // 
+            // lbNomeCadastro
+            // 
+            this.lbNomeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbNomeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbNomeCadastro.Location = new System.Drawing.Point(29, 36);
+            this.lbNomeCadastro.Name = "lbNomeCadastro";
+            this.lbNomeCadastro.Size = new System.Drawing.Size(86, 26);
+            this.lbNomeCadastro.TabIndex = 20;
+            this.lbNomeCadastro.Text = "Nome:";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.txtHorarioFuncAte);
+            this.panel1.Controls.Add(this.txbHorarioFuncDe);
+            this.panel1.Controls.Add(this.txbCelFunc);
+            this.panel1.Controls.Add(this.maskedTextBox2);
+            this.panel1.Controls.Add(this.txbTelFunc);
+            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.lblUFCFuncionario);
+            this.panel1.Controls.Add(this.lblNCfuncionario);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.lblBairroCFuncionario);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.lbNomeCadastro);
+            this.panel1.Controls.Add(this.lbHorarioExpediente);
+            this.panel1.Controls.Add(this.lbTelefone);
+            this.panel1.Controls.Add(this.txtCelularCadastro);
+            this.panel1.Controls.Add(this.lbCargo);
+            this.panel1.Controls.Add(this.LbEmailCadastro);
+            this.panel1.Controls.Add(this.lbCelularCadastro);
+            this.panel1.Controls.Add(this.lbDataNascimento);
+            this.panel1.Controls.Add(this.lblRuaFuncionario);
+            this.panel1.Controls.Add(this.TxtLogradouroCadastro);
+            this.panel1.Controls.Add(this.txtNomeCadastro);
+            this.panel1.Controls.Add(this.txtMatriculaCadastro);
+            this.panel1.Controls.Add(this.txtCargaCadastro);
+            this.panel1.Controls.Add(this.lbMatriculaCadastro);
+            this.panel1.Controls.Add(this.lbCidadeCadastro);
+            this.panel1.Controls.Add(this.txtEmailCadastro);
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel1.Location = new System.Drawing.Point(30, 147);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1055, 474);
+            this.panel1.TabIndex = 40;
+            // 
+            // txbCelFunc
+            // 
+            this.txbCelFunc.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbCelFunc.Location = new System.Drawing.Point(585, 286);
+            this.txbCelFunc.Mask = "(00)00000-0000";
+            this.txbCelFunc.Name = "txbCelFunc";
+            this.txbCelFunc.Size = new System.Drawing.Size(153, 36);
+            this.txbCelFunc.TabIndex = 50;
+            this.txbCelFunc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox2.Location = new System.Drawing.Point(705, 160);
+            this.maskedTextBox2.Mask = "00/00/0000";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(84, 36);
+            this.maskedTextBox2.TabIndex = 49;
+            // 
+            // txbTelFunc
+            // 
+            this.txbTelFunc.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbTelFunc.Location = new System.Drawing.Point(148, 287);
+            this.txbTelFunc.Mask = "(00)0000-0000";
+            this.txbTelFunc.Name = "txbTelFunc";
+            this.txbTelFunc.Size = new System.Drawing.Size(140, 36);
+            this.txbTelFunc.TabIndex = 48;
+            this.txbTelFunc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(842, 118);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(46, 36);
+            this.comboBox1.TabIndex = 47;
+            // 
+            // lblUFCFuncionario
+            // 
+            this.lblUFCFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblUFCFuncionario.AutoSize = true;
+            this.lblUFCFuncionario.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblUFCFuncionario.Location = new System.Drawing.Point(799, 121);
+            this.lblUFCFuncionario.Name = "lblUFCFuncionario";
+            this.lblUFCFuncionario.Size = new System.Drawing.Size(47, 28);
+            this.lblUFCFuncionario.TabIndex = 44;
+            this.lblUFCFuncionario.Text = "UF:";
+            // 
+            // lblNCfuncionario
+            // 
+            this.lblNCfuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblNCfuncionario.AutoSize = true;
+            this.lblNCfuncionario.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblNCfuncionario.Location = new System.Drawing.Point(828, 75);
+            this.lblNCfuncionario.Name = "lblNCfuncionario";
+            this.lblNCfuncionario.Size = new System.Drawing.Size(45, 28);
+            this.lblNCfuncionario.TabIndex = 43;
+            this.lblNCfuncionario.Text = "Nº:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox2.Location = new System.Drawing.Point(879, 75);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(117, 36);
+            this.textBox2.TabIndex = 42;
+            // 
+            // lblBairroCFuncionario
+            // 
+            this.lblBairroCFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblBairroCFuncionario.AutoSize = true;
+            this.lblBairroCFuncionario.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblBairroCFuncionario.Location = new System.Drawing.Point(29, 121);
+            this.lblBairroCFuncionario.Name = "lblBairroCFuncionario";
+            this.lblBairroCFuncionario.Size = new System.Drawing.Size(92, 28);
+            this.lblBairroCFuncionario.TabIndex = 40;
+            this.lblBairroCFuncionario.Text = "Bairro:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox1.Location = new System.Drawing.Point(127, 117);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(312, 36);
+            this.textBox1.TabIndex = 41;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.maskedTextBox1);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.btnSalvarCadastro);
+            this.panel2.Controls.Add(this.btnAlterar);
+            this.panel2.Location = new System.Drawing.Point(1118, 147);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(221, 474);
+            this.panel2.TabIndex = 41;
+            // 
+            // lblCdastroFuncionario
+            // 
+            this.lblCdastroFuncionario.AutoSize = true;
+            this.lblCdastroFuncionario.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCdastroFuncionario.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblCdastroFuncionario.Location = new System.Drawing.Point(489, 93);
+            this.lblCdastroFuncionario.Name = "lblCdastroFuncionario";
+            this.lblCdastroFuncionario.Size = new System.Drawing.Size(423, 41);
+            this.lblCdastroFuncionario.TabIndex = 42;
+            this.lblCdastroFuncionario.Text = "Cadastro do Funcionário";
+            // 
             // btnSairCadastro
             // 
             this.btnSairCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -193,8 +451,7 @@
             // 
             // btnVoltarCadastro
             // 
-            this.btnVoltarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnVoltarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -336,294 +593,6 @@
             this.btnPesquisa.UseVisualStyleBackColor = false;
             this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click_1);
             // 
-            // txtCelularCadastro
-            // 
-            this.txtCelularCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCelularCadastro.Font = new System.Drawing.Font("Cambria", 16F, System.Drawing.FontStyle.Bold);
-            this.txtCelularCadastro.Location = new System.Drawing.Point(134, 159);
-            this.txtCelularCadastro.Name = "txtCelularCadastro";
-            this.txtCelularCadastro.Size = new System.Drawing.Size(312, 33);
-            this.txtCelularCadastro.TabIndex = 39;
-            // 
-            // lbCelularCadastro
-            // 
-            this.lbCelularCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbCelularCadastro.AutoSize = true;
-            this.lbCelularCadastro.Font = new System.Drawing.Font("Cambria", 16F, System.Drawing.FontStyle.Bold);
-            this.lbCelularCadastro.Location = new System.Drawing.Point(490, 287);
-            this.lbCelularCadastro.Name = "lbCelularCadastro";
-            this.lbCelularCadastro.Size = new System.Drawing.Size(92, 26);
-            this.lbCelularCadastro.TabIndex = 38;
-            this.lbCelularCadastro.Text = "Celular:";
-            // 
-            // txtMatriculaCadastro
-            // 
-            this.txtMatriculaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMatriculaCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txtMatriculaCadastro.Location = new System.Drawing.Point(541, 118);
-            this.txtMatriculaCadastro.Name = "txtMatriculaCadastro";
-            this.txtMatriculaCadastro.Size = new System.Drawing.Size(225, 29);
-            this.txtMatriculaCadastro.TabIndex = 36;
-            // 
-            // lbMatriculaCadastro
-            // 
-            this.lbMatriculaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbMatriculaCadastro.AutoSize = true;
-            this.lbMatriculaCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lbMatriculaCadastro.Location = new System.Drawing.Point(29, 164);
-            this.lbMatriculaCadastro.Name = "lbMatriculaCadastro";
-            this.lbMatriculaCadastro.Size = new System.Drawing.Size(99, 22);
-            this.lbMatriculaCadastro.TabIndex = 35;
-            this.lbMatriculaCadastro.Text = "Matrícula:";
-            this.lbMatriculaCadastro.Click += new System.EventHandler(this.lbMatriculaCadastro_Click);
-            // 
-            // lbCidadeCadastro
-            // 
-            this.lbCidadeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbCidadeCadastro.AutoSize = true;
-            this.lbCidadeCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lbCidadeCadastro.Location = new System.Drawing.Point(461, 121);
-            this.lbCidadeCadastro.Name = "lbCidadeCadastro";
-            this.lbCidadeCadastro.Size = new System.Drawing.Size(74, 22);
-            this.lbCidadeCadastro.TabIndex = 34;
-            this.lbCidadeCadastro.Text = "Cidade:";
-            this.lbCidadeCadastro.Click += new System.EventHandler(this.lbCidadeCadastro_Click);
-            // 
-            // txtEmailCadastro
-            // 
-            this.txtEmailCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEmailCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txtEmailCadastro.Location = new System.Drawing.Point(100, 333);
-            this.txtEmailCadastro.Name = "txtEmailCadastro";
-            this.txtEmailCadastro.Size = new System.Drawing.Size(879, 29);
-            this.txtEmailCadastro.TabIndex = 33;
-            // 
-            // txtHorarioExpedienteCadastro
-            // 
-            this.txtHorarioExpedienteCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtHorarioExpedienteCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txtHorarioExpedienteCadastro.Location = new System.Drawing.Point(248, 240);
-            this.txtHorarioExpedienteCadastro.Name = "txtHorarioExpedienteCadastro";
-            this.txtHorarioExpedienteCadastro.Size = new System.Drawing.Size(731, 29);
-            this.txtHorarioExpedienteCadastro.TabIndex = 31;
-            this.txtHorarioExpedienteCadastro.TextChanged += new System.EventHandler(this.txtHorarioExpedienteCadastro_TextChanged);
-            // 
-            // txtCargaCadastro
-            // 
-            this.txtCargaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCargaCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txtCargaCadastro.Location = new System.Drawing.Point(100, 201);
-            this.txtCargaCadastro.Name = "txtCargaCadastro";
-            this.txtCargaCadastro.Size = new System.Drawing.Size(879, 29);
-            this.txtCargaCadastro.TabIndex = 30;
-            // 
-            // LbEmailCadastro
-            // 
-            this.LbEmailCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.LbEmailCadastro.AutoSize = true;
-            this.LbEmailCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.LbEmailCadastro.Location = new System.Drawing.Point(29, 336);
-            this.LbEmailCadastro.Name = "LbEmailCadastro";
-            this.LbEmailCadastro.Size = new System.Drawing.Size(65, 22);
-            this.LbEmailCadastro.TabIndex = 26;
-            this.LbEmailCadastro.Text = "Email:";
-            // 
-            // lbTelefone
-            // 
-            this.lbTelefone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbTelefone.AutoSize = true;
-            this.lbTelefone.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lbTelefone.Location = new System.Drawing.Point(28, 289);
-            this.lbTelefone.Name = "lbTelefone";
-            this.lbTelefone.Size = new System.Drawing.Size(89, 22);
-            this.lbTelefone.TabIndex = 25;
-            this.lbTelefone.Text = "Telefone:";
-            // 
-            // lbHorarioExpediente
-            // 
-            this.lbHorarioExpediente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbHorarioExpediente.AutoSize = true;
-            this.lbHorarioExpediente.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lbHorarioExpediente.Location = new System.Drawing.Point(28, 243);
-            this.lbHorarioExpediente.Name = "lbHorarioExpediente";
-            this.lbHorarioExpediente.Size = new System.Drawing.Size(212, 22);
-            this.lbHorarioExpediente.TabIndex = 24;
-            this.lbHorarioExpediente.Text = "Horário do Expediente:";
-            // 
-            // lbCargo
-            // 
-            this.lbCargo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbCargo.AutoSize = true;
-            this.lbCargo.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lbCargo.Location = new System.Drawing.Point(29, 201);
-            this.lbCargo.Name = "lbCargo";
-            this.lbCargo.Size = new System.Drawing.Size(66, 22);
-            this.lbCargo.TabIndex = 23;
-            this.lbCargo.Text = "Cargo:";
-            // 
-            // lbDataNascimento
-            // 
-            this.lbDataNascimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbDataNascimento.AutoSize = true;
-            this.lbDataNascimento.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lbDataNascimento.Location = new System.Drawing.Point(461, 164);
-            this.lbDataNascimento.Name = "lbDataNascimento";
-            this.lbDataNascimento.Size = new System.Drawing.Size(187, 22);
-            this.lbDataNascimento.TabIndex = 22;
-            this.lbDataNascimento.Text = "Data de Nascimento:";
-            // 
-            // lblRuaFuncionario
-            // 
-            this.lblRuaFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblRuaFuncionario.AutoSize = true;
-            this.lblRuaFuncionario.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lblRuaFuncionario.Location = new System.Drawing.Point(29, 75);
-            this.lblRuaFuncionario.Name = "lblRuaFuncionario";
-            this.lblRuaFuncionario.Size = new System.Drawing.Size(49, 22);
-            this.lblRuaFuncionario.TabIndex = 21;
-            this.lblRuaFuncionario.Text = "Rua:";
-            // 
-            // txtNomeCadastro
-            // 
-            this.txtNomeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNomeCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txtNomeCadastro.Location = new System.Drawing.Point(109, 33);
-            this.txtNomeCadastro.Name = "txtNomeCadastro";
-            this.txtNomeCadastro.Size = new System.Drawing.Size(880, 29);
-            this.txtNomeCadastro.TabIndex = 27;
-            // 
-            // TxtLogradouroCadastro
-            // 
-            this.TxtLogradouroCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtLogradouroCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.TxtLogradouroCadastro.Location = new System.Drawing.Point(107, 72);
-            this.TxtLogradouroCadastro.Name = "TxtLogradouroCadastro";
-            this.TxtLogradouroCadastro.Size = new System.Drawing.Size(686, 29);
-            this.TxtLogradouroCadastro.TabIndex = 28;
-            // 
-            // lbNomeCadastro
-            // 
-            this.lbNomeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbNomeCadastro.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lbNomeCadastro.Location = new System.Drawing.Point(29, 36);
-            this.lbNomeCadastro.Name = "lbNomeCadastro";
-            this.lbNomeCadastro.Size = new System.Drawing.Size(74, 26);
-            this.lbNomeCadastro.TabIndex = 20;
-            this.lbNomeCadastro.Text = "Nome:";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.txbCelFunc);
-            this.panel1.Controls.Add(this.maskedTextBox2);
-            this.panel1.Controls.Add(this.txbTelFunc);
-            this.panel1.Controls.Add(this.comboBox1);
-            this.panel1.Controls.Add(this.lblUFCFuncionario);
-            this.panel1.Controls.Add(this.lblNCfuncionario);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.lblBairroCFuncionario);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.lbNomeCadastro);
-            this.panel1.Controls.Add(this.lbHorarioExpediente);
-            this.panel1.Controls.Add(this.lbTelefone);
-            this.panel1.Controls.Add(this.txtCelularCadastro);
-            this.panel1.Controls.Add(this.lbCargo);
-            this.panel1.Controls.Add(this.LbEmailCadastro);
-            this.panel1.Controls.Add(this.lbCelularCadastro);
-            this.panel1.Controls.Add(this.lbDataNascimento);
-            this.panel1.Controls.Add(this.lblRuaFuncionario);
-            this.panel1.Controls.Add(this.TxtLogradouroCadastro);
-            this.panel1.Controls.Add(this.txtNomeCadastro);
-            this.panel1.Controls.Add(this.txtMatriculaCadastro);
-            this.panel1.Controls.Add(this.txtCargaCadastro);
-            this.panel1.Controls.Add(this.lbMatriculaCadastro);
-            this.panel1.Controls.Add(this.txtHorarioExpedienteCadastro);
-            this.panel1.Controls.Add(this.lbCidadeCadastro);
-            this.panel1.Controls.Add(this.txtEmailCadastro);
-            this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel1.Location = new System.Drawing.Point(30, 147);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1055, 474);
-            this.panel1.TabIndex = 40;
-            // 
-            // lblUFCFuncionario
-            // 
-            this.lblUFCFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblUFCFuncionario.AutoSize = true;
-            this.lblUFCFuncionario.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lblUFCFuncionario.Location = new System.Drawing.Point(799, 121);
-            this.lblUFCFuncionario.Name = "lblUFCFuncionario";
-            this.lblUFCFuncionario.Size = new System.Drawing.Size(37, 22);
-            this.lblUFCFuncionario.TabIndex = 44;
-            this.lblUFCFuncionario.Text = "UF:";
-            // 
-            // lblNCfuncionario
-            // 
-            this.lblNCfuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblNCfuncionario.AutoSize = true;
-            this.lblNCfuncionario.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lblNCfuncionario.Location = new System.Drawing.Point(828, 75);
-            this.lblNCfuncionario.Name = "lblNCfuncionario";
-            this.lblNCfuncionario.Size = new System.Drawing.Size(36, 22);
-            this.lblNCfuncionario.TabIndex = 43;
-            this.lblNCfuncionario.Text = "Nº:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.textBox2.Location = new System.Drawing.Point(870, 75);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(107, 29);
-            this.textBox2.TabIndex = 42;
-            // 
-            // lblBairroCFuncionario
-            // 
-            this.lblBairroCFuncionario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblBairroCFuncionario.AutoSize = true;
-            this.lblBairroCFuncionario.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.lblBairroCFuncionario.Location = new System.Drawing.Point(29, 121);
-            this.lblBairroCFuncionario.Name = "lblBairroCFuncionario";
-            this.lblBairroCFuncionario.Size = new System.Drawing.Size(72, 22);
-            this.lblBairroCFuncionario.TabIndex = 40;
-            this.lblBairroCFuncionario.Text = "Bairro:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.textBox1.Location = new System.Drawing.Point(107, 118);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(339, 29);
-            this.textBox1.TabIndex = 41;
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.txtDataCadastro);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.btnSalvarCadastro);
-            this.panel2.Controls.Add(this.label10);
-            this.panel2.Controls.Add(this.btnAlterar);
-            this.panel2.Controls.Add(this.txtDataEncerramento);
-            this.panel2.Location = new System.Drawing.Point(1118, 147);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(221, 474);
-            this.panel2.TabIndex = 41;
-            // 
-            // lblCdastroFuncionario
-            // 
-            this.lblCdastroFuncionario.AutoSize = true;
-            this.lblCdastroFuncionario.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCdastroFuncionario.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblCdastroFuncionario.Location = new System.Drawing.Point(489, 93);
-            this.lblCdastroFuncionario.Name = "lblCdastroFuncionario";
-            this.lblCdastroFuncionario.Size = new System.Drawing.Size(423, 41);
-            this.lblCdastroFuncionario.TabIndex = 42;
-            this.lblCdastroFuncionario.Text = "Cadastro do Funcionário";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(29, 33);
@@ -632,41 +601,78 @@
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
-            // comboBox1
+            // btnSalvarCadastro
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(842, 118);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(46, 30);
-            this.comboBox1.TabIndex = 47;
+            this.btnSalvarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalvarCadastro.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnSalvarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnSalvarCadastro.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
+            this.btnSalvarCadastro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvarCadastro.Location = new System.Drawing.Point(55, 395);
+            this.btnSalvarCadastro.Name = "btnSalvarCadastro";
+            this.btnSalvarCadastro.Size = new System.Drawing.Size(120, 32);
+            this.btnSalvarCadastro.TabIndex = 8;
+            this.btnSalvarCadastro.Text = "Salvar";
+            this.btnSalvarCadastro.UseVisualStyleBackColor = false;
+            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
             // 
-            // txbTelFunc
+            // btnAlterar
             // 
-            this.txbTelFunc.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txbTelFunc.Location = new System.Drawing.Point(123, 287);
-            this.txbTelFunc.Mask = "(00)0000-0000";
-            this.txbTelFunc.Name = "txbTelFunc";
-            this.txbTelFunc.Size = new System.Drawing.Size(107, 29);
-            this.txbTelFunc.TabIndex = 48;
+            this.btnAlterar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnAlterar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.btnAlterar.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
+            this.btnAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlterar.Location = new System.Drawing.Point(54, 310);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(121, 35);
+            this.btnAlterar.TabIndex = 17;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = false;
             // 
-            // maskedTextBox2
+            // maskedTextBox1
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox2.Location = new System.Drawing.Point(654, 161);
-            this.maskedTextBox2.Mask = "00/00/0000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(84, 29);
-            this.maskedTextBox2.TabIndex = 49;
+            this.maskedTextBox1.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox1.Location = new System.Drawing.Point(54, 241);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(120, 29);
+            this.maskedTextBox1.TabIndex = 21;
+            this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txbCelFunc
+            // txbHorarioFuncDe
             // 
-            this.txbCelFunc.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.txbCelFunc.Location = new System.Drawing.Point(585, 286);
-            this.txbCelFunc.Mask = "(00)00000-0000";
-            this.txbCelFunc.Name = "txbCelFunc";
-            this.txbCelFunc.Size = new System.Drawing.Size(107, 29);
-            this.txbCelFunc.TabIndex = 50;
+            this.txbHorarioFuncDe.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbHorarioFuncDe.Location = new System.Drawing.Point(304, 243);
+            this.txbHorarioFuncDe.Mask = "00:00";
+            this.txbHorarioFuncDe.Name = "txbHorarioFuncDe";
+            this.txbHorarioFuncDe.Size = new System.Drawing.Size(59, 36);
+            this.txbHorarioFuncDe.TabIndex = 51;
+            this.txbHorarioFuncDe.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtHorarioFuncAte
+            // 
+            this.txtHorarioFuncAte.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txtHorarioFuncAte.Location = new System.Drawing.Point(424, 243);
+            this.txtHorarioFuncAte.Mask = "00:00";
+            this.txtHorarioFuncAte.Name = "txtHorarioFuncAte";
+            this.txtHorarioFuncAte.Size = new System.Drawing.Size(59, 36);
+            this.txtHorarioFuncAte.TabIndex = 52;
+            this.txtHorarioFuncAte.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(369, 246);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(49, 28);
+            this.label1.TabIndex = 53;
+            this.label1.Text = "Até";
             // 
             // telaCadastroDoFuncionario
             // 
@@ -696,10 +702,7 @@
 
         #endregion
         private System.Windows.Forms.Button btnSalvarCadastro;
-        private System.Windows.Forms.TextBox txtDataCadastro;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtDataEncerramento;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Panel barraSuperior;
         private System.Windows.Forms.Button btnPacienteConsulta;
@@ -716,7 +719,6 @@
         private System.Windows.Forms.Label lbMatriculaCadastro;
         private System.Windows.Forms.Label lbCidadeCadastro;
         private System.Windows.Forms.TextBox txtEmailCadastro;
-        private System.Windows.Forms.TextBox txtHorarioExpedienteCadastro;
         private System.Windows.Forms.TextBox txtCargaCadastro;
         private System.Windows.Forms.Label LbEmailCadastro;
         private System.Windows.Forms.Label lbTelefone;
@@ -742,5 +744,9 @@
         private System.Windows.Forms.MaskedTextBox txbTelFunc;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.MaskedTextBox txbCelFunc;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MaskedTextBox txtHorarioFuncAte;
+        private System.Windows.Forms.MaskedTextBox txbHorarioFuncDe;
     }
 }
