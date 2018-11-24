@@ -16,7 +16,7 @@ namespace WindowsFormsApp1.abrir_fechar_menus
 
         public void AbrirCadAgenda(Form cadagen)
         {
-            telaAgenda abrirAgen = new telaAgenda();
+            barraInferior abrirAgen = new barraInferior();
             abrirAgen.Show();
             cadagen.Hide();
         }
