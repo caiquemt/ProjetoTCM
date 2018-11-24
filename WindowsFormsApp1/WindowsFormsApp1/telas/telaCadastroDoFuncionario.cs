@@ -14,7 +14,7 @@ namespace WindowsFormsApp1
     public partial class telaCadastroDoFuncionario : Form
     {
         fecharAbrirMenus fecharform = new fecharAbrirMenus();
-        AbrirPaciente abripac = new AbrirPaciente();
+        AbrirPaciente abrirpac = new AbrirPaciente();
         AbrirMedico abrirmed = new AbrirMedico();
         AbrirFuncionario abrirfunc = new AbrirFuncionario();
         AbrirPagamento abrirpag = new AbrirPagamento();
@@ -139,5 +139,39 @@ namespace WindowsFormsApp1
 
         }
 
+        private void btnPacienteConsulta_Click_1(object sender, EventArgs e)
+        {
+            abrirpac.AbrirCadPaciente(this);
+        }
+
+        private void btnMedico_Click_1(object sender, EventArgs e)
+        {
+            abrirmed.AbrirCadMedico(this);
+        }
+
+        private void btnAgenda_Click_1(object sender, EventArgs e)
+        {
+            abriragen.AbrirCadAgenda(this);
+        }
+
+        private void btnEstoqueFuncionario_Click(object sender, EventArgs e)
+        {
+            abrirest.AbrirCadEstoque(this);
+        }
+
+        private void btnFuncionario_Click_1(object sender, EventArgs e)
+        {
+            abrirfunc.AbrirCadFuncionario(this);
+        }
+
+        private void btnPesquisa_Click_1(object sender, EventArgs e)
+        {
+            abrirpesq.AbrirCadPEsquisa(this);
+        }
+
+        private void btnSairCadastro_Click_1(object sender, EventArgs e)
+        {
+            fecharform.FecharTela(this;)
+        }
     }
 }

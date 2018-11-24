@@ -151,6 +151,7 @@
             this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSairCadastro.UseVisualStyleBackColor = true;
             this.btnSairCadastro.UseWaitCursor = true;
+            this.btnSairCadastro.Click += new System.EventHandler(this.btnSairCadastro_Click_1);
             // 
             // btnVoltarCadastro
             // 
@@ -184,6 +185,7 @@
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
             this.btnPacienteConsulta.UseWaitCursor = true;
+            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click_1);
             // 
             // btnFuncionario
             // 
@@ -217,6 +219,7 @@
             this.btnPagamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPagamento.UseVisualStyleBackColor = false;
             this.btnPagamento.UseWaitCursor = true;
+            this.btnPagamento.Click += new System.EventHandler(this.btnPagamento_Click_2);
             // 
             // btnEstoqueFuncionario
             // 
@@ -233,6 +236,7 @@
             this.btnEstoqueFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEstoqueFuncionario.UseVisualStyleBackColor = false;
             this.btnEstoqueFuncionario.UseWaitCursor = true;
+            this.btnEstoqueFuncionario.Click += new System.EventHandler(this.btnEstoqueFuncionario_Click_1);
             // 
             // btnProntuario
             // 
@@ -249,6 +253,7 @@
             this.btnProntuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProntuario.UseVisualStyleBackColor = false;
             this.btnProntuario.UseWaitCursor = true;
+            this.btnProntuario.Click += new System.EventHandler(this.btnProntuario_Click_2);
             // 
             // btnAgenda
             // 
@@ -265,6 +270,7 @@
             this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAgenda.UseVisualStyleBackColor = false;
             this.btnAgenda.UseWaitCursor = true;
+            this.btnAgenda.Click += new System.EventHandler(this.btnAgenda_Click_1);
             // 
             // btnMedico
             // 
@@ -281,6 +287,7 @@
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
             this.btnMedico.UseWaitCursor = true;
+            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click_2);
             // 
             // btnPesquisa
             // 

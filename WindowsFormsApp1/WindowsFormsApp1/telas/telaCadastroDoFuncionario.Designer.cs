@@ -217,7 +217,7 @@
             this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSairCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSairCadastro.UseVisualStyleBackColor = true;
-            //this.btnSairCadastro.Click += new System.EventHandler(this.btnSairCadastro_Click_1);
+            this.btnSairCadastro.Click += new System.EventHandler(this.btnSairCadastro_Click_1);
             // 
             // btnVoltarCadastro
             // 
@@ -249,6 +249,7 @@
             this.btnPacienteConsulta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteConsulta.UseVisualStyleBackColor = false;
+            this.btnPacienteConsulta.Click += new System.EventHandler(this.btnPacienteConsulta_Click_1);
             // 
             // btnFuncionario
             // 
@@ -264,6 +265,7 @@
             this.btnFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFuncionario.UseVisualStyleBackColor = false;
+            this.btnFuncionario.Click += new System.EventHandler(this.btnFuncionario_Click_1);
             // 
             // btnPagamento
             // 
@@ -295,6 +297,7 @@
             this.btnEstoqueFuncionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEstoqueFuncionario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEstoqueFuncionario.UseVisualStyleBackColor = false;
+            this.btnEstoqueFuncionario.Click += new System.EventHandler(this.btnEstoqueFuncionario_Click);
             // 
             // btnProntuario
             // 
@@ -326,6 +329,7 @@
             this.btnAgenda.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAgenda.UseVisualStyleBackColor = false;
+            this.btnAgenda.Click += new System.EventHandler(this.btnAgenda_Click_1);
             // 
             // btnMedico
             // 
@@ -341,6 +345,7 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
+            this.btnMedico.Click += new System.EventHandler(this.btnMedico_Click_1);
             // 
             // btnPesquisa
             // 
@@ -356,6 +361,7 @@
             this.btnPesquisa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPesquisa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPesquisa.UseVisualStyleBackColor = false;
+            this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click_1);
             // 
             // txtCelularCadastro
             // 
