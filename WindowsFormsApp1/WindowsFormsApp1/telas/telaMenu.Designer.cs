@@ -106,7 +106,7 @@
             this.btnMedico.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedico.UseVisualStyleBackColor = false;
-            this.btnMedico.Click += new System.EventHandler(this.button5_Click);
+           // this.btnMedico.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnAgenda
             // 

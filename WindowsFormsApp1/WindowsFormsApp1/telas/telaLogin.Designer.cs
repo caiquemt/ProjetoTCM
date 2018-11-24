@@ -30,7 +30,7 @@
         {
             this.lbUsuarioLogin = new System.Windows.Forms.Label();
             this.lbSenhaLogin = new System.Windows.Forms.Label();
-            this.btnConectarLogin = new System.Windows.Forms.Button();
+            this.btnEntrarLogin = new System.Windows.Forms.Button();
             this.btnCancelarLogin = new System.Windows.Forms.Button();
             this.lkEsqueciSenhaLogin = new System.Windows.Forms.LinkLabel();
             this.txtUsuarioLogin = new System.Windows.Forms.TextBox();
@@ -60,18 +60,18 @@
             this.lbSenhaLogin.Text = "Senha";
             this.lbSenhaLogin.Click += new System.EventHandler(this.label3_Click);
             // 
-            // btnConectarLogin
+            // btnEntrarLogin
             // 
-            this.btnConectarLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnConectarLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConectarLogin.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.btnConectarLogin.Location = new System.Drawing.Point(23, 125);
-            this.btnConectarLogin.Name = "btnConectarLogin";
-            this.btnConectarLogin.Size = new System.Drawing.Size(89, 31);
-            this.btnConectarLogin.TabIndex = 3;
-            this.btnConectarLogin.Text = "Conectar";
-            this.btnConectarLogin.UseVisualStyleBackColor = false;
-            this.btnConectarLogin.Click += new System.EventHandler(this.btnConectarLogin_Click);
+            this.btnEntrarLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnEntrarLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEntrarLogin.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEntrarLogin.Location = new System.Drawing.Point(23, 125);
+            this.btnEntrarLogin.Name = "btnEntrarLogin";
+            this.btnEntrarLogin.Size = new System.Drawing.Size(89, 31);
+            this.btnEntrarLogin.TabIndex = 3;
+            this.btnEntrarLogin.Text = "Entrar";
+            this.btnEntrarLogin.UseVisualStyleBackColor = false;
+            this.btnEntrarLogin.Click += new System.EventHandler(this.btnEntrarLogin_Click);
             // 
             // btnCancelarLogin
             // 
@@ -112,6 +112,7 @@
             this.txtSenhaLogin.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
             this.txtSenhaLogin.Location = new System.Drawing.Point(88, 77);
             this.txtSenhaLogin.Name = "txtSenhaLogin";
+            this.txtSenhaLogin.PasswordChar = '*';
             this.txtSenhaLogin.Size = new System.Drawing.Size(152, 26);
             this.txtSenhaLogin.TabIndex = 7;
             this.txtSenhaLogin.TextChanged += new System.EventHandler(this.txtSenhaLogin_TextChanged);
@@ -142,7 +143,7 @@
             this.Controls.Add(this.lbUsuarioLogin);
             this.Controls.Add(this.btnCancelarLogin);
             this.Controls.Add(this.lbSenhaLogin);
-            this.Controls.Add(this.btnConectarLogin);
+            this.Controls.Add(this.btnEntrarLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "telaLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -156,7 +157,7 @@
 
         private System.Windows.Forms.Label lbUsuarioLogin;
         private System.Windows.Forms.Label lbSenhaLogin;
-        private System.Windows.Forms.Button btnConectarLogin;
+        private System.Windows.Forms.Button btnEntrarLogin;
         private System.Windows.Forms.Button btnCancelarLogin;
         private System.Windows.Forms.LinkLabel lkEsqueciSenhaLogin;
         private System.Windows.Forms.TextBox txtUsuarioLogin;

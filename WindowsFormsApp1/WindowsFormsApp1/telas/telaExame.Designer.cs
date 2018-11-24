@@ -126,6 +126,7 @@
             this.btnPacienteExame.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPacienteExame.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPacienteExame.UseVisualStyleBackColor = false;
+            this.btnPacienteExame.Click += new System.EventHandler(this.btnPacienteExame_Click);
             // 
             // btnFuncionarioExame
             // 
@@ -141,6 +142,7 @@
             this.btnFuncionarioExame.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnFuncionarioExame.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFuncionarioExame.UseVisualStyleBackColor = false;
+            this.btnFuncionarioExame.Click += new System.EventHandler(this.btnFuncionarioExame_Click);
             // 
             // btnPagamentoExame
             // 
@@ -156,6 +158,7 @@
             this.btnPagamentoExame.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPagamentoExame.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPagamentoExame.UseVisualStyleBackColor = false;
+            this.btnPagamentoExame.Click += new System.EventHandler(this.btnPagamentoExame_Click);
             // 
             // btnEstoqueExame
             // 
@@ -171,6 +174,7 @@
             this.btnEstoqueExame.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnEstoqueExame.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEstoqueExame.UseVisualStyleBackColor = false;
+            this.btnEstoqueExame.Click += new System.EventHandler(this.btnEstoqueExame_Click);
             // 
             // btnProntuarioExame
             // 
@@ -186,6 +190,7 @@
             this.btnProntuarioExame.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnProntuarioExame.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnProntuarioExame.UseVisualStyleBackColor = false;
+            this.btnProntuarioExame.Click += new System.EventHandler(this.btnProntuarioExame_Click);
             // 
             // btnAgendaExame
             // 
@@ -201,6 +206,7 @@
             this.btnAgendaExame.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAgendaExame.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnAgendaExame.UseVisualStyleBackColor = false;
+            this.btnAgendaExame.Click += new System.EventHandler(this.btnAgendaExame_Click);
             // 
             // btnMedicoExame
             // 
@@ -216,6 +222,7 @@
             this.btnMedicoExame.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMedicoExame.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnMedicoExame.UseVisualStyleBackColor = false;
+            this.btnMedicoExame.Click += new System.EventHandler(this.btnMedicoExame_Click);
             // 
             // btnPesquisaExame
             // 
@@ -231,6 +238,7 @@
             this.btnPesquisaExame.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPesquisaExame.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPesquisaExame.UseVisualStyleBackColor = false;
+            this.btnPesquisaExame.Click += new System.EventHandler(this.btnPesquisaExame_Click);
             // 
             // panel1
             // 
@@ -245,7 +253,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(949, 426);
             this.panel1.TabIndex = 24;
-            //this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnSelecionarImagemExame
             // 

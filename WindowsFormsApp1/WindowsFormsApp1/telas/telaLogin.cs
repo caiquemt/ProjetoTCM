@@ -44,7 +44,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void btnConectarLogin_Click(object sender, EventArgs e)
+        private void btnEntrarLogin_Click(object sender, EventArgs e)
         {
             telaMenu telamenu = new telaMenu();
 
