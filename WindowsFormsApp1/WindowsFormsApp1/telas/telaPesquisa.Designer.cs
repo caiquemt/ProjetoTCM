@@ -121,7 +121,7 @@
             this.btnPacienteConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPacienteConsulta.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPacienteConsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnPacienteConsulta.Image")));
-            this.btnPacienteConsulta.Location = new System.Drawing.Point(-1, -1);
+            this.btnPacienteConsulta.Location = new System.Drawing.Point(0, 0);
             this.btnPacienteConsulta.Name = "btnPacienteConsulta";
             this.btnPacienteConsulta.Size = new System.Drawing.Size(101, 80);
             this.btnPacienteConsulta.TabIndex = 23;
