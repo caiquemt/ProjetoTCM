@@ -590,9 +590,9 @@
             this.barraSuperior.Controls.Add(this.btnMedico);
             this.barraSuperior.Controls.Add(this.button5);
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barraSuperior.Location = new System.Drawing.Point(0, -1);
+            this.barraSuperior.Location = new System.Drawing.Point(0, 0);
             this.barraSuperior.Name = "barraSuperior";
-            this.barraSuperior.Size = new System.Drawing.Size(1280, 81);
+            this.barraSuperior.Size = new System.Drawing.Size(1280, 80);
             this.barraSuperior.TabIndex = 37;
             // 
             // btnSairPrograma
@@ -601,9 +601,9 @@
             this.btnSairPrograma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairPrograma.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairPrograma.Image = ((System.Drawing.Image)(resources.GetObject("btnSairPrograma.Image")));
-            this.btnSairPrograma.Location = new System.Drawing.Point(1187, 0);
+            this.btnSairPrograma.Location = new System.Drawing.Point(1187, -1);
             this.btnSairPrograma.Name = "btnSairPrograma";
-            this.btnSairPrograma.Size = new System.Drawing.Size(92, 81);
+            this.btnSairPrograma.Size = new System.Drawing.Size(101, 80);
             this.btnSairPrograma.TabIndex = 26;
             this.btnSairPrograma.Text = "Sair";
             this.btnSairPrograma.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -617,9 +617,9 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1091, 0);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1068, -1);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
-            this.btnVoltarCadastro.Size = new System.Drawing.Size(90, 81);
+            this.btnVoltarCadastro.Size = new System.Drawing.Size(101, 80);
             this.btnVoltarCadastro.TabIndex = 27;
             this.btnVoltarCadastro.Text = "Voltar";
             this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
