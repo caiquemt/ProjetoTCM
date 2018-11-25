@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,8 +9,7 @@ namespace WindowsFormsApp1
 {
     public class conexao
     {
-        /*private SqlConnection conexao = new SqlConnection("User ID = SA; Initial Catalog =  DB_SISTEMA_SALAO; Data Source = (local); Password = 1234567");
-
+        /*private SqlConnection conexao = new SqlConnection("User ID = DESKTOP-FQM5N44/gabs; Initial Catalog =  TCM_clinica; Data Source = (local); Password = ");
 
 
         public SqlConnection getConexao
