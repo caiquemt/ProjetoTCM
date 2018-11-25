@@ -30,10 +30,25 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaConsulta));
             this.barraSuperior = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.lblCRMConsulta = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.lblCodigoConsulta = new System.Windows.Forms.Label();
+            this.lblDiaConsulta = new System.Windows.Forms.Label();
+            this.lblPacienteConsulta = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lblMedicoConsulta = new System.Windows.Forms.Label();
+            this.lblDataConsulta = new System.Windows.Forms.Label();
+            this.lblHoraConsulta = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.lblEspecialidadeConsulta = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblRelogio = new System.Windows.Forms.Label();
-            this.btnSalvarCons = new System.Windows.Forms.Button();
-            this.btnAlterarCons = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSairCadastro = new System.Windows.Forms.Button();
@@ -46,30 +61,15 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.btnPesquisa = new System.Windows.Forms.Button();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.lblPacienteConsulta = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.lblDataConsulta = new System.Windows.Forms.Label();
-            this.lblEspecialidadeConsulta = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.lblHoraConsulta = new System.Windows.Forms.Label();
-            this.lblMedicoConsulta = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.lblDiaConsulta = new System.Windows.Forms.Label();
-            this.lblCRMConsulta = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.lblCodigoConsulta = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnSalvarCons = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnAlterarCons = new System.Windows.Forms.Button();
             this.barraSuperior.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,6 +88,181 @@
             this.barraSuperior.Size = new System.Drawing.Size(1280, 720);
             this.barraSuperior.TabIndex = 23;
             this.barraSuperior.Paint += new System.Windows.Forms.PaintEventHandler(this.barraSuperior_Paint);
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.textBox1);
+            this.panel4.Controls.Add(this.maskedTextBox2);
+            this.panel4.Controls.Add(this.textBox5);
+            this.panel4.Controls.Add(this.lblCRMConsulta);
+            this.panel4.Controls.Add(this.maskedTextBox1);
+            this.panel4.Controls.Add(this.lblCodigoConsulta);
+            this.panel4.Controls.Add(this.lblDiaConsulta);
+            this.panel4.Controls.Add(this.lblPacienteConsulta);
+            this.panel4.Controls.Add(this.textBox6);
+            this.panel4.Controls.Add(this.textBox8);
+            this.panel4.Controls.Add(this.textBox4);
+            this.panel4.Controls.Add(this.lblMedicoConsulta);
+            this.panel4.Controls.Add(this.lblDataConsulta);
+            this.panel4.Controls.Add(this.lblHoraConsulta);
+            this.panel4.Controls.Add(this.textBox7);
+            this.panel4.Controls.Add(this.lblEspecialidadeConsulta);
+            this.panel4.Location = new System.Drawing.Point(36, 190);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(919, 446);
+            this.panel4.TabIndex = 70;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox1.Location = new System.Drawing.Point(123, 39);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(769, 36);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox2.Location = new System.Drawing.Point(93, 259);
+            this.maskedTextBox2.Mask = "00:00";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(120, 36);
+            this.maskedTextBox2.TabIndex = 17;
+            this.maskedTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox5.Location = new System.Drawing.Point(123, 92);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(769, 36);
+            this.textBox5.TabIndex = 12;
+            // 
+            // lblCRMConsulta
+            // 
+            this.lblCRMConsulta.AutoSize = true;
+            this.lblCRMConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCRMConsulta.Location = new System.Drawing.Point(424, 236);
+            this.lblCRMConsulta.Name = "lblCRMConsulta";
+            this.lblCRMConsulta.Size = new System.Drawing.Size(69, 28);
+            this.lblCRMConsulta.TabIndex = 6;
+            this.lblCRMConsulta.Text = "CRM:";
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox1.Location = new System.Drawing.Point(93, 208);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(120, 36);
+            this.maskedTextBox1.TabIndex = 16;
+            this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lblCodigoConsulta
+            // 
+            this.lblCodigoConsulta.AutoSize = true;
+            this.lblCodigoConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblCodigoConsulta.Location = new System.Drawing.Point(426, 287);
+            this.lblCodigoConsulta.Name = "lblCodigoConsulta";
+            this.lblCodigoConsulta.Size = new System.Drawing.Size(196, 28);
+            this.lblCodigoConsulta.TabIndex = 7;
+            this.lblCodigoConsulta.Text = "Código Consulta:";
+            // 
+            // lblDiaConsulta
+            // 
+            this.lblDiaConsulta.AutoSize = true;
+            this.lblDiaConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblDiaConsulta.Location = new System.Drawing.Point(3, 308);
+            this.lblDiaConsulta.Name = "lblDiaConsulta";
+            this.lblDiaConsulta.Size = new System.Drawing.Size(57, 28);
+            this.lblDiaConsulta.TabIndex = 5;
+            this.lblDiaConsulta.Text = "Dia:";
+            // 
+            // lblPacienteConsulta
+            // 
+            this.lblPacienteConsulta.AutoSize = true;
+            this.lblPacienteConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblPacienteConsulta.Location = new System.Drawing.Point(3, 42);
+            this.lblPacienteConsulta.Name = "lblPacienteConsulta";
+            this.lblPacienteConsulta.Size = new System.Drawing.Size(114, 28);
+            this.lblPacienteConsulta.TabIndex = 0;
+            this.lblPacienteConsulta.Text = "Paciente:";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox6.Location = new System.Drawing.Point(93, 305);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(262, 36);
+            this.textBox6.TabIndex = 13;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox8.Location = new System.Drawing.Point(628, 284);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(264, 36);
+            this.textBox8.TabIndex = 15;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox4.Location = new System.Drawing.Point(181, 145);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(711, 36);
+            this.textBox4.TabIndex = 11;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // lblMedicoConsulta
+            // 
+            this.lblMedicoConsulta.AutoSize = true;
+            this.lblMedicoConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblMedicoConsulta.Location = new System.Drawing.Point(3, 95);
+            this.lblMedicoConsulta.Name = "lblMedicoConsulta";
+            this.lblMedicoConsulta.Size = new System.Drawing.Size(99, 28);
+            this.lblMedicoConsulta.TabIndex = 1;
+            this.lblMedicoConsulta.Text = "Médico:";
+            // 
+            // lblDataConsulta
+            // 
+            this.lblDataConsulta.AutoSize = true;
+            this.lblDataConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblDataConsulta.Location = new System.Drawing.Point(3, 208);
+            this.lblDataConsulta.Name = "lblDataConsulta";
+            this.lblDataConsulta.Size = new System.Drawing.Size(71, 28);
+            this.lblDataConsulta.TabIndex = 3;
+            this.lblDataConsulta.Text = "Data:";
+            // 
+            // lblHoraConsulta
+            // 
+            this.lblHoraConsulta.AutoSize = true;
+            this.lblHoraConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblHoraConsulta.Location = new System.Drawing.Point(3, 259);
+            this.lblHoraConsulta.Name = "lblHoraConsulta";
+            this.lblHoraConsulta.Size = new System.Drawing.Size(74, 28);
+            this.lblHoraConsulta.TabIndex = 4;
+            this.lblHoraConsulta.Text = "Hora:";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.textBox7.Location = new System.Drawing.Point(499, 233);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(393, 36);
+            this.textBox7.TabIndex = 14;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            // 
+            // lblEspecialidadeConsulta
+            // 
+            this.lblEspecialidadeConsulta.AutoSize = true;
+            this.lblEspecialidadeConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblEspecialidadeConsulta.Location = new System.Drawing.Point(3, 148);
+            this.lblEspecialidadeConsulta.Name = "lblEspecialidadeConsulta";
+            this.lblEspecialidadeConsulta.Size = new System.Drawing.Size(172, 28);
+            this.lblEspecialidadeConsulta.TabIndex = 2;
+            this.lblEspecialidadeConsulta.Text = "Especialidade:";
             // 
             // panel2
             // 
@@ -110,37 +285,6 @@
             this.lblRelogio.Size = new System.Drawing.Size(110, 28);
             this.lblRelogio.TabIndex = 0;
             this.lblRelogio.Text = "00:00:00";
-            // 
-            // btnSalvarCons
-            // 
-            this.btnSalvarCons.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalvarCons.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnSalvarCons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalvarCons.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnSalvarCons.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
-            this.btnSalvarCons.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvarCons.Location = new System.Drawing.Point(68, 317);
-            this.btnSalvarCons.Name = "btnSalvarCons";
-            this.btnSalvarCons.Size = new System.Drawing.Size(119, 32);
-            this.btnSalvarCons.TabIndex = 66;
-            this.btnSalvarCons.Text = "Salvar";
-            this.btnSalvarCons.UseVisualStyleBackColor = false;
-            // 
-            // btnAlterarCons
-            // 
-            this.btnAlterarCons.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnAlterarCons.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnAlterarCons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterarCons.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnAlterarCons.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
-            this.btnAlterarCons.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlterarCons.Location = new System.Drawing.Point(66, 257);
-            this.btnAlterarCons.Name = "btnAlterarCons";
-            this.btnAlterarCons.Size = new System.Drawing.Size(121, 35);
-            this.btnAlterarCons.TabIndex = 67;
-            this.btnAlterarCons.Text = "Alterar";
-            this.btnAlterarCons.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -169,7 +313,7 @@
             this.panel1.Controls.Add(this.btnMedico);
             this.panel1.Controls.Add(this.btnPesquisa);
             this.panel1.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(-1, -1);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1280, 81);
             this.panel1.TabIndex = 26;
@@ -332,157 +476,6 @@
             this.btnPesquisa.UseVisualStyleBackColor = false;
             this.btnPesquisa.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox2.Location = new System.Drawing.Point(93, 259);
-            this.maskedTextBox2.Mask = "00:00";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(120, 36);
-            this.maskedTextBox2.TabIndex = 17;
-            this.maskedTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox1.Location = new System.Drawing.Point(93, 208);
-            this.maskedTextBox1.Mask = "00/00/0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(120, 36);
-            this.maskedTextBox1.TabIndex = 16;
-            this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblPacienteConsulta
-            // 
-            this.lblPacienteConsulta.AutoSize = true;
-            this.lblPacienteConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblPacienteConsulta.Location = new System.Drawing.Point(3, 42);
-            this.lblPacienteConsulta.Name = "lblPacienteConsulta";
-            this.lblPacienteConsulta.Size = new System.Drawing.Size(114, 28);
-            this.lblPacienteConsulta.TabIndex = 0;
-            this.lblPacienteConsulta.Text = "Paciente:";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox8.Location = new System.Drawing.Point(628, 284);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(264, 36);
-            this.textBox8.TabIndex = 15;
-            // 
-            // lblDataConsulta
-            // 
-            this.lblDataConsulta.AutoSize = true;
-            this.lblDataConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblDataConsulta.Location = new System.Drawing.Point(3, 208);
-            this.lblDataConsulta.Name = "lblDataConsulta";
-            this.lblDataConsulta.Size = new System.Drawing.Size(71, 28);
-            this.lblDataConsulta.TabIndex = 3;
-            this.lblDataConsulta.Text = "Data:";
-            // 
-            // lblEspecialidadeConsulta
-            // 
-            this.lblEspecialidadeConsulta.AutoSize = true;
-            this.lblEspecialidadeConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblEspecialidadeConsulta.Location = new System.Drawing.Point(3, 148);
-            this.lblEspecialidadeConsulta.Name = "lblEspecialidadeConsulta";
-            this.lblEspecialidadeConsulta.Size = new System.Drawing.Size(172, 28);
-            this.lblEspecialidadeConsulta.TabIndex = 2;
-            this.lblEspecialidadeConsulta.Text = "Especialidade:";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox7.Location = new System.Drawing.Point(499, 233);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(393, 36);
-            this.textBox7.TabIndex = 14;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
-            // 
-            // lblHoraConsulta
-            // 
-            this.lblHoraConsulta.AutoSize = true;
-            this.lblHoraConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblHoraConsulta.Location = new System.Drawing.Point(3, 259);
-            this.lblHoraConsulta.Name = "lblHoraConsulta";
-            this.lblHoraConsulta.Size = new System.Drawing.Size(74, 28);
-            this.lblHoraConsulta.TabIndex = 4;
-            this.lblHoraConsulta.Text = "Hora:";
-            // 
-            // lblMedicoConsulta
-            // 
-            this.lblMedicoConsulta.AutoSize = true;
-            this.lblMedicoConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblMedicoConsulta.Location = new System.Drawing.Point(3, 95);
-            this.lblMedicoConsulta.Name = "lblMedicoConsulta";
-            this.lblMedicoConsulta.Size = new System.Drawing.Size(99, 28);
-            this.lblMedicoConsulta.TabIndex = 1;
-            this.lblMedicoConsulta.Text = "Médico:";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox6.Location = new System.Drawing.Point(93, 305);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(262, 36);
-            this.textBox6.TabIndex = 13;
-            // 
-            // lblDiaConsulta
-            // 
-            this.lblDiaConsulta.AutoSize = true;
-            this.lblDiaConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblDiaConsulta.Location = new System.Drawing.Point(3, 308);
-            this.lblDiaConsulta.Name = "lblDiaConsulta";
-            this.lblDiaConsulta.Size = new System.Drawing.Size(57, 28);
-            this.lblDiaConsulta.TabIndex = 5;
-            this.lblDiaConsulta.Text = "Dia:";
-            // 
-            // lblCRMConsulta
-            // 
-            this.lblCRMConsulta.AutoSize = true;
-            this.lblCRMConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblCRMConsulta.Location = new System.Drawing.Point(424, 236);
-            this.lblCRMConsulta.Name = "lblCRMConsulta";
-            this.lblCRMConsulta.Size = new System.Drawing.Size(69, 28);
-            this.lblCRMConsulta.TabIndex = 6;
-            this.lblCRMConsulta.Text = "CRM:";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox5.Location = new System.Drawing.Point(123, 92);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(769, 36);
-            this.textBox5.TabIndex = 12;
-            // 
-            // lblCodigoConsulta
-            // 
-            this.lblCodigoConsulta.AutoSize = true;
-            this.lblCodigoConsulta.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblCodigoConsulta.Location = new System.Drawing.Point(426, 287);
-            this.lblCodigoConsulta.Name = "lblCodigoConsulta";
-            this.lblCodigoConsulta.Size = new System.Drawing.Size(196, 28);
-            this.lblCodigoConsulta.TabIndex = 7;
-            this.lblCodigoConsulta.Text = "Código Consulta:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox1.Location = new System.Drawing.Point(123, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(769, 36);
-            this.textBox1.TabIndex = 8;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.textBox4.Location = new System.Drawing.Point(181, 145);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(711, 36);
-            this.textBox4.TabIndex = 11;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
-            // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -494,29 +487,21 @@
             this.panel3.Size = new System.Drawing.Size(244, 446);
             this.panel3.TabIndex = 69;
             // 
-            // panel4
+            // btnSalvarCons
             // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.textBox1);
-            this.panel4.Controls.Add(this.maskedTextBox2);
-            this.panel4.Controls.Add(this.textBox5);
-            this.panel4.Controls.Add(this.lblCRMConsulta);
-            this.panel4.Controls.Add(this.maskedTextBox1);
-            this.panel4.Controls.Add(this.lblCodigoConsulta);
-            this.panel4.Controls.Add(this.lblDiaConsulta);
-            this.panel4.Controls.Add(this.lblPacienteConsulta);
-            this.panel4.Controls.Add(this.textBox6);
-            this.panel4.Controls.Add(this.textBox8);
-            this.panel4.Controls.Add(this.textBox4);
-            this.panel4.Controls.Add(this.lblMedicoConsulta);
-            this.panel4.Controls.Add(this.lblDataConsulta);
-            this.panel4.Controls.Add(this.lblHoraConsulta);
-            this.panel4.Controls.Add(this.textBox7);
-            this.panel4.Controls.Add(this.lblEspecialidadeConsulta);
-            this.panel4.Location = new System.Drawing.Point(36, 190);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(919, 446);
-            this.panel4.TabIndex = 70;
+            this.btnSalvarCons.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalvarCons.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnSalvarCons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvarCons.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnSalvarCons.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
+            this.btnSalvarCons.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvarCons.Location = new System.Drawing.Point(68, 317);
+            this.btnSalvarCons.Name = "btnSalvarCons";
+            this.btnSalvarCons.Size = new System.Drawing.Size(119, 32);
+            this.btnSalvarCons.TabIndex = 66;
+            this.btnSalvarCons.Text = "Salvar";
+            this.btnSalvarCons.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -525,6 +510,21 @@
             this.pictureBox1.Size = new System.Drawing.Size(180, 155);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // btnAlterarCons
+            // 
+            this.btnAlterarCons.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnAlterarCons.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAlterarCons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlterarCons.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnAlterarCons.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
+            this.btnAlterarCons.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlterarCons.Location = new System.Drawing.Point(66, 257);
+            this.btnAlterarCons.Name = "btnAlterarCons";
+            this.btnAlterarCons.Size = new System.Drawing.Size(121, 35);
+            this.btnAlterarCons.TabIndex = 67;
+            this.btnAlterarCons.Text = "Alterar";
+            this.btnAlterarCons.UseVisualStyleBackColor = false;
             // 
             // telaConsulta
             // 
@@ -539,12 +539,12 @@
             this.Text = "telaConsulta";
             this.barraSuperior.ResumeLayout(false);
             this.barraSuperior.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

@@ -131,7 +131,7 @@
             this.barraSuperior.Controls.Add(this.btnMedico);
             this.barraSuperior.Controls.Add(this.btnPesquisa);
             this.barraSuperior.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.barraSuperior.Location = new System.Drawing.Point(-1, -1);
+            this.barraSuperior.Location = new System.Drawing.Point(0, 0);
             this.barraSuperior.Name = "barraSuperior";
             this.barraSuperior.Size = new System.Drawing.Size(1280, 81);
             this.barraSuperior.TabIndex = 23;
