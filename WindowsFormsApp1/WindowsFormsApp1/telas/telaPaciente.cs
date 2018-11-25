@@ -12,7 +12,7 @@ using WindowsFormsApp1.dominio;
 
 namespace WindowsFormsApp1
 {
-    public partial class telaPaciente : Form
+    public partial class btnSalvarFunc : Form
     {
         fecharAbrirMenus fecharform = new fecharAbrirMenus();
         AbrirPaciente abripac = new AbrirPaciente();
@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
 
         Timer t = new Timer();
 
-        public telaPaciente()
+        public btnSalvarFunc()
         {
             InitializeComponent();
         }
@@ -155,6 +155,44 @@ namespace WindowsFormsApp1
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnSalvarFunc_Click(object sender, EventArgs e)
+        {
+            Paciente paciente = new Paciente();
+
+            if (validarCamposVazios())
+            {
+
+
+                paciente.Nome_pac = txbNomePac.Text;
+                paciente.Nasc_pac = mskNascPac.Text;
+                paciente.Idade_pac = txbIdadePac.Text;
+                paciente.Cpf_pac = mskCpfPac.Text;
+                paciente.Rg_pac = mskRgPac.Text;
+                paciente.Etnia_pac = cmbEtniaPac.Text;
+                paciente.Sexo_pac = rdbFemPac.Text;
+                paciente.Rua_pac = txbRuaPac.Text;
+                paciente.Bairro_pac = txbBairroPac.Text;
+                paciente.Numero_rua_pac = txbNumRuaPac.Text;
+                paciente.Cidade_pac = txbCidadePac.Text;
+                paciente.Telefone_pac = mskTelPac.Text;
+                paciente.Celular_pac = mskCelPac.Text;
+                paciente.Email_pac = txbEmailPac.Text;
+                paciente.Pai_pac = txbPaiPac.Text;
+                paciente.Mae_pac = txbMaePac.Text;
+                paciente.Responsavel_pac = txbRespPac.Text;
+                
+                
+                controladora.Insert(paciente);
+                // LimparTela();
+
+            }
+            else
+            {
+                MessageBox.Show("Preencha todos os campos obrigatórios!");
+                
+            }
         }
     }
 }

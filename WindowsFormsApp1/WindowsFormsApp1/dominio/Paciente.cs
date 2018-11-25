@@ -20,6 +20,7 @@ namespace WindowsFormsApp1.dominio
         private String convenio_pac;
         private int matricula_pac;
         private String rua_pac;
+        private String bairro_pac;
         private int numero_rua_pac;
         private String complemento_pac;
         private int cep_pac;
@@ -32,8 +33,6 @@ namespace WindowsFormsApp1.dominio
         private String mae_pac;
         private String pai_pac;
         private String responsavel_pac;
-        private int documento_resp_pac;
-        private String observacoes_pac;
         private String imagem_pac;
 
         public string Nome_pac { get => nome_pac; set => nome_pac = value; }
@@ -47,6 +46,7 @@ namespace WindowsFormsApp1.dominio
         public string Convenio_pac { get => convenio_pac; set => convenio_pac = value; }
         public int Matricula_pac { get => matricula_pac; set => matricula_pac = value; }
         public string Rua_pac { get => rua_pac; set => rua_pac = value; }
+        public string Bairro_pac { get => bairro_pac; set => bairro_pac = value; }
         public int Numero_rua_pac { get => numero_rua_pac; set => numero_rua_pac = value; }
         public string Complemento_pac { get => complemento_pac; set => complemento_pac = value; }
         public int Cep_pac { get => cep_pac; set => cep_pac = value; }
@@ -59,14 +59,12 @@ namespace WindowsFormsApp1.dominio
         public string Mae_pac { get => mae_pac; set => mae_pac = value; }
         public string Pai_pac { get => pai_pac; set => pai_pac = value; }
         public string Responsavel_pac { get => responsavel_pac; set => responsavel_pac = value; }
-        public int Documento_resp_pac { get => documento_resp_pac; set => documento_resp_pac = value; }
-        public string Observacoes_pac { get => observacoes_pac; set => observacoes_pac = value; }
         public string Imagem_pac { get => imagem_pac; set => imagem_pac = value; }
 
         public override string ToString()
         {
-            return String.Concat(Nome_pac, Nasc_pac, Idade_pac, Rg_pac, Cpf_pac, Etnia_pac, Sexo_pac, Prontuario_pac, Convenio_pac, Matricula_pac, Rua_pac, Numero_rua_pac,
-                                 Complemento_pac, Cep_pac, Naturalidade_pac, Uf_pac, Cidade_pac, Email_pac, Mae_pac, Pai_pac, Responsavel_pac, Documento_resp_pac, Observacoes_pac, Imagem_pac);
+            return String.Concat(Nome_pac, Nasc_pac, Idade_pac, Rg_pac, Cpf_pac, Etnia_pac, Sexo_pac, Prontuario_pac, Convenio_pac, Matricula_pac, Rua_pac, Bairro_pac, Numero_rua_pac,
+                                 Complemento_pac, Cep_pac, Naturalidade_pac, Uf_pac, Cidade_pac, Email_pac, Mae_pac, Pai_pac, Responsavel_pac, Imagem_pac);
         }
 
         public void ExibirCadPac()

@@ -252,9 +252,7 @@
   <ItemGroup>
     <None Include="Resources\download.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bancodados\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
@@ -290,6 +288,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Icones\clearicon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bancodados\bancodedados.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
