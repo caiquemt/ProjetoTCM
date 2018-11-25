@@ -567,7 +567,7 @@
             // 
             this.lblFichaPaciente.AutoSize = true;
             this.lblFichaPaciente.Font = new System.Drawing.Font("Arial Rounded MT Bold", 30F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFichaPaciente.Location = new System.Drawing.Point(452, 97);
+            this.lblFichaPaciente.Location = new System.Drawing.Point(430, 97);
             this.lblFichaPaciente.Name = "lblFichaPaciente";
             this.lblFichaPaciente.Size = new System.Drawing.Size(436, 46);
             this.lblFichaPaciente.TabIndex = 36;

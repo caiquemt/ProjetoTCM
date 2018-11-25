@@ -742,11 +742,11 @@
             this.lblCadMed.AutoSize = true;
             this.lblCadMed.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCadMed.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblCadMed.Location = new System.Drawing.Point(468, 116);
+            this.lblCadMed.Location = new System.Drawing.Point(445, 109);
             this.lblCadMed.Name = "lblCadMed";
-            this.lblCadMed.Size = new System.Drawing.Size(346, 41);
+            this.lblCadMed.Size = new System.Drawing.Size(417, 41);
             this.lblCadMed.TabIndex = 64;
-            this.lblCadMed.Text = "Cadastro de Médico";
+            this.lblCadMed.Text = "CADASTRO DO MÉDICO";
             // 
             // panel4
             // 

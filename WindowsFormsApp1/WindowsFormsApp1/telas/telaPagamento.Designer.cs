@@ -201,7 +201,7 @@
             // 
             this.lblPagamento.AutoSize = true;
             this.lblPagamento.Font = new System.Drawing.Font("Arial Rounded MT Bold", 30F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPagamento.Location = new System.Drawing.Point(545, 127);
+            this.lblPagamento.Location = new System.Drawing.Point(499, 104);
             this.lblPagamento.Name = "lblPagamento";
             this.lblPagamento.Size = new System.Drawing.Size(284, 46);
             this.lblPagamento.TabIndex = 37;
