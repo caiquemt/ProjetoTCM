@@ -671,11 +671,11 @@
             this.lblCdastroFuncionario.AutoSize = true;
             this.lblCdastroFuncionario.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCdastroFuncionario.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblCdastroFuncionario.Location = new System.Drawing.Point(489, 112);
+            this.lblCdastroFuncionario.Location = new System.Drawing.Point(372, 113);
             this.lblCdastroFuncionario.Name = "lblCdastroFuncionario";
-            this.lblCdastroFuncionario.Size = new System.Drawing.Size(423, 41);
+            this.lblCdastroFuncionario.Size = new System.Drawing.Size(521, 41);
             this.lblCdastroFuncionario.TabIndex = 42;
-            this.lblCdastroFuncionario.Text = "Cadastro do Funcionário";
+            this.lblCdastroFuncionario.Text = "CADASTRO DO FUNCIONÁRIO";
             // 
             // panel3
             // 
