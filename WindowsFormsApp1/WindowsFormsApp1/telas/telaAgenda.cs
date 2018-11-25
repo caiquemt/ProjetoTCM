@@ -58,6 +58,8 @@ namespace WindowsFormsApp1
             t.Tick += new EventHandler(this.t_Tick);
 
             t.Start();
+
+            lblData.Text = DateTime.Now.ToLongDateString();
         }
 
         private void btnSairCadastro_Click(object sender, EventArgs e)
