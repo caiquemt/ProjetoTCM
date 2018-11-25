@@ -110,7 +110,7 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(986, 0);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(977, 0);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
             this.btnVoltarCadastro.Size = new System.Drawing.Size(101, 80);
             this.btnVoltarCadastro.TabIndex = 27;
@@ -408,12 +408,14 @@
             // 
             this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1086, 0);
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(1077, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 80);
             this.button1.TabIndex = 28;
             this.button1.Text = "Minimizar";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);

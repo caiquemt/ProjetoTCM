@@ -57,8 +57,8 @@
             this.btnConfirmarPag = new System.Windows.Forms.Button();
             this.btnLimparPag = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblRelogio = new System.Windows.Forms.Label();
             this.lblData = new System.Windows.Forms.Label();
+            this.lblRelogio = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -183,9 +183,9 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(47, 263);
+            this.panel1.Location = new System.Drawing.Point(74, 263);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1093, 221);
+            this.panel1.Size = new System.Drawing.Size(1123, 221);
             this.panel1.TabIndex = 0;
             // 
             // txbValorPag
@@ -433,16 +433,6 @@
             this.panel2.Size = new System.Drawing.Size(1280, 35);
             this.panel2.TabIndex = 41;
             // 
-            // lblRelogio
-            // 
-            this.lblRelogio.AutoSize = true;
-            this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblRelogio.Location = new System.Drawing.Point(1163, 3);
-            this.lblRelogio.Name = "lblRelogio";
-            this.lblRelogio.Size = new System.Drawing.Size(110, 28);
-            this.lblRelogio.TabIndex = 0;
-            this.lblRelogio.Text = "00:00:00";
-            // 
             // lblData
             // 
             this.lblData.AutoSize = true;
@@ -452,6 +442,16 @@
             this.lblData.Size = new System.Drawing.Size(64, 28);
             this.lblData.TabIndex = 42;
             this.lblData.Text = "Data";
+            // 
+            // lblRelogio
+            // 
+            this.lblRelogio.AutoSize = true;
+            this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRelogio.Location = new System.Drawing.Point(1163, 3);
+            this.lblRelogio.Name = "lblRelogio";
+            this.lblRelogio.Size = new System.Drawing.Size(110, 28);
+            this.lblRelogio.TabIndex = 0;
+            this.lblRelogio.Text = "00:00:00";
             // 
             // telaPagamento
             // 
