@@ -8,11 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.abrir_fechar_menus;
+using WindowsFormsApp1.controlador;
 using WindowsFormsApp1.dominio;
 
 namespace WindowsFormsApp1
 {
-    public partial class telaPaciente : Form
+    public partial class btnSalvarFunc : Form
     {
         fecharAbrirMenus fecharform = new fecharAbrirMenus();
         AbrirPaciente abripac = new AbrirPaciente();
@@ -25,9 +26,11 @@ namespace WindowsFormsApp1
         AbrirEstoque abrirest = new AbrirEstoque();
         AbrirAgenda abriragen = new AbrirAgenda();
 
+        controladorPaciente controlador = new controladorPaciente();
+
         Timer t = new Timer();
 
-        public telaPaciente()
+        public btnSalvarFunc()
         {
             InitializeComponent();
         }
@@ -155,6 +158,32 @@ namespace WindowsFormsApp1
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnSalvarFunc_Click(object sender, EventArgs e)
+        {
+            Paciente paciente = new Paciente();
+
+                paciente.Nome_pac = txbNomePac.Text;
+                paciente.Nasc_pac = mskNascPac.Mask = "00/00/0000";
+                paciente.Idade_pac = txbIdadePac.Text;
+                paciente.Cpf_pac = mskCpfPac.Mask = "000.000.000-00";
+                paciente.Rg_pac = mskRgPac.Mask = "00.000.000-0";
+                paciente.Etnia_pac = cmbEtniaPac.Text;
+                paciente.Sexo_pac = cmbSexoPac.Text;
+                paciente.Rua_pac = txbRuaPac.Text;
+                paciente.Bairro_pac = txbBairroPac.Text;
+                paciente.Numero_rua_pac = txbNumRuaPac.Text;
+                paciente.Cidade_pac = txbCidadePac.Text;
+                paciente.Telefone_pac = mskTelPac.Mask = "(00)0000-0000";
+                paciente.Celular_pac = mskCelPac.Mask = "(00)00000-0000";
+                paciente.Email_pac = txbEmailPac.Text;
+                paciente.Pai_pac = txbPaiPac.Text;
+                paciente.Mae_pac = txbMaePac.Text;
+                paciente.Responsavel_pac = txbRespPac.Text;
+                
+                
+                controlador.inserirPaciente(paciente); //inserindo mensagem
         }
     }
 }

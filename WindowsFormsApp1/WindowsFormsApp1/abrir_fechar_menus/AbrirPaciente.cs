@@ -16,7 +16,7 @@ namespace WindowsFormsApp1.abrir_fechar_menus
 
         public void AbrirCadPaciente(Form cadpac)
         {
-            telaPaciente abrir = new telaPaciente();
+            btnSalvarFunc abrir = new btnSalvarFunc();
             abrir.Show();
             cadpac.Hide();
         }
