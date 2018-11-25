@@ -103,7 +103,9 @@ namespace WindowsFormsApp1
             t.Tick += new EventHandler(this.t_Tick);
 
             
-            t.Start();  
+            t.Start();
+
+            lblData.Text = DateTime.Now.ToLongDateString();
         }
         private void t_Tick(object sennder, EventArgs e)
         {

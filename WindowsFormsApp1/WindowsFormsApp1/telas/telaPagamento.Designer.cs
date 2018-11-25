@@ -58,6 +58,7 @@
             this.btnLimparPag = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblRelogio = new System.Windows.Forms.Label();
+            this.lblData = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -425,6 +426,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.lblData);
             this.panel2.Controls.Add(this.lblRelogio);
             this.panel2.Location = new System.Drawing.Point(0, 686);
             this.panel2.Name = "panel2";
@@ -440,6 +442,16 @@
             this.lblRelogio.Size = new System.Drawing.Size(110, 28);
             this.lblRelogio.TabIndex = 0;
             this.lblRelogio.Text = "00:00:00";
+            // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(64, 28);
+            this.lblData.TabIndex = 42;
+            this.lblData.Text = "Data";
             // 
             // telaPagamento
             // 
@@ -498,5 +510,6 @@
         private System.Windows.Forms.Button btnLimparPag;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblRelogio;
+        private System.Windows.Forms.Label lblData;
     }
 }
