@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.abrir_fechar_menus;
+using WindowsFormsApp1.controlador;
 using WindowsFormsApp1.dominio;
 
 namespace WindowsFormsApp1
@@ -24,6 +25,8 @@ namespace WindowsFormsApp1
         AbrirPesquisa abrirpesq = new AbrirPesquisa();
         AbrirEstoque abrirest = new AbrirEstoque();
         AbrirAgenda abriragen = new AbrirAgenda();
+
+        controladorPaciente controlador = new controladorPaciente();
 
         Timer t = new Timer();
 
@@ -166,7 +169,7 @@ namespace WindowsFormsApp1
 
 
                 paciente.Nome_pac = txbNomePac.Text;
-                paciente.Nasc_pac = mskNascPac.Text;
+                paciente.Nasc_pac = TryParse(mskNascPac);
                 paciente.Idade_pac = txbIdadePac.Text;
                 paciente.Cpf_pac = mskCpfPac.Text;
                 paciente.Rg_pac = mskRgPac.Text;
@@ -184,7 +187,7 @@ namespace WindowsFormsApp1
                 paciente.Responsavel_pac = txbRespPac.Text;
                 
                 
-                controladora.Insert(paciente);
+                controlador.inserirPaciente(paciente);
                 // LimparTela();
 
             }

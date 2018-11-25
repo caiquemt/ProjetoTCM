@@ -65,7 +65,7 @@
             this.txbComplementoPac = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txbEmailPac = new System.Windows.Forms.TextBox();
-            this.TxbRuaPac = new System.Windows.Forms.TextBox();
+            this.txbRuaPac = new System.Windows.Forms.TextBox();
             this.txbNomePac = new System.Windows.Forms.TextBox();
             this.LbEmailPac = new System.Windows.Forms.Label();
             this.lbNascPac = new System.Windows.Forms.Label();
@@ -143,7 +143,7 @@
             this.panel3.Controls.Add(this.txbComplementoPac);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.txbEmailPac);
-            this.panel3.Controls.Add(this.TxbRuaPac);
+            this.panel3.Controls.Add(this.txbRuaPac);
             this.panel3.Controls.Add(this.txbNomePac);
             this.panel3.Controls.Add(this.LbEmailPac);
             this.panel3.Controls.Add(this.lbNascPac);
@@ -308,7 +308,7 @@
             // txbCepPac
             // 
             this.txbCepPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbCepPac.Location = new System.Drawing.Point(687, 266);
+            this.txbCepPac.Location = new System.Drawing.Point(720, 266);
             this.txbCepPac.Mask = "00000-000";
             this.txbCepPac.Name = "txbCepPac";
             this.txbCepPac.Size = new System.Drawing.Size(128, 36);
@@ -319,7 +319,7 @@
             // 
             this.lblCEPPac.AutoSize = true;
             this.lblCEPPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblCEPPac.Location = new System.Drawing.Point(619, 272);
+            this.lblCEPPac.Location = new System.Drawing.Point(652, 269);
             this.lblCEPPac.Name = "lblCEPPac";
             this.lblCEPPac.Size = new System.Drawing.Size(62, 28);
             this.lblCEPPac.TabIndex = 41;
@@ -492,13 +492,13 @@
             this.txbEmailPac.Size = new System.Drawing.Size(829, 36);
             this.txbEmailPac.TabIndex = 13;
             // 
-            // TxbRuaPac
+            // txbRuaPac
             // 
-            this.TxbRuaPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.TxbRuaPac.Location = new System.Drawing.Point(75, 224);
-            this.TxbRuaPac.Name = "TxbRuaPac";
-            this.TxbRuaPac.Size = new System.Drawing.Size(682, 36);
-            this.TxbRuaPac.TabIndex = 8;
+            this.txbRuaPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbRuaPac.Location = new System.Drawing.Point(75, 224);
+            this.txbRuaPac.Name = "txbRuaPac";
+            this.txbRuaPac.Size = new System.Drawing.Size(682, 36);
+            this.txbRuaPac.TabIndex = 8;
             // 
             // txbNomePac
             // 
@@ -914,7 +914,7 @@
         #endregion
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox txbEmailPac;
-        private System.Windows.Forms.TextBox TxbRuaPac;
+        private System.Windows.Forms.TextBox txbRuaPac;
         private System.Windows.Forms.TextBox txbNomePac;
         private System.Windows.Forms.Label LbEmailPac;
         private System.Windows.Forms.Label lbNascPac;
