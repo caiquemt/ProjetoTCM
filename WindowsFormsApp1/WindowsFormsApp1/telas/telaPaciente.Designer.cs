@@ -48,10 +48,7 @@
             this.lblCelularCadastro = new System.Windows.Forms.Label();
             this.txbCepPac = new System.Windows.Forms.MaskedTextBox();
             this.lblCEPPac = new System.Windows.Forms.Label();
-            this.txbProntuarioPac = new System.Windows.Forms.MaskedTextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.rdbMascPac = new System.Windows.Forms.RadioButton();
-            this.rdbFemPac = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.cmbEtniaPac = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -95,6 +92,8 @@
             this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
             this.txbNumRuaPac = new System.Windows.Forms.TextBox();
             this.txbIdadePac = new System.Windows.Forms.TextBox();
+            this.txbProntPac = new System.Windows.Forms.TextBox();
+            this.cmbSexoPac = new System.Windows.Forms.ComboBox();
             this.panel3.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -106,6 +105,8 @@
             // 
             this.panel3.AutoScroll = true;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.cmbSexoPac);
+            this.panel3.Controls.Add(this.txbProntPac);
             this.panel3.Controls.Add(this.txbIdadePac);
             this.panel3.Controls.Add(this.txbNumRuaPac);
             this.panel3.Controls.Add(this.txbRespPac);
@@ -126,10 +127,7 @@
             this.panel3.Controls.Add(this.lblCelularCadastro);
             this.panel3.Controls.Add(this.txbCepPac);
             this.panel3.Controls.Add(this.lblCEPPac);
-            this.panel3.Controls.Add(this.txbProntuarioPac);
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.rdbMascPac);
-            this.panel3.Controls.Add(this.rdbFemPac);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.cmbEtniaPac);
             this.panel3.Controls.Add(this.label5);
@@ -325,14 +323,6 @@
             this.lblCEPPac.TabIndex = 41;
             this.lblCEPPac.Text = "CEP:";
             // 
-            // txbProntuarioPac
-            // 
-            this.txbProntuarioPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbProntuarioPac.Location = new System.Drawing.Point(185, 182);
-            this.txbProntuarioPac.Name = "txbProntuarioPac";
-            this.txbProntuarioPac.Size = new System.Drawing.Size(115, 36);
-            this.txbProntuarioPac.TabIndex = 40;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -342,30 +332,6 @@
             this.label7.Size = new System.Drawing.Size(173, 28);
             this.label7.TabIndex = 39;
             this.label7.Text = "Nº Prontuário:";
-            // 
-            // rdbMascPac
-            // 
-            this.rdbMascPac.AutoSize = true;
-            this.rdbMascPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.rdbMascPac.Location = new System.Drawing.Point(536, 141);
-            this.rdbMascPac.Name = "rdbMascPac";
-            this.rdbMascPac.Size = new System.Drawing.Size(50, 32);
-            this.rdbMascPac.TabIndex = 38;
-            this.rdbMascPac.Text = "M";
-            this.rdbMascPac.UseVisualStyleBackColor = true;
-            // 
-            // rdbFemPac
-            // 
-            this.rdbFemPac.AutoSize = true;
-            this.rdbFemPac.Checked = true;
-            this.rdbFemPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.rdbFemPac.Location = new System.Drawing.Point(491, 141);
-            this.rdbFemPac.Name = "rdbFemPac";
-            this.rdbFemPac.Size = new System.Drawing.Size(43, 32);
-            this.rdbFemPac.TabIndex = 37;
-            this.rdbFemPac.TabStop = true;
-            this.rdbFemPac.Text = "F";
-            this.rdbFemPac.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -381,6 +347,11 @@
             // 
             this.cmbEtniaPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.cmbEtniaPac.FormattingEnabled = true;
+            this.cmbEtniaPac.Items.AddRange(new object[] {
+            "Branco",
+            "Negro",
+            "Pardo",
+            "Mulato"});
             this.cmbEtniaPac.Location = new System.Drawing.Point(85, 135);
             this.cmbEtniaPac.Name = "cmbEtniaPac";
             this.cmbEtniaPac.Size = new System.Drawing.Size(121, 36);
@@ -420,7 +391,7 @@
             // 
             this.mskCpfPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.mskCpfPac.Location = new System.Drawing.Point(482, 97);
-            this.mskCpfPac.Mask = "000.000.000-00";
+            this.mskCpfPac.Mask = "000,000,000-00";
             this.mskCpfPac.Name = "mskCpfPac";
             this.mskCpfPac.Size = new System.Drawing.Size(171, 36);
             this.mskCpfPac.TabIndex = 30;
@@ -430,7 +401,7 @@
             // 
             this.mskRgPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.mskRgPac.Location = new System.Drawing.Point(62, 94);
-            this.mskRgPac.Mask = "00.000.000-0";
+            this.mskRgPac.Mask = "00,000,000-0";
             this.mskRgPac.Name = "mskRgPac";
             this.mskRgPac.Size = new System.Drawing.Size(180, 36);
             this.mskRgPac.TabIndex = 29;
@@ -809,6 +780,7 @@
             this.txbDataCadMed.Location = new System.Drawing.Point(50, 258);
             this.txbDataCadMed.Mask = "00/00/0000";
             this.txbDataCadMed.Name = "txbDataCadMed";
+            this.txbDataCadMed.ReadOnly = true;
             this.txbDataCadMed.Size = new System.Drawing.Size(120, 29);
             this.txbDataCadMed.TabIndex = 66;
             this.txbDataCadMed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -881,6 +853,26 @@
             this.txbIdadePac.Size = new System.Drawing.Size(79, 36);
             this.txbIdadePac.TabIndex = 79;
             // 
+            // txbProntPac
+            // 
+            this.txbProntPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbProntPac.Location = new System.Drawing.Point(185, 182);
+            this.txbProntPac.Name = "txbProntPac";
+            this.txbProntPac.Size = new System.Drawing.Size(100, 36);
+            this.txbProntPac.TabIndex = 80;
+            // 
+            // cmbSexoPac
+            // 
+            this.cmbSexoPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.cmbSexoPac.FormattingEnabled = true;
+            this.cmbSexoPac.Items.AddRange(new object[] {
+            "F",
+            "M"});
+            this.cmbSexoPac.Location = new System.Drawing.Point(482, 143);
+            this.cmbSexoPac.Name = "cmbSexoPac";
+            this.cmbSexoPac.Size = new System.Drawing.Size(43, 36);
+            this.cmbSexoPac.TabIndex = 81;
+            // 
             // btnSalvarFunc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -937,8 +929,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblCpfPac;
         private System.Windows.Forms.Label lblRGPac;
-        private System.Windows.Forms.RadioButton rdbMascPac;
-        private System.Windows.Forms.RadioButton rdbFemPac;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cmbEtniaPac;
         private System.Windows.Forms.Label label5;
@@ -946,7 +936,6 @@
         private System.Windows.Forms.MaskedTextBox mskNascPac;
         private System.Windows.Forms.MaskedTextBox mskCpfPac;
         private System.Windows.Forms.MaskedTextBox mskRgPac;
-        private System.Windows.Forms.MaskedTextBox txbProntuarioPac;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.MaskedTextBox txbCepPac;
         private System.Windows.Forms.Label lblCEPPac;
@@ -978,5 +967,7 @@
         private System.Windows.Forms.Button btnMinimizar;
         private System.Windows.Forms.TextBox txbNumRuaPac;
         private System.Windows.Forms.TextBox txbIdadePac;
+        private System.Windows.Forms.ComboBox cmbSexoPac;
+        private System.Windows.Forms.TextBox txbProntPac;
     }
 }

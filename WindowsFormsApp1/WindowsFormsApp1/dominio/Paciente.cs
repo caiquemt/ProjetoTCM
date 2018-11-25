@@ -61,7 +61,7 @@ namespace WindowsFormsApp1.dominio
 
         public override string ToString()
         {
-            return String.Concat(Nome_pac, Nasc_pac, Idade_pac, Rg_pac, Cpf_pac, Etnia_pac, Sexo_pac, Prontuario_pac, Convenio_pac, Matricula_pac, Rua_pac, Bairro_pac, Numero_rua_pac,
+            return String.Concat(Nome_pac, Nasc_pac, Idade_pac, Rg_pac, Cpf_pac, Etnia_pac, Sexo_pac, Prontuario_pac, Convenio_pac, Rua_pac, Bairro_pac, Numero_rua_pac,
                                  Complemento_pac, Cep_pac, Naturalidade_pac, Uf_pac, Cidade_pac, Email_pac, Mae_pac, Pai_pac, Responsavel_pac, Imagem_pac);
         }
 

@@ -170,7 +170,7 @@ namespace WindowsFormsApp1
                 paciente.Cpf_pac = mskCpfPac.Mask = "000.000.000-00";
                 paciente.Rg_pac = mskRgPac.Mask = "00.000.000-0";
                 paciente.Etnia_pac = cmbEtniaPac.Text;
-                paciente.Sexo_pac = rdbFemPac.Text;
+                paciente.Sexo_pac = cmbSexoPac.Text;
                 paciente.Rua_pac = txbRuaPac.Text;
                 paciente.Bairro_pac = txbBairroPac.Text;
                 paciente.Numero_rua_pac = txbNumRuaPac.Text;
