@@ -86,6 +86,7 @@
             this.btnMedico = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblData = new System.Windows.Forms.Label();
             this.lblRelogio = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txbDataCadMed = new System.Windows.Forms.MaskedTextBox();
@@ -93,7 +94,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
-            this.lblData = new System.Windows.Forms.Label();
+            this.btnMinimizar = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -568,7 +569,7 @@
             // 
             this.lblFichaPaciente.AutoSize = true;
             this.lblFichaPaciente.Font = new System.Drawing.Font("Arial Rounded MT Bold", 30F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFichaPaciente.Location = new System.Drawing.Point(430, 97);
+            this.lblFichaPaciente.Location = new System.Drawing.Point(430, 113);
             this.lblFichaPaciente.Name = "lblFichaPaciente";
             this.lblFichaPaciente.Size = new System.Drawing.Size(436, 46);
             this.lblFichaPaciente.TabIndex = 36;
@@ -580,6 +581,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.barraSuperior.BackColor = System.Drawing.Color.LightSeaGreen;
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.barraSuperior.Controls.Add(this.btnMinimizar);
             this.barraSuperior.Controls.Add(this.btnSairPrograma);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
             this.barraSuperior.Controls.Add(this.btnPacienteConsulta);
@@ -618,7 +620,7 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1068, -1);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(977, 0);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
             this.btnVoltarCadastro.Size = new System.Drawing.Size(101, 80);
             this.btnVoltarCadastro.TabIndex = 27;
@@ -768,6 +770,16 @@
             this.panel1.Size = new System.Drawing.Size(1280, 35);
             this.panel1.TabIndex = 43;
             // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(64, 28);
+            this.lblData.TabIndex = 65;
+            this.lblData.Text = "Data";
+            // 
             // lblRelogio
             // 
             this.lblRelogio.AutoSize = true;
@@ -845,21 +857,28 @@
             // 
             // pcbImagemFunc
             // 
+            this.pcbImagemFunc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pcbImagemFunc.Location = new System.Drawing.Point(26, 34);
             this.pcbImagemFunc.Name = "pcbImagemFunc";
             this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
             this.pcbImagemFunc.TabIndex = 62;
             this.pcbImagemFunc.TabStop = false;
             // 
-            // lblData
+            // btnMinimizar
             // 
-            this.lblData.AutoSize = true;
-            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblData.Location = new System.Drawing.Point(778, 3);
-            this.lblData.Name = "lblData";
-            this.lblData.Size = new System.Drawing.Size(64, 28);
-            this.lblData.TabIndex = 65;
-            this.lblData.Text = "Data";
+            this.btnMinimizar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(1077, 0);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(101, 80);
+            this.btnMinimizar.TabIndex = 65;
+            this.btnMinimizar.Text = "Minimizar";
+            this.btnMinimizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMinimizar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // telaPaciente
             // 
@@ -957,5 +976,6 @@
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.PictureBox pcbImagemFunc;
         private System.Windows.Forms.Label lblData;
+        private System.Windows.Forms.Button btnMinimizar;
     }
 }

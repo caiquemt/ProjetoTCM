@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaExame));
             this.barraSuperior = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnMinimizar = new System.Windows.Forms.Button();
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteExame = new System.Windows.Forms.Button();
@@ -54,8 +54,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnAlterarExame = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.lblRelogio = new System.Windows.Forms.Label();
             this.lblData = new System.Windows.Forms.Label();
+            this.lblRelogio = new System.Windows.Forms.Label();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbExame)).BeginInit();
@@ -70,7 +70,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.barraSuperior.BackColor = System.Drawing.Color.LightSeaGreen;
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.barraSuperior.Controls.Add(this.button1);
+            this.barraSuperior.Controls.Add(this.btnMinimizar);
             this.barraSuperior.Controls.Add(this.btnSairCadastro);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
             this.barraSuperior.Controls.Add(this.btnPacienteExame);
@@ -87,21 +87,21 @@
             this.barraSuperior.Size = new System.Drawing.Size(1280, 81);
             this.barraSuperior.TabIndex = 23;
             // 
-            // button1
+            // btnMinimizar
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(1077, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 80);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Minimizar";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnMinimizar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(1077, 0);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(101, 80);
+            this.btnMinimizar.TabIndex = 28;
+            this.btnMinimizar.Text = "Minimizar";
+            this.btnMinimizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMinimizar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // btnSairCadastro
             // 
@@ -342,7 +342,7 @@
             // 
             this.lblExame.AutoSize = true;
             this.lblExame.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExame.Location = new System.Drawing.Point(551, 110);
+            this.lblExame.Location = new System.Drawing.Point(551, 113);
             this.lblExame.Name = "lblExame";
             this.lblExame.Size = new System.Drawing.Size(139, 41);
             this.lblExame.TabIndex = 25;
@@ -412,16 +412,6 @@
             this.panel3.Size = new System.Drawing.Size(1280, 35);
             this.panel3.TabIndex = 32;
             // 
-            // lblRelogio
-            // 
-            this.lblRelogio.AutoSize = true;
-            this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblRelogio.Location = new System.Drawing.Point(1163, 3);
-            this.lblRelogio.Name = "lblRelogio";
-            this.lblRelogio.Size = new System.Drawing.Size(110, 28);
-            this.lblRelogio.TabIndex = 0;
-            this.lblRelogio.Text = "00:00:00";
-            // 
             // lblData
             // 
             this.lblData.AutoSize = true;
@@ -431,6 +421,16 @@
             this.lblData.Size = new System.Drawing.Size(64, 28);
             this.lblData.TabIndex = 44;
             this.lblData.Text = "Data";
+            // 
+            // lblRelogio
+            // 
+            this.lblRelogio.AutoSize = true;
+            this.lblRelogio.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblRelogio.Location = new System.Drawing.Point(1163, 3);
+            this.lblRelogio.Name = "lblRelogio";
+            this.lblRelogio.Size = new System.Drawing.Size(110, 28);
+            this.lblRelogio.TabIndex = 0;
+            this.lblRelogio.Text = "00:00:00";
             // 
             // telaExame
             // 
@@ -488,7 +488,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lblRelogio;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnMinimizar;
         private System.Windows.Forms.Label lblData;
     }
 }

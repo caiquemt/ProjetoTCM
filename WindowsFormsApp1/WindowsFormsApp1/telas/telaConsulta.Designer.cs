@@ -48,6 +48,7 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.lblEspecialidadeConsulta = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblData = new System.Windows.Forms.Label();
             this.lblRelogio = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -65,7 +66,7 @@
             this.btnSalvarCons = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnAlterarCons = new System.Windows.Forms.Button();
-            this.lblData = new System.Windows.Forms.Label();
+            this.btnMinimizar = new System.Windows.Forms.Button();
             this.barraSuperior.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -278,6 +279,16 @@
             this.panel2.Size = new System.Drawing.Size(1280, 35);
             this.panel2.TabIndex = 68;
             // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(64, 28);
+            this.lblData.TabIndex = 71;
+            this.lblData.Text = "Data";
+            // 
             // lblRelogio
             // 
             this.lblRelogio.AutoSize = true;
@@ -292,7 +303,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(569, 119);
+            this.label1.Location = new System.Drawing.Point(550, 113);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(201, 41);
             this.label1.TabIndex = 27;
@@ -304,6 +315,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnMinimizar);
             this.panel1.Controls.Add(this.btnSairCadastro);
             this.panel1.Controls.Add(this.btnVoltarCadastro);
             this.panel1.Controls.Add(this.btnPacienteConsulta);
@@ -341,7 +353,7 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1068, 0);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(977, 0);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
             this.btnVoltarCadastro.Size = new System.Drawing.Size(101, 80);
             this.btnVoltarCadastro.TabIndex = 27;
@@ -528,15 +540,21 @@
             this.btnAlterarCons.Text = "Alterar";
             this.btnAlterarCons.UseVisualStyleBackColor = false;
             // 
-            // lblData
+            // btnMinimizar
             // 
-            this.lblData.AutoSize = true;
-            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblData.Location = new System.Drawing.Point(778, 3);
-            this.lblData.Name = "lblData";
-            this.lblData.Size = new System.Drawing.Size(64, 28);
-            this.lblData.TabIndex = 71;
-            this.lblData.Text = "Data";
+            this.btnMinimizar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(1077, 0);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(101, 80);
+            this.btnMinimizar.TabIndex = 71;
+            this.btnMinimizar.Text = "Minimizar";
+            this.btnMinimizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMinimizar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // telaConsulta
             // 
@@ -602,5 +620,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblData;
+        private System.Windows.Forms.Button btnMinimizar;
     }
 }

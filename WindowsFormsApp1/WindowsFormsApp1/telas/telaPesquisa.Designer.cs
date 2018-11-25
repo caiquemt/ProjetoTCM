@@ -51,6 +51,7 @@
             this.lblData = new System.Windows.Forms.Label();
             this.lblRelogio = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnMinimizar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -62,6 +63,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnMinimizar);
             this.panel1.Controls.Add(this.btnSairCadastro);
             this.panel1.Controls.Add(this.btnVoltarCadastro);
             this.panel1.Controls.Add(this.btnPacienteConsulta);
@@ -101,7 +103,7 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1068, -1);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(977, 0);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
             this.btnVoltarCadastro.Size = new System.Drawing.Size(100, 80);
             this.btnVoltarCadastro.TabIndex = 27;
@@ -241,7 +243,7 @@
             // 
             this.lblPesquisar.AutoSize = true;
             this.lblPesquisar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 30F, System.Drawing.FontStyle.Underline);
-            this.lblPesquisar.Location = new System.Drawing.Point(523, 118);
+            this.lblPesquisar.Location = new System.Drawing.Point(520, 113);
             this.lblPesquisar.Name = "lblPesquisar";
             this.lblPesquisar.Size = new System.Drawing.Size(261, 46);
             this.lblPesquisar.TabIndex = 28;
@@ -351,6 +353,22 @@
             this.dataGridView1.Size = new System.Drawing.Size(1196, 345);
             this.dataGridView1.TabIndex = 43;
             // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(1077, 0);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(101, 80);
+            this.btnMinimizar.TabIndex = 44;
+            this.btnMinimizar.Text = "Minimizar";
+            this.btnMinimizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMinimizar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
             // telaPesquisa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -406,5 +424,6 @@
         private System.Windows.Forms.Label lblRelogio;
         private System.Windows.Forms.Label lblData;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnMinimizar;
     }
 }

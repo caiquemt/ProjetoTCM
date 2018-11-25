@@ -85,8 +85,9 @@
             this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
             this.lblCadMed = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.lblRelogio = new System.Windows.Forms.Label();
             this.lblData = new System.Windows.Forms.Label();
+            this.lblRelogio = new System.Windows.Forms.Label();
+            this.btnMinimizar = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.barraSuperior.SuspendLayout();
@@ -489,6 +490,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.barraSuperior.BackColor = System.Drawing.Color.LightSeaGreen;
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.barraSuperior.Controls.Add(this.btnMinimizar);
             this.barraSuperior.Controls.Add(this.btnSairPrograma);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
             this.barraSuperior.Controls.Add(this.btnPacienteConsulta);
@@ -529,7 +531,7 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1068, -1);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(977, 0);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
             this.btnVoltarCadastro.Size = new System.Drawing.Size(101, 80);
             this.btnVoltarCadastro.TabIndex = 27;
@@ -734,6 +736,7 @@
             // 
             // pcbImagemFunc
             // 
+            this.pcbImagemFunc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pcbImagemFunc.Location = new System.Drawing.Point(26, 34);
             this.pcbImagemFunc.Name = "pcbImagemFunc";
             this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
@@ -745,7 +748,7 @@
             this.lblCadMed.AutoSize = true;
             this.lblCadMed.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCadMed.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblCadMed.Location = new System.Drawing.Point(445, 109);
+            this.lblCadMed.Location = new System.Drawing.Point(445, 113);
             this.lblCadMed.Name = "lblCadMed";
             this.lblCadMed.Size = new System.Drawing.Size(417, 41);
             this.lblCadMed.TabIndex = 64;
@@ -762,6 +765,16 @@
             this.panel4.Size = new System.Drawing.Size(1280, 35);
             this.panel4.TabIndex = 65;
             // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(64, 28);
+            this.lblData.TabIndex = 1;
+            this.lblData.Text = "Data";
+            // 
             // lblRelogio
             // 
             this.lblRelogio.AutoSize = true;
@@ -772,15 +785,21 @@
             this.lblRelogio.TabIndex = 0;
             this.lblRelogio.Text = "00:00:00";
             // 
-            // lblData
+            // btnMinimizar
             // 
-            this.lblData.AutoSize = true;
-            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblData.Location = new System.Drawing.Point(778, 3);
-            this.lblData.Name = "lblData";
-            this.lblData.Size = new System.Drawing.Size(64, 28);
-            this.lblData.TabIndex = 1;
-            this.lblData.Text = "Data";
+            this.btnMinimizar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(1077, 0);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(101, 80);
+            this.btnMinimizar.TabIndex = 66;
+            this.btnMinimizar.Text = "Minimizar";
+            this.btnMinimizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMinimizar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // telaMédico
             // 
@@ -873,5 +892,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label lblRelogio;
         private System.Windows.Forms.Label lblData;
+        private System.Windows.Forms.Button btnMinimizar;
     }
 }

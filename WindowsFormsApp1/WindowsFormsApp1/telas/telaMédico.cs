@@ -170,9 +170,14 @@ namespace WindowsFormsApp1
         {
             WindowState = FormWindowState.Minimized;
         }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
         /*internal void AbrirCadMedico(telaCadastroDoFuncionario telaCadastroDoFuncionario)
 {
-   throw new NotImplementedException();
+throw new NotImplementedException();
 }*/
     }
 }

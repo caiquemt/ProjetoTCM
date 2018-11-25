@@ -151,5 +151,10 @@ namespace WindowsFormsApp1
 
             lblData.Text = DateTime.Now.ToLongDateString();
         }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
     }
 }

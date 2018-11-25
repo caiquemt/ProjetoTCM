@@ -77,8 +77,9 @@
             this.btnAlterar = new System.Windows.Forms.Button();
             this.lblCdastroFuncionario = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.lblRelogio = new System.Windows.Forms.Label();
             this.lblData = new System.Windows.Forms.Label();
+            this.lblRelogio = new System.Windows.Forms.Label();
+            this.btnMinimizar = new System.Windows.Forms.Button();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -103,6 +104,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.barraSuperior.BackColor = System.Drawing.Color.LightSeaGreen;
             this.barraSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.barraSuperior.Controls.Add(this.btnMinimizar);
             this.barraSuperior.Controls.Add(this.btnSairCadastro);
             this.barraSuperior.Controls.Add(this.btnVoltarCadastro);
             this.barraSuperior.Controls.Add(this.btnPacienteConsulta);
@@ -144,7 +146,7 @@
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1068, 0);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(977, 0);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
             this.btnVoltarCadastro.Size = new System.Drawing.Size(101, 80);
             this.btnVoltarCadastro.TabIndex = 27;
@@ -630,6 +632,7 @@
             // 
             // pcbImagemFunc
             // 
+            this.pcbImagemFunc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pcbImagemFunc.Location = new System.Drawing.Point(20, 27);
             this.pcbImagemFunc.Name = "pcbImagemFunc";
             this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
@@ -692,6 +695,16 @@
             this.panel3.Size = new System.Drawing.Size(1280, 35);
             this.panel3.TabIndex = 43;
             // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(64, 28);
+            this.lblData.TabIndex = 44;
+            this.lblData.Text = "Data";
+            // 
             // lblRelogio
             // 
             this.lblRelogio.AutoSize = true;
@@ -702,15 +715,21 @@
             this.lblRelogio.TabIndex = 0;
             this.lblRelogio.Text = "00:00:00";
             // 
-            // lblData
+            // btnMinimizar
             // 
-            this.lblData.AutoSize = true;
-            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblData.Location = new System.Drawing.Point(778, 3);
-            this.lblData.Name = "lblData";
-            this.lblData.Size = new System.Drawing.Size(64, 28);
-            this.lblData.TabIndex = 44;
-            this.lblData.Text = "Data";
+            this.btnMinimizar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(1077, 0);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(101, 80);
+            this.btnMinimizar.TabIndex = 44;
+            this.btnMinimizar.Text = "Minimizar";
+            this.btnMinimizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMinimizar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // telaCadastroDoFuncionario
             // 
@@ -793,5 +812,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lblRelogio;
         private System.Windows.Forms.Label lblData;
+        private System.Windows.Forms.Button btnMinimizar;
     }
 }
