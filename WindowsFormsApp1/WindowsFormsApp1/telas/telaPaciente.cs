@@ -164,38 +164,26 @@ namespace WindowsFormsApp1
         {
             Paciente paciente = new Paciente();
 
-            if (validarCamposVazios())
-            {
-
-
                 paciente.Nome_pac = txbNomePac.Text;
-                paciente.Nasc_pac = TryParse(mskNascPac);
+                paciente.Nasc_pac = mskNascPac.Mask = "00/00/0000";
                 paciente.Idade_pac = txbIdadePac.Text;
-                paciente.Cpf_pac = mskCpfPac.Text;
-                paciente.Rg_pac = mskRgPac.Text;
+                paciente.Cpf_pac = mskCpfPac.Mask = "000.000.000-00";
+                paciente.Rg_pac = mskRgPac.Mask = "00.000.000-0";
                 paciente.Etnia_pac = cmbEtniaPac.Text;
                 paciente.Sexo_pac = rdbFemPac.Text;
                 paciente.Rua_pac = txbRuaPac.Text;
                 paciente.Bairro_pac = txbBairroPac.Text;
                 paciente.Numero_rua_pac = txbNumRuaPac.Text;
                 paciente.Cidade_pac = txbCidadePac.Text;
-                paciente.Telefone_pac = mskTelPac.Text;
-                paciente.Celular_pac = mskCelPac.Text;
+                paciente.Telefone_pac = mskTelPac.Mask = "(00)0000-0000";
+                paciente.Celular_pac = mskCelPac.Mask = "(00)00000-0000";
                 paciente.Email_pac = txbEmailPac.Text;
                 paciente.Pai_pac = txbPaiPac.Text;
                 paciente.Mae_pac = txbMaePac.Text;
                 paciente.Responsavel_pac = txbRespPac.Text;
                 
                 
-                controlador.inserirPaciente(paciente);
-                // LimparTela();
-
-            }
-            else
-            {
-                MessageBox.Show("Preencha todos os campos obrigatórios!");
-                
-            }
+                controlador.inserirPaciente(paciente); //inserindo mensagem
         }
     }
 }
