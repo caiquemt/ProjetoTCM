@@ -57,7 +57,7 @@
             this.lblRuaFuncionario = new System.Windows.Forms.Label();
             this.txtNomeCadastro = new System.Windows.Forms.TextBox();
             this.TxtLogradouroCadastro = new System.Windows.Forms.TextBox();
-            this.lbNomeCadastro = new System.Windows.Forms.Label();
+            this.lbNomeFunc = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.txtHorarioFuncAte = new System.Windows.Forms.MaskedTextBox();
@@ -74,7 +74,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
-            this.btnSalvarCadastro = new System.Windows.Forms.Button();
+            this.btnSalvarFunc = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.lblCdastroFuncionario = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -302,10 +302,10 @@
             // txtCelularCadastro
             // 
             this.txtCelularCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCelularCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtCelularCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txtCelularCadastro.Location = new System.Drawing.Point(160, 144);
             this.txtCelularCadastro.Name = "txtCelularCadastro";
-            this.txtCelularCadastro.Size = new System.Drawing.Size(217, 29);
+            this.txtCelularCadastro.Size = new System.Drawing.Size(217, 36);
             this.txtCelularCadastro.TabIndex = 39;
             // 
             // lbCelularCadastro
@@ -322,10 +322,10 @@
             // txtMatriculaCadastro
             // 
             this.txtMatriculaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMatriculaCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtMatriculaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txtMatriculaCadastro.Location = new System.Drawing.Point(558, 102);
             this.txtMatriculaCadastro.Name = "txtMatriculaCadastro";
-            this.txtMatriculaCadastro.Size = new System.Drawing.Size(156, 29);
+            this.txtMatriculaCadastro.Size = new System.Drawing.Size(156, 36);
             this.txtMatriculaCadastro.TabIndex = 36;
             // 
             // lbMatriculaCadastro
@@ -355,19 +355,19 @@
             // txtEmailCadastro
             // 
             this.txtEmailCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEmailCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtEmailCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txtEmailCadastro.Location = new System.Drawing.Point(117, 314);
             this.txtEmailCadastro.Name = "txtEmailCadastro";
-            this.txtEmailCadastro.Size = new System.Drawing.Size(810, 29);
+            this.txtEmailCadastro.Size = new System.Drawing.Size(810, 36);
             this.txtEmailCadastro.TabIndex = 33;
             // 
             // txtCargaCadastro
             // 
             this.txtCargaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtCargaCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtCargaCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txtCargaCadastro.Location = new System.Drawing.Point(118, 186);
             this.txtCargaCadastro.Name = "txtCargaCadastro";
-            this.txtCargaCadastro.Size = new System.Drawing.Size(809, 29);
+            this.txtCargaCadastro.Size = new System.Drawing.Size(809, 36);
             this.txtCargaCadastro.TabIndex = 30;
             // 
             // LbEmailCadastro
@@ -439,30 +439,30 @@
             // txtNomeCadastro
             // 
             this.txtNomeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNomeCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txtNomeCadastro.Location = new System.Drawing.Point(116, 22);
             this.txtNomeCadastro.Name = "txtNomeCadastro";
-            this.txtNomeCadastro.Size = new System.Drawing.Size(811, 29);
+            this.txtNomeCadastro.Size = new System.Drawing.Size(811, 36);
             this.txtNomeCadastro.TabIndex = 27;
             // 
             // TxtLogradouroCadastro
             // 
             this.TxtLogradouroCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtLogradouroCadastro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.TxtLogradouroCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.TxtLogradouroCadastro.Location = new System.Drawing.Point(97, 61);
             this.TxtLogradouroCadastro.Name = "TxtLogradouroCadastro";
-            this.TxtLogradouroCadastro.Size = new System.Drawing.Size(617, 29);
+            this.TxtLogradouroCadastro.Size = new System.Drawing.Size(617, 36);
             this.TxtLogradouroCadastro.TabIndex = 28;
             // 
-            // lbNomeCadastro
+            // lbNomeFunc
             // 
-            this.lbNomeCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbNomeCadastro.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lbNomeCadastro.Location = new System.Drawing.Point(29, 21);
-            this.lbNomeCadastro.Name = "lbNomeCadastro";
-            this.lbNomeCadastro.Size = new System.Drawing.Size(81, 26);
-            this.lbNomeCadastro.TabIndex = 20;
-            this.lbNomeCadastro.Text = "Nome:";
+            this.lbNomeFunc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbNomeFunc.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lbNomeFunc.Location = new System.Drawing.Point(29, 27);
+            this.lbNomeFunc.Name = "lbNomeFunc";
+            this.lbNomeFunc.Size = new System.Drawing.Size(91, 26);
+            this.lbNomeFunc.TabIndex = 20;
+            this.lbNomeFunc.Text = "Nome:";
             // 
             // panel1
             // 
@@ -480,7 +480,7 @@
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.lblBairroCFuncionario);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.lbNomeCadastro);
+            this.panel1.Controls.Add(this.lbNomeFunc);
             this.panel1.Controls.Add(this.lbHorarioExpediente);
             this.panel1.Controls.Add(this.lbTelefone);
             this.panel1.Controls.Add(this.txtCelularCadastro);
@@ -515,51 +515,51 @@
             // 
             // txtHorarioFuncAte
             // 
-            this.txtHorarioFuncAte.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtHorarioFuncAte.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txtHorarioFuncAte.Location = new System.Drawing.Point(424, 232);
             this.txtHorarioFuncAte.Mask = "00:00";
             this.txtHorarioFuncAte.Name = "txtHorarioFuncAte";
-            this.txtHorarioFuncAte.Size = new System.Drawing.Size(59, 29);
+            this.txtHorarioFuncAte.Size = new System.Drawing.Size(59, 36);
             this.txtHorarioFuncAte.TabIndex = 52;
             this.txtHorarioFuncAte.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbHorarioFuncDe
             // 
-            this.txbHorarioFuncDe.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txbHorarioFuncDe.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txbHorarioFuncDe.Location = new System.Drawing.Point(304, 234);
             this.txbHorarioFuncDe.Mask = "00:00";
             this.txbHorarioFuncDe.Name = "txbHorarioFuncDe";
-            this.txbHorarioFuncDe.Size = new System.Drawing.Size(59, 29);
+            this.txbHorarioFuncDe.Size = new System.Drawing.Size(59, 36);
             this.txbHorarioFuncDe.TabIndex = 51;
             this.txbHorarioFuncDe.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbCelFunc
             // 
-            this.txbCelFunc.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txbCelFunc.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txbCelFunc.Location = new System.Drawing.Point(594, 274);
             this.txbCelFunc.Mask = "(00)00000-0000";
             this.txbCelFunc.Name = "txbCelFunc";
-            this.txbCelFunc.Size = new System.Drawing.Size(194, 29);
+            this.txbCelFunc.Size = new System.Drawing.Size(194, 36);
             this.txbCelFunc.TabIndex = 50;
             this.txbCelFunc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.maskedTextBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.maskedTextBox2.Location = new System.Drawing.Point(705, 152);
             this.maskedTextBox2.Mask = "00/00/0000";
             this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(123, 29);
+            this.maskedTextBox2.Size = new System.Drawing.Size(123, 36);
             this.maskedTextBox2.TabIndex = 49;
             this.maskedTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbTelFunc
             // 
-            this.txbTelFunc.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txbTelFunc.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.txbTelFunc.Location = new System.Drawing.Point(148, 274);
             this.txbTelFunc.Mask = "(00)0000-0000";
             this.txbTelFunc.Name = "txbTelFunc";
-            this.txbTelFunc.Size = new System.Drawing.Size(182, 29);
+            this.txbTelFunc.Size = new System.Drawing.Size(182, 36);
             this.txbTelFunc.TabIndex = 48;
             this.txbTelFunc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -567,7 +567,7 @@
             // 
             this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.comboBox1.CausesValidation = false;
-            this.comboBox1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.comboBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "AC",
@@ -599,7 +599,7 @@
             "TO"});
             this.comboBox1.Location = new System.Drawing.Point(862, 100);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(65, 31);
+            this.comboBox1.Size = new System.Drawing.Size(65, 36);
             this.comboBox1.TabIndex = 47;
             // 
             // lblUFCFuncionario
@@ -627,10 +627,10 @@
             // textBox2
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.textBox2.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.textBox2.Location = new System.Drawing.Point(879, 61);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(48, 29);
+            this.textBox2.Size = new System.Drawing.Size(48, 36);
             this.textBox2.TabIndex = 42;
             // 
             // lblBairroCFuncionario
@@ -647,10 +647,10 @@
             // textBox1
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
+            this.textBox1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
             this.textBox1.Location = new System.Drawing.Point(126, 101);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(243, 29);
+            this.textBox1.Size = new System.Drawing.Size(243, 36);
             this.textBox1.TabIndex = 41;
             // 
             // panel2
@@ -659,7 +659,7 @@
             this.panel2.Controls.Add(this.maskedTextBox1);
             this.panel2.Controls.Add(this.pcbImagemFunc);
             this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.btnSalvarCadastro);
+            this.panel2.Controls.Add(this.btnSalvarFunc);
             this.panel2.Controls.Add(this.btnAlterar);
             this.panel2.Location = new System.Drawing.Point(1044, 192);
             this.panel2.Name = "panel2";
@@ -685,22 +685,22 @@
             this.pcbImagemFunc.TabIndex = 20;
             this.pcbImagemFunc.TabStop = false;
             // 
-            // btnSalvarCadastro
+            // btnSalvarFunc
             // 
-            this.btnSalvarCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnSalvarFunc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalvarCadastro.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnSalvarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalvarCadastro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnSalvarCadastro.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
-            this.btnSalvarCadastro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvarCadastro.Location = new System.Drawing.Point(44, 353);
-            this.btnSalvarCadastro.Name = "btnSalvarCadastro";
-            this.btnSalvarCadastro.Size = new System.Drawing.Size(121, 34);
-            this.btnSalvarCadastro.TabIndex = 8;
-            this.btnSalvarCadastro.Text = "Salvar";
-            this.btnSalvarCadastro.UseVisualStyleBackColor = false;
-            this.btnSalvarCadastro.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
+            this.btnSalvarFunc.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnSalvarFunc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvarFunc.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnSalvarFunc.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
+            this.btnSalvarFunc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvarFunc.Location = new System.Drawing.Point(44, 353);
+            this.btnSalvarFunc.Name = "btnSalvarFunc";
+            this.btnSalvarFunc.Size = new System.Drawing.Size(121, 34);
+            this.btnSalvarFunc.TabIndex = 8;
+            this.btnSalvarFunc.Text = "Salvar";
+            this.btnSalvarFunc.UseVisualStyleBackColor = false;
+            this.btnSalvarFunc.Click += new System.EventHandler(this.btnSalvarCadastro_Click);
             // 
             // btnAlterar
             // 
@@ -792,7 +792,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btnSalvarCadastro;
+        private System.Windows.Forms.Button btnSalvarFunc;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Panel barraSuperior;
@@ -821,7 +821,7 @@
         private System.Windows.Forms.Label lblRuaFuncionario;
         private System.Windows.Forms.TextBox txtNomeCadastro;
         private System.Windows.Forms.TextBox TxtLogradouroCadastro;
-        private System.Windows.Forms.Label lbNomeCadastro;
+        private System.Windows.Forms.Label lbNomeFunc;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblUFCFuncionario;
         private System.Windows.Forms.Label lblNCfuncionario;
