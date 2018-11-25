@@ -91,9 +91,9 @@
             this.btnSairCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnSairCadastro.Image")));
-            this.btnSairCadastro.Location = new System.Drawing.Point(1185, -2);
+            this.btnSairCadastro.Location = new System.Drawing.Point(1187, 0);
             this.btnSairCadastro.Name = "btnSairCadastro";
-            this.btnSairCadastro.Size = new System.Drawing.Size(92, 81);
+            this.btnSairCadastro.Size = new System.Drawing.Size(101, 80);
             this.btnSairCadastro.TabIndex = 26;
             this.btnSairCadastro.Text = "Sair";
             this.btnSairCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -108,9 +108,9 @@
             this.btnVoltarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltarCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.btnVoltarCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnVoltarCadastro.Image")));
-            this.btnVoltarCadastro.Location = new System.Drawing.Point(1072, -2);
+            this.btnVoltarCadastro.Location = new System.Drawing.Point(1068, 0);
             this.btnVoltarCadastro.Name = "btnVoltarCadastro";
-            this.btnVoltarCadastro.Size = new System.Drawing.Size(107, 81);
+            this.btnVoltarCadastro.Size = new System.Drawing.Size(101, 80);
             this.btnVoltarCadastro.TabIndex = 27;
             this.btnVoltarCadastro.Text = "Voltar";
             this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -123,7 +123,7 @@
             this.btnPacienteExame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPacienteExame.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPacienteExame.Image = ((System.Drawing.Image)(resources.GetObject("btnPacienteExame.Image")));
-            this.btnPacienteExame.Location = new System.Drawing.Point(-1, -1);
+            this.btnPacienteExame.Location = new System.Drawing.Point(0, 0);
             this.btnPacienteExame.Name = "btnPacienteExame";
             this.btnPacienteExame.Size = new System.Drawing.Size(101, 80);
             this.btnPacienteExame.TabIndex = 23;
@@ -139,7 +139,7 @@
             this.btnFuncionarioExame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFuncionarioExame.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFuncionarioExame.Image = ((System.Drawing.Image)(resources.GetObject("btnFuncionarioExame.Image")));
-            this.btnFuncionarioExame.Location = new System.Drawing.Point(605, -1);
+            this.btnFuncionarioExame.Location = new System.Drawing.Point(600, 0);
             this.btnFuncionarioExame.Name = "btnFuncionarioExame";
             this.btnFuncionarioExame.Size = new System.Drawing.Size(101, 80);
             this.btnFuncionarioExame.TabIndex = 22;
@@ -155,7 +155,7 @@
             this.btnPagamentoExame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPagamentoExame.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagamentoExame.Image = ((System.Drawing.Image)(resources.GetObject("btnPagamentoExame.Image")));
-            this.btnPagamentoExame.Location = new System.Drawing.Point(504, -1);
+            this.btnPagamentoExame.Location = new System.Drawing.Point(500, 0);
             this.btnPagamentoExame.Name = "btnPagamentoExame";
             this.btnPagamentoExame.Size = new System.Drawing.Size(101, 80);
             this.btnPagamentoExame.TabIndex = 21;
@@ -171,7 +171,7 @@
             this.btnEstoqueExame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstoqueExame.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoqueExame.Image = ((System.Drawing.Image)(resources.GetObject("btnEstoqueExame.Image")));
-            this.btnEstoqueExame.Location = new System.Drawing.Point(403, -1);
+            this.btnEstoqueExame.Location = new System.Drawing.Point(400, 0);
             this.btnEstoqueExame.Name = "btnEstoqueExame";
             this.btnEstoqueExame.Size = new System.Drawing.Size(101, 80);
             this.btnEstoqueExame.TabIndex = 20;
@@ -187,7 +187,7 @@
             this.btnProntuarioExame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProntuarioExame.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProntuarioExame.Image = ((System.Drawing.Image)(resources.GetObject("btnProntuarioExame.Image")));
-            this.btnProntuarioExame.Location = new System.Drawing.Point(302, -1);
+            this.btnProntuarioExame.Location = new System.Drawing.Point(300, 0);
             this.btnProntuarioExame.Name = "btnProntuarioExame";
             this.btnProntuarioExame.Size = new System.Drawing.Size(101, 80);
             this.btnProntuarioExame.TabIndex = 19;
@@ -203,7 +203,7 @@
             this.btnAgendaExame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgendaExame.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgendaExame.Image = ((System.Drawing.Image)(resources.GetObject("btnAgendaExame.Image")));
-            this.btnAgendaExame.Location = new System.Drawing.Point(201, -1);
+            this.btnAgendaExame.Location = new System.Drawing.Point(200, 0);
             this.btnAgendaExame.Name = "btnAgendaExame";
             this.btnAgendaExame.Size = new System.Drawing.Size(101, 80);
             this.btnAgendaExame.TabIndex = 18;
@@ -219,7 +219,7 @@
             this.btnMedicoExame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMedicoExame.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMedicoExame.Image = ((System.Drawing.Image)(resources.GetObject("btnMedicoExame.Image")));
-            this.btnMedicoExame.Location = new System.Drawing.Point(100, -1);
+            this.btnMedicoExame.Location = new System.Drawing.Point(100, 0);
             this.btnMedicoExame.Name = "btnMedicoExame";
             this.btnMedicoExame.Size = new System.Drawing.Size(101, 80);
             this.btnMedicoExame.TabIndex = 17;
@@ -235,7 +235,7 @@
             this.btnPesquisaExame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPesquisaExame.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisaExame.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisaExame.Image")));
-            this.btnPesquisaExame.Location = new System.Drawing.Point(706, -1);
+            this.btnPesquisaExame.Location = new System.Drawing.Point(700, 0);
             this.btnPesquisaExame.Name = "btnPesquisaExame";
             this.btnPesquisaExame.Size = new System.Drawing.Size(101, 80);
             this.btnPesquisaExame.TabIndex = 16;
@@ -325,12 +325,13 @@
             this.lblExame.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExame.Location = new System.Drawing.Point(551, 110);
             this.lblExame.Name = "lblExame";
-            this.lblExame.Size = new System.Drawing.Size(129, 41);
+            this.lblExame.Size = new System.Drawing.Size(139, 41);
             this.lblExame.TabIndex = 25;
-            this.lblExame.Text = "Exame";
+            this.lblExame.Text = "EXAME";
             // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.btnSalvarExame);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.btnAlterarExame);
@@ -338,6 +339,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(215, 443);
             this.panel2.TabIndex = 31;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // btnSalvarExame
             // 

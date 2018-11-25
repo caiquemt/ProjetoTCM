@@ -47,7 +47,7 @@
             // 
             this.lblMenuPrincipal.AutoSize = true;
             this.lblMenuPrincipal.Font = new System.Drawing.Font("Arial Rounded MT Bold", 48F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMenuPrincipal.Location = new System.Drawing.Point(347, 46);
+            this.lblMenuPrincipal.Location = new System.Drawing.Point(387, 45);
             this.lblMenuPrincipal.Name = "lblMenuPrincipal";
             this.lblMenuPrincipal.Size = new System.Drawing.Size(595, 75);
             this.lblMenuPrincipal.TabIndex = 8;

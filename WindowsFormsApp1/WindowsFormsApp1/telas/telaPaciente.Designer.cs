@@ -85,19 +85,19 @@
             this.btnAgenda = new System.Windows.Forms.Button();
             this.btnMedico = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
-            this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.btnSalvarPac = new System.Windows.Forms.Button();
-            this.btnAlterarPac = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblRelogio = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txbDataCadMed = new System.Windows.Forms.MaskedTextBox();
+            this.lblDatCadMed = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnAlterar = new System.Windows.Forms.Button();
+            this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
             this.barraSuperior.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbImagemFunc)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
@@ -149,7 +149,7 @@
             this.panel3.Controls.Add(this.lbNomePac);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            this.panel3.Location = new System.Drawing.Point(40, 189);
+            this.panel3.Location = new System.Drawing.Point(31, 186);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(975, 474);
             this.panel3.TabIndex = 23;
@@ -754,78 +754,6 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.btnPesquisa_Click);
             // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.maskedTextBox4);
-            this.panel2.Controls.Add(this.pcbImagemFunc);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.btnSalvarPac);
-            this.panel2.Controls.Add(this.btnAlterarPac);
-            this.panel2.Location = new System.Drawing.Point(1047, 186);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(221, 474);
-            this.panel2.TabIndex = 42;
-            // 
-            // maskedTextBox4
-            // 
-            this.maskedTextBox4.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox4.Location = new System.Drawing.Point(54, 241);
-            this.maskedTextBox4.Mask = "00/00/0000";
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(120, 29);
-            this.maskedTextBox4.TabIndex = 21;
-            this.maskedTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // pcbImagemFunc
-            // 
-            this.pcbImagemFunc.Location = new System.Drawing.Point(29, 33);
-            this.pcbImagemFunc.Name = "pcbImagemFunc";
-            this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
-            this.pcbImagemFunc.TabIndex = 20;
-            this.pcbImagemFunc.TabStop = false;
-            // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(16, 210);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(200, 28);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Data de Cadastro";
-            // 
-            // btnSalvarPac
-            // 
-            this.btnSalvarPac.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalvarPac.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnSalvarPac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalvarPac.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnSalvarPac.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
-            this.btnSalvarPac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalvarPac.Location = new System.Drawing.Point(55, 395);
-            this.btnSalvarPac.Name = "btnSalvarPac";
-            this.btnSalvarPac.Size = new System.Drawing.Size(120, 32);
-            this.btnSalvarPac.TabIndex = 8;
-            this.btnSalvarPac.Text = "Salvar";
-            this.btnSalvarPac.UseVisualStyleBackColor = false;
-            // 
-            // btnAlterarPac
-            // 
-            this.btnAlterarPac.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnAlterarPac.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnAlterarPac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlterarPac.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnAlterarPac.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
-            this.btnAlterarPac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlterarPac.Location = new System.Drawing.Point(54, 310);
-            this.btnAlterarPac.Name = "btnAlterarPac";
-            this.btnAlterarPac.Size = new System.Drawing.Size(121, 35);
-            this.btnAlterarPac.TabIndex = 17;
-            this.btnAlterarPac.Text = "Alterar";
-            this.btnAlterarPac.UseVisualStyleBackColor = false;
-            // 
             // panel1
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -848,14 +776,87 @@
             this.lblRelogio.TabIndex = 0;
             this.lblRelogio.Text = "00:00:00";
             // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.txbDataCadMed);
+            this.panel2.Controls.Add(this.lblDatCadMed);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btnAlterar);
+            this.panel2.Controls.Add(this.pcbImagemFunc);
+            this.panel2.Location = new System.Drawing.Point(1025, 186);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(225, 474);
+            this.panel2.TabIndex = 64;
+            // 
+            // txbDataCadMed
+            // 
+            this.txbDataCadMed.Font = new System.Drawing.Font("Cambria", 14F, System.Drawing.FontStyle.Bold);
+            this.txbDataCadMed.Location = new System.Drawing.Point(50, 258);
+            this.txbDataCadMed.Mask = "00/00/0000";
+            this.txbDataCadMed.Name = "txbDataCadMed";
+            this.txbDataCadMed.Size = new System.Drawing.Size(120, 29);
+            this.txbDataCadMed.TabIndex = 66;
+            this.txbDataCadMed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lblDatCadMed
+            // 
+            this.lblDatCadMed.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblDatCadMed.AutoSize = true;
+            this.lblDatCadMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblDatCadMed.Location = new System.Drawing.Point(10, 206);
+            this.lblDatCadMed.Name = "lblDatCadMed";
+            this.lblDatCadMed.Size = new System.Drawing.Size(200, 28);
+            this.lblDatCadMed.TabIndex = 64;
+            this.lblDatCadMed.Text = "Data de Cadastro";
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.button1.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(51, 369);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 32);
+            this.button1.TabIndex = 63;
+            this.button1.Text = "Salvar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btnAlterar
+            // 
+            this.btnAlterar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnAlterar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlterar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
+            this.btnAlterar.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
+            this.btnAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlterar.Location = new System.Drawing.Point(48, 306);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(121, 35);
+            this.btnAlterar.TabIndex = 65;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = false;
+            // 
+            // pcbImagemFunc
+            // 
+            this.pcbImagemFunc.Location = new System.Drawing.Point(26, 34);
+            this.pcbImagemFunc.Name = "pcbImagemFunc";
+            this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
+            this.pcbImagemFunc.TabIndex = 62;
+            this.pcbImagemFunc.TabStop = false;
+            // 
             // telaPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1280, 720);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.barraSuperior);
             this.Controls.Add(this.lblFichaPaciente);
             this.Controls.Add(this.panel3);
@@ -868,11 +869,11 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.barraSuperior.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbImagemFunc)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -903,12 +904,6 @@
         private System.Windows.Forms.MaskedTextBox txbComplementoPac;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
-        private System.Windows.Forms.PictureBox pcbImagemFunc;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button btnSalvarPac;
-        private System.Windows.Forms.Button btnAlterarPac;
         private System.Windows.Forms.Label lblCpfPac;
         private System.Windows.Forms.Label lblRGPac;
         private System.Windows.Forms.RadioButton rdbMascPac;
@@ -943,5 +938,11 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblRelogio;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.MaskedTextBox txbDataCadMed;
+        private System.Windows.Forms.Label lblDatCadMed;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAlterar;
+        private System.Windows.Forms.PictureBox pcbImagemFunc;
     }
 }

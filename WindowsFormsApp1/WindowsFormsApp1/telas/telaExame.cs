@@ -127,5 +127,10 @@ namespace WindowsFormsApp1
 
             t.Start();
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

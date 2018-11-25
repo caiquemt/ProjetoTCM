@@ -667,12 +667,13 @@
             // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.txbDataCadMed);
             this.panel2.Controls.Add(this.lblDatCadMed);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.btnAlterar);
             this.panel2.Controls.Add(this.pcbImagemFunc);
-            this.panel2.Location = new System.Drawing.Point(1043, 181);
+            this.panel2.Location = new System.Drawing.Point(1000, 181);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(225, 483);
             this.panel2.TabIndex = 63;
@@ -692,7 +693,7 @@
             this.lblDatCadMed.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblDatCadMed.AutoSize = true;
             this.lblDatCadMed.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblDatCadMed.Location = new System.Drawing.Point(12, 211);
+            this.lblDatCadMed.Location = new System.Drawing.Point(10, 210);
             this.lblDatCadMed.Name = "lblDatCadMed";
             this.lblDatCadMed.Size = new System.Drawing.Size(200, 28);
             this.lblDatCadMed.TabIndex = 64;
@@ -707,9 +708,9 @@
             this.button1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
             this.button1.Image = global::WindowsFormsApp1.Properties.Resources.saveicon2;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(51, 380);
+            this.button1.Location = new System.Drawing.Point(51, 378);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 32);
+            this.button1.Size = new System.Drawing.Size(118, 32);
             this.button1.TabIndex = 63;
             this.button1.Text = "Salvar";
             this.button1.UseVisualStyleBackColor = false;
@@ -722,7 +723,7 @@
             this.btnAlterar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnAlterar.Image = global::WindowsFormsApp1.Properties.Resources.updateicon1;
             this.btnAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlterar.Location = new System.Drawing.Point(50, 311);
+            this.btnAlterar.Location = new System.Drawing.Point(48, 310);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(121, 35);
             this.btnAlterar.TabIndex = 65;
