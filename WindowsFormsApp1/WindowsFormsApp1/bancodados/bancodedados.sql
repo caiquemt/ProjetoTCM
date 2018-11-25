@@ -1,24 +1,24 @@
-﻿create database TCM_clinica
+﻿create database projTCM_clinica
 
 
 create table agenda(
 cod_agenda int primary key identity,
-FOREIGN KEY (cod_consulta) REFERENCES cadastro_consulta(cod_consulta),
-
+FOREIGN KEY (cod_agenda) REFERENCES cadastro_consulta(cod_consulta),
+pesquisa_agenda varchar(50)
 )
 
 create table cadastro_consulta(
 cod_consulta int primary key identity,
-FOREIGN KEY (cod_paciente) REFERENCES cadastro_paciente(cod_paciente),
-FOREIGN KEY (cod_medico) REFERENCES cadastro_medico(cod_medico),
+FOREIGN KEY (cod_consulta) REFERENCES cadastro_paciente(cod_paciente),
+FOREIGN KEY (cod_consulta) REFERENCES cadastro_medico(cod_medico),
 Data_cons varchar(9),
 Hora_cons varchar(6),
 Dia_cons varchar(40),
 )
 
 create table exame(
-FOREIGN KEY (cod_paciente) REFERENCES cadastro_paciente(cod_paciente),
-cod_exame int primary key identify,
+cod_exame int primary key identity,
+FOREIGN KEY (cod_exame) REFERENCES cadastro_paciente(cod_paciente),
 nome_exame varchar(50),
 data_exame varchar(9),
 nome_pac varchar(50)
@@ -26,11 +26,10 @@ nome_pac varchar(50)
 
 create table cadastro_paciente (
 cod_paciente int primary key identity,
-FOREIGN KEY (cod_agenda) REFERENCES agenda(cod_agenda),
 cod_agenda int,
 prontuario_pac int,
 nome_pac varchar(50) not null,
-nasc_pac date(10),
+nasc_pac datetime,
 idade_pac varchar(3),
 cpf_pac varchar(12) unique not null, 
 rg_pac varchar(10) unique,
@@ -50,7 +49,6 @@ responsavel_pac varchar(50),
 
 create table cadastro_medico(
 cod_medico int primary key identity,
-FOREIGN KEY (cod_agenda) REFERENCES agenda(cod_agenda),
 cod_agenda int,
 nome_Medico varchar(50) not null,
 nasc_Medico varchar(9),
@@ -77,7 +75,6 @@ email_Medico varchar(40)
 
 create table cadastro_funcionario(
 cod_func int primary key identity,
-FOREIGN KEY (cod_agenda) REFERENCES agenda(cod_agenda),
 cod_agenda int,
 nome_func varchar(50) not null,
 Rua_func varchar(50),
@@ -91,6 +88,5 @@ Hrexp_func varchar(6),
 Tel_func int,
 Cel_func int,
 email_func varchar(40),
-Matricula_func varchar(20),
-cargo_func varchar(40)
+Matricula_func varchar(20)
 )
