@@ -536,6 +536,7 @@
             this.btnVoltarCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnVoltarCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnVoltarCadastro.UseVisualStyleBackColor = false;
+            this.btnVoltarCadastro.Click += new System.EventHandler(this.btnVoltarCadastro_Click);
             // 
             // btnPacienteConsulta
             // 
