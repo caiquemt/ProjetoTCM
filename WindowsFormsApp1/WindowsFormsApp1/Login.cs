@@ -23,6 +23,7 @@ namespace WindowsFormsApp1
             this.Username = caique;
             this.Userpassword = zxc;
         }
+     
         //validate string 
         private bool StringValidator(string input)
         {

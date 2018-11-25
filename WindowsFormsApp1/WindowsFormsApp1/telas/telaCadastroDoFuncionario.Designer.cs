@@ -565,6 +565,8 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox1.CausesValidation = false;
             this.comboBox1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
@@ -595,7 +597,7 @@
             "SP",
             "SE",
             "TO"});
-            this.comboBox1.Location = new System.Drawing.Point(864, 100);
+            this.comboBox1.Location = new System.Drawing.Point(862, 100);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(65, 31);
             this.comboBox1.TabIndex = 47;

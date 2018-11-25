@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -9,12 +10,12 @@ namespace WindowsFormsApp1
 {
     public class conexao
     {
-        /*private SqlConnection conexao = new SqlConnection("User ID = DESKTOP-FQM5N44/gabs; Initial Catalog =  TCM_clinica; Data Source = (local); Password = ");
+        private SqlConnection conexao1 = new SqlConnection("User ID = DESKTOP-FQM5N44; Initial Catalog =  TCM_clinica; Data Source = (local); Password = ");
 
 
         public SqlConnection getConexao
         {
-            get { return this.conexao; }
+            get { return this.conexao1; }
 
         }
 
@@ -22,29 +23,29 @@ namespace WindowsFormsApp1
 
         public void abrirConexao()
         {
-            if (this.conexao.State == ConnectionState.Closed)
+            if (this.conexao1.State == ConnectionState.Closed)
             {
-                this.conexao.Open();
+                this.conexao1.Open();
             }
 
         }
 
         public void fecharConexao()
         {
-            if (this.conexao.State == ConnectionState.Closed)
+            if (this.conexao1.State == ConnectionState.Closed)
             {
-                this.conexao.Close();
+                this.conexao1.Close();
             }
         }
 
-        /* public bool testarConexao()
+        public bool testarConexao()
          {
-             if (this.conexao != null && conexao.State != ConnectionState.Closed)
+             if (this.conexao1 != null && conexao1.State != ConnectionState.Closed)
                  return false;
              else
                  return true;
 
-         }*/
+         }
 
     }
 }

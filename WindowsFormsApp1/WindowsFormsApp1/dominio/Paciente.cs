@@ -62,6 +62,7 @@ namespace WindowsFormsApp1.dominio
         public int Documento_resp_pac { get => documento_resp_pac; set => documento_resp_pac = value; }
         public string Observacoes_pac { get => observacoes_pac; set => observacoes_pac = value; }
         public string Imagem_pac { get => imagem_pac; set => imagem_pac = value; }
+        public static object Nome { get; internal set; }
 
         public override string ToString()
         {
