@@ -511,7 +511,7 @@
             this.btnSairPrograma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSairPrograma.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSairPrograma.Image = ((System.Drawing.Image)(resources.GetObject("btnSairPrograma.Image")));
-            this.btnSairPrograma.Location = new System.Drawing.Point(1187, -1);
+            this.btnSairPrograma.Location = new System.Drawing.Point(1177, 0);
             this.btnSairPrograma.Name = "btnSairPrograma";
             this.btnSairPrograma.Size = new System.Drawing.Size(101, 80);
             this.btnSairPrograma.TabIndex = 26;
