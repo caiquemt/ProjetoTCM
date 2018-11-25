@@ -86,6 +86,7 @@
             this.lblCadMed = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.lblRelogio = new System.Windows.Forms.Label();
+            this.lblData = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.barraSuperior.SuspendLayout();
@@ -754,6 +755,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.lblData);
             this.panel4.Controls.Add(this.lblRelogio);
             this.panel4.Location = new System.Drawing.Point(0, 686);
             this.panel4.Name = "panel4";
@@ -769,6 +771,16 @@
             this.lblRelogio.Size = new System.Drawing.Size(110, 28);
             this.lblRelogio.TabIndex = 0;
             this.lblRelogio.Text = "00:00:00";
+            // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(64, 28);
+            this.lblData.TabIndex = 1;
+            this.lblData.Text = "Data";
             // 
             // telaMédico
             // 
@@ -860,5 +872,6 @@
         private System.Windows.Forms.MaskedTextBox txbTelMed;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label lblRelogio;
+        private System.Windows.Forms.Label lblData;
     }
 }

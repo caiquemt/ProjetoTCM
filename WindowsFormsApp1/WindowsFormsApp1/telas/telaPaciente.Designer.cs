@@ -93,6 +93,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
+            this.lblData = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -760,6 +761,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblData);
             this.panel1.Controls.Add(this.lblRelogio);
             this.panel1.Location = new System.Drawing.Point(0, 686);
             this.panel1.Name = "panel1";
@@ -848,6 +850,16 @@
             this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
             this.pcbImagemFunc.TabIndex = 62;
             this.pcbImagemFunc.TabStop = false;
+            // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(64, 28);
+            this.lblData.TabIndex = 65;
+            this.lblData.Text = "Data";
             // 
             // telaPaciente
             // 
@@ -944,5 +956,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.PictureBox pcbImagemFunc;
+        private System.Windows.Forms.Label lblData;
     }
 }
