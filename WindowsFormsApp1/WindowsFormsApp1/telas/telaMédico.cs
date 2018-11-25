@@ -165,9 +165,14 @@ namespace WindowsFormsApp1
 
             lblRelogio.Text = time;
         }
-        /*internal void AbrirCadMedico(telaCadastroDoFuncionario telaCadastroDoFuncionario)
+
+        private void btnVoltarCadastro_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
-        }*/
+            WindowState = FormWindowState.Minimized;
+        }
+        /*internal void AbrirCadMedico(telaCadastroDoFuncionario telaCadastroDoFuncionario)
+{
+   throw new NotImplementedException();
+}*/
     }
 }
