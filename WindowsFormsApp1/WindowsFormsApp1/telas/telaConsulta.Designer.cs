@@ -65,6 +65,7 @@
             this.btnSalvarCons = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnAlterarCons = new System.Windows.Forms.Button();
+            this.lblData = new System.Windows.Forms.Label();
             this.barraSuperior.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -270,6 +271,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.lblData);
             this.panel2.Controls.Add(this.lblRelogio);
             this.panel2.Location = new System.Drawing.Point(-1, 684);
             this.panel2.Name = "panel2";
@@ -526,6 +528,16 @@
             this.btnAlterarCons.Text = "Alterar";
             this.btnAlterarCons.UseVisualStyleBackColor = false;
             // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(64, 28);
+            this.lblData.TabIndex = 71;
+            this.lblData.Text = "Data";
+            // 
             // telaConsulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -589,5 +601,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblData;
     }
 }

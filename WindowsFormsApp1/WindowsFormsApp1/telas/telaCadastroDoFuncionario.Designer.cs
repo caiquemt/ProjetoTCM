@@ -78,6 +78,7 @@
             this.lblCdastroFuncionario = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblRelogio = new System.Windows.Forms.Label();
+            this.lblData = new System.Windows.Forms.Label();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -684,6 +685,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.lblData);
             this.panel3.Controls.Add(this.lblRelogio);
             this.panel3.Location = new System.Drawing.Point(0, 686);
             this.panel3.Name = "panel3";
@@ -699,6 +701,16 @@
             this.lblRelogio.Size = new System.Drawing.Size(110, 28);
             this.lblRelogio.TabIndex = 0;
             this.lblRelogio.Text = "00:00:00";
+            // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(64, 28);
+            this.lblData.TabIndex = 44;
+            this.lblData.Text = "Data";
             // 
             // telaCadastroDoFuncionario
             // 
@@ -780,5 +792,6 @@
         private System.Windows.Forms.MaskedTextBox txbHorarioFuncDe;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lblRelogio;
+        private System.Windows.Forms.Label lblData;
     }
 }

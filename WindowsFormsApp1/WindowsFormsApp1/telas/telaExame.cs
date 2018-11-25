@@ -126,6 +126,8 @@ namespace WindowsFormsApp1
             t.Tick += new EventHandler(this.t_Tick);
 
             t.Start();
+
+            lblData.Text = DateTime.Now.ToLongDateString();
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)

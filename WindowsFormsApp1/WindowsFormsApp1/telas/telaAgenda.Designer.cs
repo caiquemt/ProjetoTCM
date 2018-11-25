@@ -33,7 +33,6 @@
             this.rbuCPF = new System.Windows.Forms.RadioButton();
             this.rbuMedico = new System.Windows.Forms.RadioButton();
             this.txtPesquisaNome = new System.Windows.Forms.TextBox();
-            this.lblConsultasHoje = new System.Windows.Forms.Label();
             this.barraSuperior = new System.Windows.Forms.Panel();
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
@@ -51,8 +50,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblRelógio = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.lblData = new System.Windows.Forms.Label();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // rbuNome
@@ -102,17 +104,6 @@
             this.txtPesquisaNome.TabIndex = 13;
             this.txtPesquisaNome.Tag = "";
             this.txtPesquisaNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblConsultasHoje
-            // 
-            this.lblConsultasHoje.AutoSize = true;
-            this.lblConsultasHoje.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblConsultasHoje.Location = new System.Drawing.Point(32, 282);
-            this.lblConsultasHoje.Name = "lblConsultasHoje";
-            this.lblConsultasHoje.Size = new System.Drawing.Size(320, 28);
-            this.lblConsultasHoje.TabIndex = 14;
-            this.lblConsultasHoje.Text = "Consultas marcas para hoje:";
-            this.lblConsultasHoje.Click += new System.EventHandler(this.lblConsultasHoje_Click);
             // 
             // barraSuperior
             // 
@@ -320,7 +311,7 @@
             this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(1091, 222);
+            this.button1.Location = new System.Drawing.Point(1091, 242);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 43);
             this.button1.TabIndex = 26;
@@ -333,6 +324,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblData);
             this.panel1.Controls.Add(this.lblRelógio);
             this.panel1.Location = new System.Drawing.Point(0, 685);
             this.panel1.Name = "panel1";
@@ -359,19 +351,37 @@
             this.label3.TabIndex = 29;
             this.label3.Text = "AGENDA";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(37, 291);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1195, 369);
+            this.dataGridView1.TabIndex = 30;
+            // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(64, 28);
+            this.lblData.TabIndex = 44;
+            this.lblData.Text = "Data";
+            // 
             // barraInferior
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(223)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.barraSuperior);
-            this.Controls.Add(this.lblConsultasHoje);
             this.Controls.Add(this.txtPesquisaNome);
             this.Controls.Add(this.rbuMedico);
             this.Controls.Add(this.rbuCPF);
@@ -385,6 +395,7 @@
             this.barraSuperior.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -395,7 +406,6 @@
         private System.Windows.Forms.RadioButton rbuCPF;
         private System.Windows.Forms.RadioButton rbuMedico;
         private System.Windows.Forms.TextBox txtPesquisaNome;
-        private System.Windows.Forms.Label lblConsultasHoje;
         private System.Windows.Forms.Panel barraSuperior;
         private System.Windows.Forms.Button btnPacienteConsulta;
         private System.Windows.Forms.Button btnFuncionario;
@@ -413,5 +423,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblRelógio;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label lblData;
     }
 }

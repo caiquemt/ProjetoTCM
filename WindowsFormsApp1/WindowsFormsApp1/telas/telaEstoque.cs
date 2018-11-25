@@ -143,5 +143,17 @@ namespace WindowsFormsApp1
 
             lblRelogio.Text = time;
         }
+
+        private void telaEstoque_Load(object sender, EventArgs e)
+        {
+            t.Interval = 1000;
+
+            t.Tick += new EventHandler(this.t_Tick);
+
+            t.Start();
+
+
+            lblData.Text = DateTime.Now.ToLongDateString();
+        }
     }
 }
