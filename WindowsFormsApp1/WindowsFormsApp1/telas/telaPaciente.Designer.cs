@@ -864,7 +864,6 @@
             this.Name = "telaPaciente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "telaPaciente";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.telaPaciente_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
