@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
@@ -46,6 +47,29 @@ namespace WindowsFormsApp1
                  return true;
 
          }
+
+        /*private void btnSalvarFunc_Click(object sender, EventArgs e)
+        {
+            string strcon = "Data Source=.\\SQLEXPRESS;AttachDbFilename=C:\\Documents and Settings\\k\\Meus documentos\\Visual Studio 2005\\Projects\\conect_sql_server\\conect_sql_server\\banco_dados.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True";
+            SqlConnection conexao = new SqlConnection(strcon);
+            SqlCommand cmd = new SqlCommand("INSERT INTO tabela(nome,numero) VALUES('" + textBox1.Text + "'," + textBox2.Text.Replace(",", ".") + ")", conexao);
+            try
+            {
+                conexao.Open();
+                cmd.ExecuteNonQuery();
+                btnSalvarFunc_Click(sender, e);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro " + ex.Message);
+                throw;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }*/
 
     }
 }
