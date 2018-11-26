@@ -188,7 +188,7 @@ namespace WindowsFormsApp1
 
             string strcon = "Data Source= (local);Integrated Security=True;Connect Timeout=30;User Instance=True";
             SqlConnection conexao = new SqlConnection(strcon);
-            SqlCommand cmd = new SqlCommand("INSERT INTO cadastro_paciente(nome,numero,nascimento,idade,cpf,rg,etnia,sexo,rua,bairro,numero_rua,cidade,telefone,celular,email,pai,mae,responsavel) VALUES('" + txbNomePac.Text + "'," + txbIdadePac.Text.Replace(",", ".") + ")" + mskNascPac.Text + mskRgPac.Text + mskCpfPac.Text + cmbEtniaPac.Text + cmbSexoPac.Text + cmbSexoPac.Text + txbRuaPac.Text + txbNumRuaPac.Text + txbBairroPac.Text + txbCepPac.Text + txbComplementoPac.Text + cmbUFPac.Text + txbCidadePac.Text + mskTelPac.Text + mskCelPac.Text + txbMaePac.Text + txbPaiPac.Text + txbRespPac.Text + txbEmailPac.Text, conexao);
+            SqlCommand cmd = new SqlCommand("INSERT INTO cadastro_paciente(nome,numero,nascimento,idade,cpf,rg,etnia,sexo,rua,bairro,numero_rua,cidade,telefone,celular,email,pai,mae,responsavel) VALUES('" + "txbNomePac.Text" + "'," + txbIdadePac.Text.Replace(",", ".") + ")" + mskNascPac.Text + mskRgPac.Text + mskCpfPac.Text + cmbEtniaPac.Text + cmbSexoPac.Text + cmbSexoPac.Text + txbRuaPac.Text + txbNumRuaPac.Text + txbBairroPac.Text + txbCepPac.Text + txbComplementoPac.Text + cmbUFPac.Text + txbCidadePac.Text + mskTelPac.Text + mskCelPac.Text + txbMaePac.Text + txbPaiPac.Text + txbRespPac.Text + txbEmailPac.Text, conexao);
             try
             {
                 conexao.Open();
