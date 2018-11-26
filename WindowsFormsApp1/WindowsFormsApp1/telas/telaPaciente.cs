@@ -36,6 +36,32 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+        public void LimpaCampos()
+        {
+            txbNomePac.Clear();
+            mskNascPac.Clear();
+            txbIdadePac.Clear();
+            mskRgPac.Clear();
+            mskCpfPac.Clear();
+            //cmbEtniaPac.Clear();
+            //cmbSexoPac.Clear();
+            txbProntPac.Clear();
+            txbRuaPac.Clear();
+            txbNumRuaPac.Clear();
+            txbBairroPac.Clear();
+            txbCepPac.Clear();
+            txbComplementoPac.Clear();
+            //cmbUFPac.Clear();
+            txbCidadePac.Clear();
+            mskTelPac.Clear();
+            mskCelPac.Clear();
+            txbMaePac.Clear();
+            txbPaiPac.Clear();
+            txbRespPac.Clear();
+            txbEmailPac.Clear();
+
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -163,6 +189,7 @@ namespace WindowsFormsApp1
 
         private void btnSalvarFunc_Click(object sender, EventArgs e)
         {
+            this.LimpaCampos();
             Paciente paciente = new Paciente();
 
             /*paciente.Nome_pac = txbNomePac.Text;

@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(btnSalvarFunc));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.cmbSexoPac = new System.Windows.Forms.ComboBox();
+            this.txbProntPac = new System.Windows.Forms.TextBox();
+            this.txbIdadePac = new System.Windows.Forms.TextBox();
+            this.txbNumRuaPac = new System.Windows.Forms.TextBox();
             this.txbRespPac = new System.Windows.Forms.TextBox();
             this.txbPaiPac = new System.Windows.Forms.TextBox();
             this.txbMaePac = new System.Windows.Forms.TextBox();
@@ -90,10 +94,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.pcbImagemFunc = new System.Windows.Forms.PictureBox();
-            this.txbNumRuaPac = new System.Windows.Forms.TextBox();
-            this.txbIdadePac = new System.Windows.Forms.TextBox();
-            this.txbProntPac = new System.Windows.Forms.TextBox();
-            this.cmbSexoPac = new System.Windows.Forms.ComboBox();
             this.panel3.SuspendLayout();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -153,6 +153,42 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(975, 474);
             this.panel3.TabIndex = 23;
+            // 
+            // cmbSexoPac
+            // 
+            this.cmbSexoPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.cmbSexoPac.FormattingEnabled = true;
+            this.cmbSexoPac.Items.AddRange(new object[] {
+            "F",
+            "M"});
+            this.cmbSexoPac.Location = new System.Drawing.Point(482, 143);
+            this.cmbSexoPac.Name = "cmbSexoPac";
+            this.cmbSexoPac.Size = new System.Drawing.Size(43, 36);
+            this.cmbSexoPac.TabIndex = 81;
+            // 
+            // txbProntPac
+            // 
+            this.txbProntPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbProntPac.Location = new System.Drawing.Point(185, 182);
+            this.txbProntPac.Name = "txbProntPac";
+            this.txbProntPac.Size = new System.Drawing.Size(100, 36);
+            this.txbProntPac.TabIndex = 80;
+            // 
+            // txbIdadePac
+            // 
+            this.txbIdadePac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbIdadePac.Location = new System.Drawing.Point(482, 54);
+            this.txbIdadePac.Name = "txbIdadePac";
+            this.txbIdadePac.Size = new System.Drawing.Size(79, 36);
+            this.txbIdadePac.TabIndex = 79;
+            // 
+            // txbNumRuaPac
+            // 
+            this.txbNumRuaPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.txbNumRuaPac.Location = new System.Drawing.Point(807, 225);
+            this.txbNumRuaPac.Name = "txbNumRuaPac";
+            this.txbNumRuaPac.Size = new System.Drawing.Size(119, 36);
+            this.txbNumRuaPac.TabIndex = 78;
             // 
             // txbRespPac
             // 
@@ -745,7 +781,7 @@
             // 
             this.lblData.AutoSize = true;
             this.lblData.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.lblData.Location = new System.Drawing.Point(778, 3);
+            this.lblData.Location = new System.Drawing.Point(737, 0);
             this.lblData.Name = "lblData";
             this.lblData.Size = new System.Drawing.Size(64, 28);
             this.lblData.TabIndex = 65;
@@ -836,42 +872,6 @@
             this.pcbImagemFunc.Size = new System.Drawing.Size(169, 153);
             this.pcbImagemFunc.TabIndex = 62;
             this.pcbImagemFunc.TabStop = false;
-            // 
-            // txbNumRuaPac
-            // 
-            this.txbNumRuaPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbNumRuaPac.Location = new System.Drawing.Point(807, 225);
-            this.txbNumRuaPac.Name = "txbNumRuaPac";
-            this.txbNumRuaPac.Size = new System.Drawing.Size(119, 36);
-            this.txbNumRuaPac.TabIndex = 78;
-            // 
-            // txbIdadePac
-            // 
-            this.txbIdadePac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbIdadePac.Location = new System.Drawing.Point(482, 54);
-            this.txbIdadePac.Name = "txbIdadePac";
-            this.txbIdadePac.Size = new System.Drawing.Size(79, 36);
-            this.txbIdadePac.TabIndex = 79;
-            // 
-            // txbProntPac
-            // 
-            this.txbProntPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.txbProntPac.Location = new System.Drawing.Point(185, 182);
-            this.txbProntPac.Name = "txbProntPac";
-            this.txbProntPac.Size = new System.Drawing.Size(100, 36);
-            this.txbProntPac.TabIndex = 80;
-            // 
-            // cmbSexoPac
-            // 
-            this.cmbSexoPac.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.cmbSexoPac.FormattingEnabled = true;
-            this.cmbSexoPac.Items.AddRange(new object[] {
-            "F",
-            "M"});
-            this.cmbSexoPac.Location = new System.Drawing.Point(482, 143);
-            this.cmbSexoPac.Name = "cmbSexoPac";
-            this.cmbSexoPac.Size = new System.Drawing.Size(43, 36);
-            this.cmbSexoPac.TabIndex = 81;
             // 
             // btnSalvarFunc
             // 
