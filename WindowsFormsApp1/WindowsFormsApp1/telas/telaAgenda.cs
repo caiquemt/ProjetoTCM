@@ -189,5 +189,13 @@ namespace WindowsFormsApp1
         {
             WindowState = FormWindowState.Minimized;
         }
+
+        private void btnCadastrarCons_Click(object sender, EventArgs e)
+        {
+            telaConsulta telaconsulta = new telaConsulta();
+
+            telaconsulta.Show();
+            this.Hide();
+        }
     }
 }

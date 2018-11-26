@@ -34,6 +34,7 @@
             this.rbuMedico = new System.Windows.Forms.RadioButton();
             this.txtPesquisaNome = new System.Windows.Forms.TextBox();
             this.barraSuperior = new System.Windows.Forms.Panel();
+            this.btnMinimizar = new System.Windows.Forms.Button();
             this.btnSairCadastro = new System.Windows.Forms.Button();
             this.btnVoltarCadastro = new System.Windows.Forms.Button();
             this.btnPacienteConsulta = new System.Windows.Forms.Button();
@@ -46,13 +47,12 @@
             this.btnPesquisa = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCadastrarCons = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblData = new System.Windows.Forms.Label();
             this.lblRelógio = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnMinimizar = new System.Windows.Forms.Button();
             this.barraSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -128,6 +128,22 @@
             this.barraSuperior.Name = "barraSuperior";
             this.barraSuperior.Size = new System.Drawing.Size(1280, 81);
             this.barraSuperior.TabIndex = 23;
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(1077, 0);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(101, 80);
+            this.btnMinimizar.TabIndex = 31;
+            this.btnMinimizar.Text = "Minimizar";
+            this.btnMinimizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMinimizar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // btnSairCadastro
             // 
@@ -308,17 +324,18 @@
             this.label2.TabIndex = 25;
             this.label2.Text = "Pesquisar por:";
             // 
-            // button1
+            // btnCadastrarCons
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(1091, 242);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 43);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "Cadastrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCadastrarCons.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnCadastrarCons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrarCons.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold);
+            this.btnCadastrarCons.Location = new System.Drawing.Point(1091, 242);
+            this.btnCadastrarCons.Name = "btnCadastrarCons";
+            this.btnCadastrarCons.Size = new System.Drawing.Size(141, 43);
+            this.btnCadastrarCons.TabIndex = 26;
+            this.btnCadastrarCons.Text = "Cadastrar";
+            this.btnCadastrarCons.UseVisualStyleBackColor = false;
+            this.btnCadastrarCons.Click += new System.EventHandler(this.btnCadastrarCons_Click);
             // 
             // panel1
             // 
@@ -371,22 +388,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(1195, 369);
             this.dataGridView1.TabIndex = 30;
             // 
-            // btnMinimizar
-            // 
-            this.btnMinimizar.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(1077, 0);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(101, 80);
-            this.btnMinimizar.TabIndex = 31;
-            this.btnMinimizar.Text = "Minimizar";
-            this.btnMinimizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnMinimizar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnMinimizar.UseVisualStyleBackColor = false;
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
             // barraInferior
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -396,7 +397,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCadastrarCons);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.barraSuperior);
@@ -437,7 +438,7 @@
         private System.Windows.Forms.Button btnVoltarCadastro;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCadastrarCons;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblRelógio;
         private System.Windows.Forms.Label label3;
